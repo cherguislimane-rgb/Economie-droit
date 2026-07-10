@@ -1,0 +1,707 @@
+{
+  "_documentation": {
+    "role": "Référentiel unique des capacités — source de vérité pour l'app, les barèmes et les dossiers élèves.",
+    "usage_bareme": "Chaque question d'un barème porte : 'capacite' (id thématique, ex. 'd7-1') et optionnellement 'transversales' (liste d'ids, ex. ['t-qualif','t-vocab']).",
+    "source": "Capacités thématiques : BO programmes droit-économie de Première et de Terminale STMG (verbatim). Transversales : validées par le professeur le 09/07/2026.",
+    "extension": "Référentiel complet : blocs 1STMG et TSTMG."
+  },
+  "transversales": [
+    {
+      "id": "t-qualif",
+      "titre": "Qualifier juridiquement une situation",
+      "description": "Traduire les faits en catégories et vocabulaire juridiques (parties, actes, faits), sans raconter la situation.",
+      "matiere": "droit"
+    },
+    {
+      "id": "t-syllogisme",
+      "titre": "Construire un raisonnement juridique (syllogisme)",
+      "description": "Énoncer la règle de droit, l'appliquer aux faits, conclure — en défendant un seul camp par question.",
+      "matiere": "droit"
+    },
+    {
+      "id": "t-argu",
+      "titre": "Développer une argumentation structurée",
+      "description": "Organiser plusieurs arguments distincts et illustrés, avec introduction et conclusion, pour répondre à une question de réflexion juridique ou économique.",
+      "matiere": "les deux"
+    },
+    {
+      "id": "t-doc",
+      "titre": "Exploiter des documents et des données",
+      "description": "Prélever, trier et valider l'information ; citer les données chiffrées avec leur unité et leur date ; interpréter graphiques et tableaux ; garder un regard critique.",
+      "matiere": "les deux"
+    },
+    {
+      "id": "t-calc",
+      "titre": "Calculer et interpréter des indicateurs",
+      "description": "Mobiliser les données pour calculer taux, évolutions et indicateurs (taux de chômage, valeur ajoutée…) et en donner le sens.",
+      "matiere": "eco"
+    },
+    {
+      "id": "t-vocab",
+      "titre": "Mobiliser le vocabulaire juridique et économique",
+      "description": "Employer les notions exactes du programme, définies et utilisées à bon escient.",
+      "matiere": "les deux"
+    },
+    {
+      "id": "t-redaction",
+      "titre": "Rédiger et synthétiser avec rigueur",
+      "description": "Mettre en forme sa pensée par écrit : phrases construites, propos organisé, synthèse fidèle des informations prélevées.",
+      "matiere": "les deux"
+    }
+  ],
+  "thematiques": {
+    "TSTMG": {
+      "droit": {
+        "d5": {
+          "titre": "Quel est le rôle du contrat ?",
+          "capacites": [
+            {
+              "id": "d5-1",
+              "titre": "Qualifier juridiquement un contrat et les parties au contrat"
+            },
+            {
+              "id": "d5-2",
+              "titre": "Apprécier les conditions de validité d'un contrat dans une situation donnée"
+            },
+            {
+              "id": "d5-3",
+              "titre": "Qualifier une clause contractuelle"
+            },
+            {
+              "id": "d5-4",
+              "titre": "Repérer et qualifier les obligations contractuelles de chacune des parties"
+            },
+            {
+              "id": "d5-5",
+              "titre": "Identifier les sanctions applicables en cas d'inexécution d'un contrat"
+            },
+            {
+              "id": "d5-6",
+              "titre": "Justifier la protection accrue du consommateur et du cyberconsommateur"
+            }
+          ]
+        },
+        "d6": {
+          "titre": "Qu'est-ce qu'être responsable ?",
+          "capacites": [
+            {
+              "id": "d6-1",
+              "titre": "Distinguer la responsabilité civile de la responsabilité pénale"
+            },
+            {
+              "id": "d6-2",
+              "titre": "Analyser et qualifier les faits pour identifier le ou les régimes de responsabilité applicables"
+            },
+            {
+              "id": "d6-3",
+              "titre": "Qualifier les dommages juridiquement réparables"
+            },
+            {
+              "id": "d6-4",
+              "titre": "Vérifier les principales conditions d'application des règles relatives à la responsabilité"
+            },
+            {
+              "id": "d6-5",
+              "titre": "Appliquer les règles relatives aux conditions de la responsabilité pour chacun des régimes dans des situations concrètes de dommages"
+            },
+            {
+              "id": "d6-6",
+              "titre": "Apprécier les moyens d'exonération"
+            },
+            {
+              "id": "d6-7",
+              "titre": "Expliquer comment et pourquoi s'est construit ce système complexe d'indemnisation au profit des victimes"
+            },
+            {
+              "id": "d6-8",
+              "titre": "Expliquer comment les risques encourus sont mutualisés par le mécanisme de l'assurance"
+            }
+          ]
+        },
+        "d7": {
+          "titre": "Comment le droit encadre-t-il le travail salarié ?",
+          "capacites": [
+            {
+              "id": "d7-1",
+              "titre": "Qualifier une relation de travail dans une situation donnée"
+            },
+            {
+              "id": "d7-2",
+              "titre": "Distinguer le contrat de travail et le contrat d'entreprise"
+            },
+            {
+              "id": "d7-3",
+              "titre": "Repérer les éléments essentiels d'un contrat de travail à partir d'un contrat donné"
+            },
+            {
+              "id": "d7-4",
+              "titre": "Caractériser le contrat de travail dans une situation donnée"
+            },
+            {
+              "id": "d7-5",
+              "titre": "Vérifier la conformité d'un CDI aux normes juridiques, y compris à la convention collective ou à l'accord d'entreprise"
+            },
+            {
+              "id": "d7-6",
+              "titre": "Repérer et vérifier la validité des clauses spécifiques (mobilité, non-concurrence, télétravail)"
+            },
+            {
+              "id": "d7-7",
+              "titre": "Vérifier les principales conditions de validité de la rupture du contrat de travail"
+            },
+            {
+              "id": "d7-8",
+              "titre": "Distinguer les causes de licenciement et apprécier les conséquences du licenciement pour motif personnel"
+            },
+            {
+              "id": "d7-9",
+              "titre": "Apprécier le caractère licite d'une grève"
+            },
+            {
+              "id": "d7-10",
+              "titre": "Apprécier le respect des droits individuels et collectifs des salariés dans une situation donnée"
+            },
+            {
+              "id": "d7-11",
+              "titre": "Expliquer les rôles des partenaires sociaux et des représentants salariés dans une entreprise"
+            }
+          ]
+        },
+        "d8": {
+          "titre": "Dans quel cadre et comment entreprendre ?",
+          "capacites": [
+            {
+              "id": "d8-1",
+              "titre": "Expliquer les principes de l'entreprise individuelle et en apprécier les enjeux"
+            },
+            {
+              "id": "d8-2",
+              "titre": "Proposer et justifier le choix d'une forme juridique d'entreprise dans une situation donnée"
+            },
+            {
+              "id": "d8-3",
+              "titre": "Distinguer les conséquences de la forme juridique d'entreprise sur le patrimoine"
+            },
+            {
+              "id": "d8-4",
+              "titre": "Identifier les éléments fondamentaux du contrat de société"
+            },
+            {
+              "id": "d8-5",
+              "titre": "Identifier les caractéristiques de la société coopérative"
+            },
+            {
+              "id": "d8-6",
+              "titre": "Distinguer les différents contrats de partenariat et identifier les obligations des parties"
+            },
+            {
+              "id": "d8-7",
+              "titre": "Repérer les limites à la liberté de la concurrence (règles de base du droit de la concurrence)"
+            }
+          ]
+        }
+      },
+      "eco": {
+        "e6": {
+          "titre": "Comment l'État peut-il intervenir dans l'économie ?",
+          "capacites": [
+            {
+              "id": "e6-1",
+              "titre": "Expliquer les différences entre État-gendarme et État-providence, et le degré de participation de l'État via les entreprises publiques, semi-publiques ou privées"
+            },
+            {
+              "id": "e6-2",
+              "titre": "Distinguer le déficit public de la dette publique"
+            },
+            {
+              "id": "e6-3",
+              "titre": "Justifier pourquoi l'allocation des ressources n'est plus efficace en présence d'une défaillance de marché"
+            },
+            {
+              "id": "e6-4",
+              "titre": "Énoncer des solutions permettant de corriger les défaillances de marché"
+            },
+            {
+              "id": "e6-5",
+              "titre": "Citer des situations où l'on peut parler de défaillance de l'État"
+            },
+            {
+              "id": "e6-6",
+              "titre": "Désigner les principaux outils et canaux de transmission des politiques budgétaire et monétaire"
+            },
+            {
+              "id": "e6-7",
+              "titre": "Énumérer et distinguer les fonctions des politiques d'offre et de demande (cycles conjoncturels ou structurels)"
+            },
+            {
+              "id": "e6-8",
+              "titre": "Décrire l'évolution du rôle de l'État dans le cadre européen"
+            },
+            {
+              "id": "e6-9",
+              "titre": "Énumérer les différents modes de financement des dépenses publiques"
+            },
+            {
+              "id": "e6-10",
+              "titre": "Caractériser la progressivité des différents prélèvements obligatoires"
+            },
+            {
+              "id": "e6-11",
+              "titre": "Désigner les objectifs des politiques sociales et de protection sociale"
+            },
+            {
+              "id": "e6-12",
+              "titre": "Énumérer et expliquer les principaux risques sociaux couverts par la protection sociale"
+            },
+            {
+              "id": "e6-13",
+              "titre": "Distinguer la redistribution horizontale et la redistribution verticale des ressources"
+            }
+          ]
+        },
+        "e7": {
+          "titre": "Quelle est l'influence de l'État sur l'évolution de l'emploi et du chômage ?",
+          "capacites": [
+            {
+              "id": "e7-1",
+              "titre": "Définir l'offre et la demande de travail, et les distinguer de l'offre et de la demande d'emploi"
+            },
+            {
+              "id": "e7-2",
+              "titre": "Distinguer la population active de la population inactive"
+            },
+            {
+              "id": "e7-3",
+              "titre": "Calculer le taux d'activité, le taux de chômage et le taux d'emploi"
+            },
+            {
+              "id": "e7-4",
+              "titre": "Décrire et interpréter l'évolution de ces trois taux en France à partir de courbes de tendances"
+            },
+            {
+              "id": "e7-5",
+              "titre": "Définir une situation de plein emploi et une situation de sous-emploi"
+            },
+            {
+              "id": "e7-6",
+              "titre": "Identifier et interpréter les différentes sources d'imperfections du marché du travail"
+            },
+            {
+              "id": "e7-7",
+              "titre": "Définir les différentes formes de chômage"
+            },
+            {
+              "id": "e7-8",
+              "titre": "Identifier les politiques de l'emploi et les catégoriser en politiques actives ou passives"
+            }
+          ]
+        },
+        "e8": {
+          "titre": "Comment organiser le commerce international dans un contexte d'ouverture des échanges ?",
+          "capacites": [
+            {
+              "id": "e8-1",
+              "titre": "Décrire et expliquer le développement des échanges de biens et services entre pays"
+            },
+            {
+              "id": "e8-2",
+              "titre": "Interpréter l'évolution du solde d'une balance des biens et services"
+            },
+            {
+              "id": "e8-3",
+              "titre": "Décrire la mondialisation de la chaîne de valeur ajoutée d'un produit (élaboration des segments / assemblage)"
+            },
+            {
+              "id": "e8-4",
+              "titre": "Montrer comment la segmentation des processus de production engendre des flux d'importations et d'exportations"
+            },
+            {
+              "id": "e8-5",
+              "titre": "Décrire et illustrer l'importance de la régionalisation des échanges commerciaux"
+            },
+            {
+              "id": "e8-6",
+              "titre": "Interpréter les flux d'investissements directs à l'étranger (IDE) entre pays"
+            },
+            {
+              "id": "e8-7",
+              "titre": "Apprécier la place des firmes multinationales dans les échanges internationaux"
+            },
+            {
+              "id": "e8-8",
+              "titre": "Décrire les avantages et les limites du libre-échange et/ou d'une économie en autarcie"
+            },
+            {
+              "id": "e8-9",
+              "titre": "Définir et expliquer les différentes mesures protectionnistes"
+            },
+            {
+              "id": "e8-10",
+              "titre": "Définir les missions de l'OMC (organe de règlement des différends)"
+            },
+            {
+              "id": "e8-11",
+              "titre": "Définir et interpréter les principales règles de fonctionnement de l'OMC"
+            }
+          ]
+        },
+        "e9": {
+          "titre": "Comment concilier la croissance économique et le développement durable ?",
+          "capacites": [
+            {
+              "id": "e9-1",
+              "titre": "Définir croissance économique et développement durable"
+            },
+            {
+              "id": "e9-2",
+              "titre": "Identifier et interpréter des indicateurs du développement durable"
+            },
+            {
+              "id": "e9-3",
+              "titre": "Distinguer la pauvreté absolue de la pauvreté relative"
+            },
+            {
+              "id": "e9-4",
+              "titre": "Désigner les ressources renouvelables et non renouvelables"
+            },
+            {
+              "id": "e9-5",
+              "titre": "Expliquer l'importance de la transition écologique dans le développement durable"
+            },
+            {
+              "id": "e9-6",
+              "titre": "Identifier les divers instruments de la transition écologique"
+            },
+            {
+              "id": "e9-7",
+              "titre": "Discuter l'impact des instruments de la transition écologique sur la production, la consommation et l'investissement"
+            },
+            {
+              "id": "e9-8",
+              "titre": "Décrire les caractéristiques de l'économie collaborative et de l'économie circulaire"
+            },
+            {
+              "id": "e9-9",
+              "titre": "Identifier les différents acteurs de l'économie sociale et solidaire (ESS)"
+            },
+            {
+              "id": "e9-10",
+              "titre": "Définir un bien public mondial"
+            },
+            {
+              "id": "e9-11",
+              "titre": "Expliquer la nécessité de la coopération internationale pour préserver les biens publics mondiaux"
+            }
+          ]
+        }
+      }
+    },
+    "1STMG": {
+      "droit": {
+        "d1": {
+          "titre": "Qu'est-ce que le droit ?",
+          "capacites": [
+            {
+              "id": "d1-1",
+              "titre": "Expliquer et distinguer les fonctions du droit"
+            },
+            {
+              "id": "d1-2",
+              "titre": "Vérifier les caractères de la règle pour une règle de droit donnée"
+            },
+            {
+              "id": "d1-3",
+              "titre": "Identifier la source d'une règle de droit"
+            },
+            {
+              "id": "d1-4",
+              "titre": "Distinguer les différentes institutions"
+            },
+            {
+              "id": "d1-5",
+              "titre": "Expliquer le sens et la portée d'une décision de justice"
+            },
+            {
+              "id": "d1-6",
+              "titre": "Qualifier juridiquement une situation de fait"
+            }
+          ]
+        },
+        "d2": {
+          "titre": "Comment le droit permet-il de régler un litige ?",
+          "capacites": [
+            {
+              "id": "d2-1",
+              "titre": "Identifier les éléments d'un litige : parties, faits, prétentions, question de droit"
+            },
+            {
+              "id": "d2-2",
+              "titre": "Déterminer au moyen d'une argumentation si le litige est causé par un acte ou un fait juridique, afin d'envisager un mode de preuve adapté"
+            },
+            {
+              "id": "d2-3",
+              "titre": "Apprécier la force probante d'un élément de preuve dans une situation donnée"
+            },
+            {
+              "id": "d2-4",
+              "titre": "Déterminer la juridiction qui a prononcé une décision de justice"
+            },
+            {
+              "id": "d2-5",
+              "titre": "Sélectionner la juridiction susceptible de juger un litige"
+            },
+            {
+              "id": "d2-6",
+              "titre": "Distinguer le rôle du procès civil et du procès pénal"
+            },
+            {
+              "id": "d2-7",
+              "titre": "Identifier les phases d'un procès"
+            },
+            {
+              "id": "d2-8",
+              "titre": "Expliquer les enjeux de la constitution de partie civile"
+            }
+          ]
+        },
+        "d3": {
+          "titre": "Qui peut faire valoir ses droits ?",
+          "capacites": [
+            {
+              "id": "d3-1",
+              "titre": "Identifier et qualifier une personne juridique"
+            },
+            {
+              "id": "d3-2",
+              "titre": "Distinguer une personne physique et une personne morale"
+            },
+            {
+              "id": "d3-3",
+              "titre": "Analyser les conséquences de la personnalité juridique"
+            },
+            {
+              "id": "d3-4",
+              "titre": "Identifier les attributs d'une personne physique ou d'une personne morale"
+            },
+            {
+              "id": "d3-5",
+              "titre": "Expliquer les conséquences de l'incapacité juridique d'une personne physique ou morale"
+            }
+          ]
+        },
+        "d4": {
+          "titre": "Quels sont les droits reconnus aux personnes ?",
+          "capacites": [
+            {
+              "id": "d4-1",
+              "titre": "Distinguer les droits patrimoniaux et les droits extrapatrimoniaux"
+            },
+            {
+              "id": "d4-2",
+              "titre": "Identifier une atteinte à un droit extrapatrimonial"
+            },
+            {
+              "id": "d4-3",
+              "titre": "Appliquer les règles relatives aux droits extrapatrimoniaux dans une situation donnée"
+            },
+            {
+              "id": "d4-4",
+              "titre": "Expliquer les enjeux de la protection des données à caractère personnel"
+            },
+            {
+              "id": "d4-5",
+              "titre": "Vérifier le respect des obligations liées à la protection des données à caractère personnel"
+            },
+            {
+              "id": "d4-6",
+              "titre": "Distinguer les biens corporels et les biens incorporels"
+            },
+            {
+              "id": "d4-7",
+              "titre": "Identifier les attributs et caractères du droit de propriété"
+            },
+            {
+              "id": "d4-8",
+              "titre": "Qualifier un trouble anormal du voisinage"
+            },
+            {
+              "id": "d4-9",
+              "titre": "Identifier les composantes du droit d'auteur"
+            },
+            {
+              "id": "d4-10",
+              "titre": "Connaître les enjeux de la protection juridique de la marque commerciale"
+            },
+            {
+              "id": "d4-11",
+              "titre": "Identifier les conséquences de l'utilisation non autorisée d'une marque commerciale déposée"
+            }
+          ]
+        }
+      },
+      "eco": {
+        "e1": {
+          "titre": "Quelles sont les grandes questions économiques et leurs enjeux actuels ?",
+          "capacites": [
+            {
+              "id": "e1-1",
+              "titre": "Identifier les acteurs économiques et leurs fonctions"
+            },
+            {
+              "id": "e1-2",
+              "titre": "Distinguer la nature des biens et services"
+            },
+            {
+              "id": "e1-3",
+              "titre": "Décrire les choix économiques à l'aide des concepts fondamentaux du raisonnement économique (coût d'opportunité, utilité, rationalité, préférences, maximisation)"
+            },
+            {
+              "id": "e1-4",
+              "titre": "Analyser ce que l'on entend par rationalité individuelle"
+            },
+            {
+              "id": "e1-5",
+              "titre": "Expliciter la notion d'utilité marginale"
+            },
+            {
+              "id": "e1-6",
+              "titre": "Définir les différentes fonctions de la monnaie"
+            }
+          ]
+        },
+        "e2": {
+          "titre": "Comment la richesse se crée-t-elle et se répartit-elle ?",
+          "capacites": [
+            {
+              "id": "e2-1",
+              "titre": "Identifier les différents facteurs de production (input) qui engendrent une production (output)"
+            },
+            {
+              "id": "e2-2",
+              "titre": "Identifier la différence entre un input et un output"
+            },
+            {
+              "id": "e2-3",
+              "titre": "Définir les notions de productivité et de gain de productivité"
+            },
+            {
+              "id": "e2-4",
+              "titre": "Analyser l'évolution des gains de productivité"
+            },
+            {
+              "id": "e2-5",
+              "titre": "Calculer la valeur ajoutée dans des cas simples"
+            },
+            {
+              "id": "e2-6",
+              "titre": "Distinguer les revenus en fonction de leur origine"
+            },
+            {
+              "id": "e2-7",
+              "titre": "Comprendre qu'un individu peut être rémunéré de son travail, de ses connaissances, de ses qualifications et de sa détention de capital (revenu mixte)"
+            },
+            {
+              "id": "e2-8",
+              "titre": "Analyser le partage de la valeur ajoutée à partir d'un graphique"
+            }
+          ]
+        },
+        "e3": {
+          "titre": "Comment les ménages décident-ils d'affecter leur revenu ?",
+          "capacites": [
+            {
+              "id": "e3-1",
+              "titre": "Identifier les déterminants de la consommation"
+            },
+            {
+              "id": "e3-2",
+              "titre": "Analyser l'évolution de la structure de consommation des ménages (en valeur et en volume)"
+            },
+            {
+              "id": "e3-3",
+              "titre": "Identifier les déterminants de l'épargne"
+            },
+            {
+              "id": "e3-4",
+              "titre": "Montrer le lien entre épargne, revenu et patrimoine"
+            },
+            {
+              "id": "e3-5",
+              "titre": "Calculer et interpréter les propensions moyenne et marginale à consommer et à épargner"
+            },
+            {
+              "id": "e3-6",
+              "titre": "Interpréter un tableau statistique des répartitions du revenu et du patrimoine"
+            }
+          ]
+        },
+        "e4": {
+          "titre": "Quels modes de financement de l'activité économique ?",
+          "capacites": [
+            {
+              "id": "e4-1",
+              "titre": "Identifier les différentes situations de financement des agents économiques"
+            },
+            {
+              "id": "e4-2",
+              "titre": "Identifier et comparer les divers modes de financement de la croissance de la production"
+            },
+            {
+              "id": "e4-3",
+              "titre": "Caractériser les différents circuits de financement"
+            },
+            {
+              "id": "e4-4",
+              "titre": "Caractériser et comprendre le rôle des banques dans le financement de l'activité économique"
+            },
+            {
+              "id": "e4-5",
+              "titre": "Analyser les différentes fonctions des marchés financiers"
+            },
+            {
+              "id": "e4-6",
+              "titre": "Comprendre le rôle des banques centrales (en particulier la BCE) par rapport au système bancaire"
+            }
+          ]
+        },
+        "e5": {
+          "titre": "Les marchés des biens et services sont-ils concurrentiels ?",
+          "capacites": [
+            {
+              "id": "e5-1",
+              "titre": "Définir un « marché pertinent »"
+            },
+            {
+              "id": "e5-2",
+              "titre": "Identifier les intervenants sur un marché"
+            },
+            {
+              "id": "e5-3",
+              "titre": "Calculer un degré de concentration des marchés et caractériser les formes de concentration : concurrence, oligopole, monopole"
+            },
+            {
+              "id": "e5-4",
+              "titre": "Déterminer la fixation du prix sur un marché concurrentiel"
+            },
+            {
+              "id": "e5-5",
+              "titre": "Calculer et interpréter une élasticité prix-demande dans des exemples simples"
+            },
+            {
+              "id": "e5-6",
+              "titre": "Analyser les stratégies de fixation des prix selon la structure des coûts et la concentration du marché"
+            },
+            {
+              "id": "e5-7",
+              "titre": "Déterminer si une modification des prix s'accompagne d'une évolution des caractéristiques des produits"
+            },
+            {
+              "id": "e5-8",
+              "titre": "Calculer un coût moyen et un coût marginal de production et en interpréter les résultats"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

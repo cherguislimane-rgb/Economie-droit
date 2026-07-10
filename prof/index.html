@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0D1220">
+<title>Tableau de bord · Mes Copies</title>
+<link rel="icon" href="../icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0D1220; --card: rgba(255,255,255,.055); --card-strong: rgba(255,255,255,.09);
+    --border: rgba(255,255,255,.12); --text: #EAEEF7; --muted: #8B93A7;
+    --accent: #F2A65A; --good: #55C89B; --mid: #F2C94C; --bad: #E56B6F;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    background-image: radial-gradient(ellipse 80% 40% at 15% -5%, rgba(242,166,90,.10), transparent),
+      radial-gradient(ellipse 70% 40% at 95% 105%, rgba(232,115,90,.07), transparent);
+    background-attachment: fixed; color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif; min-height: 100vh; padding-bottom: 60px;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 22px 16px 0; }
+  h1 { font-family: 'Sora', sans-serif; font-size: 21px; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .glass { background: var(--card); border: 1px solid var(--border); border-radius: 20px;
+    backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); padding: 18px; margin-bottom: 14px; }
+  .section-title { font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 20px 4px 10px; }
+  button, select, input[type=text] { font-family: inherit; font-size: 13px; color: var(--text);
+    background: var(--card-strong); border: 1px solid var(--border); border-radius: 12px; padding: 9px 12px; }
+  button { cursor: pointer; font-weight: 600; }
+  button.primary { background: var(--accent); color: #201409; border: none; font-weight: 700; }
+  select option { background: #141B2E; }
+  .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 14px 0; }
+  .tabs button.on { background: var(--accent); color: #201409; border-color: transparent; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .kpi { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 12px; text-align: center; }
+  .kpi b { display: block; font-family: 'Sora', sans-serif; font-size: 21px; font-variant-numeric: tabular-nums; }
+  .kpi span { font-size: 11px; color: var(--muted); }
+  .kpi .evo { font-size: 11px; font-weight: 700; }
+  .up { color: var(--good); } .down { color: var(--bad); }
+  .row { display: flex; align-items: center; gap: 10px; padding: 8px 4px; border-bottom: 1px solid rgba(255,255,255,.06); cursor: pointer; }
+  .row:last-child { border-bottom: none; }
+  .row:hover { background: var(--card); }
+  .row .rk { width: 28px; text-align: right; font-size: 12px; color: var(--muted); flex-shrink: 0; }
+  .row .nm { width: 185px; flex-shrink: 0; font-size: 13.5px; }
+  .row .nm b { font-weight: 600; }
+  .row .tr { flex: 1; height: 10px; background: rgba(0,0,0,.25); border: 1px solid var(--border); border-radius: 5px; overflow: hidden; }
+  .row .tr i { display: block; height: 100%; }
+  .row .nt { width: 46px; text-align: right; font-family: 'Sora', sans-serif; font-weight: 700; font-size: 14px; }
+  .qbar { display: flex; align-items: center; gap: 8px; margin-bottom: 7px; }
+  .qbar .lb { width: 230px; flex-shrink: 0; font-size: 12px; color: #C6CCDD; line-height: 1.3; }
+  .qbar .tr { flex: 1; height: 13px; background: rgba(0,0,0,.25); border: 1px solid var(--border); border-radius: 5px; overflow: hidden; }
+  .qbar .tr i { display: block; height: 100%; }
+  .qbar .pc { width: 40px; text-align: right; font-size: 12px; font-weight: 700; }
+  .alerte { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; background: var(--card);
+    border: 1px solid var(--border); border-radius: 16px; margin-bottom: 9px; cursor: pointer; }
+  .alerte.rouge { border-color: rgba(229,107,111,.5); }
+  .alerte .ic { font-size: 19px; margin-top: 1px; }
+  .alerte b { font-size: 13.5px; display: block; }
+  .alerte p { font-size: 12.5px; color: var(--muted); margin-top: 2px; line-height: 1.45; }
+  .empty { text-align: center; color: var(--muted); font-size: 13.5px; padding: 30px 16px; line-height: 1.6; }
+  .badge-ok { font-size: 11px; padding: 4px 10px; border-radius: 999px; background: rgba(85,200,155,.15); color: var(--good); font-weight: 600; }
+  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+  .hidden { display: none; }
+  a { color: var(--accent); }
+  button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ═══ ÉCRAN 1 : chargement des codes ═══ -->
+  <section id="setup">
+    <h1>Tableau de bord professeur</h1>
+    <p class="sub">Charge le fichier de correspondance des codes pour associer les noms. Il reste dans TON navigateur, sur cet appareil — rien n'est envoyé nulle part.</p>
+    <div class="glass" style="margin-top:16px">
+      <div class="toolbar">
+        <input type="file" id="csv" accept=".csv" style="font-size:12.5px">
+        <select id="csv-classe"><option value="TSTMG">TSTMG</option><option value="1STMG">1STMG</option></select>
+        <button id="csv-add" class="primary">Ajouter cette classe</button>
+      </div>
+      <div id="csv-status" style="font-size:13px;color:var(--muted)">Aucune classe chargée pour l'instant.</div>
+      <div style="margin-top:14px"><button id="go" class="primary" disabled>Ouvrir le tableau de bord</button></div>
+    </div>
+    <p class="sub">Fichiers attendus : <code>codes_prives_TSTMG.csv</code> / <code>codes_prives_1STMG.csv</code> (colonnes nom, prenom, code).</p>
+  </section>
+
+  <!-- ═══ ÉCRAN 2 : le tableau de bord ═══ -->
+  <section id="dash" class="hidden">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap">
+      <div><h1>Tableau de bord</h1><p class="sub" id="dash-sub"></p></div>
+      <div class="toolbar" style="margin:0">
+        <select id="sel-classe"></select>
+        <span class="badge-ok">🔒 codes locaux</span>
+        <button id="reset">Changer les codes</button>
+      </div>
+    </div>
+    <div class="tabs" id="tabs">
+      <button data-v="classe" class="on">Vue classe</button>
+      <button data-v="devoir">Par devoir</button>
+      <button data-v="lacunes">Lacunes</button>
+      <button data-v="eleve">Fiche élève</button>
+      <button data-v="alertes">Alertes <span id="nb-alertes"></span></button>
+    </div>
+
+    <div id="v-classe">
+      <div class="cards" id="cl-cards"></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Moyenne de classe au fil des évaluations (/20)</div><div id="cl-chart"></div></div>
+      <div class="glass">
+        <div class="toolbar" style="margin-bottom:10px">
+          <div class="section-title" style="margin:0;flex:1">Classement des élèves</div>
+          <select id="cl-perimetre" style="max-width:300px"></select>
+        </div>
+        <div id="cl-classement"></div>
+      </div>
+    </div>
+
+    <div id="v-devoir" class="hidden">
+      <div class="toolbar">
+        <select id="dv-sel" style="max-width:380px"></select>
+        <input type="text" id="dv-filtre" placeholder="Filtrer un nom…">
+        <button id="dv-tri-note">Trier par note</button>
+        <button id="dv-tri-nom">Trier par nom</button>
+      </div>
+      <div class="cards" id="dv-cards"></div>
+      <div class="glass" id="dv-liste"></div>
+    </div>
+
+    <div id="v-lacunes" class="hidden">
+      <div class="toolbar"><select id="lc-sel" style="max-width:380px"></select></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Taux de réussite par question</div><div id="lc-questions"></div></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Capacités de la classe — toutes évaluations confondues</div><div id="lc-caps"></div></div>
+    </div>
+
+    <div id="v-eleve" class="hidden">
+      <div class="toolbar"><select id="el-sel" style="max-width:280px"></select></div>
+      <div class="cards" id="el-cards"></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Ses notes face à la classe (/20)</div><div id="el-chart"></div></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Ses capacités les plus fragiles</div><div id="el-caps"></div></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Ses questions les plus ratées</div><div id="el-questions"></div></div>
+    </div>
+
+    <div id="v-alertes" class="hidden"><div id="al-liste"></div></div>
+  </section>
+</div>
+
+<script>
+(function () {
+  const $ = id => document.getElementById(id);
+  const TYPES = { dossier: 'Dossiers', lecon: 'Leçons', bac: 'Type bac' };
+  const fmt = n => (Math.round(n * 100) / 100).toLocaleString('fr-FR');
+  const col = r => r >= .6 ? 'var(--good)' : r >= .4 ? 'var(--mid)' : 'var(--bad)';
+  const ord = n => n === 1 ? '1er' : n + 'e';
+  const sur20 = (n, m) => m ? n * 20 / m : n;
+
+  // ── Codes locaux ──
+  let CODES = JSON.parse(localStorage.getItem('prof_codes') || '{}');
+
+  function majStatus() {
+    const classes = Object.keys(CODES);
+    $('csv-status').innerHTML = classes.length
+      ? classes.map(c => `✔ <b>${c}</b> : ${CODES[c].length} élèves`).join(' &nbsp;·&nbsp; ')
+      : 'Aucune classe chargée pour l\'instant.';
+    $('go').disabled = !classes.length;
+  }
+  majStatus();
+
+  $('csv-add').onclick = () => {
+    const f = $('csv').files[0];
+    if (!f) { alert('Choisis d\'abord un fichier CSV.'); return; }
+    const reader = new FileReader();
+    reader.onload = () => {
+      const texte = reader.result.replace(/^\uFEFF/, '');
+      const lignes = texte.split(/\r?\n/).filter(l => l.trim());
+      const delim = (lignes[0].match(/;/g) || []).length > (lignes[0].match(/,/g) || []).length ? ';' : ',';
+      const entetes = lignes[0].split(delim).map(h => h.trim().toLowerCase().replace(/é|è/g, 'e'));
+      const iN = entetes.indexOf('nom'), iP = entetes.indexOf('prenom'), iC = entetes.indexOf('code');
+      if (iN < 0 || iP < 0 || iC < 0) { alert('Colonnes attendues : nom, prenom, code. Trouvées : ' + entetes.join(', ')); return; }
+      const eleves = lignes.slice(1).map(l => l.split(delim)).filter(c => c[iC] && c[iC].trim())
+        .map(c => ({ nom: c[iN].trim(), prenom: c[iP].trim(), code: c[iC].trim() }));
+      if (!eleves.length) { alert('Aucun élève lu dans ce fichier.'); return; }
+      CODES[$('csv-classe').value] = eleves;
+      localStorage.setItem('prof_codes', JSON.stringify(CODES));
+      majStatus();
+    };
+    reader.readAsText(f, 'utf-8');
+  };
+
+  $('reset').onclick = () => {
+    if (confirm('Effacer les codes chargés sur cet appareil ?')) {
+      localStorage.removeItem('prof_codes'); location.reload();
+    }
+  };
+
+  // ── Chargement des données ──
+  let CONF, REF, CAPS = {}, ELEVES = [], DEVOIRS = [], CLASSE;
+
+  async function ouvrir(classe) {
+    CLASSE = classe;
+    if (!CONF) {
+      [CONF, REF] = await Promise.all([
+        fetch('../data/devoirs.json', { cache: 'no-store' }).then(r => r.json()),
+        fetch('../data/capacites.json', { cache: 'no-store' }).then(r => r.json()),
+      ]);
+    }
+    CAPS = {};
+    for (const c of REF.transversales) CAPS[c.id] = { ...c, trans: true };
+    for (const mat of Object.values(REF.thematiques[classe] || {}))
+      for (const [tid, t] of Object.entries(mat)) for (const c of t.capacites) CAPS[c.id] = { ...c, theme: tid, trans: false };
+
+    DEVOIRS = CONF.devoirs.filter(d => d.classe === classe).sort((a, b) => a.date < b.date ? -1 : 1);
+    const liste = CODES[classe] || [];
+    const rep = await Promise.allSettled(liste.map(e =>
+      fetch(`../data/eleves/${encodeURIComponent(e.code)}.json`, { cache: 'no-store' }).then(r => { if (!r.ok) throw 0; return r.json(); })
+    ));
+    ELEVES = liste.map((e, i) => ({
+      ...e,
+      data: rep[i].status === 'fulfilled' ? rep[i].value : { copies: [], classements: {}, capacites: {} },
+    })).sort((a, b) => a.nom.localeCompare(b.nom));
+
+    $('dash-sub').textContent = `${classe} · ${ELEVES.length} élèves · ${DEVOIRS.length} évaluation${DEVOIRS.length > 1 ? 's' : ''} publiée${DEVOIRS.length > 1 ? 's' : ''}`;
+    vueClasse(); initDevoirSelects(); vueDevoir(); vueLacunes(); initEleveSelect(); vueAlertes();
+  }
+
+  $('go').onclick = () => {
+    $('setup').classList.add('hidden'); $('dash').classList.remove('hidden');
+    const classes = Object.keys(CODES);
+    $('sel-classe').innerHTML = classes.map(c => `<option>${c}</option>`).join('');
+    ouvrir(classes[0]);
+  };
+  $('sel-classe').onchange = e => ouvrir(e.target.value);
+
+  const devoirDe = c => DEVOIRS.find(d => d.id === c.devoir_id);
+  const copiesDe = e => (e.data.copies || []).filter(c => devoirDe(c))
+    .sort((a, b) => devoirDe(a).date < devoirDe(b).date ? -1 : 1);
+
+  // ── Vue classe ──
+  function vueClasse() {
+    const gen = ELEVES.map(e => (e.data.classements.general || {}).moyenne).filter(v => v != null);
+    const cards = [`<div class="kpi"><b>${gen.length ? fmt(gen.reduce((a, b) => a + b) / gen.length) : '—'}</b><span>Moyenne générale de classe /20</span></div>`];
+    for (const t of ['dossier', 'lecon', 'bac']) {
+      const vals = ELEVES.map(e => ((e.data.classements.types || {})[t] || {}).moyenne).filter(v => v != null);
+      const nb = DEVOIRS.filter(d => d.type === t).length;
+      cards.push(`<div class="kpi"><b>${vals.length ? fmt(vals.reduce((a, b) => a + b) / vals.length) : '—'}</b><span>${TYPES[t]}${nb ? ` · ${nb} publié${nb > 1 ? 's' : ''}` : ''}</span></div>`);
+    }
+    $('cl-cards').innerHTML = cards.join('');
+
+    const pts = DEVOIRS.filter(d => d.stats).map(d => ({ v: sur20(d.stats.moyenne, d.note_max), l: d.titre.slice(0, 22) }));
+    $('cl-chart').innerHTML = pts.length >= 2 ? svgLigne([{ vals: pts.map(p => p.v), stroke: 'var(--accent)', w: 3 },
+      { vals: pts.map(() => 12), stroke: 'rgba(255,255,255,.3)', dash: true }], pts.map(p => p.l))
+      : `<div class="empty">Le graphique apparaîtra à partir de la deuxième évaluation publiée.</div>`;
+
+    initPerimetres(); vueClassement();
+  }
+
+  // ── Classement des élèves par périmètre ──
+  function initPerimetres() {
+    const titresThemes = {};
+    for (const mat of Object.values(CONF.programme[CLASSE] || {}))
+      for (const t of mat) titresThemes[t.id] = t.titre;
+    const themes = [...new Set(DEVOIRS.map(d => d.theme))].sort();
+    $('cl-perimetre').innerHTML = [
+      `<option value="general">Classement général</option>`,
+      `<option value="matiere:droit">Droit</option>`,
+      `<option value="matiere:eco">Économie</option>`,
+      `<option value="type:dossier">Dossiers</option>`,
+      `<option value="type:lecon">Contrôles de leçon</option>`,
+      `<option value="type:bac">Type bac</option>`,
+      ...themes.map(t => `<option value="theme:${t}">Thème — ${(titresThemes[t] || t).slice(0, 45)}</option>`),
+    ].join('');
+  }
+  $('cl-perimetre').onchange = vueClassement;
+
+  function vueClassement() {
+    const val = $('cl-perimetre').value || 'general';
+    const [genre, cle] = val.includes(':') ? val.split(':') : ['general', null];
+    const lignes = [];
+    for (const e of ELEVES) {
+      const cl = e.data.classements || {};
+      const b = genre === 'general' ? cl.general
+        : genre === 'type' ? (cl.types || {})[cle]
+        : genre === 'matiere' ? (cl.matieres || {})[cle]
+        : (cl.themes || {})[cle];
+      if (b) lignes.push({ e, b });
+    }
+    lignes.sort((a, b) => a.b.rang - b.b.rang || a.e.nom.localeCompare(b.e.nom));
+    const sans = ELEVES.filter(e => !lignes.some(l => l.e === e));
+    $('cl-classement').innerHTML = lignes.length ? lignes.map(l => {
+      let evo = '';
+      if (genre === 'general' && l.b.rang_precedent && l.b.rang_precedent !== l.b.rang) {
+        const d = l.b.rang_precedent - l.b.rang;
+        evo = d > 0 ? ` <span class="evo up" style="font-size:11px">▲+${d}</span>` : ` <span class="evo down" style="font-size:11px">▼${d}</span>`;
+      }
+      return `<div class="row" data-code="${l.e.code}">
+        <span class="rk">${ord(l.b.rang)}</span>
+        <span class="nm"><b>${l.e.nom}</b> ${l.e.prenom}${evo}</span>
+        <div class="tr"><i style="width:${l.b.moyenne / 20 * 100}%;background:${col(l.b.moyenne / 20)}"></i></div>
+        <span class="nt" style="color:${col(l.b.moyenne / 20)}">${fmt(l.b.moyenne)}</span></div>`;
+    }).join('') + (sans.length ? sans.map(e => `<div class="row" data-code="${e.code}" style="opacity:.6">
+        <span class="rk"></span><span class="nm"><b>${e.nom}</b> ${e.prenom}</span>
+        <span style="flex:1;font-size:12px;color:var(--muted);font-style:italic">pas encore évalué sur ce périmètre</span>
+        <span class="nt" style="color:var(--muted)">—</span></div>`).join('') : '')
+      : `<div class="empty">Personne n'a encore été évalué sur ce périmètre.</div>`;
+    $('cl-classement').querySelectorAll('.row').forEach(r => r.onclick = () => ouvrirEleve(r.dataset.code));
+  }
+
+  function svgLigne(series, labels) {
+    const W = 780, H = 220, P = 34, n = labels.length;
+    const x = i => P + i * (W - 2 * P) / Math.max(n - 1, 1);
+    const y = v => H - P - v / 20 * (H - 2 * P);
+    let out = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Évolution des moyennes">`;
+    for (const v of [5, 10, 15, 20]) out += `<line x1="${P}" x2="${W - P}" y1="${y(v)}" y2="${y(v)}" stroke="rgba(255,255,255,.07)"/>
+      <text x="${P - 8}" y="${y(v) + 4}" fill="#8B93A7" font-size="10" text-anchor="end">${v}</text>`;
+    for (const s of series) {
+      const d = s.vals.map((v, i) => `${i ? 'L' : 'M'}${x(i)},${y(v)}`).join(' ');
+      out += `<path d="${d}" fill="none" stroke="${s.stroke}" stroke-width="${s.w || 1.5}" ${s.dash ? 'stroke-dasharray="5 5"' : ''} stroke-linecap="round"/>`;
+      if (s.w) s.vals.forEach((v, i) => { out += `<circle cx="${x(i)}" cy="${y(v)}" r="4" fill="${s.stroke}"/>
+        <text x="${x(i)}" y="${y(v) - 10}" fill="#EAEEF7" font-size="11" font-weight="700" text-anchor="middle">${fmt(Math.round(v * 10) / 10)}</text>`; });
+    }
+    labels.forEach((l, i) => { out += `<text x="${x(i)}" y="${H - 10}" fill="#8B93A7" font-size="9" text-anchor="middle">${l}</text>`; });
+    return out + '</svg>';
+  }
+
+  // ── Par devoir ──
+  let dvTri = 'note';
+  function initDevoirSelects() {
+    const opts = [...DEVOIRS].reverse().map(d => `<option value="${d.id}">${d.titre} · ${d.date}</option>`).join('');
+    $('dv-sel').innerHTML = opts; $('lc-sel').innerHTML = opts;
+  }
+  $('dv-sel').onchange = vueDevoir;
+  $('dv-filtre').oninput = vueDevoir;
+  $('dv-tri-note').onclick = () => { dvTri = 'note'; vueDevoir(); };
+  $('dv-tri-nom').onclick = () => { dvTri = 'nom'; vueDevoir(); };
+
+  function vueDevoir() {
+    const did = $('dv-sel').value;
+    const d = DEVOIRS.find(x => x.id === did);
+    if (!d) { $('dv-cards').innerHTML = ''; $('dv-liste').innerHTML = `<div class="empty">Aucune évaluation publiée.</div>`; return; }
+    const f = ($('dv-filtre').value || '').toLowerCase();
+    const lignes = [], absents = [];
+    for (const e of ELEVES) {
+      if (f && !(e.nom + ' ' + e.prenom).toLowerCase().includes(f)) continue;
+      const c = (e.data.copies || []).find(x => x.devoir_id === did);
+      if (c) lignes.push({ e, note: c.note }); else absents.push(e);
+    }
+    const notes = lignes.map(l => l.note).sort((a, b) => a - b);
+    if (notes.length) {
+      const moy = notes.reduce((a, b) => a + b) / notes.length;
+      const med = notes.length % 2 ? notes[(notes.length - 1) / 2] : (notes[notes.length / 2 - 1] + notes[notes.length / 2]) / 2;
+      const ec = Math.sqrt(notes.reduce((s, n) => s + (n - moy) ** 2, 0) / notes.length);
+      $('dv-cards').innerHTML = [
+        ['Moyenne', fmt(moy)], ['Médiane', fmt(med)], ['Min', fmt(notes[0])], ['Max', fmt(notes[notes.length - 1])],
+        ['Écart-type', fmt(ec)], ['≥ ' + fmt(d.note_max / 2), Math.round(notes.filter(n => n >= d.note_max / 2).length / notes.length * 100) + '%'],
+      ].map(([l, v]) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join('');
+    } else $('dv-cards').innerHTML = '';
+
+    lignes.sort((a, b) => dvTri === 'note' ? b.note - a.note : a.e.nom.localeCompare(b.e.nom));
+    $('dv-liste').innerHTML = (lignes.map((l, i) =>
+      `<div class="row" data-code="${l.e.code}">
+        <span class="rk">${dvTri === 'note' ? (i + 1) + '.' : ''}</span>
+        <span class="nm"><b>${l.e.nom}</b> ${l.e.prenom}</span>
+        <div class="tr"><i style="width:${l.note / d.note_max * 100}%;background:${col(l.note / d.note_max)}"></i></div>
+        <span class="nt" style="color:${col(l.note / d.note_max)}">${fmt(l.note)}</span></div>`).join('')
+      + absents.map(e => `<div class="row" data-code="${e.code}" style="opacity:.65">
+        <span class="rk"></span><span class="nm"><b>${e.nom}</b> ${e.prenom}</span>
+        <span style="flex:1;font-size:12px;color:var(--muted);font-style:italic">copie manquante</span>
+        <span class="nt" style="color:var(--muted)">—</span></div>`).join(''))
+      || `<div class="empty">Personne ne correspond au filtre.</div>`;
+    $('dv-liste').querySelectorAll('.row').forEach(r => r.onclick = () => ouvrirEleve(r.dataset.code));
+  }
+
+  // ── Lacunes ──
+  $('lc-sel').onchange = vueLacunes;
+  function vueLacunes() {
+    const did = $('lc-sel').value;
+    const questions = {};
+    for (const e of ELEVES) {
+      const c = (e.data.copies || []).find(x => x.devoir_id === did);
+      for (const r of (c && c.retours) || []) {
+        const k = r.question + '|' + r.intitule;
+        questions[k] = questions[k] || { q: r.question, t: r.intitule, pts: 0, max: 0 };
+        questions[k].pts += r.points; questions[k].max += r.points_max;
+      }
+    }
+    const qs = Object.values(questions);
+    $('lc-questions').innerHTML = qs.length ? qs.map(q => {
+      const r = q.pts / q.max;
+      return `<div class="qbar"><span class="lb">${q.q} — ${q.t}</span>
+        <div class="tr"><i style="width:${Math.round(r * 100)}%;background:${col(r)}"></i></div>
+        <span class="pc" style="color:${col(r)}">${Math.round(r * 100)}%</span></div>`;
+    }).join('') : `<div class="empty">Pas de retours détaillés pour cette évaluation.</div>`;
+
+    const caps = {};
+    for (const e of ELEVES) for (const [id, v] of Object.entries(e.data.capacites || {})) {
+      caps[id] = caps[id] || { pts: 0, max: 0 };
+      caps[id].pts += v.pts; caps[id].max += v.max;
+    }
+    const tri = Object.entries(caps).filter(([id]) => CAPS[id]).sort((a, b) => a[1].pts / a[1].max - b[1].pts / b[1].max);
+    $('lc-caps').innerHTML = tri.length ? tri.slice(0, 10).map(([id, v]) => {
+      const r = v.pts / v.max, i = CAPS[id];
+      return `<div class="qbar"><span class="lb">${i.trans ? '↔ ' : ''}${i.titre}</span>
+        <div class="tr"><i style="width:${Math.round(r * 100)}%;background:${col(r)}"></i></div>
+        <span class="pc" style="color:${col(r)}">${Math.round(r * 100)}%</span></div>`;
+    }).join('') + `<p style="font-size:11px;color:var(--muted);margin-top:8px">↔ = capacité transversale · les 10 plus fragiles, de la plus faible à la plus solide</p>`
+      : `<div class="empty">Les capacités apparaîtront après la première publication taguée.</div>`;
+  }
+
+  // ── Fiche élève ──
+  function initEleveSelect() {
+    $('el-sel').innerHTML = ELEVES.map(e => `<option value="${e.code}">${e.nom} ${e.prenom}</option>`).join('');
+    vueEleve($('el-sel').value);
+  }
+  $('el-sel').onchange = e => vueEleve(e.target.value);
+  function ouvrirEleve(code) {
+    $('el-sel').value = code;
+    document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.v === 'eleve'));
+    ['classe', 'devoir', 'lacunes', 'eleve', 'alertes'].forEach(v => $('v-' + v).classList.toggle('hidden', v !== 'eleve'));
+    vueEleve(code);
+  }
+
+  function vueEleve(code) {
+    const e = ELEVES.find(x => x.code === code);
+    if (!e) return;
+    const cl = e.data.classements || {};
+    const g = cl.general, dr = (cl.matieres || {}).droit, ec = (cl.matieres || {}).eco;
+    let evo = '';
+    if (g && g.rang_precedent && g.rang_precedent !== g.rang) {
+      const d = g.rang_precedent - g.rang;
+      evo = d > 0 ? `<span class="evo up">▲ +${d}</span>` : `<span class="evo down">▼ ${d}</span>`;
+    }
+    $('el-cards').innerHTML = [
+      `<div class="kpi"><b>${g ? fmt(g.moyenne) : '—'}</b><span>Moyenne /20</span></div>`,
+      `<div class="kpi"><b>${g ? ord(g.rang) + ' / ' + g.effectif : '—'} ${evo}</b><span>Rang général</span></div>`,
+      `<div class="kpi"><b>${dr ? fmt(dr.moyenne) : '—'}</b><span>Droit</span></div>`,
+      `<div class="kpi"><b>${ec ? fmt(ec.moyenne) : '—'}</b><span>Économie</span></div>`,
+    ].join('');
+
+    const cs = copiesDe(e);
+    if (cs.length >= 2) {
+      const labels = cs.map(c => devoirDe(c).titre.slice(0, 22));
+      $('el-chart').innerHTML = svgLigne([
+        { vals: cs.map(c => sur20(c.note, devoirDe(c).note_max)), stroke: 'var(--accent)', w: 3 },
+        { vals: cs.map(c => sur20(c.moyenne_classe ?? c.note, devoirDe(c).note_max)), stroke: 'rgba(255,255,255,.3)', dash: true },
+      ], labels) + `<p style="font-size:11px;color:var(--muted);text-align:center">— élève &nbsp; ┄ classe</p>`;
+    } else $('el-chart').innerHTML = `<div class="empty">Courbe disponible à partir de la deuxième copie.</div>`;
+
+    const caps = Object.entries(e.data.capacites || {}).filter(([id, v]) => CAPS[id] && v.max >= 2)
+      .sort((a, b) => a[1].pts / a[1].max - b[1].pts / b[1].max).slice(0, 6);
+    $('el-caps').innerHTML = caps.length ? caps.map(([id, v]) => {
+      const r = v.pts / v.max;
+      return `<div class="qbar"><span class="lb">${CAPS[id].trans ? '↔ ' : ''}${CAPS[id].titre}</span>
+        <div class="tr"><i style="width:${Math.round(r * 100)}%;background:${col(r)}"></i></div>
+        <span class="pc" style="color:${col(r)}">${Math.round(r * 100)}%</span></div>`;
+    }).join('') : `<div class="empty">Pas encore assez de données.</div>`;
+
+    const rates = [];
+    for (const c of cs) for (const r of (c.retours || []))
+      if (r.points_max && r.points / r.points_max < .5)
+        rates.push({ ...r, dv: devoirDe(c).titre, ratio: r.points / r.points_max });
+    $('el-questions').innerHTML = rates.length ? rates.sort((a, b) => a.ratio - b.ratio).slice(0, 5).map(r =>
+      `<div class="qbar"><span class="lb"><b>${r.question}</b> ${r.intitule} <span style="color:var(--muted)">(${r.dv.slice(0, 26)})</span></span>
+        <div class="tr"><i style="width:${Math.round(r.ratio * 100)}%;background:${col(r.ratio)}"></i></div>
+        <span class="pc" style="color:${col(r.ratio)}">${fmt(r.points)}/${fmt(r.points_max)}</span></div>`).join('')
+      : `<div class="empty">Aucune question sous la moyenne. 👏</div>`;
+  }
+
+  // ── Alertes ──
+  function vueAlertes() {
+    const alertes = [];
+    const dernier = DEVOIRS[DEVOIRS.length - 1];
+    for (const e of ELEVES) {
+      const g = (e.data.classements || {}).general;
+      const cs = copiesDe(e);
+      if (g && g.moyenne < 8)
+        alertes.push({ e, rouge: true, ic: '🚨', t: `${e.nom} ${e.prenom} — moyenne sous 8`, p: `${fmt(g.moyenne)}/20 de moyenne générale.` });
+      const n20 = cs.map(c => sur20(c.note, devoirDe(c).note_max));
+      if (n20.length >= 3) {
+        const [a, b, c] = n20.slice(-3);
+        if (a > b && b > c)
+          alertes.push({ e, rouge: true, ic: '📉', t: `${e.nom} ${e.prenom} — baisse continue`, p: `Trois copies en baisse : ${fmt(a)} → ${fmt(b)} → ${fmt(c)} (/20).` });
+      }
+      if (dernier && !cs.some(c => c.devoir_id === dernier.id))
+        alertes.push({ e, rouge: false, ic: '📄', t: `${e.nom} ${e.prenom} — copie manquante`, p: `Absent(e) de « ${dernier.titre} ».` });
+    }
+    $('nb-alertes').textContent = alertes.length ? alertes.length : '';
+    $('al-liste').innerHTML = alertes.length ? alertes.map((a, i) =>
+      `<div class="alerte ${a.rouge ? 'rouge' : ''}" data-code="${a.e.code}">
+        <span class="ic">${a.ic}</span><div><b>${a.t}</b><p>${a.p}</p></div></div>`).join('')
+      : `<div class="glass empty">Aucune alerte : la classe tourne bien. 🎉</div>`;
+    $('al-liste').querySelectorAll('.alerte').forEach(a => a.onclick = () => ouvrirEleve(a.dataset.code));
+  }
+
+  // ── Navigation ──
+  document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
+    document.querySelectorAll('#tabs button').forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    ['classe', 'devoir', 'lacunes', 'eleve', 'alertes'].forEach(v => $('v-' + v).classList.toggle('hidden', v !== b.dataset.v));
+  });
+})();
+</script>
+</body>
+</html>
