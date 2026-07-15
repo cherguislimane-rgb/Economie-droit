@@ -242,7 +242,7 @@
         "theme": "d7",
         "titre": "Le contrat de travail",
         "fiche": null,
-        "fiche_visible": false
+        "fiche_visible": true
       }
     ]
   },
