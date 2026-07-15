@@ -114,10 +114,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 6,
+      "rang": 7,
       "effectif": 11,
       "moyenne": 11.6,
-      "rang_precedent": 3
+      "rang_precedent": 6
     },
     "types": {
       "dossier": {
@@ -133,7 +133,7 @@
     },
     "matieres": {
       "droit": {
-        "rang": 6,
+        "rang": 7,
         "effectif": 11,
         "moyenne": 9.5
       },

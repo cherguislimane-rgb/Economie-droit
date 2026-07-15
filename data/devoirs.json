@@ -187,6 +187,22 @@
         "moyenne": 11.8,
         "effectif": 9
       }
+    },
+    {
+      "id": "ts-droit-t3c1",
+      "classe": "TSTMG",
+      "matiere": "droit",
+      "theme": "d7",
+      "titre": "Droit — Le contrat de travail (Thème 3, chap. 1)",
+      "date": "2026-07-08",
+      "note_max": 20,
+      "type": "dossier",
+      "coef": 2,
+      "chapitre": "d7c1",
+      "stats": {
+        "moyenne": 11.8,
+        "effectif": 9
+      }
     }
   ],
   "chapitres": {
