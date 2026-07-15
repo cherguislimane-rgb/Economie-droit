@@ -171,6 +171,22 @@
         "moyenne": 8.7,
         "effectif": 10
       }
+    },
+    {
+      "id": "ts-eco-t1c1",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c1",
+      "type": "dossier",
+      "coef": 2,
+      "titre": "Dossier — L'intervention de l'État (Éco T1, TEST)",
+      "date": "2026-09-21",
+      "note_max": 20,
+      "stats": {
+        "moyenne": 11.8,
+        "effectif": 9
+      }
     }
   ],
   "chapitres": {

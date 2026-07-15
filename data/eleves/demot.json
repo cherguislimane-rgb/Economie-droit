@@ -114,14 +114,14 @@
   ],
   "classements": {
     "general": {
-      "rang": 3,
+      "rang": 6,
       "effectif": 11,
       "moyenne": 11.6,
-      "rang_precedent": 11
+      "rang_precedent": 3
     },
     "types": {
       "dossier": {
-        "rang": 6,
+        "rang": 7,
         "effectif": 11,
         "moyenne": 9.5
       },
@@ -138,8 +138,8 @@
         "moyenne": 9.5
       },
       "eco": {
-        "rang": 1,
-        "effectif": 1,
+        "rang": 7,
+        "effectif": 10,
         "moyenne": 13.0
       }
     },
@@ -150,8 +150,8 @@
         "moyenne": 9.5
       },
       "e6": {
-        "rang": 1,
-        "effectif": 1,
+        "rang": 7,
+        "effectif": 10,
         "moyenne": 13.0
       }
     }

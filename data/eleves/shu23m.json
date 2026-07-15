@@ -257,19 +257,104 @@
       "rang": 9,
       "effectif": 10,
       "moyenne_classe": 8.7
+    },
+    {
+      "devoir_id": "ts-eco-t1c1",
+      "note": 4.0,
+      "publie_le": "2026-07-15",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "État-gendarme et État-providence",
+          "points": 0.0,
+          "points_max": 3,
+          "commentaire": "Réponse hors sujet. L'État-gendarme se limite au régalien ; l'État-providence y ajoute régulation, allocation et redistribution.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "L'État-gendarme se limite aux fonctions régaliennes (ordre public, défense, justice, impôt) ; l'État-providence y ajoute des fonctions de régulation, d'allocation des ressources et de redistribution (protection sociale, services publics)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Déficit public et dette publique",
+          "points": 1.5,
+          "points_max": 3,
+          "commentaire": "Bonne définition du déficit (flux annuel, dépenses > recettes). Ajoute la dette : le stock des déficits accumulés que l'État doit rembourser.",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Le déficit public est un flux annuel : les dépenses publiques dépassent les recettes sur une année. La dette publique est un stock : l'accumulation des déficits passés, que l'État doit rembourser."
+        },
+        {
+          "question": "Q3",
+          "intitule": "La défaillance de marché du document",
+          "points": 0.0,
+          "points_max": 4,
+          "commentaire": "Réponse hors sujet. Le document montre une externalité négative : le coût social n'est pas reflété dans le prix, d'où une allocation inefficace.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Le document présente une externalité négative (pollution d'une usine) : le coût social n'est pas intégré dans le prix de marché, donc l'allocation des ressources n'est plus efficace — le marché produit trop de ce bien par rapport à l'optimum."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Deux solutions pour corriger la défaillance",
+          "points": 0.0,
+          "points_max": 3,
+          "commentaire": "Réponse hors sujet. Propose deux solutions expliquées : taxer l'activité polluante (pollueur-payeur), réglementer, subventionner ou créer un marché de quotas.",
+          "capacite": "e6-4",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Par exemple : taxer l'activité polluante (principe pollueur-payeur), réglementer (normes d'émission), subventionner les activités propres, ou créer un marché de quotas. Deux solutions expliquées attendues."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Une défaillance de l'État",
+          "points": 0.0,
+          "points_max": 2,
+          "commentaire": "Réponse hors sujet. Cite une défaillance de l'État : bureaucratie coûteuse, mauvaise allocation des dépenses, capture par des groupes d'intérêt…",
+          "capacite": "e6-5",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Toute situation où l'action publique échoue : bureaucratie coûteuse, mauvaise allocation des dépenses, capture par des groupes d'intérêt, dette excessive, politique inefficace…"
+        },
+        {
+          "question": "Q6",
+          "intitule": "L'État doit-il intervenir dans l'économie ?",
+          "points": 2.5,
+          "points_max": 5,
+          "commentaire": "Bon départ : l'introduction et les premiers arguments favorables sont posés. Développe les limites de l'intervention (défaillances de l'État, coût) et termine par une conclusion nuancée.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Développement structuré attendu : introduction, arguments pour l'intervention (défaillances de marché, redistribution, stabilisation) illustrés, arguments des limites (défaillances de l'État, coût, libéralisme), conclusion nuancée."
+        }
+      ],
+      "rang": 7,
+      "effectif": 9,
+      "moyenne_classe": 11.8
     }
   ],
   "classements": {
     "general": {
-      "rang": 10,
+      "rang": 8,
       "effectif": 11,
-      "moyenne": 0.5
+      "moyenne": 2.25,
+      "rang_precedent": 10
     },
     "types": {
       "dossier": {
-        "rang": 10,
+        "rang": 8,
         "effectif": 11,
-        "moyenne": 0.5
+        "moyenne": 2.25
       }
     },
     "matieres": {
@@ -277,6 +362,11 @@
         "rang": 10,
         "effectif": 11,
         "moyenne": 0.5
+      },
+      "eco": {
+        "rang": 8,
+        "effectif": 10,
+        "moyenne": 4.0
       }
     },
     "themes": {
@@ -284,6 +374,11 @@
         "rang": 10,
         "effectif": 11,
         "moyenne": 0.5
+      },
+      "e6": {
+        "rang": 8,
+        "effectif": 10,
+        "moyenne": 4.0
       }
     }
   },
@@ -297,8 +392,8 @@
       "max": 2.5
     },
     "t-vocab": {
-      "pts": 0.5,
-      "max": 5.0
+      "pts": 2.0,
+      "max": 13.0
     },
     "d5-4": {
       "pts": 0.0,
@@ -306,15 +401,15 @@
     },
     "t-doc": {
       "pts": 0.0,
-      "max": 4.5
+      "max": 8.5
     },
     "t-argu": {
-      "pts": 0.0,
-      "max": 3.5
+      "pts": 2.5,
+      "max": 11.5
     },
     "t-redaction": {
-      "pts": 0.0,
-      "max": 2.0
+      "pts": 2.5,
+      "max": 7.0
     },
     "t-syllogisme": {
       "pts": 0.0,
@@ -327,6 +422,26 @@
     "d5-6": {
       "pts": 0.0,
       "max": 3.0
+    },
+    "e6-1": {
+      "pts": 2.5,
+      "max": 8.0
+    },
+    "e6-2": {
+      "pts": 1.5,
+      "max": 3.0
+    },
+    "e6-3": {
+      "pts": 0.0,
+      "max": 4.0
+    },
+    "e6-4": {
+      "pts": 0.0,
+      "max": 3.0
+    },
+    "e6-5": {
+      "pts": 0.0,
+      "max": 2.0
     }
   }
 }

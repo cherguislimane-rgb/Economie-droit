@@ -261,13 +261,14 @@
   ],
   "classements": {
     "general": {
-      "rang": 9,
+      "rang": 10,
       "effectif": 11,
-      "moyenne": 1.5
+      "moyenne": 1.5,
+      "rang_precedent": 9
     },
     "types": {
       "dossier": {
-        "rang": 9,
+        "rang": 10,
         "effectif": 11,
         "moyenne": 1.5
       }
