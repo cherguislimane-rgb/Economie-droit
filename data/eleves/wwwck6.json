@@ -15,6 +15,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Question non traitée. Il fallait qualifier le contrat (location saisonnière) et nommer les parties : Rosita locataire, M. DA SILVA bailleur.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-qualif",
@@ -28,6 +29,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse amorcée mais inaboutie. Montre que chacun est à la fois créancier et débiteur, puis justifie que DA SILVA est un professionnel et Rosita une consommatrice.",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "d5-1",
           "transversales": [
             "t-vocab"
@@ -40,6 +42,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Relève dans le document 1 une obligation de M. DA SILVA et une de Rosita.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-4",
           "transversales": [
             "t-doc"
@@ -52,6 +55,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Réponses attendues : a → créer, b → éteindre, c → modifier, d → transmettre des obligations.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-vocab"
@@ -64,6 +68,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. Le contrat sert à encadrer/sécuriser l'accord en créant des obligations, et à protéger les parties en cas de litige.",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "d5-1",
           "transversales": [
             "t-argu"
@@ -76,6 +81,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "La qualification juridique n'est pas menée à son terme. Qualifie les deux parties (personne physique consommatrice / professionnel) puis l'opération (contrat de location saisonnière).",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "d5-1",
           "transversales": [
             "t-qualif",
@@ -89,6 +95,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Non, ils n'étaient pas obligés : c'est la liberté contractuelle (art. 1102).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme"
@@ -101,6 +108,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Forme et contenu sont libres en principe, dans les limites fixées par la loi.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-doc"
@@ -113,6 +121,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse inaboutie. Non, Jean-Paul n'a pas à payer : c'est l'effet relatif des contrats (art. 1199), il n'est qu'un tiers.",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme"
@@ -125,6 +134,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Non traité. Force obligatoire du contrat (art. 1134) → le ménage n'étant pas prévu, Rosita n'y est pas tenue.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme",
@@ -138,6 +148,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. a et b → obligation de résultat ; c et d → obligation de moyens.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-4",
           "transversales": [
             "t-vocab"
@@ -150,6 +161,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Réponse hors sujet. Le contrat n'est pas valable : incapacité (tutelle) et vice du consentement (violence).",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "d5-2",
           "transversales": [
             "t-syllogisme"
@@ -162,6 +174,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. La sanction est la nullité relative (intérêt privé) qui anéantit le contrat de façon rétroactive.",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d5-2",
           "transversales": [
             "t-vocab"
@@ -174,6 +187,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Association incorrecte. a valable ; b non valable (défaut d'information) ; c non valable (contenu illicite) ; d non valable (erreur sur une qualité essentielle).",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "d5-2",
           "transversales": [
             "t-doc"
@@ -186,6 +200,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Obligation d'information (art. 1104) et devoir de conseil face à un client moins averti.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-2",
           "transversales": [
             "t-doc"
@@ -198,6 +213,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Nullité absolue : atteinte à l'intérêt général (contenu illicite).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-2",
           "transversales": [
             "t-syllogisme"
@@ -210,6 +226,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Non traité. Contrat de vente à distance : Pierre-André consommateur / l'entreprise professionnelle.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-6",
           "transversales": [
             "t-qualif"
@@ -222,6 +239,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Achat à distance → droit de rétractation de 14 jours.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-6",
           "transversales": [
             "t-syllogisme"
@@ -234,6 +252,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse hors sujet. L'entreprise devait confirmer la commande sans délai et par voie électronique (art. 1127-2).",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d5-6",
           "transversales": [
             "t-doc"
@@ -246,6 +265,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. Ces dispositions protègent le consommateur (achat éclairé) et distinguent ses droits (rétractation en ligne, information en magasin).",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d5-6",
           "transversales": [
             "t-argu",
@@ -270,6 +290,7 @@
           "points": 0.0,
           "points_max": 3,
           "commentaire": "Non traité. État-gendarme = fonctions régaliennes ; État-providence = + régulation, allocation, redistribution.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -282,6 +303,7 @@
           "points": 0.0,
           "points_max": 3,
           "commentaire": "Réponse hors sujet. Le déficit est un flux annuel (dépenses > recettes) ; la dette, le stock des déficits accumulés.",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "e6-2",
           "transversales": [
             "t-vocab"
@@ -294,6 +316,7 @@
           "points": 0.0,
           "points_max": 4,
           "commentaire": "Réponse hors sujet. Le document montre une externalité négative : le coût social n'est pas reflété dans le prix, d'où une allocation inefficace.",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "e6-3",
           "transversales": [
             "t-doc"
@@ -306,6 +329,7 @@
           "points": 0.0,
           "points_max": 3,
           "commentaire": "Non traité. Deux solutions attendues : taxe (pollueur-payeur), réglementation, subvention ou marché de quotas.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "e6-4",
           "transversales": [
             "t-argu"
@@ -318,6 +342,7 @@
           "points": 0.0,
           "points_max": 2,
           "commentaire": "Réponse hors sujet. Cite une défaillance de l'État : bureaucratie coûteuse, mauvaise allocation des dépenses, capture par des groupes d'intérêt…",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "e6-5",
           "transversales": [
             "t-vocab"
@@ -330,6 +355,7 @@
           "points": 0.0,
           "points_max": 5,
           "commentaire": "Réponse hors sujet pour une argumentation. Attendu : introduction, arguments pour (défaillances de marché, redistribution), limites (défaillances de l'État, coût), conclusion.",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

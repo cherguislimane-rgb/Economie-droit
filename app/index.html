@@ -98,6 +98,11 @@
   .bar { height: 5px; border-radius: 99px; background: rgba(255,255,255,.1); overflow: hidden; margin-bottom: 10px; }
   .bar i { display: block; height: 100%; border-radius: 99px; }
   .retour p { font-size: 13.5px; line-height: 1.55; color: #C6CCDD; }
+  .tarep { background: rgba(0,0,0,.22); border-left: 3px solid rgba(255,255,255,.22);
+    border-radius: 0 10px 10px 0; padding: 8px 12px; margin-bottom: 10px; }
+  .tarep b { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); display: block; margin-bottom: 3px; }
+  .tarep p { font-size: 12.5px; font-style: italic; color: #AEB6C9; line-height: 1.5; }
+  .tarep p.vide { font-style: italic; color: var(--muted); }
   details.attendu { margin-top: 10px; background: rgba(85,200,155,.07); border: 1px solid rgba(85,200,155,.25);
     border-radius: 12px; padding: 9px 12px; }
   details.attendu summary { font-size: 12px; font-weight: 700; color: var(--good); cursor: pointer; list-style: none; }
@@ -323,6 +328,14 @@
   }
 
   const modal = document.getElementById('modal'), sheet = document.getElementById('sheet');
+  const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  function blocReponseEleve(r) {
+    if (!r.reponse_eleve) return '';
+    const vide = /^\[NON REPONDU\]$/i.test(r.reponse_eleve.trim());
+    const illisible = /\[ILLISIBLE\]/i.test(r.reponse_eleve);
+    const texte = vide ? '— question non traitée —' : esc(r.reponse_eleve);
+    return `<div class="tarep"><b>Ta réponse</b><p class="${vide ? 'vide' : ''}">${texte}${illisible && !vide ? ' <span style="color:var(--muted)">(passage illisible)</span>' : ''}</p></div>`;
+  }
   function capTags(r) {
     let h = '';
     if (r.capacite && CAPS[r.capacite]) h += `<span class="cap-tag">${CAPS[r.capacite].titre}</span>`;
@@ -337,6 +350,7 @@
           <span class="retour-pts" style="color:${noteColor(r.points, r.points_max)}">${fmtNote(r.points)} / ${fmtNote(r.points_max)}</span></div>
         ${capTags(r)}
         <div class="bar"><i style="width:${Math.min(r.points / r.points_max * 100, 100)}%;background:${noteColor(r.points, r.points_max)}"></i></div>
+        ${blocReponseEleve(r)}
         <p>${r.commentaire}</p>
         ${r.reponse_attendue ? `<details class="attendu"><summary>Voir la réponse attendue</summary><p>${r.reponse_attendue}</p></details>` : ''}
       </div>`).join('');

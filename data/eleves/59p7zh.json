@@ -15,6 +15,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet : il faut qualifier le contrat (location saisonnière) puis nommer les parties (Rosita locataire, M. DA SILVA bailleur).",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d5-1",
           "transversales": [
             "t-qualif",
@@ -28,6 +29,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse amorcée mais inaboutie. Montre que chacun est à la fois créancier et débiteur, puis justifie que DA SILVA est un professionnel et Rosita une consommatrice.",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d5-1",
           "transversales": [
             "t-vocab"
@@ -40,6 +42,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Sur la capacité à exploiter un document : relève dans le document 1 une obligation précise pour chacun (ex. DA SILVA restitue le dépôt de garantie ; Rosita entretient les lieux).",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d5-4",
           "transversales": [
             "t-doc"
@@ -52,6 +55,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Réponses attendues : a → créer, b → éteindre, c → modifier, d → transmettre des obligations.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-vocab"
@@ -64,6 +68,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Le contrat encadre l'accord et crée des obligations ; applique-le au cas (protection en cas de litige).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-argu"
@@ -76,6 +81,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "La qualification juridique n'est pas menée à son terme. Qualifie les deux parties (personne physique consommatrice / professionnel) puis l'opération (contrat de location saisonnière).",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d5-1",
           "transversales": [
             "t-qualif",
@@ -89,6 +95,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Non, ils n'étaient pas obligés : c'est la liberté contractuelle (art. 1102).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme"
@@ -101,6 +108,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. La forme et le contenu sont libres en principe, mais dans les limites fixées par la loi.",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "d5-1",
           "transversales": [
             "t-doc"
@@ -113,6 +121,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse inaboutie. Non, Jean-Paul n'a pas à payer : c'est l'effet relatif des contrats (art. 1199), il n'est qu'un tiers.",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme"
@@ -125,6 +134,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu montres bien que le ménage n'est pas prévu au contrat. Appuie-toi sur la force obligatoire du contrat (art. 1134) et conclus : Rosita n'y est pas tenue.",
+          "reponse_eleve": "Dans la mesure où la prestation ménage n'est pas inscrit directement dans le contrat de location ni même à l'oral lors d",
           "capacite": "d5-1",
           "transversales": [
             "t-syllogisme",
@@ -138,6 +148,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Ce n'est pas la bonne association. a et b → obligation de résultat ; c et d → obligation de moyens.",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "d5-4",
           "transversales": [
             "t-vocab"
@@ -150,6 +161,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Réponse hors sujet. Le contrat n'est pas valable : incapacité (tutelle) et vice du consentement (violence).",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d5-2",
           "transversales": [
             "t-syllogisme"
@@ -162,6 +174,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Sanction : nullité relative (intérêt privé), anéantissement rétroactif du contrat.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-2",
           "transversales": [
             "t-vocab"
@@ -174,6 +187,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Bon début (a et b corrects). Revois c et d : c → non valable (contenu illicite), d → non valable (erreur sur une qualité essentielle).",
+          "reponse_eleve": "a → contrat valable · b → contrat non valable (défaut d'information : consentement non éclairé) · c → contrat non valabl",
           "capacite": "d5-2",
           "transversales": [
             "t-doc"
@@ -186,6 +200,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Obligation d'information (art. 1104) et devoir de conseil face à un client moins averti.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-2",
           "transversales": [
             "t-doc"
@@ -198,6 +213,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. Ici c'est une nullité absolue : atteinte à l'intérêt général (contenu illicite).",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d5-2",
           "transversales": [
             "t-syllogisme"
@@ -210,6 +226,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Non traité. Contrat de vente à distance : Pierre-André consommateur / l'entreprise professionnelle.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-6",
           "transversales": [
             "t-qualif"
@@ -222,6 +239,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. Oui, achat à distance → droit de rétractation, dans un délai de 14 jours.",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d5-6",
           "transversales": [
             "t-syllogisme"
@@ -234,6 +252,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Exact : l'entreprise devait un accusé de réception/confirmation de commande sans délai et par voie électronique (art. 1127-2).",
+          "reponse_eleve": "Selon l'article 1127-2 du Code Civil, l'entreprise aurait dû envoyer sans délais et par voie électronique la confirmatio",
           "capacite": "d5-6",
           "transversales": [
             "t-doc"
@@ -246,6 +265,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Elles protègent le consommateur et le cyberconsommateur (information, rétractation).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d5-6",
           "transversales": [
             "t-argu",
@@ -270,6 +290,7 @@
           "points": 0.5,
           "points_max": 0.75,
           "commentaire": "Tu identifies bien le contrat de travail. Pense à nommer les parties : Jimmy est le salarié, l'entreprise l'employeur.",
+          "reponse_eleve": "Jimmy et l'entreprise sont liés par un contrat de travail",
           "capacite": "d7-1",
           "transversales": [
             "t-vocab"
@@ -282,6 +303,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse hors sujet. Elles doivent respecter les obligations nées du contrat (créées, modifiées, transmises ou éteintes).",
+          "reponse_eleve": "C'est ecrit dans le document mais je ne sais plus ou exactement.",
           "capacite": "d7-1",
           "transversales": [
             "t-vocab"
@@ -294,6 +316,7 @@
           "points": 0.0,
           "points_max": 1.25,
           "commentaire": "Réponse hors sujet. Définis le contrat de travail : prestation + rémunération + lien de subordination sous la direction de l'employeur.",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d7-1",
           "transversales": [
             "t-doc",
@@ -307,6 +330,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Tu nommes bien le pouvoir de direction et tu l'illustres. Complète les trois volets : donner des ordres, contrôler l'exécution, sanctionner (avec la situation de Jimmy).",
+          "reponse_eleve": "Le lien de subordination fait naître le pouvoir de direction : donner des ordres (Mme PERCHON communique objectifs et tâ",
           "capacite": "d7-1",
           "transversales": [
             "t-argu"
@@ -319,6 +343,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse hors sujet. Les salariés sont protégés par la loi, en particulier le Code du travail (congés payés, SMIC…).",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d7-1",
           "transversales": [
             "t-doc"
@@ -331,6 +356,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Question bonus non traitée : le tribunal compétent est le conseil de prud'hommes.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-1",
           "transversales": [],
           "reponse_attendue": "Le conseil de prud'hommes."
@@ -341,6 +367,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Réponse hors sujet. Classe les trois pouvoirs : direction (objectifs), réglementaire (règlement intérieur), disciplinaire (mesure contre Rosita).",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d7-4",
           "transversales": [
             "t-doc"
@@ -353,6 +380,7 @@
           "points": 0.0,
           "points_max": 0.75,
           "commentaire": "Non traité. Les trois pouvoirs s'articulent (organiser → édicter → faire respecter) et assurent le bon fonctionnement.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-4",
           "transversales": [
             "t-argu"
@@ -365,6 +393,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse trop courte. Le contenu est fixé exclusivement par la loi et l'inspecteur du travail peut le corriger.",
+          "reponse_eleve": "Oui car la loi protege toujours les gens dans ce cas la.",
           "capacite": "d7-4",
           "transversales": [
             "t-doc"
@@ -377,6 +406,7 @@
           "points": 0.0,
           "points_max": 0.75,
           "commentaire": "Non traité. Lien de subordination → la faute nuit au fonctionnement → sanction (ex. injures, refus d'ordre).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-4",
           "transversales": [
             "t-argu"
@@ -389,6 +419,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Sanction pécuniaire (interdite) vs sanction à incidence pécuniaire comme la mise à pied (autorisée).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-4",
           "transversales": [
             "t-vocab"
@@ -401,6 +432,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Réponse hors sujet. Retirer 400 € est une sanction pécuniaire (amende), interdite par la loi.",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d7-4",
           "transversales": [
             "t-syllogisme"
@@ -413,6 +445,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Non traité. Avertissement ou mise à pied, justifié par le principe de proportionnalité.",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-4",
           "transversales": [
             "t-argu"
@@ -425,6 +458,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Tu identifies bien les points communs (prestation, rémunération). Ajoute le distinctif : le lien de subordination du salarié, contre l'indépendance du prestataire.",
+          "reponse_eleve": "Points communs : une prestation de travail effectuée et une rémunération perçue",
           "capacite": "d7-2",
           "transversales": [
             "t-vocab"
@@ -437,6 +471,7 @@
           "points": 0.5,
           "points_max": 0.75,
           "commentaire": "Bon : tu vois le statut d'indépendant. Précise l'immatriculation au CFE (Chambre des Métiers) faite avant de travailler pour Uber, et l'absence de contrat de travail.",
+          "reponse_eleve": "Ils ne sont pas engagés par un contrat de travail : ils exercent à titre indépendant une activité de chauffeur VTC légal",
           "capacite": "d7-2",
           "transversales": [
             "t-doc"
@@ -449,6 +484,7 @@
           "points": 0.75,
           "points_max": 0.75,
           "commentaire": "Exact : le critère est l'indépendance du travailleur (liberté des horaires et des jours).",
+          "reponse_eleve": "L'indépendance du travailleur : le chauffeur avait « toute liberté pour travailler selon les horaires et les jours qui l",
           "capacite": "d7-2",
           "transversales": [
             "t-doc"
@@ -461,6 +497,7 @@
           "points": 0.0,
           "points_max": 0.75,
           "commentaire": "Réponse hors sujet. Relève deux indices concrets (courses à l'aveugle, tarifs imposés…) et conclus au lien de subordination d'Uber.",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d7-2",
           "transversales": [
             "t-argu"
@@ -473,6 +510,7 @@
           "points": 0.0,
           "points_max": 1.25,
           "commentaire": "Réponse hors sujet. Trois sources : ordre public (Code du travail), normes conventionnelles, contrat de travail.",
+          "reponse_eleve": "Je pense que oui parce que c'est logique dans cette situation.",
           "capacite": "d7-5",
           "transversales": [
             "t-doc"
@@ -485,6 +523,7 @@
           "points": 0.0,
           "points_max": 0.75,
           "commentaire": "Non traité. Accord d'entreprise (entreprise) vs convention collective (branche).",
+          "reponse_eleve": "[NON REPONDU]",
           "capacite": "d7-5",
           "transversales": [
             "t-vocab"
@@ -497,6 +536,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse hors sujet. Les partenaires sociaux : syndicats de salariés (CGT, CFDT) et patronat (MEDEF, CPME).",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d7-11",
           "transversales": [
             "t-doc"
@@ -509,6 +549,7 @@
           "points": 0.0,
           "points_max": 0.75,
           "commentaire": "Réponse hors sujet. National : améliorer des règles générales ; entreprise : adapter aux spécificités.",
+          "reponse_eleve": "Non car ce n'est pas juste pour la personne concernee.",
           "capacite": "d7-5",
           "transversales": [
             "t-argu"
@@ -521,6 +562,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse hors sujet. Relève deux modalités du CDI : fonction/tâches, lieu d'exercice, durée/horaires.",
+          "reponse_eleve": "C'est le contrat qui decide donc il faut le respecter je crois.",
           "capacite": "d7-3",
           "transversales": [
             "t-doc"
@@ -533,6 +575,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Associations toutes correctes (1c, 2a, 3e, 4d, 5f, 6b).",
+          "reponse_eleve": "1→c ; 2→a ; 3→e ; 4→d ; 5→f ; 6→b.",
           "capacite": "d7-1",
           "transversales": [
             "t-vocab"
@@ -549,8 +592,7 @@
     "general": {
       "rang": 8,
       "effectif": 11,
-      "moyenne": 3.12,
-      "rang_precedent": 10
+      "moyenne": 3.12
     },
     "types": {
       "dossier": {
