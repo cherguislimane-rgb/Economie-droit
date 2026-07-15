@@ -1,14 +1,14 @@
 {
   "code": "demot",
   "classe": "TSTMG",
-  "maj": "2026-07-04",
+  "maj": "2026-07-15",
   "copies": [
     {
       "devoir_id": "ts-demo-1",
       "note": 9.5,
-      "moyenne_classe": 10.2,
+      "moyenne_classe": 9.5,
       "percentile": 42,
-      "effectif": 26,
+      "effectif": 1,
       "pdf": null,
       "retours": [
         {
@@ -60,15 +60,15 @@
           "reponse_attendue": "Réparation, remplacement, réduction du prix ou résolution : deux sanctions argumentées suffisaient."
         }
       ],
-      "rang": 16,
+      "rang": 1,
       "publie_le": "2026-09-25"
     },
     {
       "devoir_id": "ts-demo-2",
       "note": 13,
-      "moyenne_classe": 11.1,
+      "moyenne_classe": 13.0,
       "percentile": 71,
-      "effectif": 26,
+      "effectif": 1,
       "pdf": null,
       "retours": [
         {
@@ -108,50 +108,50 @@
           "reponse_attendue": "Introduction, deux arguments illustrés (État-gendarme vs État-providence), conclusion."
         }
       ],
-      "rang": 8,
+      "rang": 1,
       "publie_le": "2026-10-16"
     }
   ],
   "classements": {
     "general": {
-      "rang": 11,
-      "effectif": 26,
-      "moyenne": 11.25,
-      "rang_precedent": 16
+      "rang": 3,
+      "effectif": 11,
+      "moyenne": 11.6,
+      "rang_precedent": 11
+    },
+    "types": {
+      "dossier": {
+        "rang": 6,
+        "effectif": 11,
+        "moyenne": 9.5
+      },
+      "bac": {
+        "rang": 1,
+        "effectif": 1,
+        "moyenne": 13.0
+      }
     },
     "matieres": {
       "droit": {
-        "rang": 16,
-        "effectif": 26,
+        "rang": 6,
+        "effectif": 11,
         "moyenne": 9.5
       },
       "eco": {
-        "rang": 8,
-        "effectif": 26,
+        "rang": 1,
+        "effectif": 1,
         "moyenne": 13.0
       }
     },
     "themes": {
       "d5": {
-        "rang": 16,
-        "effectif": 26,
+        "rang": 6,
+        "effectif": 11,
         "moyenne": 9.5
       },
       "e6": {
-        "rang": 8,
-        "effectif": 26,
-        "moyenne": 13.0
-      }
-    },
-    "types": {
-      "dossier": {
-        "rang": 16,
-        "effectif": 26,
-        "moyenne": 9.5
-      },
-      "bac": {
-        "rang": 8,
-        "effectif": 26,
+        "rang": 1,
+        "effectif": 1,
         "moyenne": 13.0
       }
     }

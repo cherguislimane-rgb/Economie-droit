@@ -1,0 +1,332 @@
+{
+  "code": "fv9eqy",
+  "classe": "TSTMG",
+  "maj": "2026-07-15",
+  "copies": [
+    {
+      "devoir_id": "ts-droit-t1c1",
+      "note": 9.5,
+      "publie_le": "2026-07-15",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Type de contrat et parties",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "Tu reconnais bien le contrat de location saisonnière. Pense à nommer précisément les deux parties : Rosita, la locataire, et M. DA SILVA, le bailleur.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-qualif",
+            "t-vocab"
+          ],
+          "reponse_attendue": "C’est un contrat de location saisonnière concernant une maison de vacances. Les différentes parties sont Rosita (la locataire) et M. DA SILVA André (le propriétaire bailleur)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Créancier, débiteur, professionnel, consommateur",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Réponse amorcée mais inaboutie. Montre que chacun est à la fois créancier et débiteur, puis justifie que DA SILVA est un professionnel et Rosita une consommatrice.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Dans ce contrat, chaque partie est débitrice et créancière : M. DA SILVA est créancier du loyer et débiteur de la prestation de fournir un logement correspondant au contrat et Rosita est créancière de la prestation du logement mais débitrice du loyer attendu. De plus, M. DA SILVA est considéré comme professionnel puisqu’il propose plusieurs biens en locations saisonnières dans le cadre d’une activité professionnelle et Rosita est considérée comme consommatrice puisqu’elle « consomme » le service proposé à savoir la location."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Une obligation de chaque partie",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Sur la capacité à exploiter un document : relève dans le document 1 une obligation précise pour chacun (ex. DA SILVA restitue le dépôt de garantie ; Rosita entretient les lieux).",
+          "capacite": "d5-4",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "M. DA SILVA : restituer le dépôt de garantie au locataire à son départ en l'absence de problème relevé à l'état des lieux. Rosita : occuper les lieux personnellement, les entretenir et en faire un usage paisible sans troubler la tranquillité du voisinage (autres obligations du document 1 acceptées)."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Créer, modifier, transmettre ou éteindre ?",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Ce n'est pas la bonne association. Il fallait : a → créer, b → éteindre, c → modifier, d → transmettre des obligations.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a → créer des obligations · b → éteindre des obligations · c → modifier des obligations · d → transmettre des obligations."
+        },
+        {
+          "question": "Q5",
+          "intitule": "L'intérêt de réaliser un contrat",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "Ta définition générale est juste (encadrer l'accord, créer des obligations). Il manque l'application au cas : le contrat protège Rosita et M. DA SILVA en cas de litige.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Le contrat permet d’encadrer l’accord réalisé entre les deux parties (appelés cocontractants) en créant des obligations que ces derniers ont l’obligation de respecter. Cette démarche vise à protéger les cocontractants en cas de litige (non-respect du contrat signé ou modification de ce dernier). Dans ce cas précis, Rosita a l’assurance de louer la maison comprenant les caractéristiques présentes dans le contrat et s’engage à payer M. DA SILVA du montant attendu (loyer) et les différentes conditions (caution)."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Qualification juridique des faits",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "La qualification juridique n'est pas menée à son terme. Qualifie les deux parties (personne physique consommatrice / professionnel) puis l'opération (contrat de location saisonnière).",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-qualif",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Rosita, personne physique et consommatrice, a réalisé un contrat avec M. DA SILVA, personne morale et professionnel, dans le cadre de la location d’une maison de vacances. Ce contrat est donc qualifié de « contrat de location saisonnière » qui lie les deux parties cocontractantes dans le respect des différentes obligations le composant."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Étaient-ils obligés de contracter ensemble ?",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Tu recopies l'article 1102 sans conclure. Sur la capacité à raisonner : réponds (non, ils n'étaient pas obligés), nomme la liberté contractuelle et applique l'article au cas.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "D’après l’article 1102 du Code Civil « Chacun est libre de contracter ou de ne pas contracter, de choisir son cocontractant et de déterminer le contenu et la forme du contrat dans les limites fixées par la loi. » Ainsi, Rosita et M. DA SILVA n’était pas dans l’obligation de réaliser le contrat ensemble. Ils auraient pu refuser de signer ensemble le contrat ou alors le signer avec un autre consommateur/professionnel. On parle alors de liberté contractuelle."
+        },
+        {
+          "question": "Q8",
+          "intitule": "La forme et le contenu du contrat",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Exact : la forme et le contenu sont libres en principe, dans les limites fixées par la loi.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "La forme et le contenu du contrat est libre mais doit être régit par les limites fixées par la loi. Par exemple, le contrat doit contenir les mentions légales et articles de loi adéquats et peut imposer de nombreuses obligations selon l’activité professionnelle (conducteur de camion par exemple)."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Jean-Paul doit-il payer ?",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Réponse inaboutie. Non, Jean-Paul n'a pas à payer : c'est l'effet relatif des contrats (art. 1199), il n'est qu'un tiers.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Quand bien même Jean-Paul a conseillé à M. DA SILVA de proposer ses biens en locations saisonnières, il ne peut être tenu responsable d’un potentiel litige, comme l’énonce l’article 1199 du Code Civil : « Le contrat ne crée d’obligations qu’entre les parties » cocontractantes. On parle alors du principe de l’effet relatif des contrats."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Rosita devait-elle faire le ménage ?",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Bonne règle et bonne application (le ménage n'est ni au contrat ni convenu oralement). Termine par une conclusion explicite : Rosita n'est pas tenue de faire le ménage.",
+          "capacite": "d5-1",
+          "transversales": [
+            "t-syllogisme",
+            "t-argu"
+          ],
+          "reponse_attendue": "Dans la mesure où la prestation ménage n’est pas inscrit directement dans le contrat de location ni même à l’oral lors de leurs conversations téléphoniques, qu’il y a eu acceptation de l’offre telle qu’elle était proposé dans le contrat de location, que cette dernière était expresse et non tacite (puisqu’il n’y a pas eu d’accord verbal concernant la prestation ménage et que les parties se sont engagées par un écrit lors de la signature du contrat et enfin que l’article 1134 du Code Civil énonce : « Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faites ». Ainsi le contrat est, pour les parties cocontractantes, une véritable loi, à laquelle ces dernières ne peuvent déroger. Par conséquent, Rosita ne doit pas réaliser le ménage du logement en fin de séjour"
+        },
+        {
+          "question": "Q11",
+          "intitule": "Obligation de moyens ou de résultat ?",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Association correcte : a et b sont des obligations de résultat, c et d des obligations de moyens.",
+          "capacite": "d5-4",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a → obligation de résultat · b → obligation de résultat · c → obligation de moyens · d → obligation de moyens."
+        },
+        {
+          "question": "Q12",
+          "intitule": "Le contrat de Maryse est-il valable ?",
+          "points": 0.0,
+          "points_max": 1.5,
+          "commentaire": "Réponse hors sujet. Le contrat n'est pas valable : incapacité (tutelle) et vice du consentement (violence).",
+          "capacite": "d5-2",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Le contrat de Maryse peut être considéré comme invalide, justifié par les raisons suivantes : - Maryse est une personne ne disposant pas de la capacité d’exercice, puisqu’elle est placée sous tutelle, elle est alors considérée comme majeur vulnérable (elle ne peut réaliser les actes juridiques sans son tuteur). Ainsi, la capacité de contracter n’est pas valable. - Quand bien même Maryse disposerait de sa capacité d’exercice, son consentement n’est alors ni libre ni éclairé puisqu’elle est menacée. Le consentement de Maryse est donc invalide. Nous sommes alors en présence d’un vice du consentement, à savoir la violence (menace morale injuste et illégitime venant d’un cocontractant, à savoir le commercial de l’entreprise."
+        },
+        {
+          "question": "Q13",
+          "intitule": "La sanction envisageable pour Maryse",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Exact : nullité relative (intérêt privé, demandée par la victime ou son tuteur) et anéantissement du contrat.",
+          "capacite": "d5-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Nous sommes en présence d’une nullité relative, puisqu’il concerne un intérêt privé (vices du consentement et incapacité), qui peut être demandée par la victime ou son représentant (tuteur) qui entraine l’anéantissement du présent contrat, libérant les parties de toutes obligations contractuelles. ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Situations Contrat valable Contrat non valable ------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------- --------------------- 1 Marc, 25 ans, travaille depuis 5 ans dans une entreprise. Il d"
+        },
+        {
+          "question": "Q14",
+          "intitule": "Contrat valable ou non valable ?",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Association correcte pour les quatre situations.",
+          "capacite": "d5-2",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "a → contrat valable · b → contrat non valable (défaut d'information : consentement non éclairé) · c → contrat non valable (objet/contenu illicite) · d → contrat non valable (erreur sur une qualité essentielle)."
+        },
+        {
+          "question": "Q15",
+          "intitule": "La posture attendue du commercial",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Tu attends bien du commercial une obligation d'information (bonne foi, art. 1104) et un devoir de conseil lié à l'inégalité de compétence.",
+          "capacite": "d5-2",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Pour rendre le contrat valable, le commercial aurait dû adopter une obligation d’information concernant les termes du contrat et même une obligation de conseil, puisqu’il existe une inégalité de compétences entre les cocontractants, puisque comme l’énonce l’article 1104 du Code Civil : « Les contrats doivent être formés, exécutés et négociés de bonne foi […] Dès la formation du contrat, les parties doivent faire preuve de coopération et loyauté. »"
+        },
+        {
+          "question": "Q16",
+          "intitule": "Nullité relative ou nullité absolue ?",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Exact : nullité absolue car atteinte à l'intérêt général (contenu illicite).",
+          "capacite": "d5-2",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Dans ce cas précis, on parle alors de nullité absolue, puisqu’il y a atteinte à l’intérêt général (contenu illicite) entrainant l’anéantissement du contrat."
+        },
+        {
+          "question": "Q17",
+          "intitule": "Qualification du contrat de Pierre-André",
+          "points": 0.0,
+          "points_max": 0.5,
+          "commentaire": "Tu vois qu'il s'agit d'un contrat de vente : bon début. Précise qu'il est conclu à distance et nomme les parties (Pierre-André consommateur / entreprise professionnelle).",
+          "capacite": "d5-6",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "Le contrat présent est un contrat de vente concernant un produit marchand. Les parties cocontractantes sont Pierre-André personne physique et consommateur, et l’entreprise personne morale et professionnelle."
+        },
+        {
+          "question": "Q18",
+          "intitule": "Le droit de repentir",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Oui : achat à distance donc droit de rétractation, dans un délai de 14 jours. Réponse complète.",
+          "capacite": "d5-6",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Puisque l’achat a eu lieu sur internet, Pierre-André dispose d’un droit de repentir (ou droit de rétractation) qui représente la possibilité qui est donnée à un consommateur de se rétracter librement de son achat fait à distance, dans un délai maximal de 14 jours."
+        },
+        {
+          "question": "Q19",
+          "intitule": "Les informations dues à Pierre-André",
+          "points": 0.5,
+          "points_max": 0.5,
+          "commentaire": "Exact : l'entreprise devait un accusé de réception/confirmation de commande sans délai et par voie électronique (art. 1127-2).",
+          "capacite": "d5-6",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Selon l’article 1127-2 du Code Civil, l’entreprise aurait dû envoyer sans délais et par voie électronique la confirmation de la commande effectuée afin que Pierre-André puisse attester de la bonne validation de son achat. Ce point n’a malheureusement pas été réalisé par l’entreprise."
+        },
+        {
+          "question": "Q20",
+          "intitule": "L'intérêt des dispositions légales",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Réponse hors sujet. Ces dispositions protègent le consommateur (achat éclairé) et distinguent ses droits (rétractation en ligne, information en magasin).",
+          "capacite": "d5-6",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Les dispositions légales décrites dans les documents ont pour intérêt de protéger le consommateur et le cyberconsommateur, afin qu’ils puissent réaliser un achat éclairé de toutes informations nécessaires et légales, leur donnant ainsi la possibilité de se rétracter et rembourser (cyberconsommateur), échanger ou rembourser (consommateur)."
+        }
+      ],
+      "rang": 6,
+      "effectif": 10,
+      "moyenne_classe": 8.7
+    }
+  ],
+  "classements": {
+    "general": {
+      "rang": 7,
+      "effectif": 11,
+      "moyenne": 9.5
+    },
+    "types": {
+      "dossier": {
+        "rang": 6,
+        "effectif": 11,
+        "moyenne": 9.5
+      }
+    },
+    "matieres": {
+      "droit": {
+        "rang": 6,
+        "effectif": 11,
+        "moyenne": 9.5
+      }
+    },
+    "themes": {
+      "d5": {
+        "rang": 6,
+        "effectif": 11,
+        "moyenne": 9.5
+      }
+    }
+  },
+  "capacites": {
+    "d5-1": {
+      "pts": 3.0,
+      "max": 9.5
+    },
+    "t-qualif": {
+      "pts": 0.5,
+      "max": 2.5
+    },
+    "t-vocab": {
+      "pts": 2.5,
+      "max": 5.0
+    },
+    "d5-4": {
+      "pts": 1.0,
+      "max": 2.0
+    },
+    "t-doc": {
+      "pts": 3.5,
+      "max": 4.5
+    },
+    "t-argu": {
+      "pts": 1.5,
+      "max": 3.5
+    },
+    "t-redaction": {
+      "pts": 0.0,
+      "max": 2.0
+    },
+    "t-syllogisme": {
+      "pts": 3.0,
+      "max": 7.0
+    },
+    "d5-2": {
+      "pts": 4.0,
+      "max": 5.5
+    },
+    "d5-6": {
+      "pts": 1.5,
+      "max": 3.0
+    }
+  }
+}
