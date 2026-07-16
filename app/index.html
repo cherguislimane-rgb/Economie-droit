@@ -146,6 +146,22 @@
   .cap-bar { height: 6px; border-radius: 99px; background: rgba(255,255,255,.1); overflow: hidden; }
   .cap-bar i { display: block; height: 100%; border-radius: 99px; }
 
+  details.cap-theme { border-bottom: 1px solid rgba(255,255,255,.07); }
+  details.cap-theme:last-child { border-bottom: none; }
+  details.cap-theme summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 13px 4px; }
+  details.cap-theme summary::-webkit-details-marker { display: none; }
+  .ct-chevron { color: var(--muted); font-size: 12px; transition: transform .2s; flex-shrink: 0; }
+  details[open] .ct-chevron { transform: rotate(90deg); }
+  .ct-titre { flex: 1; font-size: 13.5px; font-weight: 600; line-height: 1.35; }
+  .ct-titre small { display: block; font-weight: 400; font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .ct-etat { font-family: 'Sora', sans-serif; font-size: 12px; font-weight: 700; white-space: nowrap; }
+  .ct-corps { padding: 0 4px 10px 22px; }
+  .cap-item.avenir .cap-line .n { color: var(--muted); }
+  .cap-chips { margin-top: 5px; }
+  .cap-chip { display: inline-block; font-size: 10px; font-weight: 600; color: var(--muted);
+    background: rgba(255,255,255,.06); border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 8px; margin: 0 4px 2px 0; text-decoration: none; }
+  a.cap-chip { color: var(--accent); border-color: rgba(242,166,90,.35); }
   .fiche { display: flex; align-items: center; gap: 12px; padding: 13px 4px; border-bottom: 1px solid rgba(255,255,255,.06); }
   .fiche:last-child { border-bottom: none; }
   .fiche .ic { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center;
@@ -209,9 +225,9 @@
   </section>
 
   <section class="page" id="page-capacites">
-    <div class="section-title">Capacités transversales — celles du bac</div>
+    <div class="section-title">Capacités transversales — celles de l'épreuve du bac</div>
     <div class="glass" id="caps-trans"></div>
-    <div class="section-title">Capacités du programme</div>
+    <div class="section-title">Capacités du programme — touche une question pour le détail</div>
     <div class="glass" id="caps-them"></div>
   </section>
 
@@ -454,18 +470,71 @@
   document.getElementById('caps-trans').innerHTML = transEval.length
     ? transEval.map(t => capHTML(t.id)).join('')
     : `<div class="empty">Tes capacités apparaîtront après ta première copie corrigée.</div>`;
-  const themEval = Object.keys(cumul).filter(id => CAPS[id] && !CAPS[id].trans);
-  if (themEval.length) {
-    const parTheme = {};
-    for (const id of themEval) (parTheme[CAPS[id].theme] ||= []).push(id);
-    const titres = {};
-    for (const mat of Object.values(bloc)) for (const [tid, t] of Object.entries(mat)) titres[tid] = t.titre;
-    document.getElementById('caps-them').innerHTML = Object.entries(parTheme).map(([tid, ids]) =>
-      `<div class="section-title" style="margin:8px 0 4px">${titres[tid] || tid}</div>` + ids.map(capHTML).join('')
-    ).join('');
-  } else {
-    document.getElementById('caps-them').innerHTML = `<div class="empty">Les capacités du programme apparaîtront au fil des chapitres.</div>`;
+  // Capacité → chapitres qui l'ont travaillée (via les devoirs corrigés)
+  const capChapitres = {};
+  for (const c of copies) {
+    const d = devoirById[c.devoir_id];
+    if (!d.chapitre) continue;
+    for (const r of (c.retours || [])) {
+      for (const cid of [r.capacite, ...(r.transversales || [])]) {
+        if (cid) (capChapitres[cid] ||= new Set()).add(d.chapitre);
+      }
+    }
   }
+  const chapById = Object.fromEntries(chapitres.map(ch => [ch.id, ch]));
+  function chipsChapitres(cid) {
+    const ids = [...(capChapitres[cid] || [])];
+    if (!ids.length) return '';
+    return `<div class="cap-chips">` + ids.map(id => {
+      const ch = chapById[id];
+      if (!ch) return '';
+      return ch.fiche_visible && ch.fiche
+        ? `<a class="cap-chip" href="${ch.fiche}" target="_blank" rel="noopener">📖 ${ch.titre}</a>`
+        : `<span class="cap-chip">${ch.titre}</span>`;
+    }).join('') + `</div>`;
+  }
+  function capLigne(cap) {
+    const c = cumul[cap.id];
+    if (!c) return `<div class="cap-item avenir">
+      <div class="cap-line"><span class="n">${cap.titre}</span>
+        <span class="s" style="color:var(--muted)">À travailler</span></div>
+      <div class="cap-bar"><i style="width:0"></i></div></div>`;
+    const st = statut(c.pts, c.max);
+    return `<div class="cap-item">
+      <div class="cap-line"><span class="n">${cap.titre}</span>
+        <span class="s" style="color:${st.col}">${st.label} · ${Math.round(st.ratio * 100)}%</span></div>
+      <div class="cap-bar"><i style="width:${Math.round(st.ratio * 100)}%;background:${st.col}"></i></div>
+      ${chipsChapitres(cap.id)}</div>`;
+  }
+  (function renderThemesCaps() {
+    const el = document.getElementById('caps-them');
+    const sections = [];
+    for (const [mat, label] of [['droit', 'Droit'], ['eco', 'Économie']]) {
+      const themesProg = (CONF.programme[ELEVE.classe] || {})[mat] || [];
+      if (!themesProg.length) continue;
+      sections.push(`<div class="section-title" style="margin:10px 0 2px">${label}</div>`);
+      for (const th of themesProg) {
+        const refTheme = (bloc[mat] || {})[th.id];
+        if (!refTheme) continue;
+        const caps = refTheme.capacites;
+        const evaluees = caps.filter(c => cumul[c.id]);
+        let etat = `<span class="ct-etat" style="color:var(--muted)">à venir</span>`;
+        if (evaluees.length) {
+          const pts = evaluees.reduce((s, c) => s + cumul[c.id].pts, 0);
+          const max = evaluees.reduce((s, c) => s + cumul[c.id].max, 0);
+          const st = statut(pts, max);
+          etat = `<span class="ct-etat" style="color:${st.col}">${Math.round(st.ratio * 100)}%</span>`;
+        }
+        sections.push(`<details class="cap-theme">
+          <summary><span class="ct-chevron">▶</span>
+            <span class="ct-titre">${th.titre}<small>${evaluees.length ? `${evaluees.length}/${caps.length} capacités travaillées` : `${caps.length} capacités au programme`}</small></span>
+            ${etat}</summary>
+          <div class="ct-corps">${caps.map(capLigne).join('')}</div>
+        </details>`);
+      }
+    }
+    el.innerHTML = sections.length ? sections.join('') : `<div class="empty">Les capacités du programme apparaîtront au fil des chapitres.</div>`;
+  })();
 
   // ── Réviser : fiches + priorités ──
   const fl = document.getElementById('fiches-list');
