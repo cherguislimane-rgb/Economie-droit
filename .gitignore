@@ -1,6 +1,7 @@
 # ⚠️ FICHIERS PRIVÉS — ne doivent JAMAIS être publiés (noms d'élèves, RGPD)
 corrections/
 codes_prives_*.csv
+sel_prive.txt
 liste_eleves*.csv
 resultats_app.json
 **/resultats_*.json

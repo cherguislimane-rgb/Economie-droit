@@ -26,11 +26,33 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
+import sys; sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# ── À PERSONNALISER UNE FOIS POUR TOUTES ────────────────────────────────
-# Change ce sel par une phrase de ton choix, puis n'y touche plus jamais
-# (sinon tous les codes changent). Ne le publie nulle part.
-SEL = "CHANGE-MOI-phrase-secrete-du-prof"
+# ── SEL SECRET (hors du script) ─────────────────────────────────────────
+# Le sel n'est PLUS écrit en dur ici : il est lu depuis « sel_prive.txt », à la
+# racine de mes-copies (une seule ligne). Ce fichier est PRIVÉ (couvert par le
+# .gitignore) et ne doit JAMAIS être publié. N'en change plus la valeur une fois
+# fixée, sinon tous les codes déjà distribués changeraient.
+RACINE = Path(__file__).resolve().parent.parent
+SEL_FICHIER = RACINE / "sel_prive.txt"
+SEL = None  # chargé au lancement depuis sel_prive.txt
+
+
+def charger_sel() -> str:
+    if not SEL_FICHIER.exists():
+        sys.exit(
+            f"❌ Fichier de sel introuvable : {SEL_FICHIER}\n"
+            "   Crée un fichier « sel_prive.txt » à la racine de mes-copies, contenant\n"
+            "   sur une SEULE ligne ta phrase secrète (le SEL). Ne le publie jamais\n"
+            "   (il est exclu par le .gitignore) et n'en change plus la valeur, sinon\n"
+            "   tous les codes déjà distribués changeraient."
+        )
+    sel = SEL_FICHIER.read_text(encoding="utf-8").strip()
+    if not sel:
+        sys.exit(f"❌ Le fichier {SEL_FICHIER} est vide : mets-y ta phrase secrète (le SEL) sur une ligne.")
+    return sel
+
+
 # ────────────────────────────────────────────────────────────────────────
 
 ALPHABET = "abcdefghjkmnpqrstuvwxyz23456789"  # sans 0/O, 1/l/i : lisible au tableau
@@ -54,8 +76,8 @@ def main() -> None:
     classe = sys.argv[2].upper()
     if classe not in ("1STMG", "TSTMG"):
         sys.exit("La classe doit être 1STMG ou TSTMG.")
-    if SEL == "CHANGE-MOI-phrase-secrete-du-prof":
-        sys.exit("⚠️  Personnalise d'abord la variable SEL dans ce script.")
+    global SEL
+    SEL = charger_sel()
 
     eleves_dir = Path(__file__).resolve().parent.parent / "data" / "eleves"
     eleves_dir.mkdir(parents=True, exist_ok=True)
