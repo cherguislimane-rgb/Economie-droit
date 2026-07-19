@@ -91,158 +91,23 @@
       ]
     }
   },
-  "devoirs": [
-    {
-      "id": "1s-demo-1",
-      "classe": "1STMG",
-      "matiere": "droit",
-      "theme": "d2",
-      "titre": "Devoir n°1 — Le litige et sa résolution",
-      "date": "2026-09-25",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 10.8,
-        "effectif": 28
-      },
-      "type": "dossier",
-      "coef": 2,
-      "chapitre": "d2c1"
-    },
-    {
-      "id": "1s-demo-2",
-      "classe": "1STMG",
-      "matiere": "eco",
-      "theme": "e1",
-      "titre": "Devoir n°2 — Les grandes questions économiques",
-      "date": "2026-10-16",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 11.5,
-        "effectif": 28
-      },
-      "type": "lecon",
-      "coef": 1,
-      "chapitre": "e1c1"
-    },
-    {
-      "id": "ts-demo-1",
-      "classe": "TSTMG",
-      "matiere": "droit",
-      "theme": "d5",
-      "titre": "Devoir n°1 — Le contrat de vente",
-      "date": "2026-09-22",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 9.5,
-        "effectif": 1
-      },
-      "type": "dossier",
-      "coef": 2,
-      "chapitre": "d5c1"
-    },
-    {
-      "id": "ts-demo-2",
-      "classe": "TSTMG",
-      "matiere": "eco",
-      "theme": "e6",
-      "titre": "Devoir n°2 — L'intervention de l'État",
-      "date": "2026-10-13",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 13.0,
-        "effectif": 1
-      },
-      "type": "bac",
-      "coef": 3,
-      "chapitre": "e6c1"
-    },
-    {
-      "id": "ts-droit-t1c1",
-      "classe": "TSTMG",
-      "matiere": "droit",
-      "theme": "d5",
-      "chapitre": "d5c1",
-      "type": "dossier",
-      "coef": 2,
-      "titre": "Dossier — La formation du contrat (T1 Chap. 1)",
-      "date": "2026-09-14",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 8.7,
-        "effectif": 10
-      }
-    },
-    {
-      "id": "ts-eco-t1c1",
-      "classe": "TSTMG",
-      "matiere": "eco",
-      "theme": "e6",
-      "chapitre": "e6c1",
-      "type": "dossier",
-      "coef": 2,
-      "titre": "Dossier — L'intervention de l'État (Éco T1, TEST)",
-      "date": "2026-09-21",
-      "note_max": 20,
-      "stats": {
-        "moyenne": 11.8,
-        "effectif": 9
-      }
-    },
-    {
-      "id": "ts-droit-t3c1",
-      "classe": "TSTMG",
-      "matiere": "droit",
-      "theme": "d7",
-      "titre": "Droit — Le contrat de travail (Thème 3, chap. 1)",
-      "date": "2026-07-08",
-      "note_max": 20,
-      "type": "dossier",
-      "coef": 2,
-      "chapitre": "d7c1",
-      "stats": {
-        "moyenne": 11.8,
-        "effectif": 9
-      }
-    }
-  ],
+  "devoirs": [],
   "chapitres": {
-    "1STMG": [
-      {
-        "id": "d2c1",
-        "theme": "d2",
-        "titre": "Le litige et sa résolution",
-        "fiche": null,
-        "fiche_visible": true
-      },
-      {
-        "id": "e1c1",
-        "theme": "e1",
-        "titre": "Les grandes questions économiques",
-        "fiche": null,
-        "fiche_visible": false
-      }
-    ],
+    "1STMG": [],
     "TSTMG": [
       {
         "id": "d5c1",
         "theme": "d5",
         "titre": "La formation du contrat",
         "fiche": null,
-        "fiche_visible": true
-      },
-      {
-        "id": "e6c1",
-        "theme": "e6",
-        "titre": "L'intervention de l'État",
-        "fiche": null,
-        "fiche_visible": true
+        "fiche_visible": false
       },
       {
         "id": "d7c1",
         "theme": "d7",
         "titre": "Le contrat de travail",
         "fiche": null,
-        "fiche_visible": true
+        "fiche_visible": false
       }
     ]
   },
