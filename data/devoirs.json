@@ -96,20 +96,6 @@
     "1STMG": [],
     "TSTMG": [
       {
-        "id": "d5c1",
-        "theme": "d5",
-        "titre": "La formation du contrat",
-        "fiche": null,
-        "fiche_visible": false
-      },
-      {
-        "id": "d7c1",
-        "theme": "d7",
-        "titre": "Le contrat de travail",
-        "fiche": null,
-        "fiche_visible": false
-      },
-      {
         "id": "e6c1",
         "theme": "e6",
         "titre": "L'intervention de l'État",
