@@ -108,6 +108,13 @@
         "titre": "Le contrat de travail",
         "fiche": null,
         "fiche_visible": false
+      },
+      {
+        "id": "e6c1",
+        "theme": "e6",
+        "titre": "L'intervention de l'État",
+        "fiche": null,
+        "fiche_visible": false
       }
     ]
   },

@@ -7,6 +7,9 @@ tickets_codes_*.html
 resultats_app.json
 **/resultats_*.json
 
+# Supports de cours (générateurs docx des livrets/cahiers), non publiés
+chapitres/
+
 # Divers
 .DS_Store
 __pycache__/
