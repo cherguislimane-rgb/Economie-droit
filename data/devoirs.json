@@ -1,11 +1,11 @@
 {
   "classes": {
     "1STMG": {
-      "nom": "Première STMG",
+      "nom": "Première STMG 2",
       "accent": "#F2A65A"
     },
     "TSTMG": {
-      "nom": "Terminale STMG",
+      "nom": "Terminale STMG 1",
       "accent": "#E8735A"
     }
   },
