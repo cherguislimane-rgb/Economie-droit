@@ -22,6 +22,7 @@ import json
 import sys
 from datetime import date
 from pathlib import Path
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # accents lisibles dans le terminal Windows
 
 RACINE = Path(__file__).resolve().parent.parent
 DEVOIRS_JSON = RACINE / "data" / "devoirs.json"

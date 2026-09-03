@@ -8,16 +8,19 @@ corriger les copies d'un devoir, puis publier les résultats dans les données d
 
 ```
 mes-copies/
-├── index.html, app/, manifest.json, sw.js, icons/   ← l'application (publiée)
+├── index.html, app/, prof/, manifest.json, sw.js, icons/   ← l'application (publiée)
 ├── data/                                            ← données de l'app (publiées)
-│   ├── devoirs.json
+│   ├── devoirs.json, capacites.json
 │   └── eleves/<code>.json
 ├── scripts/                                         ← outils de l'app
-│   ├── generate_codes.py
-│   └── update_app_data.py
-├── codes_prives_1STMG.csv / codes_prives_TSTMG.csv  ← PRIVÉS (jamais publiés)
+│   ├── generate_codes.py, tickets_codes.py
+│   ├── update_app_data.py
+│   └── exemple_resultats.json                       ← format attendu par update_app_data.py
+├── liste_eleves_*.csv, codes_prives_*.csv           ← PRIVÉS (jamais publiés)
+├── sel_prive.txt, tickets_codes_*.html              ← PRIVÉS (jamais publiés)
+├── chapitres/<id>/                                  ← PRIVÉ : générateurs des livrets de cours
 └── corrections/                                     ← PRIVÉ (jamais publié)
-    └── <un sous-dossier par devoir>/
+    └── <id du chapitre, ex. e6c1>/                  ← un sous-dossier par devoir
         ├── CLAUDE.md        ← le workflow détaillé de correction : LIS-LE ET SUIS-LE
         ├── bareme.json, devoir.json, sujet/, corrige/, copies/, ...
         └── sortie/resultats_app.json   ← produit en fin de correction
@@ -29,6 +32,12 @@ Le dossier `corrections/` et les fichiers `codes_prives_*.csv` contiennent des n
 d'élèves. Ils ne doivent JAMAIS être poussés sur GitHub ni copiés dans `data/`
 (le `.gitignore` les exclut). Les seules données publiées sont anonymisées par
 `update_app_data.py` (codes à 6 caractères).
+
+## Règle de sécurité des fichiers (copies/)
+
+Ne JAMAIS supprimer par motif générique (`rm *.pdf`, etc.) dans `copies/`. Le scan
+source est intouchable : le déplacer dans `copies/brut/` AVANT tout nettoyage ; ne
+supprimer nommément que les fichiers qu'on a soi-même créés.
 
 ## Workflow complet d'un devoir
 
@@ -82,7 +91,8 @@ Si le dossier n'est pas encore un dépôt git relié au repo GitHub du professeu
 
 ## Pour créer le dossier d'un nouveau devoir
 
-Duplique le dossier de devoir le plus récent de `corrections/`, puis, à partir du nouveau
+Duplique le dossier de devoir le plus récent de `corrections/` en le nommant par l'id du
+chapitre (ex. `corrections/d6c1/`), puis, à partir du nouveau
 sujet et du corrigé fournis par le professeur : régénère `bareme.json` (mêmes conventions : chaque question porte `capacite` (id du référentiel data/capacites.json) et `transversales` ;
 checklists chiffrées dont la somme vaut exactement la note_max de chaque question, total 20,
 variantes de notation) et `devoir.json` (nouvel `id` unique, `type` dossier/lecon/bac, `coef` fixé par le professeur, `chapitre` existant ou à créer dans le bloc chapitres, bon `theme` parmi ceux de

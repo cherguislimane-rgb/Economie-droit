@@ -1,10 +1,13 @@
 {
   "devoir": {
-    "id": "ts-dv3",
+    "id": "ts-d6c1-dossier",
     "classe": "TSTMG",
     "matiere": "droit",
     "theme": "d6",
-    "titre": "Devoir n°3 — La responsabilité civile",
+    "chapitre": "d6c1",
+    "type": "dossier",
+    "coef": 2,
+    "titre": "Dossier — La responsabilité civile (T2 Chap. 1)",
     "date": "2026-11-20",
     "note_max": 20
   },
@@ -20,38 +23,60 @@
           "intitule": "Qualification juridique des faits",
           "points": 3,
           "points_max": 4,
-          "commentaire": "Bonne traduction des faits en vocabulaire juridique. Le terme « gardien de la chose » devait apparaître."
+          "commentaire": "Bonne traduction des faits en vocabulaire juridique. Le terme « gardien de la chose » devait apparaître.",
+          "reponse_eleve": "M. Martin est responsable car c'est lui qui avait la chose au moment des faits.",
+          "capacite": "d6-2",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "M. Martin est le gardien de la chose (usage, direction, contrôle) : sa responsabilité du fait des choses est engagée."
         },
         {
           "question": "Q2",
           "intitule": "Argumentation de la victime (syllogisme)",
           "points": 4.5,
           "points_max": 6,
-          "commentaire": "Syllogisme complet et bien structuré. La règle gagnerait à être citée plus précisément."
+          "commentaire": "Syllogisme complet et bien structuré. La règle gagnerait à être citée plus précisément.",
+          "reponse_eleve": "La règle dit que le gardien est responsable. M. Martin est le gardien. Donc il est responsable.",
+          "capacite": "d6-5",
+          "transversales": [
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Majeure : art. 1242 al. 1 C. civ. ; mineure : M. Martin est gardien ; conclusion : il doit réparer le dommage."
         }
       ]
     },
     {
       "code": "k7m2p9",
       "note": 9,
-      "pdf": "pdfs/ts-dv3/k7m2p9.pdf",
+      "pdf": "pdfs/ts-d6c1-dossier/k7m2p9.pdf",
       "retours": [
         {
           "question": "Q1",
           "intitule": "Qualification juridique des faits",
           "points": 1.5,
           "points_max": 4,
-          "commentaire": "Tu racontes les faits sans les qualifier juridiquement. Reprends la fiche méthode : chaque élément factuel doit être traduit en catégorie juridique."
+          "commentaire": "Tu racontes les faits sans les qualifier juridiquement. Reprends la fiche méthode : chaque élément factuel doit être traduit en catégorie juridique.",
+          "reponse_eleve": "Le vase est tombé et a cassé la voiture.",
+          "capacite": "d6-2",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "M. Martin est le gardien de la chose (usage, direction, contrôle) : sa responsabilité du fait des choses est engagée."
         }
       ]
     }
   ],
   "_documentation": {
-    "devoir.id": "Identifiant unique et stable, ex. '1s-dv1', 'ts-dv3'",
+    "devoir.id": "Identifiant unique et stable, ex. 'ts-d6c1-dossier', '1s-e2c1-lecon'",
     "devoir.matiere": "'droit' ou 'eco'",
     "devoir.theme": "id d'un thème de data/devoirs.json (d1..d8, e1..e9)",
+    "devoir.chapitre": "id d'un chapitre du bloc chapitres de data/devoirs.json (ex. d6c1) — à créer s'il n'existe pas",
+    "devoir.type": "'dossier', 'lecon' ou 'bac' (OBLIGATOIRE)",
+    "devoir.coef": "coefficient du devoir dans les moyennes pondérées, fixé par le professeur (défaut 1)",
     "resultats[].identification": "Soit 'code' directement, soit 'nom'+'prenom' avec l'option --codes",
     "resultats[].pdf": "Chemin relatif à la racine du repo vers la copie annotée, ou null",
-    "resultats[].retours": "Repris de la checklist du barème : un objet par question, tutoiement, pas d'appréciation générale"
+    "resultats[].retours": "Repris de la checklist du barème : un objet par question, tutoiement, pas d'appréciation générale",
+    "retours[].capacite / transversales / reponse_attendue / reponse_eleve": "Optionnels, republiés tels quels vers l'app. capacite = id thématique (ex. d6-2), transversales = ids t-qualif, t-syllogisme, t-argu, t-doc, t-calc, t-vocab, t-redaction (data/capacites.json) ; reponse_eleve = extrait de la transcription"
   }
 }
