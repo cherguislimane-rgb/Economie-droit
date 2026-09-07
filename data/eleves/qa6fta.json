@@ -18,8 +18,8 @@
           "reponse_eleve": "ligne 1 — intervention : « Aides de l'État » | case : providence | justification : « L'État a réagi sur les charges que payent les petites entreprises en les baissant » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « la sécurité et la justice ont aidé Nadia en jugeant l'auteur des faits » ligne 3 — intervention : « URSSAF » | case : providence | justification : « Grâce à l'URSSAF Nadia a eu un report de paiement ce qui lui a aidé à négocier son contrat »",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
-            "t-doc"
+            "t-doc",
+            "t-vocab"
           ],
           "reponse_attendue": "Plafonnement du prix de l'électricité à 280 €/MWh → État-providence (soutien économique, fonction de régulation). Report du paiement des cotisations à l'Urssaf → État-providence. Plainte prise par le commissariat / jugement de l'auteur du cambriolage → État-gendarme (sécurité, justice = fonctions régaliennes)."
         },
@@ -45,7 +45,7 @@
           "reponse_eleve": "a: gendarme b: providence c: gendarme d: providence e: gendarme f: providence",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a gendarme · b providence · c gendarme · d providence · e gendarme · f providence."
         },
@@ -71,8 +71,7 @@
           "reponse_eleve": "Car l'État gendarme s'occupe uniquement de la sécurité elle ne peut donc pas être sur les aides sociales, ou bien l'URSSAF",
           "capacite": "e6-1",
           "transversales": [
-            "t-argu",
-            "t-syllogisme"
+            "t-argu"
           ],
           "reponse_attendue": "Règle : un État-gendarme se limite aux fonctions régaliennes (justice, police, défense) et n'intervient pas dans l'économie. Application : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (fonction de régulation), hors du champ régalien. Conclusion : seul un État-providence pouvait aider Nadia ; un État-gendarme n'aurait traité que le cambriolage. La simple reprise des définitions sans développement personnel appliqué à Nadia ne crédite rien."
         },
@@ -85,7 +84,7 @@
           "reponse_eleve": "a: interventionniste b: interventionniste c: liberale d: liberale e: interventionniste f: liberale",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a libérale · b interventionniste · c libérale · d interventionniste · e libérale · f interventionniste."
         },
@@ -98,7 +97,6 @@
           "reponse_eleve": "FDJ — État : desengage | statut : — ADP — État : desengage | statut : DOUBLE (publique et semi-publique cochées) EDF — État : engage | statut : publique Bull — État : engage | statut : privee",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
             "t-doc"
           ],
           "reponse_attendue": "FDJ : l'État se désengage → entreprise semi-publique (≈ 20 % du capital). ADP : aucune opération, la privatisation est abandonnée → reste semi-publique (50,6 %). EDF : l'État s'engage → entreprise publique (100 %). Bull : l'État s'engage → entreprise publique (100 %)."
@@ -140,7 +138,6 @@
           "reponse_eleve": "a — case : DOUBLE (coche sur impôt, croix sur cotisation) | justification : « cette dépense est directement déduite [ILLISIBLE] nos impôts » b — case : impot | justification : « Ce prélèvement est directement enlevé de notre revenu » c — case : cotisation | justification : « Les prélèvements à la source sont payem pour la sécu sociale (carte vitale) ou autres aides » d — case : impot | justification : « La TVA est de l'impôt car cet argent va dans les poches de l'État »",
           "capacite": "e6-2",
           "transversales": [
-            "t-qualif",
             "t-vocab"
           ],
           "reponse_attendue": "a cotisation sociale (ouvre droit à la retraite et au chômage) · b impôt (classée impôt par l'Insee : finance la protection sociale mais sans droit individuel en contrepartie) · c impôt sur le revenu (sans contrepartie directe) · d impôt (TVA, sans contrepartie)."
@@ -238,25 +235,17 @@
       "pts": 6.25,
       "max": 14.5
     },
-    "t-qualif": {
-      "pts": 4.25,
-      "max": 7.5
-    },
     "t-doc": {
       "pts": 2.5,
       "max": 5.0
     },
     "t-vocab": {
-      "pts": 1.75,
-      "max": 5.0
+      "pts": 4.75,
+      "max": 9.5
     },
     "t-argu": {
       "pts": 3.0,
       "max": 8.5
-    },
-    "t-syllogisme": {
-      "pts": 1.0,
-      "max": 1.5
     },
     "t-calc": {
       "pts": 1.75,

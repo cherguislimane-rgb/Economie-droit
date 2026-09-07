@@ -18,8 +18,8 @@
           "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Baisse le prix d'électricité des très petites [ILLISIBLE] » | case : — | justification : « la facture d'électricité de radio à forte[ILLISIBLE] augmenter au [ILLISIBLE] [ILLISIBLE] d'environ 18 00€ à plus de 6 000 » ligne 2 — intervention : « recevoir un rapport du paiement des cotisations de l'URSSAF » | case : providence | justification : « j'ai pu demander à l'URSSAF un rapport du paiement de mes cotisations sociales » ligne 3 — intervention : « intervention du commissariat par rapport à ma [ILLISIBLE] » | case : gendarme | justification : « j'ai été cambriolé, c'est le commissariat qui a pris ma [ILLISIBLE] »",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
-            "t-doc"
+            "t-doc",
+            "t-vocab"
           ],
           "reponse_attendue": "Plafonnement du prix de l'électricité à 280 €/MWh → État-providence (soutien économique, fonction de régulation). Report du paiement des cotisations à l'Urssaf → État-providence. Plainte prise par le commissariat / jugement de l'auteur du cambriolage → État-gendarme (sécurité, justice = fonctions régaliennes)."
         },
@@ -45,7 +45,7 @@
           "reponse_eleve": "a: gendarme b: providence c: gendarme d: providence e: providence (l'autre raturée) f: providence",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a gendarme · b providence · c gendarme · d providence · e gendarme · f providence."
         },
@@ -71,8 +71,7 @@
           "reponse_eleve": "(au crayon, pâle) un État gendarme ne peut pas aider Nadia car Nadia [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] peut Seulement [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE]",
           "capacite": "e6-1",
           "transversales": [
-            "t-argu",
-            "t-syllogisme"
+            "t-argu"
           ],
           "reponse_attendue": "Règle : un État-gendarme se limite aux fonctions régaliennes (justice, police, défense) et n'intervient pas dans l'économie. Application : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (fonction de régulation), hors du champ régalien. Conclusion : seul un État-providence pouvait aider Nadia ; un État-gendarme n'aurait traité que le cambriolage. La simple reprise des définitions sans développement personnel appliqué à Nadia ne crédite rien."
         },
@@ -85,7 +84,7 @@
           "reponse_eleve": "a: interventionniste b: liberale c: interventionniste d: liberale e: interventionniste f: interventionniste",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a libérale · b interventionniste · c libérale · d interventionniste · e libérale · f interventionniste."
         },
@@ -98,7 +97,6 @@
           "reponse_eleve": "FDJ — État : desengage | statut : semi-publique ADP — État : — | statut : semi-publique EDF — État : engage | statut : publique Bull — État : engage | statut : publique",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
             "t-doc"
           ],
           "reponse_attendue": "FDJ : l'État se désengage → entreprise semi-publique (≈ 20 % du capital). ADP : aucune opération, la privatisation est abandonnée → reste semi-publique (50,6 %). EDF : l'État s'engage → entreprise publique (100 %). Bull : l'État s'engage → entreprise publique (100 %)."
@@ -140,7 +138,6 @@
           "reponse_eleve": "[PAGE ABSENTE DU CAHIER]",
           "capacite": "e6-2",
           "transversales": [
-            "t-qualif",
             "t-vocab"
           ],
           "reponse_attendue": "a cotisation sociale (ouvre droit à la retraite et au chômage) · b impôt (classée impôt par l'Insee : finance la protection sociale mais sans droit individuel en contrepartie) · c impôt sur le revenu (sans contrepartie directe) · d impôt (TVA, sans contrepartie)."
@@ -238,25 +235,17 @@
       "pts": 4.5,
       "max": 14.5
     },
-    "t-qualif": {
-      "pts": 4.17,
-      "max": 7.5
-    },
     "t-doc": {
       "pts": 3.0,
       "max": 5.0
     },
     "t-vocab": {
-      "pts": 0.42,
-      "max": 5.0
+      "pts": 2.67,
+      "max": 9.5
     },
     "t-argu": {
       "pts": 0.0,
       "max": 8.5
-    },
-    "t-syllogisme": {
-      "pts": 0.0,
-      "max": 1.5
     },
     "t-calc": {
       "pts": 0.42,

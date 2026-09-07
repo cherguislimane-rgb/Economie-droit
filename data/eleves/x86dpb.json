@@ -18,8 +18,8 @@
           "reponse_eleve": "ligne 1 — intervention : « Plafonné à 280 le mégawattheure des factures (l'URSSAF qui donne un report du paiement) (le commissariat a pris la plainte) » [les deux parenthèses sont reliées par des flèches aux lignes 2 et 3] | case : gendarme | justification : « il a fixé une limite des fonctions » ligne 2 — intervention : « [flèche depuis la ligne 1 : (l'urssaf qui donne un report du paiement)] » | case : DOUBLE (providence entourée) | justification : « il lève l'impôt (report du paiement des cotisations sociales) » ligne 3 — intervention : « [flèche depuis la ligne 1 : (le commissariat a pris la plainte)] » | case : gendarme | justification : « il fixe les règles et fait respecter la loi et […]",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
-            "t-doc"
+            "t-doc",
+            "t-vocab"
           ],
           "reponse_attendue": "Plafonnement du prix de l'électricité à 280 €/MWh → État-providence (soutien économique, fonction de régulation). Report du paiement des cotisations à l'Urssaf → État-providence. Plainte prise par le commissariat / jugement de l'auteur du cambriolage → État-gendarme (sécurité, justice = fonctions régaliennes)."
         },
@@ -45,7 +45,7 @@
           "reponse_eleve": "a: gendarme b: providence c: gendarme d: providence e: gendarme f: providence",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a gendarme · b providence · c gendarme · d providence · e gendarme · f providence."
         },
@@ -71,8 +71,7 @@
           "reponse_eleve": "(puisqu'elle ne pratique aucune fonction qui oblige l'intervention de l'État providence)",
           "capacite": "e6-1",
           "transversales": [
-            "t-argu",
-            "t-syllogisme"
+            "t-argu"
           ],
           "reponse_attendue": "Règle : un État-gendarme se limite aux fonctions régaliennes (justice, police, défense) et n'intervient pas dans l'économie. Application : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (fonction de régulation), hors du champ régalien. Conclusion : seul un État-providence pouvait aider Nadia ; un État-gendarme n'aurait traité que le cambriolage. La simple reprise des définitions sans développement personnel appliqué à Nadia ne crédite rien."
         },
@@ -85,7 +84,7 @@
           "reponse_eleve": "a: interventionniste b: interventionniste c: liberale d: interventionniste e: liberale f: interventionniste",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a libérale · b interventionniste · c libérale · d interventionniste · e libérale · f interventionniste."
         },
@@ -98,7 +97,6 @@
           "reponse_eleve": "FDJ — État : engage | statut : semi-publique ADP — État : engage | statut : semi-publique EDF — État : engage | statut : publique Bull — État : engage | statut : publique",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
             "t-doc"
           ],
           "reponse_attendue": "FDJ : l'État se désengage → entreprise semi-publique (≈ 20 % du capital). ADP : aucune opération, la privatisation est abandonnée → reste semi-publique (50,6 %). EDF : l'État s'engage → entreprise publique (100 %). Bull : l'État s'engage → entreprise publique (100 %)."
@@ -140,7 +138,6 @@
           "reponse_eleve": "a — case : cotisation [croix + gribouillis au-dessus de la case] | justification : « (elles f.) puisque c'est une cotisation sociale obligatoire du coup on a présence de la contrepartie » b — case : impot | justification : « elles financent la protection sociale absence de la contrepartie » c — case : impot | justification : « absence de la contrepartie puisque c'est une taxe qu'on paye à l'État » d — case : impot | justification : « puisque c'est quelque chose taxé à l'achat de produits absence de la contrepartie »",
           "capacite": "e6-2",
           "transversales": [
-            "t-qualif",
             "t-vocab"
           ],
           "reponse_attendue": "a cotisation sociale (ouvre droit à la retraite et au chômage) · b impôt (classée impôt par l'Insee : finance la protection sociale mais sans droit individuel en contrepartie) · c impôt sur le revenu (sans contrepartie directe) · d impôt (TVA, sans contrepartie)."
@@ -238,25 +235,17 @@
       "pts": 7.75,
       "max": 14.5
     },
-    "t-qualif": {
-      "pts": 5.75,
-      "max": 7.5
-    },
     "t-doc": {
       "pts": 3.0,
       "max": 5.0
     },
     "t-vocab": {
-      "pts": 3.2,
-      "max": 5.0
+      "pts": 6.45,
+      "max": 9.5
     },
     "t-argu": {
       "pts": 3.5,
       "max": 8.5
-    },
-    "t-syllogisme": {
-      "pts": 0.0,
-      "max": 1.5
     },
     "t-calc": {
       "pts": 1.75,

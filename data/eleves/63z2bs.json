@@ -18,8 +18,8 @@
           "reponse_eleve": "ligne 1 — intervention : « augmentation Nadia a repris des factures d'électricité 1 800€ → 6000€ » | case : ? [gendarme et providence cochées toutes les deux ; la croix gendarme est repassée/plus épaisse, possible rature] | justification : « Pour moi l'augmentation est logique. des prélèvements obligatoires et des augmentations [ILLISIBLE] il fixe les règles [en marge : mais Nadia utilise une grosse quantité d'électricité [ILLISIBLE] il veut augmenter] » ligne 2 — intervention : « l'État réagit (l'URSSAF) » | case : providence | justification : « l'URSSAF fait un report de paiement des cotisations l'URSSAF fait report des cotisations sociales Nadia afin qu'elle puisse renégocier son contrat […]",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
-            "t-doc"
+            "t-doc",
+            "t-vocab"
           ],
           "reponse_attendue": "Plafonnement du prix de l'électricité à 280 €/MWh → État-providence (soutien économique, fonction de régulation). Report du paiement des cotisations à l'Urssaf → État-providence. Plainte prise par le commissariat / jugement de l'auteur du cambriolage → État-gendarme (sécurité, justice = fonctions régaliennes)."
         },
@@ -45,7 +45,7 @@
           "reponse_eleve": "a: gendarme b: providence c: gendarme d: providence e: — f: gendarme",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a gendarme · b providence · c gendarme · d providence · e gendarme · f providence."
         },
@@ -71,8 +71,7 @@
           "reponse_eleve": "l'État gendarme (est un État qui se limite à ses fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés.) ça veut dire sur plan financier et sur les aides sociales ils ne peuvent rien faire car ce n'est pas leur rôle.",
           "capacite": "e6-1",
           "transversales": [
-            "t-argu",
-            "t-syllogisme"
+            "t-argu"
           ],
           "reponse_attendue": "Règle : un État-gendarme se limite aux fonctions régaliennes (justice, police, défense) et n'intervient pas dans l'économie. Application : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (fonction de régulation), hors du champ régalien. Conclusion : seul un État-providence pouvait aider Nadia ; un État-gendarme n'aurait traité que le cambriolage. La simple reprise des définitions sans développement personnel appliqué à Nadia ne crédite rien."
         },
@@ -85,7 +84,7 @@
           "reponse_eleve": "a: interventionniste b: interventionniste c: liberale d: liberale e: interventionniste f: liberale",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif"
+            "t-vocab"
           ],
           "reponse_attendue": "a libérale · b interventionniste · c libérale · d interventionniste · e libérale · f interventionniste."
         },
@@ -98,7 +97,6 @@
           "reponse_eleve": "FDJ — État : engage | statut : publique ADP — État : desengage (l'autre raturée) | statut : privee EDF — État : desengage | statut : semi-publique (l'autre raturée) Bull — État : engage | statut : privee",
           "capacite": "e6-1",
           "transversales": [
-            "t-qualif",
             "t-doc"
           ],
           "reponse_attendue": "FDJ : l'État se désengage → entreprise semi-publique (≈ 20 % du capital). ADP : aucune opération, la privatisation est abandonnée → reste semi-publique (50,6 %). EDF : l'État s'engage → entreprise publique (100 %). Bull : l'État s'engage → entreprise publique (100 %)."
@@ -140,7 +138,6 @@
           "reponse_eleve": "a — case : impot | justification : « une cotisation sociale est reliée (à tout) l'impôt finance nos aides sociales. » b — case : impot | justification : « c'est classé parmi les impôts » c — case : DOUBLE | justification : « ça représente 43,6 % du PIB il y a pas si longtemps. » d — case : DOUBLE | justification : « et liées aux impôts (tout comme : l'impôt sur le revenu, impôt sur les sociétés, CSG-CRDS, taxe foncière...) »",
           "capacite": "e6-2",
           "transversales": [
-            "t-qualif",
             "t-vocab"
           ],
           "reponse_attendue": "a cotisation sociale (ouvre droit à la retraite et au chômage) · b impôt (classée impôt par l'Insee : finance la protection sociale mais sans droit individuel en contrepartie) · c impôt sur le revenu (sans contrepartie directe) · d impôt (TVA, sans contrepartie)."
@@ -238,25 +235,17 @@
       "pts": 6.0,
       "max": 14.5
     },
-    "t-qualif": {
-      "pts": 2.75,
-      "max": 7.5
-    },
     "t-doc": {
       "pts": 2.0,
       "max": 5.0
     },
     "t-vocab": {
-      "pts": 2.75,
-      "max": 5.0
+      "pts": 5.0,
+      "max": 9.5
     },
     "t-argu": {
       "pts": 3.0,
       "max": 8.5
-    },
-    "t-syllogisme": {
-      "pts": 0.5,
-      "max": 1.5
     },
     "t-calc": {
       "pts": 0.25,
