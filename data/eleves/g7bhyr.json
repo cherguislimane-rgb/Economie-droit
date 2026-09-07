@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Trois interventions bien relevées, classées et justifiées (plafonnement financier / droit juridique et sécurité). Pour le dernier quart de point, nomme les fonctions : régaliennes pour la justice, régulation pour le plafonnement.",
-          "reponse_eleve": "ligne 1 — intervention : « L'État réagit en mettant en place un plafonnement à 280€ [ILLISIBLE] pour les très petites entreprises » | case : providence (l'autre raturée) | justification : « État-providence car l'État met en place un plafonnement financier afin de réduire les coûts du Comm[ILLISIBLE] » ligne 2 — intervention : « Report des paiements de ses cotisations autorisé par l'URSSAF » | case : providence | justification : « État-providence car il garantit un laps de temps pour le paiement » ligne 3 — intervention : « [barré : deux lignes gribouillées, illisibles] le commissariat a pris en charge sa plainte et la justice a jugé l'auteur » | case : gendarme (l'autre raturée) | […]",
+          "reponse_eleve": "ligne 1 — intervention : « L'État réagit en mettant en place un plafonnement à 280€ [ILLISIBLE] pour les très petites entreprises » | case : providence (l'autre raturée) | justification : « État-providence car l'État met en place un plafonnement financier afin de réduire les coûts du Comm[ILLISIBLE] » ligne 2 — intervention : « Report des paiements de ses cotisations autorisé par l'URSSAF » | case : providence | justification : « État-providence car il garantit un laps de temps pour le paiement » ligne 3 — intervention : « le commissariat a pris en charge sa plainte et la justice a jugé l'auteur » | case : gendarme (l'autre raturée) | justification : « État gendarme car elle exerce un droit […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est bien vu (l'État rachète la totalité des parts). Pour le régalien, il fallait le lien avec la défense et la souveraineté (dissuasion nucléaire), pas seulement l'avancée technologique.",
-          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste et de régalien car l'État rachète la totalité des parts de Bull afin de passer [barré : un mot] une étape technologique dans l'avancée de celle-ci et l'État doit aussi se préparer et soutenir une telle demande en cas de crise ou bien si elle veut réguler l'économie",
+          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste et de régalien car l'État rachète la totalité des parts de Bull afin de passer une étape technologique dans l'avancée de celle-ci et l'État doit aussi se préparer et soutenir une telle demande en cas de crise ou bien si elle veut réguler l'économie",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La part (57,3) est juste, mais son unité est le %, pas le Md€. Le solde public est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit ; ce n'est pas PIB − dépenses. Sur la capacité *distinguer le déficit public de la dette publique*, c'est ce calcul qui compte.",
-          "reponse_eleve": "[barré : 2991,1] 1714,1 / 2991,1 × 100 = 57,3 Md€ (part des dépenses publiques dans le PIB) 2991,1 − 1714,1 = 1277 Md€ (Solde public)",
+          "reponse_eleve": "1714,1 / 2991,1 × 100 = 57,3 Md€ (part des dépenses publiques dans le PIB) 2991,1 − 1714,1 = 1277 Md€ (Solde public)",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

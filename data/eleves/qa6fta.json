@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées. Les justifications décrivent l'aide reçue ; il fallait donner le critère : régalien (sécurité, justice) ou intervention économique et sociale (fonction de régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « Aides de l'État » | case : providence | justification : « L'État a [barré : régi] réagi sur les charges que payent les petites entreprises en les baissant » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « la sécurité et [barré : est] la justice ont aidé Nadia en jugeant l'auteur des faits » ligne 3 — intervention : « URSSAF » | case : providence | justification : « Grâce à l'URSSAF Nadia a eu un report de paiement ce qui lui a aidé à négocier son contrat »",
+          "reponse_eleve": "ligne 1 — intervention : « Aides de l'État » | case : providence | justification : « L'État a réagi sur les charges que payent les petites entreprises en les baissant » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « la sécurité et la justice ont aidé Nadia en jugeant l'auteur des faits » ligne 3 — intervention : « URSSAF » | case : providence | justification : « Grâce à l'URSSAF Nadia a eu un report de paiement ce qui lui a aidé à négocier son contrat »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée d'exclusivité est là. Mais les aides sociales (CAF) ne sont pas régaliennes : elles relèvent de l'État-providence. Exemples attendus : justice, police, défense (accepter monnaie, impôt).",
-          "reponse_eleve": "Les fonctions régaliennes. sont les activités que seul l'État peut faire. [barré : Assurer la] Exemple : (Assurer la sécurité) Aides sociales (CAF). Les taxes des impôts.",
+          "reponse_eleve": "Les fonctions régaliennes. sont les activités que seul l'État peut faire. Exemple : (Assurer la sécurité) Aides sociales (CAF). Les taxes des impôts.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -137,7 +137,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Deux cases justes. Les cotisations retraite/chômage sont des cotisations (elles ouvrent un droit) ; le prélèvement à la source est l'impôt sur le revenu (sans contrepartie). C'est ce critère de la contrepartie qu'il fallait utiliser dans les justifications. Sur la capacité *distinguer le déficit public de la dette publique*, revois impôt / cotisation.",
-          "reponse_eleve": "a — case : DOUBLE (coche sur impôt, croix sur cotisation) | justification : « cette dépense est directement déduite [ILLISIBLE] nos impôts » b — case : impot | justification : « [barré : Cette] Ce prélèvement est directement enlevé de notre revenu » c — case : cotisation | justification : « Les prélèvements à la source sont payem pour la sécu sociale (carte vitale) ou autres aides » d — case : impot | justification : « La TVA est de [barré : l'impôt] l'impôt car cet argent va dans les poches de l'État »",
+          "reponse_eleve": "a — case : DOUBLE (coche sur impôt, croix sur cotisation) | justification : « cette dépense est directement déduite [ILLISIBLE] nos impôts » b — case : impot | justification : « Ce prélèvement est directement enlevé de notre revenu » c — case : cotisation | justification : « Les prélèvements à la source sont payem pour la sécu sociale (carte vitale) ou autres aides » d — case : impot | justification : « La TVA est de l'impôt car cet argent va dans les poches de l'État »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme est compris : le flux a diminué mais existe toujours, donc le stock augmente. Appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Le flux a diminué mais il [barré : ILLISIBLE] est toujours présent cela explique que le stock augmente",
+          "reponse_eleve": "Le flux a diminué mais il est toujours présent cela explique que le stock augmente",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Bonne réponse : l'endettement s'auto-entretient et cela restreint l'action de l'État. Tu pouvais chiffrer : 64,7 Md€ d'intérêts, 42 % du déficit 2025.",
-          "reponse_eleve": "C'est un problème pour les finances publiques car elle restreint l'activité de l'État pour accroître le [barré : pays] pays elle la rend aussi faible car l'État doit emprunter de l'argent donc elle se met encore plus endettée ou alors. [barré : elle] l'État augmente les charges donc le peuple est mécontent",
+          "reponse_eleve": "C'est un problème pour les finances publiques car elle restreint l'activité de l'État pour accroître le pays elle la rend aussi faible car l'État doit emprunter de l'argent donc elle se met encore plus endettée ou alors. l'État augmente les charges donc le peuple est mécontent",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 0.5,
           "points_max": 3.5,
           "commentaire": "La position est posée mais rien ne l'appuie. Attendu : deux arguments appuyés sur le dossier (la dette à 115,6 % du PIB et ses intérêts, l'écart de 7,4 points avec la zone euro…), du vocabulaire du chapitre et une conclusion. Cette question vaut 3,5 points : garde-lui du temps.",
-          "reponse_eleve": "[barré : ILLISIBLE] oui l'État doit minimiser ses interventions en privilégiant les plus démunis et favoriser les interventions les plus importantes cela réduira lourdement [barré : les] les dettes actives",
+          "reponse_eleve": "oui l'État doit minimiser ses interventions en privilégiant les plus démunis et favoriser les interventions les plus importantes cela réduira lourdement les dettes actives",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

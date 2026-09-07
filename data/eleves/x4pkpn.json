@@ -15,7 +15,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Le plafonnement et la justice sont bien classés. Erreur sur l'URSSAF : reporter les cotisations est une aide économique et sociale, donc État-providence, pas gendarme. Les justifications doivent donner le critère (régalien / intervention économique) plutôt que des chiffres.",
-          "reponse_eleve": "ligne 1 — intervention : « [barré : Baisse du prix d'électricité pour les TPE (280€ / mois)] Aide pour les TPE » | case : providence | justification : « L'électricité (facture) passe de 1800€ - 6000€ par mois à 280€ le mégawattheure » ligne 2 — intervention : « Aide de l'Urssaf à payer les cotisations » | case : gendarme | justification : « L'État fournit l'Urssaf et laisse l'individu [barré : ILLISIBLE] pour qu'il se règle avec eux. » ligne 3 — intervention : « [barré : Poursuite en] Justice / Lois » | case : gendarme | justification : « L'État laisse le reste à l'individu [barré : et ne] pour qu'il se règle avec la justice. »",
+          "reponse_eleve": "ligne 1 — intervention : « Aide pour les TPE » | case : providence | justification : « L'électricité (facture) passe de 1800€ - 6000€ par mois à 280€ le mégawattheure » ligne 2 — intervention : « Aide de l'Urssaf à payer les cotisations » | case : gendarme | justification : « L'État fournit l'Urssaf et laisse l'individu pour qu'il se règle avec eux. » ligne 3 — intervention : « Justice / Lois » | case : gendarme | justification : « L'État laisse le reste à l'individu pour qu'il se règle avec la justice. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là, avec l'appui du document (unique actionnaire, souveraineté). Bien.",
-          "reponse_eleve": "- Interventionniste car l'État soutient la marque en durant sa crise pour régulariser l'économie d'un côté parce que la marque Bull permet l'évolution du PIB du pays. - Régalien car seul l'État peut exercer [barré : parcequ'il à la (avec « elles ont » écrit au-dessus)] [barré : nouse] parce qu'elles engagent la souveraineté. Ici, l'État finalise le rachat de l'activité et devient unique actionnaire",
+          "reponse_eleve": "- Interventionniste car l'État soutient la marque en durant sa crise pour régulariser l'économie d'un côté parce que la marque Bull permet l'évolution du PIB du pays. - Régalien car seul l'État peut exercer parce qu'elles engagent la souveraineté. Ici, l'État finalise le rachat de l'activité et devient unique actionnaire",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Le solde est juste (− 152,5 Md€) mais il fallait le nommer : c'est un déficit, pas seulement un « emprunt ». Pour la part, on divise par le PIB, pas par recettes + dépenses : 1 714,1 ÷ 2 991,1 × 100 = 57,3 %. Sur la capacité *distinguer le déficit public de la dette publique*, revois la formule de la part.",
-          "reponse_eleve": "a. 1714,1 + 1561,6 = 3275,7 = 1714,1 ÷ 3275,7 = 0,523 × 100 = 52,3 % b. Solde public = recettes - dépenses = 1561,6 - 1714,1 = - 152,5 ↳ Emprunt [barré : Flux] = - 152,5 [barré : %] Md €",
+          "reponse_eleve": "a. 1714,1 + 1561,6 = 3275,7 = 1714,1 ÷ 3275,7 = 0,523 × 100 = 52,3 % b. Solde public = recettes - dépenses = 1561,6 - 1714,1 = - 152,5 ↳ Emprunt = - 152,5 Md €",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 0.25,
           "points_max": 2,
           "commentaire": "Les mots flux et stock sont là, mais le mécanisme est inexact : ce ne sont pas les intérêts qui expliquent le paradoxe. Le déficit est un flux annuel : tant qu'il existe, même réduit (5,8 → 5,1 %), l'État emprunte et la somme s'ajoute au stock de dette (112,6 → 115,6 %).",
-          "reponse_eleve": "Même si le déficit public diminue, les intérêts des [barré : dettet] dettes publiques font qu'augmenter. S'il n'y avait pas [barré : ILLISIBLE] les intérêts, les flux et les stocks [barré : seraien] seraient au même niveau.",
+          "reponse_eleve": "Même si le déficit public diminue, les intérêts des dettes publiques font qu'augmenter. S'il n'y avait pas les intérêts, les flux et les stocks seraient au même niveau.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'effet boule de neige est vu (plus d'emprunts, plus d'intérêts) et tu cites les chiffres. Ajoute la conséquence concrète : 64,7 Md€, c'est 42 % du déficit 2025, de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "La hausse des intérêts de la dette est un problème pour les finances publiques car l'État a l'habitude d'emprunter, donc plus il emprunte, plus il y a des intérêts à rembourser. Ici, avec une augmentation de 11,2 % [barré : sur] en plus des 64,7 Md€ en 2025, est un gros désavantage pour l'État, qui lui continue d'emprunter. De plus, ça a un effet sur le PIB du pays.",
+          "reponse_eleve": "La hausse des intérêts de la dette est un problème pour les finances publiques car l'État a l'habitude d'emprunter, donc plus il emprunte, plus il y a des intérêts à rembourser. Ici, avec une augmentation de 11,2 % en plus des 64,7 Md€ en 2025, est un gros désavantage pour l'État, qui lui continue d'emprunter. De plus, ça a un effet sur le PIB du pays.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 3.5,
           "points_max": 3.5,
           "commentaire": "Argumentation de niveau 4 : position tenue de l'accroche à la conclusion, deux arguments distincts appuyés sur le dossier (intérêts 64,7 Md€ + 11,2 % ; prélèvements 43,6 % du PIB, Keynes), vocabulaire précis, structure visible. Une réserve : « sans les intérêts, flux et stock seraient au même niveau » est faux, la dette augmenterait quand même à cause du déficit. Le brouillon au dos montre une bonne méthode.",
-          "reponse_eleve": "(feuille libre, page 8, titrée « Q14 ») Un État endetté est un État solide. Dans un premier temps, le fait d'emprunter beaucoup ne signifie pas l'impossibilité à rembourser, au contraire, ça signifie que l'État est solide, capable à rembourser, sinon il serait même pas endetté et ça signifie une confiance envers cet État, sinon personne aurait donné cette somme. De plus, l'État à la place de réduire les interventions, il doit chercher des solutions pour procéder au remboursement de la dette. [barré : Reti] Cotiser plus d'impôts aux riches, donner moins d'allocations, [barré : ou] investir ou produire différentes richesses. Cette augmentation de dettes est due aussi aux intérêts (64,7 Md€ + […]",
+          "reponse_eleve": "(feuille libre, page 8, titrée « Q14 ») Un État endetté est un État solide. Dans un premier temps, le fait d'emprunter beaucoup ne signifie pas l'impossibilité à rembourser, au contraire, ça signifie que l'État est solide, capable à rembourser, sinon il serait même pas endetté et ça signifie une confiance envers cet État, sinon personne aurait donné cette somme. De plus, l'État à la place de réduire les interventions, il doit chercher des solutions pour procéder au remboursement de la dette. Cotiser plus d'impôts aux riches, donner moins d'allocations, investir ou produire différentes richesses. Cette augmentation de dettes est due aussi aux intérêts (64,7 Md€ + 11,2% d'intérêts). S'il n'y […]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "L'URSSAF (protection sociale) et police / justice (sécurité intérieure) sont bien classés et justifiés, deux lignes pour le commissariat et la justice, c'est accepté. Il manquait le plafonnement du prix de l'électricité, intervention économique de l'État-providence (régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « URSSAF [barré : aide] » | case : providence | justification : « Car il en va de la protection sociale » ligne 2 — intervention : « COMMISSARIAT » | case : gendarme | justification : « Car [barré : il en va] c'est la sécurité intérieure » ligne 3 — intervention : « Justice » | case : gendarme | justification : « Car la justice est dans l'État-gendarme »",
+          "reponse_eleve": "ligne 1 — intervention : « URSSAF » | case : providence | justification : « Car il en va de la protection sociale » ligne 2 — intervention : « COMMISSARIAT » | case : gendarme | justification : « Car c'est la sécurité intérieure » ligne 3 — intervention : « Justice » | case : gendarme | justification : « Car la justice est dans l'État-gendarme »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -137,7 +137,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Trois cases justes. La CSG-CRDS est classée impôt : elle finance la protection sociale mais n'ouvre aucun droit à celui qui la paie. C'est ce critère de la contrepartie (droit à une prestation ou non) qu'il fallait mettre dans les justifications, pas « avant / après le net ».",
-          "reponse_eleve": "a — case : cotisation | justification : « Car [barré : il est] car une cotisation avant (car net avant impôt) » b — case : cotisation [croix + trait diagonal supplémentaire] | justification : « Car c'est une cotisation avant (net avant impôt) » c — case : impot [croix + trait diagonal supplémentaire] | justification : « Car il est après le net avant impôt (Donc impôt) » d — case : impot ? [croix + grand trait diagonal débordant de la case] | justification : « Car c'est la Taxe à la valeur ajoutée (20%) impôt sur les produits »",
+          "reponse_eleve": "a — case : cotisation | justification : « Car car une cotisation avant (car net avant impôt) » b — case : cotisation [croix + trait diagonal supplémentaire] | justification : « Car c'est une cotisation avant (net avant impôt) » c — case : impot [croix + trait diagonal supplémentaire] | justification : « Car il est après le net avant impôt (Donc impôt) » d — case : impot ? [croix + grand trait diagonal débordant de la case] | justification : « Car c'est la Taxe à la valeur ajoutée (20%) impôt sur les produits »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "La formule de la part est posée (1 714,1 ÷ 2 991,1 × 100) mais pas calculée : 57,3 %. Sans calculatrice, une division posée suffit. Le solde public est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit.",
-          "reponse_eleve": "(au crayon, presque tout barré) [barré : PIB 2025 = 2991,1 Md €] [barré : Depense Publique = 1714,1 = a %] [barré : Solde publique = 1561,6 = b %] [barré : 2991,1 = 100 %] [barré : Pib] [barré : 2991,1 Md ÷ 1714,1 ×] [entouré] 1714,1 ÷ 2991,1 × 100 = [barré : ILLISIBLE] [entouré] 1561,6 ÷ 2991 × 100 = (au stylo rouge, en haut à droite) Pas de Calculatrice (au stylo bleu, à droite) 1. Pourcent de PIB",
+          "reponse_eleve": "(au crayon, presque tout barré) [entouré] 1714,1 ÷ 2991,1 × 100 = [entouré] 1561,6 ÷ 2991 × 100 = (au stylo rouge, en haut à droite) Pas de Calculatrice (au stylo bleu, à droite) 1. Pourcent de PIB",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

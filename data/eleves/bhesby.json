@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "L'URSSAF (protection sociale) et police / justice (fonction régalienne, bon vocabulaire) sont bien classés et justifiés ; deux lignes pour le commissariat et la justice, c'est accepté. Il manquait le plafonnement du prix de l'électricité, intervention économique de l'État-providence (régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « Aide de l'URSSAF » | case : providence | justification : « Demande à l'URSSAF un report du paiement des cotisations sociales c'est donc la protection sociale » ligne 2 — intervention : « [barré : P] prise de la plainte par le commissariat » | case : gendarme | justification : « C'est de l'État gendarme car c'est la police qui a pris la plainte \"fonction régalienne\" » ligne 3 — intervention : « la justice qui a jugé [barré : le] l'auteur du vol » | case : gendarme | justification : « Car ça fait partie de la justice. »",
+          "reponse_eleve": "ligne 1 — intervention : « Aide de l'URSSAF » | case : providence | justification : « Demande à l'URSSAF un report du paiement des cotisations sociales c'est donc la protection sociale » ligne 2 — intervention : « prise de la plainte par le commissariat » | case : gendarme | justification : « C'est de l'État gendarme car c'est la police qui a pris la plainte \"fonction régalienne\" » ligne 3 — intervention : « la justice qui a jugé l'auteur du vol » | case : gendarme | justification : « Car ça fait partie de la justice. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté). Il manquait trois exemples : justice, police, défense.",
-          "reponse_eleve": "[barré : Les fonctions régaliennes sont les missions que seul l'etat peut exercer car elle engage la souveraineté.] Ce sont des missions réalisées par l'État lui seul car ça engage la souveraineté.",
+          "reponse_eleve": "Ce sont des missions réalisées par l'État lui seul car ça engage la souveraineté.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là (réguler l'économie, souveraineté que seul l'État exerce). Appuie-toi sur le document : 404 M€, unique actionnaire, défense.",
-          "reponse_eleve": "On peut dire que le rachat de Bull est qualifié d'interventionniste car il fallait réguler l'économie et concernant la mission régalienne [barré : ça] ça a aussi un rapport puisqu'elle engage de la souveraineté et que seul l'État l'exerce",
+          "reponse_eleve": "On peut dire que le rachat de Bull est qualifié d'interventionniste car il fallait réguler l'économie et concernant la mission régalienne ça a aussi un rapport puisqu'elle engage de la souveraineté et que seul l'État l'exerce",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et la contrepartie de la cotisation est bien formulée. Pour les impôts, il fallait dire l'absence de contrepartie directe, pas seulement « prélèvement obligatoire » (les cotisations en sont aussi).",
-          "reponse_eleve": "a — case : cotisation | justification : « Car on ouvre un droit à une prestation Donc cotisation » b — case : impot | justification : « prélèvement obligatoire : donc impôt ↓ Versé aux APU » c — case : impot (case cotisation redessinée en bleu sans croix) | justification : « Argent récupéré par l'État donc impôt. » d — case : impot | justification : « [barré : ILLISIBLE] pourcentage d'argent ajouté au prix final d'un achat de bien et ou services donc impôt »",
+          "reponse_eleve": "a — case : cotisation | justification : « Car on ouvre un droit à une prestation Donc cotisation » b — case : impot | justification : « prélèvement obligatoire : donc impôt ↓ Versé aux APU » c — case : impot (case cotisation redessinée en bleu sans croix) | justification : « Argent récupéré par l'État donc impôt. » d — case : impot | justification : « pourcentage d'argent ajouté au prix final d'un achat de bien et ou services donc impôt »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -191,7 +191,7 @@
           "points": 3.5,
           "points_max": 3.5,
           "commentaire": "Argumentation de niveau 4 : position dès la première phrase, deux arguments distincts appuyés sur le dossier (dépenses à 57,3 % du PIB et intérêts ; hausse des prestations, doc 3), vocabulaire précis, conclusion avec comparaison zone euro. Très bien.",
-          "reponse_eleve": "Selon moi, oui, l'État devrait réduire son intervention dans l'économie Tout d'abord car comme vu dans le document 9, le total des dépenses [barré : publ] est de 1714,1 MD€ soit 57,3 points du PIB ce qui est énorme car les intérêts ont aussi augmenté et sachant que l'État emprunte pour faire baisser le déficit alors elle s'endette plus derrière avec le stock (dette publique) Ensuite dans le document 3 on peut voir que l'État-providence a 3 fonctions qui sont : Allocation, Redistribution, Régulation. Si l'État s'investissait moins comme pour la hausse des pensions retraite, le RSA et les Allocations qui ont augmenté de 2,2 % pour les pensions retraite et 1,7 % pour le reste. J'en conclus que […]",
+          "reponse_eleve": "Selon moi, oui, l'État devrait réduire son intervention dans l'économie Tout d'abord car comme vu dans le document 9, le total des dépenses est de 1714,1 MD€ soit 57,3 points du PIB ce qui est énorme car les intérêts ont aussi augmenté et sachant que l'État emprunte pour faire baisser le déficit alors elle s'endette plus derrière avec le stock (dette publique) Ensuite dans le document 3 on peut voir que l'État-providence a 3 fonctions qui sont : Allocation, Redistribution, Régulation. Si l'État s'investissait moins comme pour la hausse des pensions retraite, le RSA et les Allocations qui ont augmenté de 2,2 % pour les pensions retraite et 1,7 % pour le reste. J'en conclus que l'État doit […]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

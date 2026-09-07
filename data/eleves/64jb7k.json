@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là (Nadia avait besoin de régulation et de redistribution). Il manque la conclusion explicite (seul un État-providence pouvait agir) et un second terme du chapitre : régalien, État-providence.",
-          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car il fixe [barré : elles] règles et fait respecter les contrats mais ne produit pas de service et ne redistribue pas les revenus. Or Nadia avait besoin de régulation et de redistribution.",
+          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car il fixe règles et fait respecter les contrats mais ne produit pas de service et ne redistribue pas les revenus. Or Nadia avait besoin de régulation et de redistribution.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes. Un écart entre deux taux s'exprime en points de PIB, pas en % (tu l'as noté ensuite). Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "Zone euro = 49,8 % il y a 7,4 % d'écart entre [barré : les deux] la France et la zone euro. France = 57,2 % et il y a 6,7 % d'écart entre la France et l'Allemagne Allemagne = 50,5 % [encre rose] % = point de PIB",
+          "reponse_eleve": "Zone euro = 49,8 % il y a 7,4 % d'écart entre la France et la zone euro. France = 57,2 % et il y a 6,7 % d'écart entre la France et l'Allemagne Allemagne = 50,5 % [encre rose] % = point de PIB",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : rachat de l'activité (interventionniste) et souveraineté (régalien). Précise le lien avec la défense : les supercalculateurs servent la dissuasion nucléaire.",
-          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste car l'État a finalisé le rachat de l'activité d'ATOS. Or l'État se doit de soutenir la demande pour réguler l'économie. De plus l'État engage la [barré : souverenete] souveraineté.",
+          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste car l'État a finalisé le rachat de l'activité d'ATOS. Or l'État se doit de soutenir la demande pour réguler l'économie. De plus l'État engage la souveraineté.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Position nette et un argument appuyé sur un exemple précis du dossier (Mehdi, 435 € de prélèvements). Le second argument (57,2 % du PIB, doc 7) était bon : ne le barre pas, développe-le. Ajoute le vocabulaire du chapitre (prélèvements obligatoires, libéral, dette…) et une conclusion.",
-          "reponse_eleve": "L'État doit réduire son intervention dans l'économie car dans un premier temps cela empêche certains salariés de profiter pleinement de leur salaire comme on peut le voir avec Mehdi dans la [barré : doc 7] situation C où il voit pris de 435€ déduits de son salaire. [barré : De plus d'après le document 7, l'État en France possède représente 57,2 % du PIB ce qui est beaucoup et cela ne laisse pas les autres entreprise privée]",
+          "reponse_eleve": "L'État doit réduire son intervention dans l'économie car dans un premier temps cela empêche certains salariés de profiter pleinement de leur salaire comme on peut le voir avec Mehdi dans la situation C où il voit pris de 435€ déduits de son salaire.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

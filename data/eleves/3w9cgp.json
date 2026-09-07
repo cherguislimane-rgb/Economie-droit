@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et les cases sont justes. Mais les justifications contredisent les cases : le plafonnement n'est pas de la justice, et le cambriolage relève de l'État-gendarme (fonction régalienne), pas d'un revenu financé par prélèvements. Relis chaque ligne avant de justifier.",
-          "reponse_eleve": "ligne 1 — intervention : « L'État réagit sur le prix de l'électricité pour les petites entreprises » | case : providence [traits très légers sur la case gendarme] | justification : « c'est un État gendarme car cela relève d'une fonction régalienne la justice. » ligne 2 — intervention : « Demande à l'URSSAF un report du paiement » | case : providence | justification : « Report de paiement social sachant que tout ce qui est dans le social fait partie de l'État de providence » ligne 3 — intervention : « cambriolage donc Nadia porte plainte et c'est la justice [inséré : juge l'auteur] » | case : gendarme | justification : « c'est un État [barré : gendarme] providence car [barré : sa] relève il […]",
+          "reponse_eleve": "ligne 1 — intervention : « L'État réagit sur le prix de l'électricité pour les petites entreprises » | case : providence [traits très légers sur la case gendarme] | justification : « c'est un État gendarme car cela relève d'une fonction régalienne la justice. » ligne 2 — intervention : « Demande à l'URSSAF un report du paiement » | case : providence | justification : « Report de paiement social sachant que tout ce qui est dans le social fait partie de l'État de providence » ligne 3 — intervention : « cambriolage donc Nadia porte plainte et c'est la justice [inséré : juge l'auteur] » | case : gendarme | justification : « c'est un État providence car relève il [ILLISIBLE] un revenu financé […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect régalien est vu (sécurité nationale, ne pas dépendre d'autres pays). Il manque l'aspect interventionniste : l'État n'a pas laissé faire le marché, il a payé 404 M€ pour devenir l'unique actionnaire.",
-          "reponse_eleve": "Pour avoir des [barré : the] technologies car il faut pas que l'État soit dépassé par la technologie d'autres pays ce qui fait que soit une mission de sécurité nationale.",
+          "reponse_eleve": "Pour avoir des technologies car il faut pas que l'État soit dépassé par la technologie d'autres pays ce qui fait que soit une mission de sécurité nationale.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "La part des dépenses (57,3 %) est juste. Le solde public est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit ; ce n'est pas PIB − dépenses. Sur la capacité *distinguer le déficit public de la dette publique*, c'est ce calcul qui compte.",
-          "reponse_eleve": "La part des dépenses dans le PIB est de [barré : ILLISIBLE] 57,30 % soit = 1714,1 / 2991,1 × 100 = 57,30 % et le solde restant est de 1277 MD€",
+          "reponse_eleve": "La part des dépenses dans le PIB est de 57,30 % soit = 1714,1 / 2991,1 × 100 = 57,30 % et le solde restant est de 1277 MD€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

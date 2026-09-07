@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes avec les données. Un écart entre deux taux s'exprime en points de PIB, pas en %. Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "on a un écart de 7,4% entre la France et (z) zone euro puisque la France détient 57,2% et zone euro 49,8% et on a un écart de 6,7% entre la France et l'Allemagne puisque la France détient 57,2 et l'Allemagne [barré : 49,8] 50,5%",
+          "reponse_eleve": "on a un écart de 7,4% entre la France et (z) zone euro puisque la France détient 57,2% et zone euro 49,8% et on a un écart de 6,7% entre la France et l'Allemagne puisque la France détient 57,2 et l'Allemagne 50,5%",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Tu mobilises des données du dossier (dépenses à 57,2 % du PIB) et du vocabulaire. Mais la réponse dit « oui » au début puis « ne doit pas arrêter ou réduire » à la fin : une seule position, tenue jusqu'au bout. Ajoute un second argument distinct et une structure visible (introduction, deux paragraphes, conclusion).",
-          "reponse_eleve": "[barré : ILLISIBLE] [barré : ILLISIBLE] Oui, si on regarde l'aspect économique de la France on voit une claire hausse des dépenses en 2025 on a des dépenses de 1714,1% ce qui correspond à 57,2% du PIB de la France en 2025 on a également dans les autres années (une) une hausse de dépense puisqu'en 2024 l'État a dépensé 57% du PIB on a également les taxes et les impôts et (quel) cotisations cela joue un rôle très important sur la hausse des dépenses et le PIB de la France pour moi l'État (—) doit (pas) arrêter [inséré au-dessus : ou réduire] ses interventions puisque c'est augmentatif et vu [ILLISIBLE] du temps la France s'étouffera de dettes.",
+          "reponse_eleve": "Oui, si on regarde l'aspect économique de la France on voit une claire hausse des dépenses en 2025 on a des dépenses de 1714,1% ce qui correspond à 57,2% du PIB de la France en 2025 on a également dans les autres années (une) une hausse de dépense puisqu'en 2024 l'État a dépensé 57% du PIB on a également les taxes et les impôts et (quel) cotisations cela joue un rôle très important sur la hausse des dépenses et le PIB de la France pour moi l'État (—) doit (pas) arrêter [inséré au-dessus : ou réduire] ses interventions puisque c'est augmentatif et vu [ILLISIBLE] du temps la France s'étouffera de dettes.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

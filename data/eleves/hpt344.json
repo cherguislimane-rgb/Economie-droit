@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu relèves bien les trois interventions, mais deux cases sont cochées sur les lignes 1 et 3 : une seule conception par ligne, sinon la ligne ne compte pas. Le plafonnement du prix relève de l'État-providence (intervention économique) et le commissariat de l'État-gendarme (fonction régalienne) : dis-le dans la justification.",
-          "reponse_eleve": "ligne 1 — intervention : « [barré : NADIA] [barré : URSAF] L'État » | case : DOUBLE | justification : « Il garantit des services à Nadia : plafonnement des prix de l'électricité » ligne 2 — intervention : « URSSAF » | case : providence | justification : « Il reporte le paiement des cotisations sociales de Nadia » ligne 3 — intervention : « Le commissariat » | case : DOUBLE | justification : « Il ne fait que suivre la procédure qui a été fixée »",
+          "reponse_eleve": "ligne 1 — intervention : « L'État » | case : DOUBLE | justification : « Il garantit des services à Nadia : plafonnement des prix de l'électricité » ligne 2 — intervention : « URSSAF » | case : providence | justification : « Il reporte le paiement des cotisations sociales de Nadia » ligne 3 — intervention : « Le commissariat » | case : DOUBLE | justification : « Il ne fait que suivre la procédure qui a été fixée »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",

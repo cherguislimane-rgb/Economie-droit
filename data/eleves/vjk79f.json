@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là : l'État-gendarme gère sécurité et justice, il n'aurait donc aidé Nadia ni pour les factures ni pour le report. Il manque la conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire : régalien, régulation.",
-          "reponse_eleve": "Un État-gendarme [barré : ne] [barré : a] [gribouillé : ILLISIBLE] gère uniquement la sécurité (int) et (ext) et la justice elle n'aurait donc pu recevoir l'aide de l'État pour les factures ou pour demander un report de paiement de cotisation",
+          "reponse_eleve": "Un État-gendarme [gribouillé : ILLISIBLE] gère uniquement la sécurité (int) et (ext) et la justice elle n'aurait donc pu recevoir l'aide de l'État pour les factures ou pour demander un report de paiement de cotisation",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "Tu qualifies bien le solde de déficit, mais les calculs sont à reprendre : part = dépenses ÷ PIB × 100 = 1 714,1 ÷ 2 991,1 × 100 = 57,3 % ; solde = recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€. On n'additionne pas des pourcentages du PIB. Sur la capacité *distinguer le déficit public de la dette publique*, ces deux calculs sont à savoir refaire.",
-          "reponse_eleve": "[barré : Dépense des impôts] dépenses publiques dans le PIB : [gribouillé : ILLISIBLE] = 1561,6 + 1741.1 = 3302.7 Md et le solde est de : 52,1 + 57,2 = 115,6 avec 5,1 de déficit public, la dépense d'intérêt monte donc encore [gribouillé : ILLISIBLE], le solde est en déficit mais il a baissé",
+          "reponse_eleve": "dépenses publiques dans le PIB : [gribouillé : ILLISIBLE] = 1561,6 + 1741.1 = 3302.7 Md et le solde est de : 52,1 + 57,2 = 115,6 avec 5,1 de déficit public, la dépense d'intérêt monte donc encore [gribouillé : ILLISIBLE], le solde est en déficit mais il a baissé",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

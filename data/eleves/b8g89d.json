@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées, avec une bonne justification pour la justice. Pour les deux autres, donne le critère : le plafonnement et le report sont des interventions économiques et sociales (fonction de régulation), hors du champ régalien.",
-          "reponse_eleve": "ligne 1 — intervention : « Paiement des cotisations sociales (URSSAF) » | case : providence | justification : « Cette situation est un État-providence car [barré : il] c'est une protection. » ligne 2 — intervention : « Prix d'électricité plafonné à 280€ » | case : providence | justification : « Coût de l'ex électricité à 280€ » (au crayon, pâle) ligne 3 — intervention : « Boulangerie cambriolée » | case : gendarme | justification : « Le commissariat rend justice et juge l'auteur du cambriolage. »",
+          "reponse_eleve": "ligne 1 — intervention : « Paiement des cotisations sociales (URSSAF) » | case : providence | justification : « Cette situation est un État-providence car c'est une protection. » ligne 2 — intervention : « Prix d'électricité plafonné à 280€ » | case : providence | justification : « Coût de l'ex électricité à 280€ » (au crayon, pâle) ligne 3 — intervention : « Boulangerie cambriolée » | case : gendarme | justification : « Le commissariat rend justice et juge l'auteur du cambriolage. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",

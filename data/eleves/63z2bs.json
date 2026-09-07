@@ -15,7 +15,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Le report des cotisations et le cambriolage sont bien classés, et tu nommes correctement la justice comme fonction régalienne. Mais la ligne 1 décrit la hausse des factures, qui n'est pas une intervention publique : c'est le plafonnement du prix à 280 € le MWh qu'il fallait relever (État-providence, fonction de régulation). Une copie plus lisible, avec moins de ratures, t'aiderait à être compris.",
-          "reponse_eleve": "ligne 1 — intervention : « augmentation Nadia a repris des factures [barré : par [ILLISIBLE]] d'électricité 1 800€ → 6000€ [barré : de facture d'électricité] » | case : ? [gendarme et providence cochées toutes les deux ; la croix gendarme est repassée/plus épaisse, possible rature] | justification : « [barré : augmentation des factures] Pour moi l'augmentation est logique. des prélèvements obligatoires et des augmentations [ILLISIBLE] il fixe les règles [en marge : mais Nadia utilise une grosse quantité d'électricité [ILLISIBLE] il veut augmenter] » ligne 2 — intervention : « l'État réagit (l'URSSAF) » | case : providence | justification : « l'URSSAF fait un report de paiement des […]",
+          "reponse_eleve": "ligne 1 — intervention : « augmentation Nadia a repris des factures d'électricité 1 800€ → 6000€ » | case : ? [gendarme et providence cochées toutes les deux ; la croix gendarme est repassée/plus épaisse, possible rature] | justification : « Pour moi l'augmentation est logique. des prélèvements obligatoires et des augmentations [ILLISIBLE] il fixe les règles [en marge : mais Nadia utilise une grosse quantité d'électricité [ILLISIBLE] il veut augmenter] » ligne 2 — intervention : « l'État réagit (l'URSSAF) » | case : providence | justification : « l'URSSAF fait un report de paiement des cotisations l'URSSAF fait report des cotisations sociales Nadia afin qu'elle puisse renégocier son contrat […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "les fonctions régaliennes : sont les missions que seul l'État peut exercer car elle a contrôle total sur la souveraineté l'État se désigne comme roi et pas comme égaux et juste envers la population : (rendre la justice, assurer la sécurité intérieure (police) et extérieure (défense, diplomatie). Battre monnaie, lever l'impôt, \"si ble veulent bien sûr\" [en marge, à gauche] [barré : [ILLISIBLE]] 3 fonctions régaliennes : (justice, extérieure, la sécurité intérieure)",
+          "reponse_eleve": "les fonctions régaliennes : sont les missions que seul l'État peut exercer car elle a contrôle total sur la souveraineté l'État se désigne comme roi et pas comme égaux et juste envers la population : (rendre la justice, assurer la sécurité intérieure (police) et extérieure (défense, diplomatie). Battre monnaie, lever l'impôt, \"si ble veulent bien sûr\" [en marge, à gauche] 3 fonctions régaliennes : (justice, extérieure, la sécurité intérieure)",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La règle est juste (l'État-gendarme ne s'occupe ni du financier ni des aides sociales). Il manquait l'application au cas : le plafonnement du prix et le report des cotisations sont des interventions économiques, donc seul un État-providence pouvait aider Nadia. Utilise les mots régalien, régulation, État-providence.",
-          "reponse_eleve": "l'État gendarme (est un État qui se limite à ses fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés.) ça veut dire sur plan financier et sur les [barré : sociales] aides sociales ils ne peuvent rien faire car ce n'est pas leur rôle.",
+          "reponse_eleve": "l'État gendarme (est un État qui se limite à ses fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés.) ça veut dire sur plan financier et sur les aides sociales ils ne peuvent rien faire car ce n'est pas leur rôle.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux aspects sont là : la souveraineté technologique (régalien) et le rachat de l'entreprise par l'État (interventionniste). Ta lecture « racheter à bas prix pour profiter de la remontée » n'est pas dans le document : reste au plus près des textes.",
-          "reponse_eleve": "Bull est un achat régalien car d'après les dires du ministre de l'économie : \"une étape décisive pour la souveraineté [barré : technologique] technologique. la souveraineté et la définition même des fonctions régaliennes. interventionniste parce que l'État anticipe la crise économique de l'entreprise pour la racheter un prix bas et après pouvoir bénéficier de la remontée fulgurante de l'entreprise.",
+          "reponse_eleve": "Bull est un achat régalien car d'après les dires du ministre de l'économie : \"une étape décisive pour la souveraineté technologique. la souveraineté et la définition même des fonctions régaliennes. interventionniste parce que l'État anticipe la crise économique de l'entreprise pour la racheter un prix bas et après pouvoir bénéficier de la remontée fulgurante de l'entreprise.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "Une seule case juste. Les cotisations retraite/chômage sont des cotisations (elles ouvrent un droit), CSG, prélèvement à la source et TVA sont des impôts (sans contrepartie directe). Deux cases cochées sur une ligne ne comptent pas. Sur la capacité *distinguer le déficit public de la dette publique*, revois ce critère de la contrepartie.",
-          "reponse_eleve": "a — case : impot | justification : « une cotisation sociale est reliée (à tout) l'impôt finance nos aides sociales. » b — case : impot | justification : « c'est classé parmi les impôts » c — case : DOUBLE | justification : « [barré : Prélevement obligatoire] ça représente 43,6 % du PIB il y a pas si longtemps. » d — case : DOUBLE | justification : « et liées aux impôts (tout comme : l'impôt sur le revenu, impôt sur les sociétés, CSG-CRDS, taxe foncière...) »",
+          "reponse_eleve": "a — case : impot | justification : « une cotisation sociale est reliée (à tout) l'impôt finance nos aides sociales. » b — case : impot | justification : « c'est classé parmi les impôts » c — case : DOUBLE | justification : « ça représente 43,6 % du PIB il y a pas si longtemps. » d — case : DOUBLE | justification : « et liées aux impôts (tout comme : l'impôt sur le revenu, impôt sur les sociétés, CSG-CRDS, taxe foncière...) »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Tu identifies bien le déficit comme flux et la dette comme stock, avec les chiffres du document. Il manque le mécanisme : chaque année de déficit, même réduit, oblige à emprunter et s'ajoute au stock ; seule l'absence de déficit ferait baisser la dette.",
-          "reponse_eleve": "Déficit public il y a un flux minime (5,8 à 5,1) Baisse qui ne déssaconde pas vraiment tout. Dette [barré : [ILLISIBLE]] publique augmente (112,6 à 115,6) [barré : [ILLISIBLE]] [barré : [ILLISIBLE]] augmentation est stock. des dettes ce qui dessaconde tout.",
+          "reponse_eleve": "Déficit public il y a un flux minime (5,8 à 5,1) Baisse qui ne déssaconde pas vraiment tout. Dette publique augmente (112,6 à 115,6) augmentation est stock. des dettes ce qui dessaconde tout.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -191,7 +191,7 @@
           "points": 0.5,
           "points_max": 3.5,
           "commentaire": "Ta position est nette (réduire). Mais un argument doit s'appuyer sur le dossier : la dette à 115,6 % du PIB et ses 64,7 Md€ d'intérêts (doc 10), les 7,4 points d'écart avec la zone euro (doc 7). Il faut deux arguments distincts, du vocabulaire du chapitre et une conclusion.",
-          "reponse_eleve": "Moi je pense : l'État devrait réduire son intervention. Je pense que à chaque intervention répétée le pays s'endette et se retrouve avoir des augmentations de dette publique avec l'argent emprunté et cela va causer [barré : la] l'hécatombe totale.",
+          "reponse_eleve": "Moi je pense : l'État devrait réduire son intervention. Je pense que à chaque intervention répétée le pays s'endette et se retrouve avoir des augmentations de dette publique avec l'argent emprunté et cela va causer l'hécatombe totale.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

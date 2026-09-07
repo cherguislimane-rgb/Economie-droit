@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et bonne justification pour la CSG (« n'ouvre aucun droit »). Pour la cotisation, il fallait la contrepartie : elle ouvre un droit à la retraite et au chômage.",
-          "reponse_eleve": "a — case : cotisation | justification : « impôt est un versement obligatoire aux administrations publiques » b — case : impot | justification : « La CSG [barré : sont] fait partie des impôts [barré : et le CRDS] elle finance la protection sociale mais n'ouvre aucun droit particulier [ILLISIBLE] » c — case : impot | justification : « c'est l'ensemble donc les impôts et cotisations forment le prélèvement obligatoire » d — case : impot | justification : « Taxe de la valeur ajoutée quand on prélève de l'argent exemple de l'argent »",
+          "reponse_eleve": "a — case : cotisation | justification : « impôt est un versement obligatoire aux administrations publiques » b — case : impot | justification : « La CSG fait partie des impôts elle finance la protection sociale mais n'ouvre aucun droit particulier [ILLISIBLE] » c — case : impot | justification : « c'est l'ensemble donc les impôts et cotisations forment le prélèvement obligatoire » d — case : impot | justification : « Taxe de la valeur ajoutée quand on prélève de l'argent exemple de l'argent »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 0.75,
           "points_max": 2,
           "commentaire": "Tu lis bien les chiffres (5,1 % ; 115,6 %) et tu identifies le déficit comme un flux. Il manque le mécanisme : tant qu'il y a un déficit, même réduit, l'État emprunte et cette somme s'ajoute au stock de dette. Seule l'absence de déficit ferait baisser la dette.",
-          "reponse_eleve": "[barré : Le Deficit] Le solde public c'est négatif donc un solde public en 2024 il y a le déficit public qui a baissé en 2025 de 5,1 [ILLISIBLE] en 2024 La dette publique a augmenté en 2025 à 115,6. Pour conclure le flux est baisse et la dette en hausse",
+          "reponse_eleve": "Le solde public c'est négatif donc un solde public en 2024 il y a le déficit public qui a baissé en 2025 de 5,1 [ILLISIBLE] en 2024 La dette publique a augmenté en 2025 à 115,6. Pour conclure le flux est baisse et la dette en hausse",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
