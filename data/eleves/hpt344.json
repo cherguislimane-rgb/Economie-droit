@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu relèves bien les trois interventions, mais deux cases sont cochées sur les lignes 1 et 3 : une seule conception par ligne, sinon la ligne ne compte pas. Le plafonnement du prix relève de l'État-providence (intervention économique) et le commissariat de l'État-gendarme (fonction régalienne) : dis-le dans la justification.",
-          "reponse_eleve": "ligne 1 — intervention : « [barré : NADIA] [barré : URSAF] L'état » | case : DOUBLE | justification : « Il garantit des services a Nadia : plafonnement des prix de l'électricité » ligne 2 — intervention : « URSSAF » | case : providence | justification : « Il reporte le paiement des cotisations sociales de Nadia » ligne 3 — intervention : « Le commissariat » | case : DOUBLE | justification : « Il ne fais que suivre la procédure qui a été fixé »",
+          "reponse_eleve": "ligne 1 — intervention : « [barré : NADIA] [barré : URSAF] L'État » | case : DOUBLE | justification : « Il garantit des services à Nadia : plafonnement des prix de l'électricité » ligne 2 — intervention : « URSSAF » | case : providence | justification : « Il reporte le paiement des cotisations sociales de Nadia » ligne 3 — intervention : « Le commissariat » | case : DOUBLE | justification : « Il ne fait que suivre la procédure qui a été fixée »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée d'exclusivité est là (une mission que seul l'État peut exercer). Il fallait trois exemples : justice, police, défense.",
-          "reponse_eleve": "c'est le fait qu'une mission ne peut être exercer uniquement par l'état tel que rendre un jugement",
+          "reponse_eleve": "c'est le fait qu'une mission ne peut être exercée uniquement par l'État tel que rendre un jugement",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La règle est juste (l'État-gendarme laisse l'économie aux individus et aux marchés). Il manque l'application au cas de Nadia : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques, donc seul un État-providence pouvait l'aider. Sur la capacité *expliquer les différences entre État-gendarme et État-providence*, développe toujours règle → application → conclusion.",
-          "reponse_eleve": "Un état-gendarme n'aurait pas aidé Nadia car il laisse la vie economique et sociale aux individus et aux marchés.",
+          "reponse_eleve": "Un État-gendarme n'aurait pas aidé Nadia car il laisse la vie économique et sociale aux individus et aux marchés.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'écart France / zone euro est juste et en points de PIB. Il fallait aussi calculer l'écart avec l'Allemagne (57,2 − 50,5 = 6,7 points) et conclure : la France a une logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "Il y a 7,4 point de PiB de différence entre la France et la zone euro.",
+          "reponse_eleve": "Il y a 7,4 points de PIB de différence entre la France et la zone euro.",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",

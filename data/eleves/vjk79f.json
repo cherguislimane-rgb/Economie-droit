@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Trois interventions bien relevées, classées et justifiées avec le critère (protection sociale / justice). Pour le dernier quart de point, nomme les fonctions : régaliennes pour la justice, régulation pour le plafonnement.",
-          "reponse_eleve": "ligne 1 — intervention : « Prix électité plafonné à 280€ le mégawattheure pour les petite entreprise. + [gribouillé : ILLISIBLE] » | case : providence | justification : « L'états est venus en aide à une petite entreprise qui allez couler sous les facture Protection social » ligne 2 — intervention : « demande de report de paiement de cotisation accepté par [gribouillé : ILLISIBLE] l'URSSAF » | case : providence | justification : « Paiement de cotisation social donc états providence » ligne 3 — intervention : « Le commissariat prend la plainte et la justice juge [gribouillé : ILLISIBLE] l'auteur » | case : gendarme | justification : « il s'agit justice donc états gendarme »",
+          "reponse_eleve": "ligne 1 — intervention : « Prix électricité plafonné à 280€ le mégawattheure pour les petites entreprises. + [gribouillé : ILLISIBLE] » | case : providence | justification : « L'État est venu en aide à une petite entreprise qui allait couler sous les factures Protection sociale » ligne 2 — intervention : « demande de report de paiement de cotisation acceptée par [gribouillé : ILLISIBLE] l'URSSAF » | case : providence | justification : « Paiement de cotisation sociale donc État providence » ligne 3 — intervention : « Le commissariat prend la plainte et la justice juge [gribouillé : ILLISIBLE] l'auteur » | case : gendarme | justification : « il s'agit justice donc État gendarme »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (fonctions que seul l'État peut effectuer) et exemples corrects : acquis.",
-          "reponse_eleve": "fonction que l'états seul peut effectuer comme : rendre justice, lever l'impôts, battre monnaie ...",
+          "reponse_eleve": "fonction que l'État seul peut effectuer comme : rendre justice, lever l'impôt, battre monnaie ...",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là : l'État-gendarme gère sécurité et justice, il n'aurait donc aidé Nadia ni pour les factures ni pour le report. Il manque la conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire : régalien, régulation.",
-          "reponse_eleve": "Un états-gendarme [barré : ne] [barré : a] [gribouillé : ILLISIBLE] gère uniquement la sécurité (int) et (ext) et la justice elle n'aurait donc pu recevoir l'aide de l'états pour les factures ou pour demander un report de paiement de cotisation",
+          "reponse_eleve": "Un État-gendarme [barré : ne] [barré : a] [gribouillé : ILLISIBLE] gère uniquement la sécurité (int) et (ext) et la justice elle n'aurait donc pu recevoir l'aide de l'État pour les factures ou pour demander un report de paiement de cotisation",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Écarts justes et bonne conclusion (interventionnisme). Expose le calcul (57,2 − 49,8) et exprime l'écart en points de PIB, pas en %.",
-          "reponse_eleve": "Entre la France et la zone euro la France possède plus 7,4% et 6,7% avec l'Allemagne. Je pense que le courant de pensée et l'interventionnisme",
+          "reponse_eleve": "Entre la France et la zone euro la France possède plus 7,4% et 6,7% avec l'Allemagne. Je pense que le courant de pensée est l'interventionnisme",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est bien vu (l'État s'immisce dans l'économie en rachetant). Mais « régalien » ne veut pas dire « devient public » : c'est le lien avec la défense et la souveraineté qui était attendu.",
-          "reponse_eleve": "Il peut être qualifié comme les deux car elle s'immisse dans l'économie en rachetant du privé et du régalien car sa deviens publique (ex comme l'éducation)",
+          "reponse_eleve": "Il peut être qualifié comme les deux car elle s'immisce dans l'économie en rachetant du privé et du régalien car ça devient publique (ex comme l'éducation)",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "Tu qualifies bien le solde de déficit, mais les calculs sont à reprendre : part = dépenses ÷ PIB × 100 = 1 714,1 ÷ 2 991,1 × 100 = 57,3 % ; solde = recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€. On n'additionne pas des pourcentages du PIB. Sur la capacité *distinguer le déficit public de la dette publique*, ces deux calculs sont à savoir refaire.",
-          "reponse_eleve": "[barré : Dépense des impôts] dépenses publique dans le PIB : [gribouillé : ILLISIBLE] = 1561,6 + 1741.1 = 3302.7 Md et le solde est de : 52,1 + 57,2 = 115,6 avec 5,1 de déficit publique, la dépense d'intérêt monte donc encore [gribouillé : ILLISIBLE], le solde est en déficit mais il a baissé",
+          "reponse_eleve": "[barré : Dépense des impôts] dépenses publiques dans le PIB : [gribouillé : ILLISIBLE] = 1561,6 + 1741.1 = 3302.7 Md et le solde est de : 52,1 + 57,2 = 115,6 avec 5,1 de déficit public, la dépense d'intérêt monte donc encore [gribouillé : ILLISIBLE], le solde est en déficit mais il a baissé",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.5,
           "points_max": 2,
           "commentaire": "Excellente explication : tant que le flux n'est pas à zéro, le stock continue d'augmenter. Pour être complet, appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %).",
-          "reponse_eleve": "entre l'année 2024 et 2025 le flux a baissé mais le stock augmente, ce paradox s'explique. Car, même si le flux baisse il y a encore un déficit le flux tant qu'il n'est pas a 0 la dette (stock) va continuer a augmenter",
+          "reponse_eleve": "entre l'année 2024 et 2025 le flux a baissé mais le stock augmente, ce paradoxe s'explique. Car, même si le flux baisse il y a encore un déficit le flux tant qu'il n'est pas à 0 la dette (stock) va continuer à augmenter",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "La conséquence est vue (moins de moyens pour les finances publiques). Il manquait le mécanisme : les intérêts (64,7 Md€) sont une dépense qui creuse le déficit, donc la dette, effet boule de neige.",
-          "reponse_eleve": "(au crayon, très pâle) La hausse des intérêts de la dette est un problème pour les finances publique car cela diminue les moyens qui peuvent utiliser. Plus il y a de dette moins les finances publique ont de [ILLISIBLE]",
+          "reponse_eleve": "(au crayon, très pâle) La hausse des intérêts de la dette est un problème pour les finances publiques car cela diminue les moyens qui peuvent utiliser. Plus il y a de dette moins les finances publiques ont de [ILLISIBLE]",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 3.0,
           "points_max": 3.5,
           "commentaire": "Deux bons arguments appuyés sur le dossier (le déficit de 150 Md€ ; les prestations sociales à 45 % des dépenses, calcul juste), vocabulaire précis et structure visible. Mais l'introduction annonce qu'il faut « augmenter » l'intervention alors que le développement et la conclusion défendent la réduction : une seule position, tenue de la première phrase à la conclusion. Écris au stylo, le crayon est très pâle.",
-          "reponse_eleve": "(au crayon, très pâle) Oui, l'état [ILLISIBLE] doit [ILLISIBLE] réduire son intervention mais bien l'augmenter. Dans cette réponse structuré je vais donc y repondre en me basant sur les arguments La France est en déficit publique avec 150M [ILLISIBLE] en plus que la recettes administration publique sur les dépenses des administration il faudrait donc reduire l'intervention pour reduire le flux et reduire l'augmentation du stock (doc 8, 9 et 10) La France doit aussi reduire les prestation social versé par les administration car elle représente 45% des dépenses publique. les reduire vont tous reduire le stock et le flux. En conclusion l'état doit reduire l'intervention en reduisant les […]",
+          "reponse_eleve": "(au crayon, très pâle) Oui, l'État [ILLISIBLE] doit [ILLISIBLE] réduire son intervention mais bien l'augmenter. Dans cette réponse structurée je vais donc y répondre en me basant sur les arguments La France est en déficit public avec 150M [ILLISIBLE] en plus que les recettes administration publique sur les dépenses des administrations il faudrait donc réduire l'intervention pour réduire le flux et réduire l'augmentation du stock (doc 8, 9 et 10) La France doit aussi réduire les prestations sociales versées par les administrations car elles représentent 45% des dépenses publiques. Les réduire vont tous réduire le stock et le flux. En conclusion l'État doit réduire l'intervention en réduisant […]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

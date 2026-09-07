@@ -15,7 +15,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Le commissariat (justice) et les cotisations sociales sont bien classés, avec des justifications qui utilisent le bon critère. Mais les lignes 2 et 3 renvoient à la même intervention (le report à l'URSSAF) : il manquait le plafonnement du prix de l'électricité, intervention économique de l'État-providence.",
-          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « commissariat » | case : gendarme | justification : « Il a pour mission de rendre la justice » ligne 2 — intervention : « cotisations sociales » | case : providence | justification : « Les cotisations font partie des protections sociales » ligne 3 — intervention : « urssaf » | case : providence | justification : [NON REPONDU]",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « commissariat » | case : gendarme | justification : « Il a pour mission de rendre la justice » ligne 2 — intervention : « cotisations sociales » | case : providence | justification : « Les cotisations font partie des protections sociales » ligne 3 — intervention : « URSSAF » | case : providence | justification : [NON REPONDU]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes et exprimés en points : très bien. Il manquait la conclusion : la France a une logique interventionniste, un État-providence plus étendu que ses voisins.",
-          "reponse_eleve": "France : 57,2 % Zone euro : 49,8 % Allemagne : 50,5 % France / zone euro = 57,2 % - 49,8 % = 7,4 point de pourcentage France / Allemagne = 57,2 % - 50,5 % = 6,7 point de pourcentage",
+          "reponse_eleve": "France : 57,2 % Zone euro : 49,8 % Allemagne : 50,5 % France / zone euro = 57,2 % - 49,8 % = 7,4 points de pourcentage France / Allemagne = 57,2 % - 50,5 % = 6,7 points de pourcentage",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -151,7 +151,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Bonne méthode pour les deux calculs et unités présentes. En arrondissant 1 714,1 à 1 714 tu obtiens − 152,4 au lieu de − 152,5 : garde les décimales. Il manquait aussi le mot clé : ce solde négatif est un déficit.",
-          "reponse_eleve": "PIB = 2 991,1 Mds d'euro en 2025 Dépenses publique : 1714,1 Mds d'euro en 2025 2 991 → 100 % 1714 → 1714 / 2991 × 100 = 57,3 Solde : Recette - Dépense = 1561,6 Mds - 1714 Mds = -152,4",
+          "reponse_eleve": "PIB = 2 991,1 Mds d'euros en 2025 Dépenses publiques : 1714,1 Mds d'euros en 2025 2 991 → 100 % 1714 → 1714 / 2991 × 100 = 57,3 Solde : Recette - Dépense = 1561,6 Mds - 1714 Mds = -152,4",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

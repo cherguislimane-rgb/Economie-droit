@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées. Les justifications décrivent l'aide reçue ; il fallait donner le critère : régalien (sécurité, justice) ou intervention économique et sociale (fonction de régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « Aides de l'état » | case : providence | justification : « L'état a [barré : régi] réagit sur les charges que paye les petites entreprises en les baissant » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « la securité et [barré : est] la justice ont aidé Nadia en jugeant l'auteur des faits » ligne 3 — intervention : « URSSAF » | case : providence | justification : « Grace à l'URSSAF Nadia a eu un report de paiement ce qui lui à aidé à négocier son contrat »",
+          "reponse_eleve": "ligne 1 — intervention : « Aides de l'État » | case : providence | justification : « L'État a [barré : régi] réagi sur les charges que payent les petites entreprises en les baissant » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « la sécurité et [barré : est] la justice ont aidé Nadia en jugeant l'auteur des faits » ligne 3 — intervention : « URSSAF » | case : providence | justification : « Grâce à l'URSSAF Nadia a eu un report de paiement ce qui lui a aidé à négocier son contrat »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée d'exclusivité est là. Mais les aides sociales (CAF) ne sont pas régaliennes : elles relèvent de l'État-providence. Exemples attendus : justice, police, défense (accepter monnaie, impôt).",
-          "reponse_eleve": "Les fonctions régaliennes. sont les activités que seul l'Etat peut faire. [barré : Assurer la] Exemple : (Assurer la sécurité) Aides sociales (CAF). Les Taxes des impôts.",
+          "reponse_eleve": "Les fonctions régaliennes. sont les activités que seul l'État peut faire. [barré : Assurer la] Exemple : (Assurer la sécurité) Aides sociales (CAF). Les taxes des impôts.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là (sécurité seulement, donc pas d'aides sociales ni d'URSSAF). Il manque la conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire : régalien, régulation, État-providence.",
-          "reponse_eleve": "Car l'état gendarme s'occupe uniquement de la securité elle ne peut donc pas être sur les aides social, ou bien l'URSSAF",
+          "reponse_eleve": "Car l'État gendarme s'occupe uniquement de la sécurité elle ne peut donc pas être sur les aides sociales, ou bien l'URSSAF",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes. Expose le calcul, exprime-le en points de PIB (pas en %) et conclus : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "l'écart de PIB entre la France et la zone euro est de 7,4% et entre la France est l'Allemagne est de 6,7",
+          "reponse_eleve": "l'écart de PIB entre la France et la zone euro est de 7,4% et entre la France et l'Allemagne est de 6,7",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -137,7 +137,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Deux cases justes. Les cotisations retraite/chômage sont des cotisations (elles ouvrent un droit) ; le prélèvement à la source est l'impôt sur le revenu (sans contrepartie). C'est ce critère de la contrepartie qu'il fallait utiliser dans les justifications. Sur la capacité *distinguer le déficit public de la dette publique*, revois impôt / cotisation.",
-          "reponse_eleve": "a — case : DOUBLE (coche sur impôt, croix sur cotisation) | justification : « cette dépense est directement deduit [ILLISIBLE] nos impôts » b — case : impot | justification : « [barré : Cette] Ce prélèvement est directemen enlevé de notre revenu » c — case : cotisation | justification : « Les prélevement à la source sont payem pur la sécu sociale (carte vitale) ou autres aides » d — case : impot | justification : « La TVA est de [barré : l'impôt] l'impôt car cette argent va dans les poches de l'Etat »",
+          "reponse_eleve": "a — case : DOUBLE (coche sur impôt, croix sur cotisation) | justification : « cette dépense est directement déduite [ILLISIBLE] nos impôts » b — case : impot | justification : « [barré : Cette] Ce prélèvement est directement enlevé de notre revenu » c — case : cotisation | justification : « Les prélèvements à la source sont payem pour la sécu sociale (carte vitale) ou autres aides » d — case : impot | justification : « La TVA est de [barré : l'impôt] l'impôt car cet argent va dans les poches de l'État »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes et solde bien qualifié de déficitaire. Écris les unités sur les résultats (57,3 % ; − 152,5 Md€).",
-          "reponse_eleve": "PIB = 2991,1 MDs d'euro en 2025 Depense publique 1714,1 Mds d'euro en 2025 2991 = 100 1714 = 1714 / 2991 × 100 = 57,30524908 Depense PIB = 57,2 Recette : 1561,6 Mds 1561,6 - 1714,1 = -152,5 le solde est déficitaire",
+          "reponse_eleve": "PIB = 2991,1 MDs d'euro en 2025 Dépense publique 1714,1 Mds d'euro en 2025 2991 = 100 1714 = 1714 / 2991 × 100 = 57,30524908 Dépense PIB = 57,2 Recette : 1561,6 Mds 1561,6 - 1714,1 = -152,5 le solde est déficitaire",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme est compris : le flux a diminué mais existe toujours, donc le stock augmente. Appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Le flusc à diminué mais ils [barré : ILLISIBLE] est toujours présent cela explique que le stock augmente",
+          "reponse_eleve": "Le flux a diminué mais il [barré : ILLISIBLE] est toujours présent cela explique que le stock augmente",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Bonne réponse : l'endettement s'auto-entretient et cela restreint l'action de l'État. Tu pouvais chiffrer : 64,7 Md€ d'intérêts, 42 % du déficit 2025.",
-          "reponse_eleve": "C'est un probleme pour les finances publiques car elle restreint l'activité de l'état pour acroitre le [barré : pays] pays elle la rend aussi faible car l'état doit emprunter de l'argent donc elle ce met encore plus endetté ou alors. [barré : elle] l'Etat augmente les charges donc le peuple est mécontent",
+          "reponse_eleve": "C'est un problème pour les finances publiques car elle restreint l'activité de l'État pour accroître le [barré : pays] pays elle la rend aussi faible car l'État doit emprunter de l'argent donc elle se met encore plus endettée ou alors. [barré : elle] l'État augmente les charges donc le peuple est mécontent",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 0.5,
           "points_max": 3.5,
           "commentaire": "La position est posée mais rien ne l'appuie. Attendu : deux arguments appuyés sur le dossier (la dette à 115,6 % du PIB et ses intérêts, l'écart de 7,4 points avec la zone euro…), du vocabulaire du chapitre et une conclusion. Cette question vaut 3,5 points : garde-lui du temps.",
-          "reponse_eleve": "[barré : ILLISIBLE] oui l'État doit minimiser ses interventions en privilégiant les plus démuni et favoriser les interventions les plus importantes cela réduira lourdement [barré : les] les dettes actif",
+          "reponse_eleve": "[barré : ILLISIBLE] oui l'État doit minimiser ses interventions en privilégiant les plus démunis et favoriser les interventions les plus importantes cela réduira lourdement [barré : les] les dettes actives",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

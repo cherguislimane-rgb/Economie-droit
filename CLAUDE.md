@@ -22,7 +22,8 @@ mes-copies/
 └── corrections/                                     ← PRIVÉ (jamais publié)
     └── <id du chapitre, ex. e6c1>/                  ← un sous-dossier par devoir
         ├── CLAUDE.md        ← le workflow détaillé de correction : LIS-LE ET SUIS-LE
-        ├── bareme.json, devoir.json, sujet/, corrige/, copies/, ...
+        ├── bareme.json, devoir.json, sujet/, corrige/, copies/, transcriptions/,
+        │   transcriptions_app/ (orthographe corrigée, affichée dans l'app), corrections/
         └── sortie/resultats_app.json   ← produit en fin de correction
 ```
 
@@ -42,8 +43,8 @@ supprimer nommément que les fichiers qu'on a soi-même créés.
 ## Workflow complet d'un devoir
 
 1. **Corriger** : va dans le sous-dossier du devoir dans `corrections/`, lis son
-   `CLAUDE.md` et exécute intégralement son workflow (transcriptions → corrections →
-   PDF → recap → `sortie/resultats_app.json`).
+   `CLAUDE.md` et exécute intégralement son workflow (transcriptions verbatim → version
+   orthographiée pour l'app → corrections → recap → `sortie/resultats_app.json`). Pas de PDF.
 
 2. **Publier dans les données de l'app** (depuis la racine du repo) :
    ```bash
@@ -96,5 +97,5 @@ chapitre (ex. `corrections/d6c1/`), puis, à partir du nouveau
 sujet et du corrigé fournis par le professeur : régénère `bareme.json` (mêmes conventions : chaque question porte `capacite` (id du référentiel data/capacites.json) et `transversales` ;
 checklists chiffrées dont la somme vaut exactement la note_max de chaque question, total 20,
 variantes de notation) et `devoir.json` (nouvel `id` unique, `type` dossier/lecon/bac, `coef` fixé par le professeur, `chapitre` existant ou à créer dans le bloc chapitres, bon `theme` parmi ceux de
-`data/devoirs.json`, date du devoir). Vide `copies/`, `transcriptions/`, `corrections/`,
+`data/devoirs.json`, date du devoir). Vide `copies/`, `transcriptions/`, `transcriptions_app/`, `corrections/`,
 `sortie/`. Les scripts sont réutilisables tels quels.

@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "L'URSSAF (protection sociale) et police / justice (fonction régalienne, bon vocabulaire) sont bien classés et justifiés ; deux lignes pour le commissariat et la justice, c'est accepté. Il manquait le plafonnement du prix de l'électricité, intervention économique de l'État-providence (régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « Aide de l'ursaff » | case : providence | justification : « Demande à l'URSAF un report du paiment des cotisations sociales c'est donc la protection sociale » ligne 2 — intervention : « [barré : P] prise de la plainte par le commisariat » | case : gendarme | justification : « C'est de l'état gendarme car c'est la police qui à pris la plainte \"fonction régalienne\" » ligne 3 — intervention : « la justice qui a jugé [barré : le] l'auteur du vol » | case : gendarme | justification : « Car sa fait partie de la justice. »",
+          "reponse_eleve": "ligne 1 — intervention : « Aide de l'URSSAF » | case : providence | justification : « Demande à l'URSSAF un report du paiement des cotisations sociales c'est donc la protection sociale » ligne 2 — intervention : « [barré : P] prise de la plainte par le commissariat » | case : gendarme | justification : « C'est de l'État gendarme car c'est la police qui a pris la plainte \"fonction régalienne\" » ligne 3 — intervention : « la justice qui a jugé [barré : le] l'auteur du vol » | case : gendarme | justification : « Car ça fait partie de la justice. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté). Il manquait trois exemples : justice, police, défense.",
-          "reponse_eleve": "[barré : Les fonctions régaliennes sont les missions que seul l'etat peut exercer car elle engage la souveraineté.] Ce sont des missions réalisés par l'etat lui seul car sa engage la souveraineté.",
+          "reponse_eleve": "[barré : Les fonctions régaliennes sont les missions que seul l'etat peut exercer car elle engage la souveraineté.] Ce sont des missions réalisées par l'État lui seul car ça engage la souveraineté.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Réponse complète : règle, application (la hausse de l'électricité relève de la régulation, donc de l'État-providence), conclusion explicite et vocabulaire. Très bien.",
-          "reponse_eleve": "Car la hausse de son éléctricité ne fait pas partie de leur fonctions. C'est l'état-providence qui se charge de ca. (Régulation) - Un état gendarme se limite à ces fonctions et laisse le reste de la vie économique et sociales aux individus et au marchés. Dans ce cas il ne l'aurait pas aider car sa ne fait pas partie de leur fonctions. J'en conclus que l'état gendarme n'aurait pas aider puisqu'il fixe les règles mais ne produit pas les services.",
+          "reponse_eleve": "Car la hausse de son électricité ne fait pas partie de leurs fonctions. C'est l'État-providence qui se charge de ça. (Régulation) - Un État gendarme se limite à ces fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés. Dans ce cas il ne l'aurait pas aidée car ça ne fait pas partie de leurs fonctions. J'en conclus que l'État gendarme n'aurait pas aidé puisqu'il fixe les règles mais ne produit pas les services.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Écarts justes, données citées et bonne unité (points de PIB). Il fallait conclure : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "En point de PIB entre la france et la zone euro il y à 7,4 points de PIB de différence car : France = 57,2 % : Zone euro = 49,8 % Ensuite, entre la France et l'Allemagne la différence de points de PIB est de 6,7 points de PIB. France = 57,2 % Allemagne = 50,5 %",
+          "reponse_eleve": "En point de PIB entre la France et la zone euro il y a 7,4 points de PIB de différence car : France = 57,2 % : Zone euro = 49,8 % Ensuite, entre la France et l'Allemagne la différence de points de PIB est de 6,7 points de PIB. France = 57,2 % Allemagne = 50,5 %",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là (réguler l'économie, souveraineté que seul l'État exerce). Appuie-toi sur le document : 404 M€, unique actionnaire, défense.",
-          "reponse_eleve": "On peut dire que le rachat de Bull est qualifié d'interventionist car il fallait réguler l'économie et concernant la mission régalienne [barré : ça] sa à aussi un rapport puisque elle engage de la souveraineté et que seul l'état l'exerce",
+          "reponse_eleve": "On peut dire que le rachat de Bull est qualifié d'interventionniste car il fallait réguler l'économie et concernant la mission régalienne [barré : ça] ça a aussi un rapport puisqu'elle engage de la souveraineté et que seul l'État l'exerce",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et la contrepartie de la cotisation est bien formulée. Pour les impôts, il fallait dire l'absence de contrepartie directe, pas seulement « prélèvement obligatoire » (les cotisations en sont aussi).",
-          "reponse_eleve": "a — case : cotisation | justification : « Car on ouvre un droit a une prestation Donc cotisation » b — case : impot | justification : « prélèvement obligatoire : donc impot ↓ Versé aux APU » c — case : impot (case cotisation redessinée en bleu sans croix) | justification : « Argent récuperé par l'état donc impot. » d — case : impot | justification : « [barré : ILLISIBLE] pourcentage d'argent ajouté au prix final d'un achat de bien et ou services donc impot »",
+          "reponse_eleve": "a — case : cotisation | justification : « Car on ouvre un droit à une prestation Donc cotisation » b — case : impot | justification : « prélèvement obligatoire : donc impôt ↓ Versé aux APU » c — case : impot (case cotisation redessinée en bleu sans croix) | justification : « Argent récupéré par l'État donc impôt. » d — case : impot | justification : « [barré : ILLISIBLE] pourcentage d'argent ajouté au prix final d'un achat de bien et ou services donc impôt »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes avec unités. Il manquait le mot clé : un solde négatif est un déficit public (52,1 % est la part des recettes dans le PIB, pas le solde).",
-          "reponse_eleve": "(a) part des dépenses public en 2025 En 2025 la part des dépenses est de 1714,1 MD/€ PIB de la France = 2 999,1 MD/€ Alors, 2 999,1 - 1714,1 = 1285 MD€ pourcentage : 1714,1 / 2991,1 × 100 = 57,3 % point de PIB (B) Solde public 2025 Le solde public en 2025 est de 52,1 % Recette = 1561,6 Dépenses = 1714,1 1561,6 - 1714,1 = - 152,5 pourcentage :",
+          "reponse_eleve": "(a) part des dépenses publiques en 2025 En 2025 la part des dépenses est de 1714,1 MD/€ PIB de la France = 2 999,1 MD/€ Alors, 2 999,1 - 1714,1 = 1285 MD€ pourcentage : 1714,1 / 2991,1 × 100 = 57,3 % point de PIB (B) Solde public 2025 Le solde public en 2025 est de 52,1 % Recette = 1561,6 Dépenses = 1714,1 1561,6 - 1714,1 = - 152,5 pourcentage :",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme est compris : l'État emprunte, et l'emprunt s'ajoute au stock de dette. Appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Entre 2024 et 2025 le déficit public à diminué car l'Etat emprunte sur les marchés financiers ; De plus, un déficit est un flux qui est ce qui manque dans l'anné ceci dit pourquoi le déficit public à diminué, Tandis que la dette publique à augmenté puisque pour faire baisser le déficit public ils empruntent alors la dette publique qui est un stock (somme de tout les emprunts passé mais toujours pas rembousé C'est pourquoi le déficit baisse tandis que la dette augmente",
+          "reponse_eleve": "Entre 2024 et 2025 le déficit public a diminué car l'État emprunte sur les marchés financiers ; De plus, un déficit est un flux qui est ce qui manque dans l'année ceci dit pourquoi le déficit public a diminué, Tandis que la dette publique a augmenté puisque pour faire baisser le déficit public ils empruntent alors la dette publique qui est un stock (somme de tous les emprunts passés mais toujours pas remboursés C'est pourquoi le déficit baisse tandis que la dette augmente",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Bonne réponse : l'emprunt appelle des intérêts qui appellent de nouveaux emprunts, et ta projection chiffrée (≈ 72 Md€) est pertinente.",
-          "reponse_eleve": "C'est un problème pour les finances publique car l'état doit toujours plus d'argent car elle emprunte beaucoup, ces mêmes emprunt doivent être remboursé, et il faut rajouté à cela les intérêts. Donc c'est un problème puisque l'état doit toujours payé plus. 64,7 MD€ + 11,2 % ≃ 71,95 MD€",
+          "reponse_eleve": "C'est un problème pour les finances publiques car l'État doit toujours plus d'argent car elle emprunte beaucoup, ces mêmes emprunts doivent être remboursés, et il faut rajouter à cela les intérêts. Donc c'est un problème puisque l'État doit toujours payer plus. 64,7 MD€ + 11,2 % ≃ 71,95 MD€",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 3.5,
           "points_max": 3.5,
           "commentaire": "Argumentation de niveau 4 : position dès la première phrase, deux arguments distincts appuyés sur le dossier (dépenses à 57,3 % du PIB et intérêts ; hausse des prestations, doc 3), vocabulaire précis, conclusion avec comparaison zone euro. Très bien.",
-          "reponse_eleve": "Selon moi, oui, l'Etat devrait réduire son intervention dans l'économie Tout d'abord car comme vu dans le document 9, le total des dépenses [barré : publ] est de 1714,1 MD€ soit 57,3 point du PiB ce qui est enorme car les interets ont aussi augmenté et sachant que l'Etat emprunt pour faire baisser le déficit alors elle s'endette plus derrière avec le stock (dette publique) Ensuite dans le document 3 ont peut voir que l'Etat-providence à 3 fonctions qui sont : Allocation, Redistribution, Régulation. Si l'Etat s'investissait moins comme pour la hausse des pensions retraite, le RSA et les Allocation qui ont augmenté de 2,2 % pour les pension retraite et 1,7 % pour le reste. J'en conclus que […]",
+          "reponse_eleve": "Selon moi, oui, l'État devrait réduire son intervention dans l'économie Tout d'abord car comme vu dans le document 9, le total des dépenses [barré : publ] est de 1714,1 MD€ soit 57,3 points du PIB ce qui est énorme car les intérêts ont aussi augmenté et sachant que l'État emprunte pour faire baisser le déficit alors elle s'endette plus derrière avec le stock (dette publique) Ensuite dans le document 3 on peut voir que l'État-providence a 3 fonctions qui sont : Allocation, Redistribution, Régulation. Si l'État s'investissait moins comme pour la hausse des pensions retraite, le RSA et les Allocations qui ont augmenté de 2,2 % pour les pensions retraite et 1,7 % pour le reste. J'en conclus que […]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

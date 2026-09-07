@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Bonne lecture : le plafonnement est bien une régulation de l'État-providence, et police et justice relèvent de l'État-gendarme (deux lignes séparées, c'est accepté). Il manquait la troisième intervention : le report des cotisations accordé par l'URSSAF (État-providence).",
-          "reponse_eleve": "ligne 1 — intervention : « Regulatiam de ça facture d'électricité » | case : providence | justification : « Car elle aide Nadian par la fonction (l'état) de urssaf d'indémise Nadia avec de l'argent de ces Protection » ligne 2 — intervention : « Le cambriolage de la baulongeri (camiserid) » | case : gendarme | justification : « car l'état gendarme permet à tout citoyen d'être en securité en car de val et cambriolag interieur » ligne 3 — intervention : « Le cambriolage de la baulangerie (Justice) » | case : gendarme | justification : « car l'état gendarme Permet à tout ces citoyens de pouvoir attaque une personne en justice »",
+          "reponse_eleve": "ligne 1 — intervention : « Régulation de sa facture d'électricité » | case : providence | justification : « Car elle aide Nadia par la fonction (l'État) d'URSSAF d'indemniser Nadia avec de l'argent de ses protections » ligne 2 — intervention : « Le cambriolage de la boulangerie (commissariat) » | case : gendarme | justification : « car l'État gendarme permet à tout citoyen d'être en sécurité en cas de vol et cambriolage intérieur » ligne 3 — intervention : « Le cambriolage de la boulangerie (Justice) » | case : gendarme | justification : « car l'État gendarme permet à tous ses citoyens de pouvoir attaquer une personne en justice »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (souveraineté) et trois exemples corrects : acquis.",
-          "reponse_eleve": "Les Fonction Régaliennes : ce sont les mission que seul [barré : les pouvoirs de] l'etat peuvent applique, parce quelle engagent ça souvranté dans som pay. ex : - Releve d'impat - assurer la securité - Rendre la justice -",
+          "reponse_eleve": "Les fonctions régaliennes : ce sont les missions que seul [barré : les pouvoirs de] l'État peut appliquer, parce qu'elles engagent sa souveraineté dans son pays. ex : - Relevé d'impôt - assurer la sécurité - Rendre la justice -",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Réponse complète : règle (sécurité et justice seulement), application (les fonctions de l'État-providence, dont la régulation, pouvaient régler le problème de Nadia), conclusion et vocabulaire. Très bien ; soigne l'orthographe.",
-          "reponse_eleve": "L'Etat gendarme n'aurait pas pu aidé Nadia durant l'hiver 2022-2023 car c'et un etat qui s'accupe seulement de la sécurité exterieur, interieur et de la justice alaur au contraire l'état de providence s'accupe [barré : de la redistri] seulement des Allacation, Redistribut et Régulation qui eut pourait s'accuper du problèm de facture de Nadia et la Réguler",
+          "reponse_eleve": "L'État gendarme n'aurait pas pu aider Nadia durant l'hiver 2022-2023 car c'est un État qui s'occupe seulement de la sécurité extérieure, intérieure et de la justice alors au contraire l'État de providence s'occupe [barré : de la redistri] seulement des allocations, redistribution et régulation qui eux pourraient s'occuper du problème de facture de Nadia et la réguler",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "Bonne méthode et bonne unité (points de PIB), mais 57,2 − 49,8 = 7,4 et non 7,5, et la seconde soustraction n'est pas terminée (= 6,7). Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "Ecart entre la France et la Zoner Euro en Point du pib : 57,2 - 49,8 = 7,5 point de Pib Ecart entre la Fance et l'Allemagne en Point du pib : 57,2 - 50,5 =",
+          "reponse_eleve": "Écart entre la France et la Zone Euro en point du PIB : 57,2 - 49,8 = 7,5 points de PIB Écart entre la France et l'Allemagne en point du PIB : 57,2 - 50,5 =",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : souveraineté (régalien) et régulation du marché par le rachat (interventionniste). Tu pouvais préciser : 404 M€, unique actionnaire, défense.",
-          "reponse_eleve": "Le Rachat de Bull par l'etat français peut être qualifier d'interventionniste et de fonction Régalienne ; car c'est une mission que l'etat ser donner pour engager ça souvrainter [barré : etant le dans] son pays toute en régulant le marché en Rachetant Bull.",
+          "reponse_eleve": "Le rachat de Bull par l'État français peut être qualifié d'interventionniste et de fonction régalienne ; car c'est une mission que l'État se donne pour engager sa souveraineté [barré : etant le dans] son pays tout en régulant le marché en rachetant Bull.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et le critère « sans contrepartie » est bien utilisé pour les impôts. Pour la cotisation, précise la contrepartie : elle ouvre un droit à la retraite et au chômage.",
-          "reponse_eleve": "[en marge] « (contreparti » a — case : cotisation | justification : « ce sont les part payer par employeur pour contribuer à la cotisation des chomage » b — case : impot | justification : « La Taxe payer par les entreprise et retrait sans contre parti » c — case : impot | justification : « car c'est versement obligatoire sans contrepart direct il finance l'ensemble d'economi » d — case : impot | justification : « C'est une par Ptaxe payer pour chaque Achat sans contreparti »",
+          "reponse_eleve": "[en marge] « (contreparti » a — case : cotisation | justification : « ce sont les parts payées par employeur pour contribuer à la cotisation des chômage » b — case : impot | justification : « La taxe payée par les entreprises et retrait sans contrepartie » c — case : impot | justification : « car c'est versement obligatoire sans contrepartie directe il finance l'ensemble d'économie » d — case : impot | justification : « C'est une part taxe payée pour chaque achat sans contrepartie »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "Le calcul de la part est confus : part = dépenses ÷ PIB × 100 = 1 714,1 ÷ 2 991,1 × 100 = 57,3 %. Pour le solde, la méthode recettes − dépenses est juste, mais 1 561,6 − 1 714,1 = − 152,5 (pas − 152,7) : c'est un déficit. Écris les unités (% et Md€).",
-          "reponse_eleve": "Part des dépenses public dans le pays : 2991,1 ×10⁹ ÷ 1561,6 ×10⁹ + 171,1 ×10⁹ × 100 = Solde public : 1 561,6 milliard - 1714 1 = - 152,7 milliard €",
+          "reponse_eleve": "Part des dépenses publiques dans le pays : 2991,1 ×10⁹ ÷ 1561,6 ×10⁹ + 171,1 ×10⁹ × 100 = Solde public : 1 561,6 milliards - 1714 1 = - 152,7 milliards €",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 0.5,
           "points_max": 2,
           "commentaire": "Le vocabulaire flux / stock est bien utilisé. Mais la dette n'augmente pas « à cause des intérêts » : elle augmente parce qu'il y a encore un déficit (152,5 Md€ empruntés en 2025) qui s'ajoute au stock. Appuie-toi sur les chiffres du document 10.",
-          "reponse_eleve": "Entre 2024 et 2025 on remarque que le déficit public à diminuer mais que la dette public à qand même augmenter. Cela s'explique car le déficit et un flux, [barré : qui montre que l'année en questio] et que la dette public et un stoc il son lier mais comme les interêt augmmente d'année en année ce qui augment la dette même si le flux du Deficit baisse",
+          "reponse_eleve": "Entre 2024 et 2025 on remarque que le déficit public a diminué mais que la dette publique a quand même augmenté. Cela s'explique car le déficit est un flux, [barré : qui montre que l'année en questio] et que la dette publique est un stock ils sont liés mais comme les intérêts augmentent d'année en année ce qui augmente la dette même si le flux du déficit baisse",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'effet boule de neige (les intérêts alimentent la dette) est vu. Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "La Hausse des intérêts de la dette Public qui est de 13,9 % en 202[ILLISIBLE] et un Problème pour l'etat français, car ces intérêts sont la raison principale de l'accroisemment de la dette public qui et [barré : comblé] toujours pas comblé et qui augmente d'année en année même si le déficit baisse.",
+          "reponse_eleve": "La hausse des intérêts de la dette publique qui est de 13,9 % en 202[ILLISIBLE] est un problème pour l'État français, car ces intérêts sont la raison principale de l'accroissement de la dette publique qui est [barré : comblé] toujours pas comblée et qui augmente d'année en année même si le déficit baisse.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 0.5,
           "points_max": 3.5,
           "commentaire": "Tu reprends bien des chiffres du dossier (57 % du PIB, dette 115 %, 64 Md€ d'intérêts), mais la réponse ne prend pas position et s'arrête sans conclusion. Sur la capacité *argumenter*, commence par affirmer ta réponse (oui ou non), puis construis deux arguments avec ces chiffres, et conclus.",
-          "reponse_eleve": "L'Etat doit il vraiment réduir son interventio dans l'ecomomie ? Etat Françait dépense plus de 57,6 % de somt PiB c'et plu de 7,5 % de la mayene européene ce qui crée une dette qui egale plus 115 % du pib. mais cette dette meut [ILLISIBLE] augmente chaque année et la intéret ce qui crée une grosse dette Public de plus 64 md d'euro (€) .. [barré : Cette] La dette pullicque",
+          "reponse_eleve": "L'État doit-il vraiment réduire son intervention dans l'économie ? État français dépense plus de 57,6 % de son PIB c'est plus de 7,5 % de la moyenne européenne ce qui crée une dette qui égale plus 115 % du PIB. mais cette dette meut [ILLISIBLE] augmente chaque année et l'intérêt ce qui crée une grosse dette publique de plus 64 md d'euros (€) .. [barré : Cette] La dette publique",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

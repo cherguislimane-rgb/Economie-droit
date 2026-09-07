@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et les cases sont justes. Mais les justifications contredisent les cases : le plafonnement n'est pas de la justice, et le cambriolage relève de l'État-gendarme (fonction régalienne), pas d'un revenu financé par prélèvements. Relis chaque ligne avant de justifier.",
-          "reponse_eleve": "ligne 1 — intervention : « L'état reagi sur Le Prix de l'electricité Pour les Petit entreprise » | case : providence [traits très légers sur la case gendarme] | justification : « c'est un état gendarme car cela releve d'une fonction Régalienne La Justice. » ligne 2 — intervention : « Demende a L'ursaf un Report du Paiment » | case : providence | justification : « Report de Paiment social sachant que Tous ce qui est dans le social fait Partie de l'état de Providence » ligne 3 — intervention : « cambriolage donc Nablia Porte Plainn et c'est la Justice [inséré : juge l'autheur] » | case : gendarme | justification : « c'est un etat [barré : gendarme] Providence car [barré : sa] releve il […]",
+          "reponse_eleve": "ligne 1 — intervention : « L'État réagit sur le prix de l'électricité pour les petites entreprises » | case : providence [traits très légers sur la case gendarme] | justification : « c'est un État gendarme car cela relève d'une fonction régalienne la justice. » ligne 2 — intervention : « Demande à l'URSSAF un report du paiement » | case : providence | justification : « Report de paiement social sachant que tout ce qui est dans le social fait partie de l'État de providence » ligne 3 — intervention : « cambriolage donc Nadia porte plainte et c'est la justice [inséré : juge l'auteur] » | case : gendarme | justification : « c'est un État [barré : gendarme] providence car [barré : sa] relève il […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition (tâches que seul l'État peut faire) et exemples corrects : acquis.",
-          "reponse_eleve": "fonction Regilienne : ce sont des [ILLISIBLE : mots effacés] tache que seul l'état Peut faire afin de gartire que Tous se Passe bien. - Justice - Securité interieure - securité exterieur",
+          "reponse_eleve": "fonction régalienne : ce sont des [ILLISIBLE : mots effacés] tâches que seul l'État peut faire afin de garantir que tout se passe bien. - Justice - Sécurité intérieure - sécurité extérieure",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "La règle et la conclusion sont là (seul l'État-providence pouvait le faire ; bonne nuance sur le cambriolage). Il manque l'application : le plafonnement et le report des cotisations sont des interventions économiques (régulation), hors du champ régalien. Utilise ces termes.",
-          "reponse_eleve": "L'état gendarme n'aurait pas pue aider nadia Pendent l'hiver 2022-2023 car seul L'etat de Providence Pouver de faire mait tout de même l'état gendarme a aidé nadia quand elle s'est fait cambrioler. Tous se pour conclure que Le But de l'état gendrame c'est de gére Sa Justice, la Securité INT et la securité Ext",
+          "reponse_eleve": "L'État gendarme n'aurait pas pu aider Nadia pendant l'hiver 2022-2023 car seul l'État de providence pouvait de faire mais tout de même l'État gendarme a aidé Nadia quand elle s'est fait cambrioler. Tout ce pour conclure que le but de l'État gendarme c'est de gérer sa justice, la sécurité INT et la sécurité Ext",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Écarts justes et bonne unité (points). La conclusion attendue n'était pas « la France a un bon PIB » (il s'agit de dépenses publiques, pas de richesse) mais : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "entre la france et la Zone euro l'écart et de (7,4 Point). Et entre La france et l'allemagne l'écart de Point et de (6,7 Point) on voit que la france a un Bon PIB qui est au dessu de la moyenn ce qui fait que elle domine aussi l'allemagne et l'italie.",
+          "reponse_eleve": "entre la France et la zone euro l'écart est de (7,4 points). Et entre la France et l'Allemagne l'écart de point est de (6,7 points) on voit que la France a un bon PIB qui est au-dessus de la moyenne ce qui fait qu'elle domine aussi l'Allemagne et l'Italie.",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect régalien est vu (sécurité nationale, ne pas dépendre d'autres pays). Il manque l'aspect interventionniste : l'État n'a pas laissé faire le marché, il a payé 404 M€ pour devenir l'unique actionnaire.",
-          "reponse_eleve": "Pour avoir des [barré : the] technologie car il faut Pas que l'état sois deparsé Par la technologie d'autre Pays ce qui fait que sois un mission de securité National.",
+          "reponse_eleve": "Pour avoir des [barré : the] technologies car il faut pas que l'État soit dépassé par la technologie d'autres pays ce qui fait que soit une mission de sécurité nationale.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "La part des dépenses (57,3 %) est juste. Le solde public est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit ; ce n'est pas PIB − dépenses. Sur la capacité *distinguer le déficit public de la dette publique*, c'est ce calcul qui compte.",
-          "reponse_eleve": "La Part des depence dans le PiB et de [barré : ILLISIBLE] 57,30 % soit = 1714,1 / 2991,1 × 100 = 57,30 % et Le solde Restant est de 1277 MD€",
+          "reponse_eleve": "La part des dépenses dans le PIB est de [barré : ILLISIBLE] 57,30 % soit = 1714,1 / 2991,1 × 100 = 57,30 % et le solde restant est de 1277 MD€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 0.5,
           "points_max": 2,
           "commentaire": "Flux et stock sont identifiés. Mais les chiffres sont mal lus : le déficit baisse de 0,7 point (5,8 → 5,1 %) et la dette augmente de 3 points de PIB (112,6 → 115,6 %), pas de « 3 Md€ ». Il manque le mécanisme : tant qu'il y a un déficit, l'État emprunte et la somme s'ajoute au stock.",
-          "reponse_eleve": "Dans un Premier temp on voit que le fleux deficitaire Baisse de 0,07 % entre 2024 et 2025 tant dit que Le stok qui est la dette Public augmente de 3 MD€ entre 2024 et 2025",
+          "reponse_eleve": "Dans un premier temps on voit que le flux déficitaire baisse de 0,07 % entre 2024 et 2025 tandis que le stock qui est la dette publique augmente de 3 MD€ entre 2024 et 2025",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse trop vague. Attendu : les intérêts (64,7 Md€) sont une dépense qui creuse le déficit, donc la dette (boule de neige), et cet argent manque pour les services publics.",
-          "reponse_eleve": "cela derange les finance Public car Sa dette ne fait que augmentér et cela aura du mal a etre regles ce qui fait que l'état sera depassé",
+          "reponse_eleve": "cela dérange les finances publiques car sa dette ne fait qu'augmenter et cela aura du mal à être réglé ce qui fait que l'État sera dépassé",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 2.5,
           "points_max": 3.5,
           "commentaire": "Position claire, structure visible (introduction, deux temps, conclusion) et bon vocabulaire (flux, stock, déficit, dette). Mais tes deux temps reprennent la même idée (la dette augmente malgré la baisse du déficit) : il fallait un second argument distinct, par exemple l'écart de 7,4 points avec la zone euro (doc 7) ou les 64,7 Md€ d'intérêts. Attention aux unités : la dette est en % du PIB, pas en Md€.",
-          "reponse_eleve": "Aujourd'hui nous allons voir sil l'état doit t'il reduire c'est intervention dans l'économie. Oui Pour moit l'état doit reduire ces intervention car cela ne fait que augmenté la dête est nous en dificulté le Pay comme Par exemple en 2024 et 2025 la dête à augmenté de 3 MD€ soit elle est Passé de 112,6 à 115,6 MD€ Dans un second temp on voit que le flux (deficit Public) diminue mais cela n'y change rien car cela augmente Toujour, les stok (dette Public.) Pour conclure on peut dire que oui l'état doit Reduire ces intervention affin de remêtre l'équilibre dans l'économie du Pays.",
+          "reponse_eleve": "Aujourd'hui nous allons voir si l'État doit-il réduire ses interventions dans l'économie. Oui pour moi l'État doit réduire ses interventions car cela ne fait qu'augmenter la dette et nous en difficulté le pays comme par exemple en 2024 et 2025 la dette a augmenté de 3 MD€ soit elle est passée de 112,6 à 115,6 MD€ Dans un second temps on voit que le flux (déficit public) diminue mais cela n'y change rien car cela augmente toujours, les stocks (dette publique.) Pour conclure on peut dire que oui l'État doit réduire ses interventions afin de remettre l'équilibre dans l'économie du pays.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

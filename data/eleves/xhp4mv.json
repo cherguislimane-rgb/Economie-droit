@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois conceptions sont bien attribuées et tes justifications mobilisent le critère (l'État « soutient son activité », la justice « a été rendue »). Mais la ligne 1 décrit la hausse des factures, qui est le problème et non l'intervention : il fallait relever le plafonnement du prix à 280 € le MWh. Pense aussi aux mots régalien et régulation.",
-          "reponse_eleve": "ligne 1 — intervention : « augmentation des factures d'électricité » | case : providence | justification : « Les prélèvements pour financer les prestations sociales ont f[ILLISIBLE] → donc il s'agit de l'état Providence » ligne 2 — intervention : « diminution des facture et demande d'attente à l'URSSAF » | case : providence | justification : « L'État est intervenu pour soutenir son activé lorsqu'elle à failli arrêter » ligne 3 — intervention : « Cambriolage » | case : gendarme | justification : « La justice a été rendu contre l'auteur de ce cambriolage c'est donc l'État gendarme qui s'en est chargé »",
+          "reponse_eleve": "ligne 1 — intervention : « augmentation des factures d'électricité » | case : providence | justification : « Les prélèvements pour financer les prestations sociales ont f[ILLISIBLE] → donc il s'agit de l'État Providence » ligne 2 — intervention : « diminution des factures et demande d'attente à l'URSSAF » | case : providence | justification : « L'État est intervenu pour soutenir son activité lorsqu'elle a failli arrêter » ligne 3 — intervention : « Cambriolage » | case : gendarme | justification : « La justice a été rendue contre l'auteur de ce cambriolage c'est donc l'État gendarme qui s'en est chargé »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (missions que seul l'État peut faire) et trois exemples corrects : acquis.",
-          "reponse_eleve": "Ce sont toutes les missions que seul l'État peut faire afin de rendre justice, de conserver la securité qu'elle soit intérieure ou exterieure.",
+          "reponse_eleve": "Ce sont toutes les missions que seul l'État peut faire afin de rendre justice, de conserver la sécurité qu'elle soit intérieure ou extérieure.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "L'écart avec l'Allemagne (6,7) est juste, mais celui avec la zone euro (57,2 − 49,8 = 7,4) n'apparaît pas, et un écart entre deux taux s'exprime en points de PIB, pas en %. La conclusion attendue n'était pas « la France domine » mais : la France a une logique interventionniste, un État-providence étendu. Écris au stylo : ton crayon est très pâle à la lecture.",
-          "reponse_eleve": "(au crayon, pâle) La [ILLISIBLE] de [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] dépenses [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] représente [ILLISIBLE] % tandis que [ILLISIBLE] [ILLISIBLE] [ILLISIBLE]. Pour l'Allemagne, le [ILLISIBLE] [ILLISIBLE] à [ILLISIBLE] %, ce qui représente un écart de 6,7 %. On peut en conclure que la France domine les États voisins dans l'économie (a part la Finlande). Elle est même au dessus de la moyenne.",
+          "reponse_eleve": "(au crayon, pâle) La [ILLISIBLE] de [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] dépenses [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] représente [ILLISIBLE] % tandis que [ILLISIBLE] [ILLISIBLE] [ILLISIBLE]. Pour l'Allemagne, le [ILLISIBLE] [ILLISIBLE] à [ILLISIBLE] %, ce qui représente un écart de 6,7 %. On peut en conclure que la France domine les États voisins dans l'économie (à part la Finlande). Elle est même au-dessus de la moyenne.",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : l'État s'engage à 100 % (interventionniste) et garantit l'indépendance du pays en cas de guerre (régalien). Bien.",
-          "reponse_eleve": "(au crayon, pâle) On paraît un État interventionniste car il est à 100 % [ILLISIBLE] et soutient le [ILLISIBLE] mais il a aussi des missions régaliennes. Il permet l'indépendance du Pays en cas de guerre.",
+          "reponse_eleve": "(au crayon, pâle) On paraît un État interventionniste car il est à 100 % [ILLISIBLE] et soutient le [ILLISIBLE] mais il a aussi des missions régaliennes. Il permet l'indépendance du pays en cas de guerre.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -191,7 +191,7 @@
           "points": 3.0,
           "points_max": 3.5,
           "commentaire": "Bonne argumentation : position nette dès la première phrase, premier argument appuyé sur les 771 Md€ de prestations (doc 9), second sur la fonction d'allocation (écoles, hôpitaux), vocabulaire précis. Il manque la conclusion qui répond à la question, et l'écriture au crayon est difficile à lire : garde quelques minutes pour conclure et écris au stylo.",
-          "reponse_eleve": "(au crayon, pâle) Selon moi, l'État ne doit pas réduire son intervention. Au contraire, il doit persister dans son soutient. Premièrement, l'État-Providence permet la protection de la population grâce prestations sociales. En 2025, les prestations représentent [ILLISIBLE] Mds €, correspondant aux retraites, la santé et le chômage (document 3). L'État joue un rôle [ILLISIBLE] dans la redistribution. [ILLISIBLE], l'État soutient [ILLISIBLE] et investit. Par [ILLISIBLE], il peut financer les écoles, les [ILLISIBLE], les hôpitaux ...",
+          "reponse_eleve": "(au crayon, pâle) Selon moi, l'État ne doit pas réduire son intervention. Au contraire, il doit persister dans son soutien. Premièrement, l'État-Providence permet la protection de la population grâce prestations sociales. En 2025, les prestations représentent [ILLISIBLE] Mds €, correspondant aux retraites, la santé et le chômage (document 3). L'État joue un rôle [ILLISIBLE] dans la redistribution. [ILLISIBLE], l'État soutient [ILLISIBLE] et investit. Par [ILLISIBLE], il peut financer les écoles, les [ILLISIBLE], les hôpitaux ...",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

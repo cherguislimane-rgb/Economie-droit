@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et le commissariat est bien justifié (fixe les règles, ne distribue pas de revenu). Mais le plafonnement du prix est une intervention économique, donc État-providence ; et pour l'URSSAF, une seule case (providence). Reporter des cotisations n'est pas « lever l'impôt ».",
-          "reponse_eleve": "ligne 1 — intervention : « Plaflonné à 280 le mégawattheure des factur (l'urssaf qui donne un report du paiement) (le commissariat a pris la plainte) » [les deux parenthèses sont reliées par des flèches aux lignes 2 et 3] | case : gendarme | justification : « il a fixer une limite des fonctions » ligne 2 — intervention : « [flèche depuis la ligne 1 : (l'urssaf qui donne un report du paiement)] » | case : DOUBLE (providence entourée) | justification : « il leve l'impot (report du paiement des cotisations sociales) » ligne 3 — intervention : « [flèche depuis la ligne 1 : (le commissariat a pris la plainte)] » | case : gendarme | justification : « il fixe les règles et fait respecter la loi et […]",
+          "reponse_eleve": "ligne 1 — intervention : « Plafonné à 280 le mégawattheure des factures (l'URSSAF qui donne un report du paiement) (le commissariat a pris la plainte) » [les deux parenthèses sont reliées par des flèches aux lignes 2 et 3] | case : gendarme | justification : « il a fixé une limite des fonctions » ligne 2 — intervention : « [flèche depuis la ligne 1 : (l'urssaf qui donne un report du paiement)] » | case : DOUBLE (providence entourée) | justification : « il lève l'impôt (report du paiement des cotisations sociales) » ligne 3 — intervention : « [flèche depuis la ligne 1 : (le commissariat a pris la plainte)] » | case : gendarme | justification : « il fixe les règles et fait respecter la loi et […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse incomplète : la sécurité est un exemple, pas la définition. Attendu : les missions que seul l'État peut exercer parce qu'elles engagent la souveraineté ; exemples : justice, police, défense.",
-          "reponse_eleve": "se sont les actions que fait et impose l'état pour assurer la sécurité (et) extérieur et intérieur",
+          "reponse_eleve": "ce sont les actions que fait et impose l'État pour assurer la sécurité (et) extérieure et intérieure",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Une parenthèse ne fait pas une réponse argumentée. Attendu : l'État-gendarme se limite aux fonctions régaliennes ; le plafonnement et le report des cotisations sont des interventions économiques ; donc seul un État-providence pouvait aider Nadia. Sur la capacité *expliquer les différences entre État-gendarme et État-providence*, rédige règle → application → conclusion.",
-          "reponse_eleve": "(puisque elle ne pratique aucune fonction qui oblige l'intervention de l'état providence)",
+          "reponse_eleve": "(puisqu'elle ne pratique aucune fonction qui oblige l'intervention de l'État providence)",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes avec les données. Un écart entre deux taux s'exprime en points de PIB, pas en %. Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "on a un ecart de 7,4% entre la france et (z) zone euro puisque la france détient 57,2% et zone euro 49,8% et on a un écart de 6,7% entre la france et l'allemagne puisque la france détient 57,2 et l'allemagne [barré : 49,8] 50,5%",
+          "reponse_eleve": "on a un écart de 7,4% entre la France et (z) zone euro puisque la France détient 57,2% et zone euro 49,8% et on a un écart de 6,7% entre la France et l'Allemagne puisque la France détient 57,2 et l'Allemagne [barré : 49,8] 50,5%",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est vu (seul actionnaire). Le régalien n'est pas le « développement technologique » en général : c'est la défense et la souveraineté (les supercalculateurs servent la dissuasion nucléaire).",
-          "reponse_eleve": "il est interventionniste et régalien puisque l'état c'est le seul actionnaire denus et ç est considéré comme une étape important pour l'état pour son développement technologique et innovant",
+          "reponse_eleve": "il est interventionniste et régalien puisque l'État c'est le seul actionnaire denus et c'est considéré comme une étape importante pour l'État pour son développement technologique et innovant",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Tout est juste, avec le critère de la contrepartie sur chaque ligne. Très bien.",
-          "reponse_eleve": "a — case : cotisation [croix + gribouillis au-dessus de la case] | justification : « (elles f.) puisque c'est une cotisation sociale obligatoire du coup on a présence de la contrepartie » b — case : impot | justification : « elles finançent la protection sociale absence de la contrepartie » c — case : impot | justification : « absence de la contrepartie puisque c'est une taxe qu'on paye à l'état » d — case : impot | justification : « puisque c'est quelque chose taxer à l'achat de produits absences de la contrepartie »",
+          "reponse_eleve": "a — case : cotisation [croix + gribouillis au-dessus de la case] | justification : « (elles f.) puisque c'est une cotisation sociale obligatoire du coup on a présence de la contrepartie » b — case : impot | justification : « elles financent la protection sociale absence de la contrepartie » c — case : impot | justification : « absence de la contrepartie puisque c'est une taxe qu'on paye à l'État » d — case : impot | justification : « puisque c'est quelque chose taxé à l'achat de produits absence de la contrepartie »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes et solde qualifié de déficit : bien. Écris les unités (57,3 % ; − 152,5 Md€) et attention aux recopies (1 714,1, pas 1 714,4).",
-          "reponse_eleve": "1714,4 / 2991,1 × 100 = 57,3 [gribouillé : ILLISIBLE] 1561,6 - 1714,4 = - 152,5 c'est deficit de 5,1 %",
+          "reponse_eleve": "1714,4 / 2991,1 × 100 = 57,3 [gribouillé : ILLISIBLE] 1561,6 - 1714,4 = - 152,5 c'est déficit de 5,1 %",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Tu mobilises des données du dossier (dépenses à 57,2 % du PIB) et du vocabulaire. Mais la réponse dit « oui » au début puis « ne doit pas arrêter ou réduire » à la fin : une seule position, tenue jusqu'au bout. Ajoute un second argument distinct et une structure visible (introduction, deux paragraphes, conclusion).",
-          "reponse_eleve": "[barré : ILLISIBLE] [barré : ILLISIBLE] Oui, si on regard l'aspect économique de la france on voit une claire hausse des dépenses en 2025 on a des dépenses de 1714,1% ce qui correspond à 57,2% du PIB de la france en 2025 on a egalement dans les autres années (une) une hausse de dépense puisque en 2024 l'état à dépenser 57% du PIB on a également les taxes et les impots et (quel) cotisations cela joue une role très important sur la hausse des dépenses et le PIB de la france pour moi l'état (—) doit (pas) arreter [inséré au-dessus : ou réduire] ses interventions puisque c'est augmentatif et vu [ILLISIBLE] du temp la france s'ettouferas de dettes.",
+          "reponse_eleve": "[barré : ILLISIBLE] [barré : ILLISIBLE] Oui, si on regarde l'aspect économique de la France on voit une claire hausse des dépenses en 2025 on a des dépenses de 1714,1% ce qui correspond à 57,2% du PIB de la France en 2025 on a également dans les autres années (une) une hausse de dépense puisqu'en 2024 l'État a dépensé 57% du PIB on a également les taxes et les impôts et (quel) cotisations cela joue un rôle très important sur la hausse des dépenses et le PIB de la France pour moi l'État (—) doit (pas) arrêter [inséré au-dessus : ou réduire] ses interventions puisque c'est augmentatif et vu [ILLISIBLE] du temps la France s'étouffera de dettes.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

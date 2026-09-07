@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées. Il manque les justifications des lignes 1 et 2 : le plafonnement et le report sont des interventions économiques et sociales de l'État-providence (fonction de régulation), hors du champ régalien.",
-          "reponse_eleve": "ligne 1 — intervention : « Report du paiement » | case : providence | justification : [NON REPONDU] ligne 2 — intervention : « Plafonné » | case : providence | justification : [NON REPONDU] ligne 3 — intervention : « La Boulangerie Cambriolé » | case : gendarme | justification : « c'est un état gendarme car c'est la justice qui s'occupe du dossier (plainte cambriolage). »",
+          "reponse_eleve": "ligne 1 — intervention : « Report du paiement » | case : providence | justification : [NON REPONDU] ligne 2 — intervention : « Plafonné » | case : providence | justification : [NON REPONDU] ligne 3 — intervention : « La boulangerie cambriolée » | case : gendarme | justification : « c'est un État gendarme car c'est la justice qui s'occupe du dossier (plainte cambriolage). »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (activités faites seulement par l'État) et exemples corrects : acquis.",
-          "reponse_eleve": "Les fonctions regaliennes sont les activité faites seulement par l'Etat comme rendre justice, lever l'impôt et battre monnaie.",
+          "reponse_eleve": "Les fonctions régaliennes sont les activités faites seulement par l'État comme rendre justice, lever l'impôt et battre monnaie.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Bon raisonnement : règle (sécurité et justice, pas de protection sociale), application (cambriolage oui, report et plafonnement non : bonne nuance). Il manque la conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire : régalien, régulation.",
-          "reponse_eleve": "L'Etat - gendarme n'aurait pas aide Nadia a traverser l'hiver 2022-2023 car ils sont specialise dans la securité et justice et non dans la protection social. Donc l'etat gendarme pourra protege Nadia lors de son cambriolage mais pas dans son report de paiement et son entreprise (Boulangerie) plafonné.",
+          "reponse_eleve": "L'État - gendarme n'aurait pas aidé Nadia à traverser l'hiver 2022-2023 car ils sont spécialisés dans la sécurité et justice et non dans la protection sociale. Donc l'État gendarme pourra protéger Nadia lors de son cambriolage mais pas dans son report de paiement et son entreprise (boulangerie) plafonnée.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Calculs exposés, résultats justes et bonne unité (points de PIB). Il fallait conclure : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "Zone euro − France = ... 1) 49,8 − 57,2 = −7,4 France − Allemagne = 57,2 − 50,5 = −6,7 [barré : un mot] point de PIB",
+          "reponse_eleve": "Zone euro − France = ... 1) 49,8 − 57,2 = −7,4 France − Allemagne = 57,2 − 50,5 = −6,7 [barré : un mot] points de PIB",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est vu (l'État s'engage, devient actionnaire). Il manque le régalien : les supercalculateurs servent la défense et la souveraineté, mission que seul l'État peut assurer.",
-          "reponse_eleve": "Le rachat de Bull peut etre interventionniste car l'etat s'engage au rachat (qui va leur permettre d'etre actionnaire).",
+          "reponse_eleve": "Le rachat de Bull peut être interventionniste car l'État s'engage au rachat (qui va leur permettre d'être actionnaire).",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les quatre cases sont justes. Les justifications ne donnent pas le critère attendu : la cotisation ouvre un droit à une prestation (retraite, chômage), l'impôt ne donne aucun droit direct en contrepartie.",
-          "reponse_eleve": "a — case : cotisation | justification : « La retraite et le chomage et verse par l'employeur » b — case : impot | justification : « CSG-CRDS fait parti du groupe qui entoure les impôts (TVA, taxe, CSG-CRDS). » c — case : impot | justification : « la source du prelevement et fait sur les impôt. » d — case : impot | justification : « La TVA fait parti des impôt tout comme le CSG-CRDS »",
+          "reponse_eleve": "a — case : cotisation | justification : « La retraite et le chômage est versé par l'employeur » b — case : impot | justification : « CSG-CRDS fait partie du groupe qui entoure les impôts (TVA, taxe, CSG-CRDS). » c — case : impot | justification : « la source du prélèvement est faite sur les impôts. » d — case : impot | justification : « La TVA fait partie des impôts tout comme le CSG-CRDS »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Calculs justes et bien posés. Il manque l'unité du résultat (57,3 %) et le mot clé : un solde négatif est un déficit public.",
-          "reponse_eleve": "A) PIB = 2991,1 Mds d'euro en 2025 Depense publique 1714,1 Mds d'euro en 2025 2991 → 100% 1714 → 1714 / 2991 × 100 = 57,3 B) Solde public = 1561,6 − 1714,1 = −152,5",
+          "reponse_eleve": "A) PIB = 2991,1 Mds d'euros en 2025 Dépense publique 1714,1 Mds d'euros en 2025 2991 → 100% 1714 → 1714 / 2991 × 100 = 57,3 B) Solde public = 1561,6 − 1714,1 = −152,5",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

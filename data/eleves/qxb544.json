@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Le plafonnement et le report des cotisations sont bien classés État-providence. Il manquait la troisième intervention : le commissariat qui prend la plainte et la justice qui juge (État-gendarme, fonctions régaliennes). Les justifications doivent donner le critère (intervention économique / régalien), pas seulement « l'État aide ».",
-          "reponse_eleve": "ligne 1 — intervention : « le prix de l'électricité plafonné a 280 € le megawattheure pour le très petite entreprise » | case : providence | justification : « l'état aide nadia en payant moins » ligne 2 — intervention : « report du paiement des cotisations social » | case : providence | justification : « l'état donne un délè supleme[ILLISIBLE : coupé au bord de la page]aire pour aider nadia payé » ligne 3 — intervention : [NON REPONDU] | case : — | justification : [NON REPONDU]",
+          "reponse_eleve": "ligne 1 — intervention : « le prix de l'électricité plafonné à 280 € le mégawattheure pour les très petites entreprises » | case : providence | justification : « l'État aide Nadia en payant moins » ligne 2 — intervention : « report du paiement des cotisations sociales » | case : providence | justification : « l'État donne un délai suppléme[ILLISIBLE : coupé au bord de la page]aire pour aider Nadia payer » ligne 3 — intervention : [NON REPONDU] | case : — | justification : [NON REPONDU]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète et exemples corrects : acquis.",
-          "reponse_eleve": "Les fonction régaliennes (du latin regalis « royal ») sont les missions que seul l'État peut exercer parce qu'elles engagent la souveraineté : rendre la justice, assurer la sécurité intérieure (police) et exterieure (defence, diplomatie), battre monnaie, lever impôt. - securiter Int - securiter Ext - justice",
+          "reponse_eleve": "Les fonctions régaliennes (du latin regalis « royal ») sont les missions que seul l'État peut exercer parce qu'elles engagent la souveraineté : rendre la justice, assurer la sécurité intérieure (police) et extérieure (défense, diplomatie), battre monnaie, lever impôt. - sécurité Int - sécurité Ext - justice",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"

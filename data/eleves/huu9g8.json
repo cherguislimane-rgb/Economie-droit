@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Très bonne lecture de la situation : trois interventions bien classées et justifiées avec le critère (services financés par des prélèvements obligatoires / faire respecter les lois sans redistribuer). Pour le plein crédit, nomme les fonctions : régaliennes pour la police, régulation pour le plafonnement.",
-          "reponse_eleve": "ligne 1 — intervention : « -> l'Etat plafond à 280 € du prix de l'electricité » | case : providence | justification : « l'etat assure une remuneration et service à tous financé par des prelevement obligatoire. » ligne 2 — intervention : « -> l'Urssaf report du paiement des cotisations » | case : providence | justification : « l'Urssaf est un etat qui ne se limite pas à ces fonctions et ne se contente plus de protéger les personnes et les biens. Ils sont chargé de préleve des finance obligatoire. » ligne 3 — intervention : « -> le commissariat plainte de cambriolage » | case : gendarme | justification : « le commissariat est chargé de faire respecter les lois et les regles et ne redistribue […]",
+          "reponse_eleve": "ligne 1 — intervention : « -> l'État plafonne à 280 € du prix de l'électricité » | case : providence | justification : « l'État assure une rémunération et service à tous financés par des prélèvements obligatoires. » ligne 2 — intervention : « -> l'URSSAF report du paiement des cotisations » | case : providence | justification : « l'URSSAF est un État qui ne se limite pas à ses fonctions et ne se contente plus de protéger les personnes et les biens. Ils sont chargés de prélever des finances obligatoires. » ligne 3 — intervention : « -> le commissariat plainte de cambriolage » | case : gendarme | justification : « le commissariat est chargé de faire respecter les lois et les règles et ne […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "les fonctions regaliennes sont chargées de rendre la justice, assurer la securité interieur et exterieur, lever les impôts, battre la monnaie. Car elles se sont engagé à assurer la souvraineté",
+          "reponse_eleve": "les fonctions régaliennes sont chargées de rendre la justice, assurer la sécurité intérieure et extérieure, lever les impôts, battre la monnaie. Car elles se sont engagées à assurer la souveraineté",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là (sécurité et règles d'un côté, prise en charge des risques sociaux de l'autre). Il manque la conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire du chapitre : régalien, régulation.",
-          "reponse_eleve": "Un état-gendarme n'aurait pas aidé Nadia car ils ont pour but d'assurer la securité et faire respecter les regles cependant Nadia à aussi besoin d'une prise en charge qui assure les risques sociaux.",
+          "reponse_eleve": "Un État-gendarme n'aurait pas aidé Nadia car ils ont pour but d'assurer la sécurité et faire respecter les règles cependant Nadia a aussi besoin d'une prise en charge qui assure les risques sociaux.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes. Attention à l'unité : tu écris « en point de PIB » puis « 7,4 % » ; un écart entre deux taux s'exprime en points. Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "l'ecart en point de PIB entre la France et la moyenne de la zone euro est de 7,4 %. Tandis qu'entre la France et l'allemagne elle est de 6,7 %",
+          "reponse_eleve": "l'écart en point de PIB entre la France et la moyenne de la zone euro est de 7,4 %. Tandis qu'entre la France et l'Allemagne elle est de 6,7 %",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : rachat par l'État (interventionniste) et souveraineté (régalien). Tu pouvais préciser : 404 M€, unique actionnaire, défense.",
-          "reponse_eleve": "le rachat de bull par l'état peut être qualifié d'interventionniste tout en relevant aussi d'une mision regalienne car l'état s'est engagé à la souvraineté sachant que pour BULL la souvrainté technologique est une etape importante. l'Etat est donc dans l'obligation de reguler l'economie et soutenir la demande.",
+          "reponse_eleve": "le rachat de Bull par l'État peut être qualifié d'interventionniste tout en relevant aussi d'une mission régalienne car l'État s'est engagé à la souveraineté sachant que pour BULL la souveraineté technologique est une étape importante. l'État est donc dans l'obligation de réguler l'économie et soutenir la demande.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Tout est juste, avec le bon critère de la contrepartie sur chaque ligne. Très bien.",
-          "reponse_eleve": "a — case : cotisation | justification : « Versement obligatoire mais ouvre un droit à une prestation » b — case : impot | justification : « Finance la protection sociale mais n'ouvrent aucun droit particulier à celui qui les paie[fin du mot gribouillée] » c — case : impot | justification : « Versement obligatoire aux administrations publique sans contrepartie » d — case : impot | justification : « versement obligatoire aux administrations publique sans contre partie »",
+          "reponse_eleve": "a — case : cotisation | justification : « Versement obligatoire mais ouvre un droit à une prestation » b — case : impot | justification : « Finance la protection sociale mais n'ouvrent aucun droit particulier à celui qui les paie[fin du mot gribouillée] » c — case : impot | justification : « Versement obligatoire aux administrations publiques sans contrepartie » d — case : impot | justification : « versement obligatoire aux administrations publiques sans contrepartie »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La part des dépenses (57,3 %) est juste. Mais le solde public n'est pas la part des recettes dans le PIB : c'est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit. Sur la capacité *distinguer le déficit public de la dette publique*, c'est ce calcul qui compte.",
-          "reponse_eleve": "Part des depenses dans le PIB 2025 est de 57,3 %. -> 1714,1 ÷ 2991,1 x100 = 57,3 Part du Solde dans le PIB 2025 est de 52,2 % -> 1561,6 ÷ 2991,1 x100 = 52,2",
+          "reponse_eleve": "Part des dépenses dans le PIB 2025 est de 57,3 %. -> 1714,1 ÷ 2991,1 x100 = 57,3 Part du Solde dans le PIB 2025 est de 52,2 % -> 1561,6 ÷ 2991,1 x100 = 52,2",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Flux et stock sont bien identifiés et les chiffres du document sont cités. Il manque le mécanisme : tant qu'il y a un déficit, même réduit, l'État emprunte et cette somme s'ajoute au stock ; seule l'absence de déficit ferait baisser la dette.",
-          "reponse_eleve": "le solde public etant negatif on parle alors d'un deficit. Ce deficit est passé de 5,8 à 5,1 entre 2024 [dernier chiffre repassé] et 2025 on parle alors d'un flux en baisse. Tandis que le stock publique augmente il passe de 112,6 à 115,6 entre 2024 et 2025. On en deduit qu'en 2025 on possède un flux en baisse et un stock en hausse.",
+          "reponse_eleve": "le solde public étant négatif on parle alors d'un déficit. Ce déficit est passé de 5,8 à 5,1 entre 2024 [dernier chiffre repassé] et 2025 on parle alors d'un flux en baisse. Tandis que le stock public augmente il passe de 112,6 à 115,6 entre 2024 et 2025. On en déduit qu'en 2025 on possède un flux en baisse et un stock en hausse.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Réponse trop générale. Attendu : les intérêts (64,7 Md€) sont une dépense qui creuse le déficit, donc la dette (boule de neige), et cet argent manque pour les services publics.",
-          "reponse_eleve": "elle est un probleme pour les finances publiques car elle peut devenir de plus en plus elevé et suscité un probleme de remboursement.",
+          "reponse_eleve": "elle est un problème pour les finances publiques car elle peut devenir de plus en plus élevée et susciter un problème de remboursement.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 2.38,
           "points_max": 3.5,
           "commentaire": "Question neutralisée : la page 7 du cahier était absente de ta copie (non imprimée), tu n'as pas pu y répondre. Les points sont attribués au prorata de ta réussite sur le reste du devoir (11,25 / 16,5), ce qui revient à noter ta copie sur 16,5 puis à la ramener sur 20. Pour l'épreuve : une position dès la première phrase, deux arguments appuyés sur le dossier, une conclusion.",
-          "reponse_eleve": "[La page 7/7 imprimée n'est pas dans le fichier ; la 7e image est une feuille blanche sur laquelle l'élève a seulement écrit :] l'etat doit-il reduire son intervention ?",
+          "reponse_eleve": "[La page 7/7 imprimée n'est pas dans le fichier ; la 7e image est une feuille blanche sur laquelle l'élève a seulement écrit :] l'État doit-il réduire son intervention ?",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

@@ -15,7 +15,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Le plafonnement et la plainte / justice sont bien classés. Le report de paiement de l'URSSAF est une aide économique et sociale : État-providence, pas gendarme. Les justifications décrivent la situation ; il fallait donner le critère (régalien / intervention économique). Écris au stylo : le crayon est très pâle au scan.",
-          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « plafon de 280€ d'électricité pour les petites entreprise » | case : providence | justification : « son électricité pour sa boulange de quartier est passée de 1800€ à 6000€ Urs » ligne 2 — intervention : « Les aides ont reçis fin an 2025 » | case : gendarme | justification : « Urssaf - » ligne 3 — intervention : « plainte prise par le commissariat et jugé a auteur par la justice » [en marge, texte déborde hors du cadre à gauche] | case : gendarme | justification : « Cambriolage de la boulangerie »",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « plafond de 280€ d'électricité pour les petites entreprises » | case : providence | justification : « son électricité pour sa boulange de quartier est passée de 1800€ à 6000€ Urs » ligne 2 — intervention : « Les aides ont reçu fin an 2025 » | case : gendarme | justification : « URSSAF - » ligne 3 — intervention : « plainte prise par le commissariat et jugé a auteur par la justice » [en marge, texte déborde hors du cadre à gauche] | case : gendarme | justification : « Cambriolage de la boulangerie »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont la manière dont l'État s'engagent la souveraineté tel que rendre la justice, lever l'impôt, battre monnaie ...",
+          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont la manière dont l'État s'engage la souveraineté tel que rendre la justice, lever l'impôt, battre monnaie ...",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu appliques au cas (Nadia a eu besoin des aides de l'État-providence : URSSAF, plafonnement). Mais la justice n'en fait pas partie, elle est régalienne. Il manque la règle de départ (l'État-gendarme se limite aux fonctions régaliennes) et une conclusion nette.",
-          "reponse_eleve": "(au crayon, pâle) Un État gendarme n'aurait pas aidé Nadia complètement car elle a eu besoin des aides fournit par un État de providence tel que, l'Urssaf, un plafon du prix de l'electricité puis la justice.",
+          "reponse_eleve": "(au crayon, pâle) Un État gendarme n'aurait pas aidé Nadia complètement car elle a eu besoin des aides fournies par un État de providence tel que, l'URSSAF, un plafond du prix de l'électricité puis la justice.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "Les soustractions sont posées (bonne unité : points de PIB) mais pas calculées : 7,4 et 6,7 points. La conclusion attendue n'était pas « la Finlande domine » mais : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "(au crayon, pâle) L'ecart en pourcent de PIB entre la France [ILLISIBLE] la zone euro est : 57,2% − 49,8% Puis l'ecart entre la France et l'Allemagne 57,2 − 50,5 J'en conclue que la Finlande domine la France",
+          "reponse_eleve": "(au crayon, pâle) L'écart en pour cent de PIB entre la France [ILLISIBLE] la zone euro est : 57,2% − 49,8% Puis l'écart entre la France et l'Allemagne 57,2 − 50,5 J'en conclus que la Finlande domine la France",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : unique actionnaire (interventionniste) et souveraineté technologique (régalien). Bien.",
-          "reponse_eleve": "(au crayon, pâle) Le Rachat de Bull peut etre qualifier d'interventionniste car [barré : un mot] elle en devient l'unique actionnaire mais aussi [ILLISIBLE] car il y a une souveraineté technologique",
+          "reponse_eleve": "(au crayon, pâle) Le rachat de Bull peut être qualifié d'interventionniste car [barré : un mot] elle en devient l'unique actionnaire mais aussi [ILLISIBLE] car il y a une souveraineté technologique",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Trois cases justes et la contrepartie de la cotisation est vue. Sur la ligne c, deux cases portent une marque : une seule case (impôt). Pour les impôts, il fallait formuler l'absence de contrepartie directe.",
-          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « Une cotisation sociale [ILLISIBLE] a une prestation » b — case : impot | justification : « CSG et le CRDS sont [ILLISIBLE] l'unique paiement des impôts elles [ILLISIBLE] » c — case : ? [impot cochée, trait léger sur cotisation] | justification : « prélevement obligatoire sur le revenu » d — case : impot | justification : « impôts sur le revenu et les [ILLISIBLE] »",
+          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « Une cotisation sociale [ILLISIBLE] a une prestation » b — case : impot | justification : « CSG et le CRDS sont [ILLISIBLE] l'unique paiement des impôts elles [ILLISIBLE] » c — case : ? [impot cochée, trait léger sur cotisation] | justification : « prélèvement obligatoire sur le revenu » d — case : impot | justification : « impôts sur le revenu et les [ILLISIBLE] »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 0.5,
           "points_max": 2,
           "commentaire": "Flux (déficit) et stock (emprunts passés) sont identifiés. Il manque le mécanisme : tant qu'il y a un déficit, même réduit (5,8 → 5,1 %), l'État emprunte et la somme s'ajoute au stock (112,6 → 115,6 %).",
-          "reponse_eleve": "(au crayon, pâle) Le deficit publique ayant diminuée entre 2024 et 2025 malgré l'accroissement de la dette publique, tout cela est du par rapport aux emprunt passés qui sont un stock puis le flux diminue par rapport",
+          "reponse_eleve": "(au crayon, pâle) Le déficit public ayant diminué entre 2024 et 2025 malgré l'accroissement de la dette publique, tout cela est dû par rapport aux emprunts passés qui sont un stock puis le flux diminue par rapport",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",

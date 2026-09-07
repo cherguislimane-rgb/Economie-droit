@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Le cambriolage (justice) et le plafonnement (régulation, tu as le bon mot) sont bien classés. Le report de paiement de l'URSSAF est une aide économique et sociale : État-providence, pas fonction régalienne. Justifie chaque ligne avec le critère plutôt qu'avec un chiffre.",
-          "reponse_eleve": "ligne 1 — intervention : « cambriolage » | case : gendarme | justification : « utilisation de la justice » ligne 2 — intervention : « regulation marche » | case : providence | justification : « 280 € par kilowat h » ligne 3 — intervention : « report du paiment ursaf » | case : gendarme | justification : « utilisation des fonction regaliene »",
+          "reponse_eleve": "ligne 1 — intervention : « cambriolage » | case : gendarme | justification : « utilisation de la justice » ligne 2 — intervention : « régulation marché » | case : providence | justification : « 280 € par kilowatt h » ligne 3 — intervention : « report du paiement URSSAF » | case : gendarme | justification : « utilisation des fonctions régaliennes »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée de souveraineté est là. Il fallait trois exemples : justice, police, défense.",
-          "reponse_eleve": "mission que seule l'état peut exercer parce qu'elle engage la souverainete",
+          "reponse_eleve": "mission que seul l'État peut exercer parce qu'elle engage la souveraineté",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu recopies la définition, ce qui pose la règle. Il manque l'application : le plafonnement et le report des cotisations sont des interventions économiques, donc seul un État-providence pouvait aider Nadia. Sur la capacité *expliquer les différences entre État-gendarme et État-providence*, il faut toujours appliquer la règle au cas.",
-          "reponse_eleve": "un etat gendarme naurait pas aiden nadia car un etat gendarme se limite a ses fonction et laisse le reste de la vie economique et sociale au individue et au marche",
+          "reponse_eleve": "un État gendarme n'aurait pas aidé Nadia car un État gendarme se limite à ses fonctions et laisse le reste de la vie économique et sociale aux individus et au marché",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "L'unité (points) est bonne, mais les calculs sont à refaire : France / zone euro = 57,2 − 49,8 = 7,4 points ; France / Allemagne = 57,2 − 50,5 = 6,7 points. Il fallait conclure : logique interventionniste.",
-          "reponse_eleve": "il y a 7 point d'ecart 50,5 - 57,2 ≈ 7,5",
+          "reponse_eleve": "il y a 7 points d'écart 50,5 - 57,2 ≈ 7,5",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -137,7 +137,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Trois cases justes. La CSG-CRDS est classée impôt : elle finance la protection sociale mais n'ouvre aucun droit à celui qui la paie. C'est ce critère de la contrepartie qu'il fallait mettre dans les justifications.",
-          "reponse_eleve": "a — case : cotisation | justification : « prise d'argent sur salaire par l'état pour pouvoir l'utiliser pour les retraites » b — case : cotisation | justification : « prelevement qui va etre utiliser au aide Sociale » c — case : impot | justification : « impot sur le revenu » d — case : impot | justification : « taxe »",
+          "reponse_eleve": "a — case : cotisation | justification : « prise d'argent sur salaire par l'État pour pouvoir l'utiliser pour les retraites » b — case : cotisation | justification : « prélèvement qui va être utilisé aux aides sociales » c — case : impot | justification : « impôt sur le revenu » d — case : impot | justification : « taxe »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -191,7 +191,7 @@
           "points": 0.5,
           "points_max": 3.5,
           "commentaire": "La position est posée, mais il n'y a aucun argument. Attendu : deux arguments appuyés sur le dossier (Nadia sauvée par le plafonnement, Keynes et le soutien de la demande…), du vocabulaire du chapitre et une conclusion. Cette question vaut 3,5 points : garde-lui du temps.",
-          "reponse_eleve": "Non pour moi l'état ne doit pas reduire son intervention",
+          "reponse_eleve": "Non pour moi l'État ne doit pas réduire son intervention",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

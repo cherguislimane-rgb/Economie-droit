@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Tu relèves les trois interventions et tu les classes toutes correctement, avec de bonnes justifications (l'État « vient en aide », le commissariat « ne produit pas de service social »). Pour gagner le dernier quart de point, utilise le vocabulaire du chapitre : police et justice sont des fonctions régaliennes, le plafonnement relève de la fonction de régulation.",
-          "reponse_eleve": "ligne 1 — intervention : « L'état a reagi en plafonnet le prix des tres petites entreprises sur l'electriciter. » | case : providence | justification : « Dans cette situation l'état est un état de providence car il vient en aide a des particulier en bessant le coup de l'electriciter. » ligne 2 — intervention : « L'Urssaf. apporte un report du paiement des cotisations social » | case : providence | justification : « Urssaf est un Etat-providence car cela nous permet d'avoir la sécurité social et cela nous aide d'un plein d'autre point. » ligne 3 — intervention : « Le commissariat qui a pris sa plainte » | case : gendarme | justification : « Le commissariat est un État-gendarme car il se […]",
+          "reponse_eleve": "ligne 1 — intervention : « L'État a réagi en plafonnant le prix des très petites entreprises sur l'électricité. » | case : providence | justification : « Dans cette situation l'État est un État de providence car il vient en aide à des particuliers en baissant le coût de l'électricité. » ligne 2 — intervention : « L'URSSAF. apporte un report du paiement des cotisations sociales » | case : providence | justification : « URSSAF est un État-providence car cela nous permet d'avoir la sécurité sociale et cela nous aide d'un plein d'autres points. » ligne 3 — intervention : « Le commissariat qui a pris sa plainte » | case : gendarme | justification : « Le commissariat est un État-gendarme car il […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (missions que seul l'État exerce, souveraineté) et trois exemples corrects : c'est acquis.",
-          "reponse_eleve": "Les fonctions regaliennes sont \"les mission\" que seul l'état peut exercer a cause de la souveraineté. Les fonction regalienne assure la securiter interieur et exterieur ainsi que la justice.",
+          "reponse_eleve": "Les fonctions régaliennes sont \"les missions\" que seul l'État peut exercer à cause de la souveraineté. Les fonctions régaliennes assurent la sécurité intérieure et extérieure ainsi que la justice.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La règle est bien posée : l'État-gendarme n'intervient pas dans la vie économique et sociale. Il manque l'application précise au cas : il fallait montrer que le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (régulation), hors du champ régalien, puis conclure que seul un État-providence pouvait agir. Sur la capacité *expliquer les différences entre État-gendarme et État-providence*, pense « règle → application → conclusion » et cite au moins deux termes du chapitre.",
-          "reponse_eleve": "Un état-gendarme n'aurait pas aidé Nadia car il se limite à ces fonction et n'intervient pas dans la vie économique et social. Et en l'occurence Nadia avait des probleme économique et social.",
+          "reponse_eleve": "Un État-gendarme n'aurait pas aidé Nadia car il se limite à ses fonctions et n'intervient pas dans la vie économique et sociale. Et en l'occurrence Nadia avait des problèmes économiques et sociaux.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Écarts justes (7,4 et 6,7 points de PIB) et bonne unité. Il manquait la conclusion demandée : cet écart montre que la France a un État-providence étendu, une logique interventionniste.",
-          "reponse_eleve": "France : 57,2 Euro : 48,8 Allemagne : 50,5 La france possède 7,4 point de PiB que la zone euro. Ainsi que 6,7 point de PiB de plus que l'allemagne. Et l'allemagne possede 0,7 point de PiB de plus que la zone euro",
+          "reponse_eleve": "France : 57,2 Euro : 48,8 Allemagne : 50,5 La France possède 7,4 points de PIB que la zone euro. Ainsi que 6,7 points de PIB de plus que l'Allemagne. Et l'Allemagne possède 0,7 point de PIB de plus que la zone euro",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont bien identifiées : intervention de l'État par le rachat, et dimension régalienne liée à la sécurité et aux données sensibles. Tu pouvais citer les 404 M€ et le statut d'unique actionnaire pour appuyer l'idée.",
-          "reponse_eleve": "Le rachat de Bull par l'état est considerer comme interventioniste car l'état depense des fond publique pour racheter pour le bien de la nation. Cela est aussi regalien car c'est pour la securiter interne et externe de tous en securisant nos donnés.",
+          "reponse_eleve": "Le rachat de Bull par l'État est considéré comme interventionniste car l'État dépense des fonds publics pour racheter pour le bien de la nation. Cela est aussi régalien car c'est pour la sécurité interne et externe de tous en sécurisant nos données.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes et bien présentés (57,3 % ; − 152,5 Md€). Il manquait le mot clé : un solde négatif est un déficit public.",
-          "reponse_eleve": "a. (1714,1 ÷ 2 991,1) × 100 ≈ 57,3 % La part des dépenses publiques dans le PiB en 2025 est de 57,3 % B. 1561-6 - 17 14,1 = -152,5 Le solde public est de -152,5 Md€",
+          "reponse_eleve": "a. (1714,1 ÷ 2 991,1) × 100 ≈ 57,3 % La part des dépenses publiques dans le PIB en 2025 est de 57,3 % B. 1561-6 - 17 14,1 = -152,5 Le solde public est de -152,5 Md€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.5,
           "points_max": 2,
           "commentaire": "Tu as compris l'essentiel : le déficit est un flux qui s'ajoute chaque année au stock de dette, et seule l'absence de déficit stopperait la hausse. Pour un raisonnement complet, appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %).",
-          "reponse_eleve": "Cela est lieé au fait que déficite autrement dit le flux continue a augmenter les dette autrenet dit le stock même si le flux a diminué la dette continue d'augmenter, il faudrait qu'il y est aucun flux pour que le stock n'augmente pas.",
+          "reponse_eleve": "Cela est lié au fait que déficit autrement dit le flux continue à augmenter les dettes autrement dit le stock même si le flux a diminué la dette continue d'augmenter, il faudrait qu'il y ait aucun flux pour que le stock n'augmente pas.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'effet « boule de neige » (les intérêts creusent le déficit) est vu. Il fallait ajouter une conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics ou la baisse des prélèvements.",
-          "reponse_eleve": "Cela pause problème car l'augmentation de l'intérêts de la dette augmente aussi deficite (flux). Et Donc cela va continuer a augmenter jusqu'a ce que la france soir en faitte.",
+          "reponse_eleve": "Cela pose problème car l'augmentation des intérêts de la dette augmente aussi déficit (flux). Et donc cela va continuer à augmenter jusqu'à ce que la France soit en faillite.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 1.0,
           "points_max": 3.5,
           "commentaire": "Position claire dès la première phrase et bon vocabulaire (État-providence, flux, stock). Mais tes deux arguments restent des affirmations générales : chacun devait s'appuyer sur une donnée ou un exemple du dossier (Nadia et le plafonnement, Keynes et le soutien de la demande, les 771 Md€ de prestations…). La réponse s'arrête sur « etc. » sans conclusion : garde du temps pour la rédiger.",
-          "reponse_eleve": "L'Etat ne doit pas reduire son intervention dans l'econom malgrer sa dette de 115,6 %. Tout d'abord l'Etat-providence est extrement important pour le bien être des citoyen et des entreprise en france sans l'Etat-providence il y aurait enormement de conflit et de misere en france. Ensuite je pense qu'il existe d'autre solution pour gerer le flux et le stock, comme par exemple, les impôts on les taxe sur les grosse fortune, ect",
+          "reponse_eleve": "L'État ne doit pas réduire son intervention dans l'économie malgré sa dette de 115,6 %. Tout d'abord l'État-providence est extrêmement important pour le bien-être des citoyens et des entreprises en France sans l'État-providence il y aurait énormément de conflits et de misère en France. Ensuite je pense qu'il existe d'autres solutions pour gérer le flux et le stock, comme par exemple, les impôts ou les taxes sur les grosses fortunes, etc",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

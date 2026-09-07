@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Trois interventions bien relevées et classées, avec des justifications qui mobilisent le critère (prélèvements obligatoires, faire respecter les règles). Pour le dernier quart de point, nomme les fonctions : régaliennes pour la justice, régulation pour le plafonnement.",
-          "reponse_eleve": "ligne 1 — intervention : « État réagi : - électricité plafonné à 280€ » | case : providence | justification : « l'État aide la boulangerie en plafonnant le prix de l'électricité. » ligne 2 — intervention : « URSSAF : - Report du payement des cotisations sociale » | case : providence | justification : « L'URSSAF apporte un services à la boulangerie grâce à des prélèvement obligatoire. » ligne 3 — intervention : « Commissariat : - Plainte pour cambriolage » | case : gendarme | justification : « c'est la justice qui intervient afin de faire respecter les règles. »",
+          "reponse_eleve": "ligne 1 — intervention : « État réagit : - électricité plafonnée à 280€ » | case : providence | justification : « l'État aide la boulangerie en plafonnant le prix de l'électricité. » ligne 2 — intervention : « URSSAF : - Report du paiement des cotisations sociales » | case : providence | justification : « L'URSSAF apporte un service à la boulangerie grâce à des prélèvements obligatoires. » ligne 3 — intervention : « Commissariat : - Plainte pour cambriolage » | case : gendarme | justification : « c'est la justice qui intervient afin de faire respecter les règles. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Les exemples sont justes (justice, sécurité, impôt). Il manque l'idée centrale : des missions que seul l'État peut exercer, parce qu'elles engagent la souveraineté.",
-          "reponse_eleve": "Les fonctions régaliennes sont des interventions de l'état vis à vis de la justice, la sécurité intérieure / exterieure ou encore lever l'impôt.",
+          "reponse_eleve": "Les fonctions régaliennes sont des interventions de l'État vis-à-vis de la justice, la sécurité intérieure / extérieure ou encore lever l'impôt.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Bon raisonnement en trois temps : règle, application au cas de Nadia, conclusion (c'est le rôle de l'État-providence). Pour le plein crédit, utilise le vocabulaire : fonctions régaliennes, régulation.",
-          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car son rôle est de faire respecter les règles et les contrat, dans le cas de Nadia c'est le contraire. Nadia à besoin d'aide dans son activité. c'est le rôle de l'État-providence.",
+          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car son rôle est de faire respecter les règles et les contrats, dans le cas de Nadia c'est le contraire. Nadia a besoin d'aide dans son activité. c'est le rôle de l'État-providence.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'intervention de l'État est vue. Mais « régalien » ne veut pas dire « seul l'État peut le faire » : c'est le lien avec la défense et la souveraineté (les supercalculateurs servent la dissuasion nucléaire) qui était attendu.",
-          "reponse_eleve": "Le rachat de Bull par l'État est une mission régalienne car seul l'état peut l'exercer. Le rachat peut être également qualifié d'interventionniste car l'état intervient pour soutenir la demande",
+          "reponse_eleve": "Le rachat de Bull par l'État est une mission régalienne car seul l'État peut l'exercer. Le rachat peut être également qualifié d'interventionniste car l'État intervient pour soutenir la demande",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Tout est juste, avec le bon critère de la contrepartie. Très bien.",
-          "reponse_eleve": "a — case : cotisation | justification : « le chômage est l'un des \"droit à une prestation\" qu'on obtient lors d'une cotisation. » b — case : impot | justification : « Classées par l'Insee parmi les impôts. Il n'y pas de contrepartie. » c — case : impot | justification : « c'est un prélèvement obligatoire » d — case : impot [trait léger sur la case Cotisation] | justification : « Il n'y a aucune contrepartie après avoir payer la TVA sur les courses. »",
+          "reponse_eleve": "a — case : cotisation | justification : « le chômage est l'un des \"droits à une prestation\" qu'on obtient lors d'une cotisation. » b — case : impot | justification : « Classées par l'Insee parmi les impôts. Il n'y pas de contrepartie. » c — case : impot | justification : « c'est un prélèvement obligatoire » d — case : impot [trait léger sur la case Cotisation] | justification : « Il n'y a aucune contrepartie après avoir payé la TVA sur les courses. »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes et solde bien qualifié de déficit : très bien. N'oublie pas l'unité du solde : − 152,5 Md€.",
-          "reponse_eleve": "(au crayon, pâle) Parts des depenses : 1 714,1 ÷ 2 991,1 x100 = 57,3 % = 57 % de PIB Soldes public 2025 : 1561,6 - 1714,1 = - 152,5 (négatif : déficit)",
+          "reponse_eleve": "(au crayon, pâle) Parts des dépenses : 1 714,1 ÷ 2 991,1 x100 = 57,3 % = 57 % de PIB Solde public 2025 : 1561,6 - 1714,1 = - 152,5 (négatif : déficit)",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme est compris : le flux (déficit) ajoute une couche au stock (dette) via l'emprunt. Appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seule l'absence de déficit ferait baisser la dette.",
-          "reponse_eleve": "Entre 2024 et 2025 le déficit public à diminué tandis que la dette publique a augmenté. Ce paradoxe est dû au flux qui ajoute une couche au stock. Les dettes sont accentué par les déficit ce qui explique l'augmentation de celles-ci au cours des années 2024-2025 la principale raison de cette augmentation est l'emprunt de l'État.",
+          "reponse_eleve": "Entre 2024 et 2025 le déficit public a diminué tandis que la dette publique a augmenté. Ce paradoxe est dû au flux qui ajoute une couche au stock. Les dettes sont accentuées par les déficits ce qui explique l'augmentation de celles-ci au cours des années 2024-2025 la principale raison de cette augmentation est l'emprunt de l'État.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "La conséquence (hausse des prélèvements sur les ménages) est une bonne idée. Il manquait le mécanisme : les intérêts (64,7 Md€) sont une dépense qui creuse le déficit, donc la dette, effet boule de neige.",
-          "reponse_eleve": "La hausse des intérêts de la dette est un problème pour les finances publiques car cela signifie que les emprunts ne sont pas encore remboursé. Afin de remboursé leur dette l'État doit trouver ses ressources auprès des salariées en passant par la TVA, impôts etc... Ces prélèvement pose préjudices au salariés car une partie de leurs salaires disparer.",
+          "reponse_eleve": "La hausse des intérêts de la dette est un problème pour les finances publiques car cela signifie que les emprunts ne sont pas encore remboursés. Afin de rembourser leur dette l'État doit trouver ses ressources auprès des salariés en passant par la TVA, impôts etc... Ces prélèvements posent préjudice aux salariés car une partie de leurs salaires disparaît.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"

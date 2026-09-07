@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Le cambriolage et le plafonnement sont bien classés, et tu nommes correctement la régulation. Sur la ligne URSSAF, les deux cases sont cochées : une seule conception par ligne (État-providence). Les justifications doivent donner le critère (régalien / intervention économique), pas seulement un chiffre.",
-          "reponse_eleve": "ligne 1 — intervention : « URSSAF Redistribution » | case : DOUBLE | justification : « rappot de paiement des cotisations sociale » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « reprise de plainté du comissariat Jugment de l'auteur » ligne 3 — intervention : « Mégawattheure Régulation » | case : providence | justification : « plafonement à 280€ »",
+          "reponse_eleve": "ligne 1 — intervention : « URSSAF Redistribution » | case : DOUBLE | justification : « rapport de paiement des cotisations sociales » ligne 2 — intervention : « Cambriolage » | case : gendarme | justification : « reprise de plainte du commissariat Jugement de l'auteur » ligne 3 — intervention : « Mégawattheure Régulation » | case : providence | justification : « plafonnement à 280€ »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "Les fonction régaliennes sont les missions que seul l'État peut exercer parce qu'elles engagent la souveraineté : - Sécurité intérieure - \" \" extérieur - Justice",
+          "reponse_eleve": "Les fonctions régaliennes sont les missions que seul l'État peut exercer parce qu'elles engagent la souveraineté : - Sécurité intérieure - \" \" extérieure - Justice",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Règle et application sont là (Nadia avait besoin de régulation et de redistribution). Il manque la conclusion explicite (seul un État-providence pouvait agir) et un second terme du chapitre : régalien, État-providence.",
-          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car il fixe [barré : elles] règles et fait respecter les contrats mais ne produit pas de service et ne redistribue pas les revenus. Or Nadia avait besoin de Régulation et de redistribution.",
+          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia car il fixe [barré : elles] règles et fait respecter les contrats mais ne produit pas de service et ne redistribue pas les revenus. Or Nadia avait besoin de régulation et de redistribution.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux écarts sont justes. Un écart entre deux taux s'exprime en points de PIB, pas en % (tu l'as noté ensuite). Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "Zone euro = 49,8 % il y'a 7,4 % d'écart entre [barré : les deux] la France et la zone euro. France = 57,2 % et il y'a 6,7 % d'écart entre la France et l'Allemagne Allemagne = 50,5 % [encre rose] % = point de PIB",
+          "reponse_eleve": "Zone euro = 49,8 % il y a 7,4 % d'écart entre [barré : les deux] la France et la zone euro. France = 57,2 % et il y a 6,7 % d'écart entre la France et l'Allemagne Allemagne = 50,5 % [encre rose] % = point de PIB",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là : rachat de l'activité (interventionniste) et souveraineté (régalien). Précise le lien avec la défense : les supercalculateurs servent la dissuasion nucléaire.",
-          "reponse_eleve": "Le rachat de bull par l'État peut être qualifié d'interventionniste car l'État a finalisé le rachat de l'activité d'ATOS. Or l'État se doit de soutenir la demande pour réguler l'économie. De plus l'État engage la [barré : souverenete] souveraineté.",
+          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste car l'État a finalisé le rachat de l'activité d'ATOS. Or l'État se doit de soutenir la demande pour réguler l'économie. De plus l'État engage la [barré : souverenete] souveraineté.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Tout est juste, avec le critère de la contrepartie sur chaque ligne. Très bien.",
-          "reponse_eleve": "a — case : cotisation | justification : « Ouvre un droit à la prestation » b — case : ? [impot coché d'une croix ; cotisation cochée d'une croix avec traits supplémentaires en dessous, peut-être raturée] | justification : « aucun droit à celui qui les paie » c — case : impot | justification : « impôt pas de contre partie » d — case : impot | justification : « taxe pas de contrepartie »",
+          "reponse_eleve": "a — case : cotisation | justification : « Ouvre un droit à la prestation » b — case : ? [impot coché d'une croix ; cotisation cochée d'une croix avec traits supplémentaires en dessous, peut-être raturée] | justification : « aucun droit à celui qui les paie » c — case : impot | justification : « impôt pas de contrepartie » d — case : impot | justification : « taxe pas de contrepartie »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'effet boule de neige est vu (les intérêts forcent à emprunter). Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "Le déficit ne va faire qu'augmenter car les intérêt augmentent également ce qui force l'État à emprunter.",
+          "reponse_eleve": "Le déficit ne va faire qu'augmenter car les intérêts augmentent également ce qui force l'État à emprunter.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Position nette et un argument appuyé sur un exemple précis du dossier (Mehdi, 435 € de prélèvements). Le second argument (57,2 % du PIB, doc 7) était bon : ne le barre pas, développe-le. Ajoute le vocabulaire du chapitre (prélèvements obligatoires, libéral, dette…) et une conclusion.",
-          "reponse_eleve": "L'État doit réduire son intervention dans l'économie car dans un premier temps cela empêche certains salariés de profiter pleinement de leur salaire comme on peut le voir avec Mehdi dans la [barré : doc 7] situation C où il voit pris de 435€ déduit de son salaire. [barré : De plus d'après le document 7, l'État en France possède représente 57,2 % du PIB ce qui est beaucoup et cela ne laisse pas les autres entreprise privée]",
+          "reponse_eleve": "L'État doit réduire son intervention dans l'économie car dans un premier temps cela empêche certains salariés de profiter pleinement de leur salaire comme on peut le voir avec Mehdi dans la [barré : doc 7] situation C où il voit pris de 435€ déduits de son salaire. [barré : De plus d'après le document 7, l'État en France possède représente 57,2 % du PIB ce qui est beaucoup et cela ne laisse pas les autres entreprise privée]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

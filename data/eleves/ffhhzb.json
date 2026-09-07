@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et les justifications sont pertinentes (aide aux petites entreprises, le tribunal rend la justice). Erreur sur la ligne 1 : plafonner le prix de l'électricité est une intervention économique, donc État-providence, pas État-gendarme. Écris au stylo : le crayon est très pâle au scan.",
-          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Prix électricité des petits entreprises plafonné 280 mégawatteurs » [écrit par-dessus un texte gommé ; en dessous, en plus pâle : « megawatteurs »] | case : gendarme | justification : « L'État aide les petits entreprise en baissant le prix de l'électricité 280 par heure » ligne 2 — intervention : « L'urssaf a décalé le paiement des cotisation » [écrit par-dessus un texte gommé] | case : providence | justification : « L'urssaf et en charge de la cotisation » ligne 3 — intervention : « Elle a était cambriolé elle a porté plainte. [barré : Elle] Et le tribunal jugé l'individu » | case : gendarme | justification : « La police a pris sa déposition Et […]",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Prix électricité des petites entreprises plafonné 280 mégawatteurs » [écrit par-dessus un texte gommé ; en dessous, en plus pâle : « megawatteurs »] | case : gendarme | justification : « L'État aide les petites entreprises en baissant le prix de l'électricité 280 par heure » ligne 2 — intervention : « L'URSSAF a décalé le paiement des cotisations » [écrit par-dessus un texte gommé] | case : providence | justification : « L'URSSAF est en charge de la cotisation » ligne 3 — intervention : « Elle a été cambriolée elle a porté plainte. [barré : Elle] Et le tribunal jugé l'individu » | case : gendarme | justification : « La police a pris sa déposition […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Les exemples sont justes (justice, sécurité intérieure et extérieure). Il manque l'idée centrale : des missions que seul l'État peut exercer, parce qu'elles engagent la souveraineté.",
-          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont se que l'état va faire pour les citoyens il rende justice, assure la sécurité intérieur et extérieur.",
+          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont ce que l'État va faire pour les citoyens il rend justice, assure la sécurité intérieure et extérieure.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -109,7 +109,7 @@
           "points": 0.0,
           "points_max": 1,
           "commentaire": "Les soustractions sont mal posées : 57,2 − 49,8 = 7,4 points de PIB et 57,2 − 50,5 = 6,7 points (on soustrait le plus petit du plus grand). Il fallait conclure : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "(au crayon, pâle) La zone euros est a 49,8 et la france et a 57,2) 49,8 - 5[ILLISIBLE],[ILLISIBLE] = 12,6 l'Allemagne est a 50,5 et la france 57,2) 50,5 - 57,2 = 7,3",
+          "reponse_eleve": "(au crayon, pâle) La zone euro est à 49,8 et la France est à 57,2) 49,8 - 5[ILLISIBLE],[ILLISIBLE] = 12,6 l'Allemagne est à 50,5 et la France 57,2) 50,5 - 57,2 = 7,3",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect régalien est bien vu (souveraineté technologique, mission que seul l'État exerce). Il manque l'aspect interventionniste : l'État n'a pas laissé faire le marché, il a payé 404 M€ pour devenir l'unique actionnaire.",
-          "reponse_eleve": "(au crayon, pâle) Le rachat est de Bull va permettre une avancer dans la souveraineté technologique et sa releve d'une mission régalienne dans le cadre que l'État seul a des missions de souveraineté.",
+          "reponse_eleve": "(au crayon, pâle) Le rachat est de Bull va permettre une avancée dans la souveraineté technologique et ça relève d'une mission régalienne dans le cadre que l'État seul a des missions de souveraineté.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Trois cases justes et la contrepartie de la cotisation (retraite, chômage) est vue. Le prélèvement à la source est l'impôt sur le revenu : un impôt, sans contrepartie directe, comme la CSG et la TVA.",
-          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « c'est pour la retraite et le chomage » b — case : impot | justification : « c'est la protection sociale » c — case : cotisation | justification : « » d — case : impot | justification : « Taxe sur la valeur ajouté »",
+          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « c'est pour la retraite et le chômage » b — case : impot | justification : « c'est la protection sociale » c — case : cotisation | justification : « » d — case : impot | justification : « Taxe sur la valeur ajoutée »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 0.25,
           "points_max": 1.5,
           "commentaire": "La formule du solde (recettes − dépenses) est bonne, mais le calcul n'est pas terminé : 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit. Pour la part des dépenses, c'est une division : 1 714,1 ÷ 2 991,1 × 100 = 57,3 %. Sur la capacité *distinguer le déficit public de la dette publique*, ces calculs sont à savoir refaire.",
-          "reponse_eleve": "(au crayon, pâle) 1714,1 - 2991,1 les administrations publiques qui n'ont eu que 1561,6 de recettes on dépenser 1714,1 qui est plus haut que se qui sont eu. 1561,6 - 1714,1 recette - dépenses = soldes public",
+          "reponse_eleve": "(au crayon, pâle) 1714,1 - 2991,1 les administrations publiques qui n'ont eu que 1561,6 de recettes ont dépensé 1714,1 qui est plus haut que ce qui sont eu. 1561,6 - 1714,1 recette - dépenses = solde public",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 0.0,
           "points_max": 2,
           "commentaire": "Le raisonnement est inversé : emprunter sur les marchés ne diminue pas la dette, cela l'augmente. Le déficit est un flux annuel : tant qu'il existe, même réduit (5,8 → 5,1 %), l'État emprunte et la somme s'ajoute au stock de dette (112,6 → 115,6 %).",
-          "reponse_eleve": "(au crayon, pâle) Le déficit a diminié car le flux manquant a était combler par les marchés financiers, Et en comblant bas on prend de l'argent qui servirer a diminué la dette.",
+          "reponse_eleve": "(au crayon, pâle) Le déficit a diminué car le flux manquant a été comblé par les marchés financiers, Et en comblant bas on prend de l'argent qui servira à diminuer la dette.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée que les intérêts font monter la dette est là. Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "(au crayon, pâle) c'est un problème car sa fait encore plus d'argent a payer c'est son fin ils payent une partie pour que après les [ILLISIBLE] [ILLISIBLE] se qui fait monter la dette",
+          "reponse_eleve": "(au crayon, pâle) c'est un problème car ça fait encore plus d'argent à payer c'est sans fin ils payent une partie pour que après les [ILLISIBLE] [ILLISIBLE] ce qui fait monter la dette",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Position nette et un bon argument appuyé sur le document 4 (Keynes, la crise de 1929, soutenir en période de crise). Il manque un second argument distinct appuyé sur le dossier (Nadia et le plafonnement, les prestations sociales…), le vocabulaire du chapitre (État-providence, régulation, déficit…) et une structure avec conclusion.",
-          "reponse_eleve": "(au crayon, pâle) L'état ne devrait pas réduire son intervention. Si il l'a reduise sa fera beaucoup plus de dépenses pour les Français avec toute celle qui sont déjà, sa ne fera que plus les enfoncer. Comme a dit John Maynard Keynes les marchés ne reviennent pas d'eux même comme la crise de 1929 la montré. L'État doit soutenir les citoyens en période de crise.",
+          "reponse_eleve": "(au crayon, pâle) L'État ne devrait pas réduire son intervention. S'il la réduit ça fera beaucoup plus de dépenses pour les Français avec toutes celles qui sont déjà, ça ne fera que plus les enfoncer. Comme a dit John Maynard Keynes les marchés ne reviennent pas d'eux-mêmes comme la crise de 1929 l'a montré. L'État doit soutenir les citoyens en période de crise.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

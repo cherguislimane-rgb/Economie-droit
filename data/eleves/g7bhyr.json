@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Trois interventions bien relevées, classées et justifiées (plafonnement financier / droit juridique et sécurité). Pour le dernier quart de point, nomme les fonctions : régaliennes pour la justice, régulation pour le plafonnement.",
-          "reponse_eleve": "ligne 1 — intervention : « L'état réagis en mettant en place un plafonnement à 280€ [ILLISIBLE] pour les très petites entreprise » | case : providence (l'autre raturée) | justification : « État-providence car l'état met en place un plafonnement financier afin de réduire les coûts du Comm[ILLISIBLE] » ligne 2 — intervention : « Report des paiement de ses cotisations autorisé par l'URSSAF » | case : providence | justification : « État-providence car il garanti un lapse de temps pour le paiement » ligne 3 — intervention : « [barré : deux lignes gribouillées, illisibles] le commissariat à pris en charge sa plainte et la justice à jugée l'auteur » | case : gendarme (l'autre raturée) | […]",
+          "reponse_eleve": "ligne 1 — intervention : « L'État réagit en mettant en place un plafonnement à 280€ [ILLISIBLE] pour les très petites entreprises » | case : providence (l'autre raturée) | justification : « État-providence car l'État met en place un plafonnement financier afin de réduire les coûts du Comm[ILLISIBLE] » ligne 2 — intervention : « Report des paiements de ses cotisations autorisé par l'URSSAF » | case : providence | justification : « État-providence car il garantit un laps de temps pour le paiement » ligne 3 — intervention : « [barré : deux lignes gribouillées, illisibles] le commissariat a pris en charge sa plainte et la justice a jugé l'auteur » | case : gendarme (l'autre raturée) | […]",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "Une fonction régaliennes sont les missions que seul l'état peut exercer car celle-ci exige une souveraineté afin d'être exercer, exemple : lever les impôts, assurer la justice ainsi que les sécurités intérieures et extérieures",
+          "reponse_eleve": "Une fonction régalienne sont les missions que seul l'État peut exercer car celle-ci exige une souveraineté afin d'être exercée, exemple : lever les impôts, assurer la justice ainsi que les sécurités intérieures et extérieures",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Tu appliques bien au cas (besoin d'aide économique d'un côté, cambriolage traité par l'État-gendarme de l'autre : bonne nuance). Il manque la règle de départ (l'État-gendarme se limite aux fonctions régaliennes) et la conclusion : seul un État-providence pouvait agir. Utilise les termes régalien, régulation.",
-          "reponse_eleve": "Un état gendarme n'aurait pas aidé Nadia car à ce moment la Nadia avez besoin d'aide vis-à-vis de ces depense/decharge trop eleve du commerce pour, malgré cela un état-gendarme la aidey le même hiver quand elle à été cambriolée",
+          "reponse_eleve": "Un État gendarme n'aurait pas aidé Nadia car à ce moment-là Nadia avait besoin d'aide vis-à-vis de ses dépenses/décharges trop élevées du commerce pour, malgré cela un État-gendarme l'a aidée le même hiver quand elle a été cambriolée",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les écarts sont justes. Un écart entre deux taux s'exprime en points de PIB, pas en %. La conclusion attendue n'était pas « l'État français est plus dominant » mais : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "L'ecart entre la France et la zone euro est de 7,4% et celui entre la France et l'allemagne est de 6,7% avec ces pourcentage en voyant on voit bien que l'état français et plus dominant que la majoriter des autres teritoires européen",
+          "reponse_eleve": "L'écart entre la France et la zone euro est de 7,4% et celui entre la France et l'Allemagne est de 6,7% avec ces pourcentages en voyant on voit bien que l'État français est plus dominant que la majorité des autres territoires européens",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est bien vu (l'État rachète la totalité des parts). Pour le régalien, il fallait le lien avec la défense et la souveraineté (dissuasion nucléaire), pas seulement l'avancée technologique.",
-          "reponse_eleve": "Le rachat de Bull par l'état peut être qualifier d'interventionniste et de regalien car l'état rachete la totalité des parts de Bull afin de passe [barré : un mot] une etape technologique dans l'avancée de celle-ci et l'état doit aussi se prepare et soutenir une telle demandé en cas de crise ou bien si elle veut réguler l'économie",
+          "reponse_eleve": "Le rachat de Bull par l'État peut être qualifié d'interventionniste et de régalien car l'État rachète la totalité des parts de Bull afin de passer [barré : un mot] une étape technologique dans l'avancée de celle-ci et l'État doit aussi se préparer et soutenir une telle demande en cas de crise ou bien si elle veut réguler l'économie",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.5,
           "points_max": 1.5,
           "commentaire": "Tout est juste, avec le bon critère de la contrepartie. Très bien.",
-          "reponse_eleve": "a — case : cotisation | justification : « Cotisation qui en contre partie finance un eventuel chômage et la retraite » b — case : impot | justification : « impôts qui finance la protection sociale mais n'octroie aucun droit particulié » c — case : impot | justification : « [ILLISIBLE] paye prelevement obligatoire de l'état » d — case : impot | justification : « impôts sur les different achats de la vie »",
+          "reponse_eleve": "a — case : cotisation | justification : « Cotisation qui en contrepartie finance un éventuel chômage et la retraite » b — case : impot | justification : « impôts qui financent la protection sociale mais n'octroient aucun droit particulier » c — case : impot | justification : « [ILLISIBLE] paye prélèvement obligatoire de l'État » d — case : impot | justification : « impôts sur les différents achats de la vie »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La part (57,3) est juste, mais son unité est le %, pas le Md€. Le solde public est recettes − dépenses = 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit ; ce n'est pas PIB − dépenses. Sur la capacité *distinguer le déficit public de la dette publique*, c'est ce calcul qui compte.",
-          "reponse_eleve": "[barré : 2991,1] 1714,1 / 2991,1 × 100 = 57,3 Md€ (part des depense publique dans le PIB) 2991,1 − 1714,1 = 1277 Md€ (Solde Public)",
+          "reponse_eleve": "[barré : 2991,1] 1714,1 / 2991,1 × 100 = 57,3 Md€ (part des dépenses publiques dans le PIB) 2991,1 − 1714,1 = 1277 Md€ (Solde public)",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"

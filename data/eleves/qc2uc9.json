@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "Le report des cotisations (URSSAF) et le commissariat sont bien classés. Mais les lignes 1 et 2 portent sur la même intervention : il manquait le plafonnement du prix de l'électricité (État-providence, fonction de régulation). Justifie chaque ligne avec le critère : régalien (police, justice) ou intervention économique et sociale.",
-          "reponse_eleve": "ligne 1 — intervention : « URSSAF » | case : providence | justification : « l'URSSAF a permis a Nad[coupé par le bord du scan] de Reporter le paiement des cotisations pour l'a[coupé par le bord du scan] -er a financer l'électric[coupé par le bord du scan] » ligne 2 — intervention : « cotisations socials » | case : providence | justification : « La cotisation social a permis a Nadia de financer l'électricité » ligne 3 — intervention : « commissariat » | case : gendarme | justification : « le comisseriat a pris la plainte de Nadia afin de permettre une justice »",
+          "reponse_eleve": "ligne 1 — intervention : « URSSAF » | case : providence | justification : « l'URSSAF a permis à Nad[coupé par le bord du scan] de reporter le paiement des cotisations pour l'a[coupé par le bord du scan] -er à financer l'électric[coupé par le bord du scan] » ligne 2 — intervention : « cotisations sociales » | case : providence | justification : « La cotisation sociale a permis à Nadia de financer l'électricité » ligne 3 — intervention : « commissariat » | case : gendarme | justification : « le commissariat a pris la plainte de Nadia afin de permettre une justice »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'idée que seul l'État exerce ces missions est là. Il fallait trois exemples : tu en donnes deux (police, tribunal) ; ajoute la défense ou la monnaie.",
-          "reponse_eleve": "Des Fonctions Régaliennes sont des missions dont seul l'Etat exercer la direction de ses missions afin de protéger les citoyens et faire respecter. Ex : la police, le tribunal",
+          "reponse_eleve": "Des fonctions régaliennes sont des missions dont seul l'État exerce la direction de ses missions afin de protéger les citoyens et faire respecter. Ex : la police, le tribunal",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Bonne réponse dans l'ensemble : la règle est posée et tu l'appliques au cas (plafonnement à 280 € le MWh). Il manque une conclusion explicite (seul un État-providence pouvait agir) et le vocabulaire précis : régalien, fonction de régulation.",
-          "reponse_eleve": "Un Etat gendarme n'aurait pas pu aider Nadia a traversé l'hiver 2022-2023 En effet un état gendarme est un état qui se limite à ces fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés : il fixe les règles du jeu et fait respecter les contrats, mais il ne produit pas de services et ne redistribue pas les revenus. Dans le cas de Nadia, elle a eu une grande augmentation de sa facture d'electricité, pour l'aider, l'État à plafonné le prix de l'électricité des tris petite entreprise à 280€ le mégawattheure",
+          "reponse_eleve": "Un État gendarme n'aurait pas pu aider Nadia à traverser l'hiver 2022-2023 En effet un État gendarme est un État qui se limite à ses fonctions et laisse le reste de la vie économique et sociale aux individus et aux marchés : il fixe les règles du jeu et fait respecter les contrats, mais il ne produit pas de services et ne redistribue pas les revenus. Dans le cas de Nadia, elle a eu une grande augmentation de sa facture d'électricité, pour l'aider, l'État a plafonné le prix de l'électricité des très petites entreprises à 280€ le mégawattheure",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Réponse complète : intervention directe (l'État devient propriétaire) et mission régalienne (défense, souveraineté). Très bien.",
-          "reponse_eleve": "le rachat de Bull est interventionniste car l'Etat intervient directement dans l'economie en devenant proritaire de l'entreprise. Mais il relève aussi d'une mission régalienne car les supercalculateurs sont importants pour la defense et la souveraineté de la France.",
+          "reponse_eleve": "le rachat de Bull est interventionniste car l'État intervient directement dans l'économie en devenant propriétaire de l'entreprise. Mais il relève aussi d'une mission régalienne car les supercalculateurs sont importants pour la défense et la souveraineté de la France.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et bonne justification pour les cotisations (droit à la retraite et au chômage). Pour les impôts, le critère attendu était l'absence de contrepartie directe : la CSG finance la protection sociale mais n'ouvre aucun droit à celui qui la paie.",
-          "reponse_eleve": "a — case : cotisation | justification : « elles permettent de bénéficier de droit à la retraite et a l'assurance au chômage. » b — case : impot | justification : « Ces prélèvements servent à financer la protection social et la dette social » c — case : impot | justification : « l'impot finance les dépenses publiques » d — case : impot | justification : [NON REPONDU]",
+          "reponse_eleve": "a — case : cotisation | justification : « elles permettent de bénéficier de droit à la retraite et à l'assurance au chômage. » b — case : impot | justification : « Ces prélèvements servent à financer la protection sociale et la dette sociale » c — case : impot | justification : « l'impôt finance les dépenses publiques » d — case : impot | justification : [NON REPONDU]",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes, formule et unités présentes : très bien. Il manquait un mot : un solde négatif est un déficit public.",
-          "reponse_eleve": "a) part dépenses publiques = valeur ÷ total ×100 = 1714,1 ÷ 2991,1 ×100 = 57,31 % les dépenses publiques représentent environ 57,31 % du PIB en 2025 b) solde public = Recettes - dépenses = 1561,6 - 1714,1 = -152,5 le solde publique est de -152,5 Md€",
+          "reponse_eleve": "a) part dépenses publiques = valeur ÷ total ×100 = 1714,1 ÷ 2991,1 ×100 = 57,31 % les dépenses publiques représentent environ 57,31 % du PIB en 2025 b) solde public = Recettes - dépenses = 1561,6 - 1714,1 = -152,5 le solde public est de -152,5 Md€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme flux / stock est bien expliqué : chaque nouvel emprunt s'ajoute à la dette existante. Pour aller plus loin, appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Le déficit est un flux, il correspond a ce qui manque le long de l'anné La dette est un stock, elle correspond à l'ensemble des emprunts qui n'ont pas encore été rembourser. Entre 2024 et 2025, le déficit diminue, mais il reste négatif du coup l'État doit emprunter. Ces nouveaux emprunts s'ajoutent à la dette déjà existente. Même si le déficit diminue, la dette augmente",
+          "reponse_eleve": "Le déficit est un flux, il correspond à ce qui manque le long de l'année La dette est un stock, elle correspond à l'ensemble des emprunts qui n'ont pas encore été remboursés. Entre 2024 et 2025, le déficit diminue, mais il reste négatif du coup l'État doit emprunter. Ces nouveaux emprunts s'ajoutent à la dette déjà existante. Même si le déficit diminue, la dette augmente",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Tu vois que les intérêts alourdissent les dépenses publiques (attention : 64,7 Md€, pas 67,4). Il fallait aller jusqu'à la conséquence : cet argent (42 % du déficit 2025) n'est plus disponible pour les services publics, et il nourrit le déficit donc la dette.",
-          "reponse_eleve": "La hausse des intérêts de la dette est un problème car elle augmente les dépenses publique. En 2025, les intérêts de la dette atteignent 67,4 Mds€, soit une hausse de 11,2 %",
+          "reponse_eleve": "La hausse des intérêts de la dette est un problème car elle augmente les dépenses publiques. En 2025, les intérêts de la dette atteignent 67,4 Mds€, soit une hausse de 11,2 %",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"

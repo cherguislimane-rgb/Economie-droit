@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées, avec une bonne justification pour la justice. Pour les deux autres, donne le critère : le plafonnement et le report sont des interventions économiques et sociales (fonction de régulation), hors du champ régalien.",
-          "reponse_eleve": "ligne 1 — intervention : « Paiemment des cotisations sociales (URSAFF) » | case : providence | justification : « Cette situation est une état-providence car [barré : il] c'est une protection. » ligne 2 — intervention : « Prix d'electricité plafoné à 280€ » | case : providence | justification : « Cout de l'ex electricité à 280€ » (au crayon, pâle) ligne 3 — intervention : « Boulangerie Cambriolée » | case : gendarme | justification : « Le commmissariat rend justice et juge l'auteur du cambriolage. »",
+          "reponse_eleve": "ligne 1 — intervention : « Paiement des cotisations sociales (URSSAF) » | case : providence | justification : « Cette situation est un État-providence car [barré : il] c'est une protection. » ligne 2 — intervention : « Prix d'électricité plafonné à 280€ » | case : providence | justification : « Coût de l'ex électricité à 280€ » (au crayon, pâle) ligne 3 — intervention : « Boulangerie cambriolée » | case : gendarme | justification : « Le commissariat rend justice et juge l'auteur du cambriolage. »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition (souveraineté) et exemples corrects : acquis. Écris au stylo, le crayon est pâle.",
-          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont \"les mi[ILLISIBLE]\" que l'état envoie la \"souveraineté\" comme donner justice, prendre des initiatives pour la securité intérieure et exterieure, les impôts.",
+          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont \"les mi[ILLISIBLE]\" que l'État envoie la \"souveraineté\" comme donner justice, prendre des initiatives pour la sécurité intérieure et extérieure, les impôts.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La règle est bien posée (l'État-gendarme ne produit pas de services et ne redistribue pas). Il manque l'application au cas : le plafonnement et le report des cotisations sont des interventions économiques, donc seul un État-providence pouvait aider Nadia. Utilise les termes régalien, régulation.",
-          "reponse_eleve": "Un État-gendarmme n'aurait pas aidé Nadia [inséré au-dessus : lors de l'hiver 2022-2023], un état gendarmme est limité. Il ne pense pas à la vie économique et sociale d'un individu. Il ne produit pas de services et ne distribue pas les revenus.",
+          "reponse_eleve": "Un État-gendarme n'aurait pas aidé Nadia [inséré au-dessus : lors de l'hiver 2022-2023], un État gendarme est limité. Il ne pense pas à la vie économique et sociale d'un individu. Il ne produit pas de services et ne distribue pas les revenus.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "Bonne unité (points), mais la France est à 57,2 %, pas 57,3 : 57,2 − 49,8 = 7,4 points. Il manquait l'écart avec l'Allemagne (57,2 − 50,5 = 6,7) et la conclusion : logique interventionniste.",
-          "reponse_eleve": "(au crayon, pâle) Ecart France zone euro 57,3 % - 49,8 % 7,5 point de pourcentage",
+          "reponse_eleve": "(au crayon, pâle) Écart France zone euro 57,3 % - 49,8 % 7,5 points de pourcentage",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "L'aspect interventionniste est bien vu (l'État devient propriétaire). Il manque le régalien : les supercalculateurs servent la défense et la souveraineté, mission que seul l'État peut assurer.",
-          "reponse_eleve": "Le rachat de l'activité de Bull par l'état est une mesure interventionniste car l'état intervient directement dans l'economie en devenant proprietaire d'une activité d'entreprise",
+          "reponse_eleve": "Le rachat de l'activité de Bull par l'État est une mesure interventionniste car l'État intervient directement dans l'économie en devenant propriétaire d'une activité d'entreprise",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et la contrepartie de la cotisation est vue. Pour les impôts, « finance l'ensemble des dépenses » est juste, mais il fallait dire l'absence de contrepartie directe pour celui qui paie.",
-          "reponse_eleve": "a — case : cotisation | justification : « La cotisation retraite et chômage ouvre un droit a une prestation. » b — case : impot | justification : « prélevement. » c — case : impot | justification : « Finance l'ensemble des dépenses » d — case : impot | justification : « Finance l'ensemble des dépenses »",
+          "reponse_eleve": "a — case : cotisation | justification : « La cotisation retraite et chômage ouvre un droit à une prestation. » b — case : impot | justification : « prélèvement. » c — case : impot | justification : « Finance l'ensemble des dépenses » d — case : impot | justification : « Finance l'ensemble des dépenses »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Flux et stock sont identifiés et les chiffres du document sont cités (attention : − 152,5 Md€ est le solde 2025, pas la baisse du flux). Il manque le mécanisme : tant qu'il y a un déficit, même réduit, l'État emprunte et cette somme s'ajoute au stock ; seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Entre 2024 et 2025, d'une part le déficit public a diminué. D'autre part, la dette publique a augmenté, le flux a diminué de - 152,5 Md€, tandis que le deficit public dont le stock passe de 112,6 % à 115,6 % du PIB. Elle augmente.",
+          "reponse_eleve": "Entre 2024 et 2025, d'une part le déficit public a diminué. D'autre part, la dette publique a augmenté, le flux a diminué de - 152,5 Md€, tandis que le déficit public dont le stock passe de 112,6 % à 115,6 % du PIB. Elle augmente.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Tu reprends bien les chiffres et l'idée que la hausse s'auto-entretient. Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "(au crayon, pâle) La hausse des interêts de la dette (64,7 Md€ en 2025, +11,2 %) est un problème pour les finances publiques causé de l'accroissement du volume d'emprunt de l'état couplé à une hausse de taux d'intérêt moyen et cela va augmenter de plus en plus.",
+          "reponse_eleve": "(au crayon, pâle) La hausse des intérêts de la dette (64,7 Md€ en 2025, +11,2 %) est un problème pour les finances publiques causé de l'accroissement du volume d'emprunt de l'État couplé à une hausse de taux d'intérêt moyen et cela va augmenter de plus en plus.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 2.5,
           "points_max": 3.5,
           "commentaire": "Position claire, structure visible et bon vocabulaire. Le deuxième paragraphe (allocation, redistribution, régulation avec des exemples du dossier) est un vrai argument. Le premier n'en est pas un : définir l'État-gendarme ne dit pas pourquoi l'État ne doit pas réduire son intervention. Appuie-toi plutôt sur Nadia (situation A) ou Keynes (doc 4).",
-          "reponse_eleve": "(au crayon, pâle) L'état ne doit pas réduire son intervention dans l'economie. Tout d'abord, l'État est gendarme, l'état se limmite à ces fonctions et laisse le reste de la vie économique et sociale aux citoyens (individus). Ils ont des règles et font respecter les contrats, ils ne produisent pas de services et ne redistribue pas les revenus. Ensuite, plusieurs fonctions de l'état existe. L'Allocation, l'état produit ou finance des biens et services dont le marché ne distribue pas dont les écoles, les hôpitaux, les recherches, les routes. La redistribution, l'état prèleves et parfois certains revenus pour en distribue aux autres. La Regulation, l'état soutient l'activité lorsque il y'a […]",
+          "reponse_eleve": "(au crayon, pâle) L'État ne doit pas réduire son intervention dans l'économie. Tout d'abord, l'État est gendarme, l'État se limite à ces fonctions et laisse le reste de la vie économique et sociale aux citoyens (individus). Ils ont des règles et font respecter les contrats, ils ne produisent pas de services et ne redistribuent pas les revenus. Ensuite, plusieurs fonctions de l'État existent. L'allocation, l'État produit ou finance des biens et services dont le marché ne distribue pas dont les écoles, les hôpitaux, les recherches, les routes. La redistribution, l'État prélève et parfois certains revenus pour en distribuer aux autres. La régulation, l'État soutient l'activité lorsqu'il y a […]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

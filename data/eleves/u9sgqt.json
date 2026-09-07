@@ -15,7 +15,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "L'URSSAF (protection sociale) et police / justice (sécurité intérieure) sont bien classés et justifiés, deux lignes pour le commissariat et la justice, c'est accepté. Il manquait le plafonnement du prix de l'électricité, intervention économique de l'État-providence (régulation).",
-          "reponse_eleve": "ligne 1 — intervention : « URSSAF [barré : aide] » | case : providence | justification : « Car il en vas de la protection sociale » ligne 2 — intervention : « COMMISSARIAT » | case : gendarme | justification : « Car [barré : il en va] cer la securité interieur » ligne 3 — intervention : « Justice » | case : gendarme | justification : « Car la justice est dans l'Etat-gendarme »",
+          "reponse_eleve": "ligne 1 — intervention : « URSSAF [barré : aide] » | case : providence | justification : « Car il en va de la protection sociale » ligne 2 — intervention : « COMMISSARIAT » | case : gendarme | justification : « Car [barré : il en va] c'est la sécurité intérieure » ligne 3 — intervention : « Justice » | case : gendarme | justification : « Car la justice est dans l'État-gendarme »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition juste (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "Ca ce que seul l'etat peut gére car elle engagent la souvaineté ( justice, securité int, ext )",
+          "reponse_eleve": "Ça ce que seul l'État peut gérer car elle engage la souveraineté ( justice, sécurité int, ext )",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Tu vois que la régulation relève de l'État-providence et tu utilises le bon vocabulaire. Il manque la règle de départ (l'État-gendarme se limite aux fonctions régaliennes et n'intervient pas dans l'économie) et une conclusion nette : seul un État-providence pouvait aider Nadia.",
-          "reponse_eleve": "Un état gendarme n'aurait pas aide Nadia à traverser l'hiver 2022 - 2023 car il est de la Régulation qui fait partie de l'Etat providence, car elle aurait besoin de stabilisation d'étré soutenu quand elle était freiner par les 6000€.",
+          "reponse_eleve": "Un État gendarme n'aurait pas aidé Nadia à traverser l'hiver 2022 - 2023 car il est de la régulation qui fait partie de l'État providence, car elle aurait besoin de stabilisation d'être soutenue quand elle était freinée par les 6000€.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "L'unité (points) est bonne, mais les calculs sont à refaire : France / zone euro = 57,2 − 49,8 = 7,4 points ; France / Allemagne = 57,2 − 50,5 = 6,7 points. Il fallait conclure : logique interventionniste.",
-          "reponse_eleve": "(au crayon) Il y a 7 point d'écart car : 50,5 - 57,2 ≈ 7 [petit « 3 » écrit en bas à droite du 7]",
+          "reponse_eleve": "(au crayon) Il y a 7 points d'écart car : 50,5 - 57,2 ≈ 7 [petit « 3 » écrit en bas à droite du 7]",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là (soutien de la demande, souveraineté). Appuie-toi sur le document : 404 M€, unique actionnaire, supercalculateurs pour la défense.",
-          "reponse_eleve": "(au crayon) L'achat de Bull par l'État peut être qualifié d'interventionniste car l'etat soutien la demande et régalien car il en vas de la souraité idéologique.",
+          "reponse_eleve": "(au crayon) L'achat de Bull par l'État peut être qualifié d'interventionniste car l'État soutient la demande et régalien car il en va de la souveraineté idéologique.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Trois cases justes. La CSG-CRDS est classée impôt : elle finance la protection sociale mais n'ouvre aucun droit à celui qui la paie. C'est ce critère de la contrepartie (droit à une prestation ou non) qu'il fallait mettre dans les justifications, pas « avant / après le net ».",
-          "reponse_eleve": "a — case : cotisation | justification : « Car [barré : il est] car une cotisation avant (car net avant impôt) » b — case : cotisation [croix + trait diagonal supplémentaire] | justification : « Car ces une cotisation avant (net avant impôt) » c — case : impot [croix + trait diagonal supplémentaire] | justification : « Car il est apres le net avant impôt (Donc impôt) » d — case : impot ? [croix + grand trait diagonal débordant de la case] | justification : « Car ces la Taxe à la valeur ajoutée (20%) impot sur les produit »",
+          "reponse_eleve": "a — case : cotisation | justification : « Car [barré : il est] car une cotisation avant (car net avant impôt) » b — case : cotisation [croix + trait diagonal supplémentaire] | justification : « Car c'est une cotisation avant (net avant impôt) » c — case : impot [croix + trait diagonal supplémentaire] | justification : « Car il est après le net avant impôt (Donc impôt) » d — case : impot ? [croix + grand trait diagonal débordant de la case] | justification : « Car c'est la Taxe à la valeur ajoutée (20%) impôt sur les produits »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 1.0,
           "points_max": 2,
           "commentaire": "Le mécanisme est compris : le flux a diminué mais reste négatif, donc le stock augmente. Appuie-toi sur les chiffres du document 10 (5,8 → 5,1 % ; 112,6 → 115,6 %) et précise que seul un excédent ferait baisser la dette.",
-          "reponse_eleve": "Le flux à diminuer mes il est comme même négatif ces pour cela que le stock à augmenter. Remarque si il aurait pas changer le stock serait comme même en hausse mes d'une plus grande valeur.",
+          "reponse_eleve": "Le flux a diminué mais il est quand même négatif c'est pour cela que le stock a augmenté. Remarque s'il avait pas changé le stock serait quand même en hausse mais d'une plus grande valeur.",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "L'effet boule de neige est vu (les intérêts augmentent la dette). Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
-          "reponse_eleve": "La hausse des intérets de la dette est un probleme pour les finances publiques car les intèret augmente ce qui augmente la dette, ce qui pose probleme car on doit plus gére la dette est sa augmente la dette",
+          "reponse_eleve": "La hausse des intérêts de la dette est un problème pour les finances publiques car les intérêts augmentent ce qui augmente la dette, ce qui pose problème car on doit plus gérer la dette et ça augmente la dette",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 2.0,
           "points_max": 3.5,
           "commentaire": "Position nette, bon vocabulaire (régalien, État-providence, allocation, régulation, flux / stock) et un argument appuyé sur le dossier (dette à 115,6 %, bouclier tarifaire). Il manque un second argument distinct (par exemple l'écart de 7,4 points avec la zone euro, doc 7) et une structure visible : introduction, deux paragraphes, conclusion.",
-          "reponse_eleve": "Oui Car si le flux augmente le stock vas augmentait ce qui est mauvais car besoin d'argent = pas possible de payer les mision régaliennes de l'Etat est aussi de la securité sociale (Etat providence) et allocation, et meme les régulation (comme avec le bouclier tarifaire de 2022 a 2024 qui limite la hausse des prix et l'energie pour les ménages et entreprise. Ce pour sa qu'avec une dette de 115,6 % du PIB l'état doit réduire son intervention dans l'économie car sa la mettrais en mauvaise position",
+          "reponse_eleve": "Oui Car si le flux augmente le stock va augmenter ce qui est mauvais car besoin d'argent = pas possible de payer les missions régaliennes de l'État et aussi de la sécurité sociale (État providence) et allocation, et même les régulations (comme avec le bouclier tarifaire de 2022 à 2024 qui limite la hausse des prix et l'énergie pour les ménages et entreprises. C'est pour ça qu'avec une dette de 115,6 % du PIB l'État doit réduire son intervention dans l'économie car ça la mettrait en mauvaise position",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

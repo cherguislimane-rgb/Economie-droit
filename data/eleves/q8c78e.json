@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées et bien classées, avec des justifications qui utilisent le critère (risques sociaux / rendre la justice). Pour le dernier quart de point : police et justice sont des fonctions régaliennes, le plafonnement relève de la fonction de régulation.",
-          "reponse_eleve": "ligne 1 — intervention : « plafonnement de l'électricité des petits entreprise à 280€ » | case : providence | justification : « L'état providence prend en charge les risques sociaux » ligne 2 — intervention : « La justice qui a jugé l'auteur, prend la plainte » | case : gendarme | justification : « Rendre la justice c'est le rôle de l'état gendarme » ligne 3 — intervention : « Urssaf report de paiment » | case : providence | justification : « »",
+          "reponse_eleve": "ligne 1 — intervention : « plafonnement de l'électricité des petites entreprises à 280€ » | case : providence | justification : « L'État providence prend en charge les risques sociaux » ligne 2 — intervention : « La justice qui a jugé l'auteur, prend la plainte » | case : gendarme | justification : « Rendre la justice c'est le rôle de l'État gendarme » ligne 3 — intervention : « URSSAF report de paiement » | case : providence | justification : « »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.5,
           "points_max": 0.5,
           "commentaire": "Définition complète (souveraineté) et exemples corrects : acquis.",
-          "reponse_eleve": "mission que seul l'état peut exercer parce qu'elles engagent la souveraineté : rendre la justice, assurer la securité intérieure et exterieure, batre monnaie, lever l'impôt",
+          "reponse_eleve": "missions que seul l'État peut exercer parce qu'elles engagent la souveraineté : rendre la justice, assurer la sécurité intérieure et extérieure, battre monnaie, lever l'impôt",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "La règle est bien posée (l'État-gendarme ne garantit ni revenu ni services). Il manquait l'application au cas : le plafonnement du prix et le report des cotisations sont des interventions économiques, donc seul un État-providence pouvait aider Nadia. Nomme les termes : régalien, régulation, État-providence.",
-          "reponse_eleve": "L'état gendarme n'aurait pas pu aidé Nadia Car eux ne s'occupent pas des risques sociaux ni de garantir un revenue et des service à tous, ils se contante de fair respecter la loi et de la securité des citoyens",
+          "reponse_eleve": "L'État gendarme n'aurait pas pu aider Nadia Car eux ne s'occupent pas des risques sociaux ni de garantir un revenu et des services à tous, ils se contentent de faire respecter la loi et de la sécurité des citoyens",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.25,
           "points_max": 1,
           "commentaire": "L'écart avec la zone euro est juste (7,4). Il manquait celui avec l'Allemagne (57,2 − 50,5 = 6,7), l'unité en points de PIB (pas en %) et la conclusion : logique interventionniste, État-providence étendu.",
-          "reponse_eleve": "L'écart entre la france et la zone euro et de 7,4%. Les dépense de la zone euro en 2025 represente 49,8% pour les administrations publiques du pib",
+          "reponse_eleve": "L'écart entre la France et la zone euro est de 7,4%. Les dépenses de la zone euro en 2025 représentent 49,8% pour les administrations publiques du PIB",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et la contrepartie de la cotisation (retraite) est vue. Pour les impôts, c'est l'absence de contrepartie directe qu'il fallait formuler : la CSG ou la TVA ne donnent aucun droit à celui qui les paie.",
-          "reponse_eleve": "a — case : cotisation | justification : « Contribution pour la retraite du salarié » b — case : impot | justification : « Sert a rembourse la dette social » c — case : impot | justification : « C'est un prelevement obligatoire » d — case : impot | justification : « »",
+          "reponse_eleve": "a — case : cotisation | justification : « Contribution pour la retraite du salarié » b — case : impot | justification : « Sert à rembourser la dette sociale » c — case : impot | justification : « C'est un prélèvement obligatoire » d — case : impot | justification : « »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Calculs justes, formule et unités présentes : très bien. Il manquait un mot : un solde négatif est un déficit public.",
-          "reponse_eleve": "formule : part = (Dépenses publique ÷ PIB) x 100 Donc : (1714,1 ÷ 2991,1) x 100 57,3 % les dépenses publiques representent environ 57,3 % du PIB en 2025 - Calcule -> Soldes publiques 2025 1561,6 - 1714,1 = - 152,5 Md€",
+          "reponse_eleve": "formule : part = (Dépenses publiques ÷ PIB) x 100 Donc : (1714,1 ÷ 2991,1) x 100 57,3 % les dépenses publiques représentent environ 57,3 % du PIB en 2025 - Calcul -> Soldes publics 2025 1561,6 - 1714,1 = - 152,5 Md€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -164,7 +164,7 @@
           "points": 0.0,
           "points_max": 2,
           "commentaire": "La hausse du taux d'intérêt n'explique pas le paradoxe. Attendu : le déficit est un flux annuel, la dette un stock ; tant qu'il y a un déficit, même réduit (5,8 → 5,1 %), l'État emprunte et la dette augmente (112,6 → 115,6 %). Sur la capacité *distinguer le déficit public de la dette publique*, c'est le point essentiel.",
-          "reponse_eleve": "Le déficit publique diminue mais la dette publique augmente, du a une hausse du taux d'intéret moyen, et il y a également du stock",
+          "reponse_eleve": "Le déficit public diminue mais la dette publique augmente, dû à une hausse du taux d'intérêt moyen, et il y a également du stock",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",
@@ -178,7 +178,7 @@
           "points": 0.0,
           "points_max": 0.5,
           "commentaire": "Le document montre que c'est bien un problème : les intérêts (64,7 Md€, + 11,2 %) sont une dépense qui creuse le déficit, donc la dette, et cet argent manque pour les services publics.",
-          "reponse_eleve": "Les dettes ne sont pas forcement un probleme bien au contraire cela veut dire que l'ent peut se permettre d'avoir des dettes que l'ent remboursera",
+          "reponse_eleve": "Les dettes ne sont pas forcément un problème bien au contraire cela veut dire que l'ent peut se permettre d'avoir des dettes que l'ent remboursera",
           "capacite": "e6-2",
           "transversales": [
             "t-argu"
@@ -191,7 +191,7 @@
           "points": 1.5,
           "points_max": 3.5,
           "commentaire": "Position claire, et un premier appui sur le dossier (Bull, baisse du déficit). Mais il faut deux arguments distincts, chacun développé et appuyé sur un document (Nadia et le plafonnement, Keynes, les prestations…), du vocabulaire du chapitre et une conclusion. Une réponse structurée demande plus que deux phrases.",
-          "reponse_eleve": "L'état doit continuer les intervention pour tenter d'augenter le P.I.B au maximum. L'état et l'unique actionnaire de Bull et ces une excellente position au niveau économique, le déficit publique est passé de 5,8% à 5,1%",
+          "reponse_eleve": "L'État doit continuer les interventions pour tenter d'augmenter le P.I.B au maximum. L'État est l'unique actionnaire de Bull et c'est une excellente position au niveau économique, le déficit public est passé de 5,8% à 5,1%",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

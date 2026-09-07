@@ -15,7 +15,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Trois interventions bien relevées, classées et justifiées avec le critère (risques sociaux / faire respecter les règles). Pour le dernier quart de point, nomme les fonctions : régaliennes pour la justice, régulation pour le plafonnement (à 280 €, pas 180).",
-          "reponse_eleve": "ligne 1 — intervention : « Janvier 2023 : plafonnement du prix de l'électricité à 180€ le méga wattheure » (au crayon, pâle) | case : providence | justification : « la Sécurité Sociale prend en charge les \"risques sociaux\" » (au crayon, pâle) ligne 2 — intervention : « URSSAF : autorise le Report du paiement des cotisations sociales » (au crayon, pâle) | case : providence | justification : « La sécurité sociale prend en charge les risques sociaux. » (au crayon, pâle) ligne 3 — intervention : « Commissariat qui Reçoit une plainte pour cambriolage. » (au crayon, pâle) | case : gendarme | justification : « c'est la justice qui s'en occupe pour faire Respecter les Règles »",
+          "reponse_eleve": "ligne 1 — intervention : « Janvier 2023 : plafonnement du prix de l'électricité à 180€ le mégawattheure » (au crayon, pâle) | case : providence | justification : « la Sécurité sociale prend en charge les \"risques sociaux\" » (au crayon, pâle) ligne 2 — intervention : « URSSAF : autorise le report du paiement des cotisations sociales » (au crayon, pâle) | case : providence | justification : « La Sécurité sociale prend en charge les risques sociaux. » (au crayon, pâle) ligne 3 — intervention : « Commissariat qui reçoit une plainte pour cambriolage. » (au crayon, pâle) | case : gendarme | justification : « c'est la justice qui s'en occupe pour faire respecter les règles »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Les exemples sont justes (justice, impôt, sécurité). Il manque l'idée centrale : des missions que seul l'État peut exercer, parce qu'elles engagent la souveraineté.",
-          "reponse_eleve": "des fonctions régaliennes sont des interventions de d'États par rapport à la justice, lever l'impôt ou la sécurité intérieur et extérieur.",
+          "reponse_eleve": "des fonctions régaliennes sont des interventions de d'État par rapport à la justice, lever l'impôt ou la sécurité intérieure et extérieure.",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Bon raisonnement en trois temps : règle, application au cas de Nadia, conclusion (c'est le rôle de l'État-providence). Pour le plein crédit, utilise le vocabulaire : fonctions régaliennes, régulation.",
-          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia parce que son Rôle est de faire Respecter les Règles et les contrat sauf que dans le cas de Nadia c'est elle qui a besoin d'aide dans son activité : c'est le Rôle de l'État Providence.",
+          "reponse_eleve": "L'État-gendarme n'aurait pas aidé Nadia parce que son rôle est de faire respecter les règles et les contrats sauf que dans le cas de Nadia c'est elle qui a besoin d'aide dans son activité : c'est le rôle de l'État providence.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

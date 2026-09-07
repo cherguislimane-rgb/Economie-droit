@@ -15,7 +15,7 @@
           "points": 0.75,
           "points_max": 1.5,
           "commentaire": "Les trois interventions sont relevées, le report et le commissariat sont bien classés. La ligne 1 (plafonnement) n'a pas de case cochée : c'est l'État-providence (intervention économique). Les justifications racontent la situation : il fallait donner le critère (régalien / intervention économique et sociale). Écris au stylo : le crayon est presque illisible au scan.",
-          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Baise le prix d'électricité des très petites [ILLISIBLE] » | case : — | justification : « la facture d'électricité de radio à forte[ILLISIBLE] augmenter au [ILLISIBLE] [ILLISIBLE] d'environ 18 00€ à plus de 6 000 » ligne 2 — intervention : « recevoir un raport du paimend des cotisations de l'urssaf » | case : providence | justification : « j'ai pu demander à l'urssaf un raport du paiment de mes cotisations sociales » ligne 3 — intervention : « intervention du commisariat par rapport à ma [ILLISIBLE] » | case : gendarme | justification : « j'ai été cambiolé, c'est le commisariat qui a pris ma [ILLISIBLE] »",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Baisse le prix d'électricité des très petites [ILLISIBLE] » | case : — | justification : « la facture d'électricité de radio à forte[ILLISIBLE] augmenter au [ILLISIBLE] [ILLISIBLE] d'environ 18 00€ à plus de 6 000 » ligne 2 — intervention : « recevoir un rapport du paiement des cotisations de l'URSSAF » | case : providence | justification : « j'ai pu demander à l'URSSAF un rapport du paiement de mes cotisations sociales » ligne 3 — intervention : « intervention du commissariat par rapport à ma [ILLISIBLE] » | case : gendarme | justification : « j'ai été cambriolé, c'est le commissariat qui a pris ma [ILLISIBLE] »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -68,7 +68,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "Ta réponse est illisible au-delà de la première ligne (crayon très pâle) : je ne peux pas la créditer. Attendu : l'État-gendarme se limite aux fonctions régaliennes ; le plafonnement et le report des cotisations sont des interventions économiques ; donc seul un État-providence pouvait aider Nadia. Écris au stylo bleu ou noir.",
-          "reponse_eleve": "(au crayon, pâle) un État gendarme ne peut pas aidé Nadia car [barré : [ILLISIBLE]] Nadia [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] peut Seulement [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE]",
+          "reponse_eleve": "(au crayon, pâle) un État gendarme ne peut pas aider Nadia car [barré : [ILLISIBLE]] Nadia [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] peut Seulement [ILLISIBLE] [ILLISIBLE] [ILLISIBLE] [ILLISIBLE]",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",

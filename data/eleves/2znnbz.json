@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "L'URSSAF et le commissariat sont bien classés. La ligne 3 (« l'État ») est trop vague : l'intervention à relever était le plafonnement du prix de l'électricité à 280 € (État-providence, régulation). Justifie chaque ligne avec le critère : régalien (police, justice) ou intervention économique et sociale.",
-          "reponse_eleve": "ligne 1 — intervention : « L'URSSAF. » | case : providence | justification : « l'URSSAF ne se contente [ILLISIBLE] il prelevent de l'ess des cotisation social, alors que l'Etat gendarme protege la societé » ligne 2 — intervention : « - Commisariat. » | case : gendarme | justification : « commisariat il écoute les plainte leur role » ligne 3 — intervention : « Etat. » | case : — | justification : « L'Etat protege les Persone et les bien qu'il possede »",
+          "reponse_eleve": "ligne 1 — intervention : « L'URSSAF. » | case : providence | justification : « l'URSSAF ne se contente [ILLISIBLE] il prélève de l'ess des cotisations sociales, alors que l'État gendarme protège la société » ligne 2 — intervention : « - Commissariat. » | case : gendarme | justification : « commissariat il écoute les plaintes leur rôle » ligne 3 — intervention : « État. » | case : — | justification : « L'État protège les personnes et les biens qu'il possède »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -68,7 +68,7 @@
           "points": 0.0,
           "points_max": 1.5,
           "commentaire": "La réponse confond protection des personnes (régalien) et aide économique. Attendu : l'État-gendarme se limite à la sécurité et à la justice ; le plafonnement du prix et le report des cotisations sont des interventions économiques ; donc seul un État-providence pouvait aider Nadia. Sur la capacité *expliquer les différences entre État-gendarme et État-providence*, retravaille ce raisonnement.",
-          "reponse_eleve": "Car Etat gendarme a pour but d'assurer la protection, la securité cependant nadia a besoin d'etre protegen pour garantir sa securité.",
+          "reponse_eleve": "Car État gendarme a pour but d'assurer la protection, la sécurité cependant Nadia a besoin d'être protégée pour garantir sa sécurité.",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Les deux soustractions sont justes. Précise l'unité (points de PIB) et conclus : cet écart traduit une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "1) 57,2 - 49,8 = 7,4[ILLISIBLE] 2) 57,2 - 50,5 = 6,7 (france euros). ya l'Etat",
+          "reponse_eleve": "1) 57,2 - 49,8 = 7,4[ILLISIBLE] 2) 57,2 - 50,5 = 6,7 (France euros). y a l'État",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 0.5,
           "points_max": 1,
           "commentaire": "Le rachat par l'État est bien une intervention. Mais « régalien » ne veut pas dire « devient public » : c'est le lien avec la défense et la souveraineté (les supercalculateurs servent la dissuasion nucléaire) qui était attendu.",
-          "reponse_eleve": "interventionniste car il le rachetont et regalien comme l'état le rachetent sa deviens public",
+          "reponse_eleve": "interventionniste car il le rachète et régalien comme l'État le rachète ça devient public",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et bonne justification pour la CSG (« n'ouvre aucun droit »). Pour la cotisation, il fallait la contrepartie : elle ouvre un droit à la retraite et au chômage.",
-          "reponse_eleve": "a — case : cotisation | justification : « impot est un versement obligatoire au administration publique » b — case : impot | justification : « La CSG [barré : sont] font partie des impot [barré : et le CRDS] elle financent la protection sociale mais n'ouvrent aucun droit particulier [ILLISIBLE] » c — case : impot | justification : « c'est l'ensemble donc les impot et cotisation forme le prelevement obligatoire » d — case : impot | justification : « Taxe de la valeur ajoutée quand on Prelevent de l'argent exemple de l'argent »",
+          "reponse_eleve": "a — case : cotisation | justification : « impôt est un versement obligatoire aux administrations publiques » b — case : impot | justification : « La CSG [barré : sont] fait partie des impôts [barré : et le CRDS] elle finance la protection sociale mais n'ouvre aucun droit particulier [ILLISIBLE] » c — case : impot | justification : « c'est l'ensemble donc les impôts et cotisations forment le prélèvement obligatoire » d — case : impot | justification : « Taxe de la valeur ajoutée quand on prélève de l'argent exemple de l'argent »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -164,7 +164,7 @@
           "points": 0.75,
           "points_max": 2,
           "commentaire": "Tu lis bien les chiffres (5,1 % ; 115,6 %) et tu identifies le déficit comme un flux. Il manque le mécanisme : tant qu'il y a un déficit, même réduit, l'État emprunte et cette somme s'ajoute au stock de dette. Seule l'absence de déficit ferait baisser la dette.",
-          "reponse_eleve": "[barré : Le Deficit] Le solde public c'est negatif donc un solde public en 2024 il y a le deficit public qui a baisser en 2025 de 5,1 [ILLISIBLE] en 2024 La dette publique a augmente en 2025 à 115,6. Pour conclure le flux est baisse et le dette en hausse",
+          "reponse_eleve": "[barré : Le Deficit] Le solde public c'est négatif donc un solde public en 2024 il y a le déficit public qui a baissé en 2025 de 5,1 [ILLISIBLE] en 2024 La dette publique a augmenté en 2025 à 115,6. Pour conclure le flux est baisse et la dette en hausse",
           "capacite": "e6-2",
           "transversales": [
             "t-argu",

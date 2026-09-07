@@ -15,7 +15,7 @@
           "points": 0.5,
           "points_max": 1.5,
           "commentaire": "L'URSSAF et le commissariat sont bien classés. La ligne 3 (« l'État protège les personnes et leurs biens ») décrit l'État-gendarme, pas l'État-providence : protéger les personnes (police, justice) est régalien, la protection sociale est autre chose. L'intervention manquante était le plafonnement du prix de l'électricité (État-providence, régulation). Écris au stylo : le crayon est pâle au scan.",
-          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « L'ursaf » | case : providence | justification : « car l'ursaf prelève les cotisation social comme dans la situation de nadia » ligne 2 — intervention : « Comiseriat » | case : gendarme | justification : « il garantit la securité de tous » ligne 3 — intervention : « L'état » | case : providence | justification : « L'état protège les personne et leur bien »",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « L'URSSAF » | case : providence | justification : « car l'URSSAF prélève les cotisations sociales comme dans la situation de Nadia » ligne 2 — intervention : « Commissariat » | case : gendarme | justification : « il garantit la sécurité de tous » ligne 3 — intervention : « L'État » | case : providence | justification : « L'État protège les personnes et leurs biens »",
           "capacite": "e6-1",
           "transversales": [
             "t-qualif",
@@ -29,7 +29,7 @@
           "points": 0.25,
           "points_max": 0.5,
           "commentaire": "Les exemples sont justes (justice, sécurité intérieure et extérieure). Il manque l'idée centrale : des missions que seul l'État peut exercer, parce qu'elles engagent la souveraineté.",
-          "reponse_eleve": "(au crayon, pâle) Assure la protection, Rendre justice, sécurité interieur et exterieur",
+          "reponse_eleve": "(au crayon, pâle) Assure la protection, Rendre justice, sécurité intérieure et extérieure",
           "capacite": "e6-1",
           "transversales": [
             "t-vocab"
@@ -68,7 +68,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Bon raisonnement : règle, application (le report demandé à l'URSSAF relève de l'État-providence), conclusion. Pour le plein crédit, utilise le vocabulaire : fonctions régaliennes, régulation.",
-          "reponse_eleve": "(au crayon, pâle) L'état gendarme n'aurait pas aidé nadia, car leur principe c'est de laisse le reste de la vie économique et social aux individus aux marchés. Ici nadia a demander un report du paiement de ses cotisation social et l'état providence est intervenu",
+          "reponse_eleve": "(au crayon, pâle) L'État gendarme n'aurait pas aidé Nadia, car leur principe c'est de laisser le reste de la vie économique et sociale aux individus aux marchés. Ici Nadia a demandé un report du paiement de ses cotisations sociales et l'État providence est intervenu",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -109,7 +109,7 @@
           "points": 0.75,
           "points_max": 1,
           "commentaire": "Calculs exposés, résultats justes et bonne unité (points de PIB). Le signe importe peu ici, mais il fallait conclure : la France a une logique interventionniste, un État-providence étendu.",
-          "reponse_eleve": "(au crayon, pâle) - L'ecart du PIB entre la France et la moyenne de la zone euro est de 49,8 − 57,2 = −7,4 point de PIB - puis entre la france et l'allemagne est de 50,5 − 57,2 = −6,7 point de PIB",
+          "reponse_eleve": "(au crayon, pâle) - L'écart du PIB entre la France et la moyenne de la zone euro est de 49,8 − 57,2 = −7,4 points de PIB - puis entre la France et l'Allemagne est de 50,5 − 57,2 = −6,7 points de PIB",
           "capacite": "e6-1",
           "transversales": [
             "t-calc",
@@ -123,7 +123,7 @@
           "points": 1.0,
           "points_max": 1,
           "commentaire": "Les deux logiques sont là (l'État prend une part, la sécurité et la souveraineté). Appuie-toi sur le document : 404 M€, unique actionnaire, défense.",
-          "reponse_eleve": "(au crayon, pâle) Le rachat de Bull part l'état peut etre qualifier de fonction regalienne tout en étant interventionniste, car l'état a une part la dedans c'est a dire soutenir le projet, et c'est du régalien car c'est de la sécurité et engage souveraineté",
+          "reponse_eleve": "(au crayon, pâle) Le rachat de Bull par l'État peut être qualifié de fonction régalienne tout en étant interventionniste, car l'État a une part là-dedans c'est-à-dire soutenir le projet, et c'est du régalien car c'est de la sécurité et engage souveraineté",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
@@ -137,7 +137,7 @@
           "points": 1.25,
           "points_max": 1.5,
           "commentaire": "Cases justes et la contrepartie de la cotisation (chômage) est vue. Pour les impôts, il fallait formuler l'absence de contrepartie directe, pas seulement « fait partie des impôts ».",
-          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « elle on a une contrepartie car il aura le chaumage pour plus tard » b — case : impot | justification : « fait partie des groupe qui contiene les impot (TVA..) » c — case : impot | justification : « [barré : un mot] la source du prelevement et fait sur les impot » d — case : impot | justification : « la TVA fait parti des impot tout comme le CSG-CRDS »",
+          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « elle on a une contrepartie car il aura le chômage pour plus tard » b — case : impot | justification : « fait partie des groupes qui contiennent les impôts (TVA..) » c — case : impot | justification : « [barré : un mot] la source du prélèvement est faite sur les impôts » d — case : impot | justification : « la TVA fait partie des impôts tout comme le CSG-CRDS »",
           "capacite": "e6-2",
           "transversales": [
             "t-qualif",
@@ -151,7 +151,7 @@
           "points": 1.0,
           "points_max": 1.5,
           "commentaire": "Calculs justes avec la formule rappelée : bien. Il manque l'unité du résultat (57,3 %) et le mot clé : un solde négatif est un déficit public.",
-          "reponse_eleve": "(au crayon, pâle) calcul Part des depense dans le PIB : 2025 Rapel : part en (%) = valeur ÷ total × 100) PIB : 2 991,1 Depense publique : 1714,1 2991 → 100% 1714 → 1714 / 2991 × 100 = 57,3 Solde public : 1561,6 − 1714,1 = − 152,5 Md€",
+          "reponse_eleve": "(au crayon, pâle) calcul Part des dépenses dans le PIB : 2025 Rappel : part en (%) = valeur ÷ total × 100) PIB : 2 991,1 Dépense publique : 1714,1 2991 → 100% 1714 → 1714 / 2991 × 100 = 57,3 Solde public : 1561,6 − 1714,1 = − 152,5 Md€",
           "capacite": "e6-2",
           "transversales": [
             "t-calc"
@@ -191,7 +191,7 @@
           "points": 1.0,
           "points_max": 3.5,
           "commentaire": "Position claire et vocabulaire correct (interventionnisme, soutenir la demande, réguler). Mais une définition n'est pas un argument : il faut deux arguments appuyés sur le dossier (Nadia sauvée par le plafonnement, Keynes et 1929, les 771 Md€ de prestations…), avec une structure visible et une conclusion.",
-          "reponse_eleve": "avec une dette de 115,6% du PIB l'état ne doit pas réduire son intervention dans l'économie, l'interventionnisme [barré : un mot] est une aide de l'état qui doit soutenir la demande en periode de crise et réguler l'économie",
+          "reponse_eleve": "avec une dette de 115,6% du PIB l'État ne doit pas réduire son intervention dans l'économie, l'interventionnisme [barré : un mot] est une aide de l'État qui doit soutenir la demande en période de crise et réguler l'économie",
           "capacite": "e6-1",
           "transversales": [
             "t-argu",
