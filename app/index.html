@@ -54,6 +54,20 @@
   .chip.eco { background: rgba(242,166,90,.15); color: var(--accent); }
   .chip.type { background: rgba(255,255,255,.09); color: #C6CCDD; }
   .chip.new { background: var(--good); color: #0D1220; }
+  .chip.podium { background: rgba(242,201,76,.2); color: #F2C94C; }
+  .chip.troph { background: rgba(155,110,220,.18); color: #C9B2E8; }
+  .trophees { display: flex; gap: 10px; margin-top: 12px; }
+  .trophee { flex: 1; text-align: center; background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 10px 6px; }
+  .trophee .ic { font-size: 22px; line-height: 1; }
+  .trophee b { display: block; font-family: 'Sora', sans-serif; font-size: 17px; margin-top: 4px; }
+  .trophee span { font-size: 10.5px; color: var(--muted); display: block; line-height: 1.35; }
+  .trophee.off { opacity: .55; }
+  .trophee.off .ic { filter: grayscale(1); }
+  .bravo { display: flex; gap: 12px; align-items: center; background: linear-gradient(135deg, rgba(242,201,76,.22), rgba(242,166,90,.12));
+    border: 1px solid rgba(242,201,76,.45); border-radius: 16px; padding: 12px 14px; margin-bottom: 14px; }
+  .bravo .ic { font-size: 30px; line-height: 1; }
+  .bravo b { display: block; font-family: 'Sora', sans-serif; font-size: 14.5px; }
+  .bravo p { font-size: 12.5px; color: #E8DCC0; margin-top: 2px; line-height: 1.45; }
   .copie-titre { font-size: 14.5px; font-weight: 600; line-height: 1.35; }
   .copie-meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
   .copie-meta b { color: var(--text); font-weight: 600; }
@@ -201,6 +215,7 @@
       <button class="logout" id="logout">Changer de code</button>
     </div>
     <div class="head-stats" id="head-stats"></div>
+    <div class="trophees" id="trophees"></div>
   </header>
 
   <section class="page on" id="page-copies">
@@ -315,6 +330,20 @@
     hs.innerHTML = `<div class="head-stat"><b>—</b><span>Ta moyenne et ton classement apparaîtront après ta première copie</span></div>`;
   }
 
+  // ── Trophées (calculés à la publication, champ trophees de chaque copie) ──
+  const MEDAILLE = { 1: '🥇', 2: '🥈', 3: '🥉' };
+  const TROPHEES = {
+    podium: { ic: '🏅', titre: 'Podium', hint: 'Termine dans le top 3 d\'un devoir', bravo: c => `${MEDAILLE[c.rang] || '🏅'} Bravo, tu es ${c.rang === 1 ? '1er' : c.rang + 'e'} de la classe sur ce devoir !` },
+    progression: { ic: '📈', titre: 'Progression', hint: 'Gagne le plus de places de la classe', bravo: () => '📈 Meilleure progression de la classe depuis le devoir précédent !' },
+    sans_faute: { ic: '✨', titre: 'Sans-faute', hint: 'Le maximum à la question type bac', bravo: () => '✨ Sans-faute sur la question la plus importante du devoir !' },
+  };
+  (function renderTrophees() {
+    const nb = { podium: 0, progression: 0, sans_faute: 0 };
+    for (const c of copies) for (const t of (c.trophees || [])) if (t in nb) nb[t]++;
+    document.getElementById('trophees').innerHTML = Object.entries(TROPHEES).map(([id, t]) =>
+      `<div class="trophee ${nb[id] ? '' : 'off'}" title="${t.hint}"><div class="ic">${t.ic}</div><b>${nb[id]}</b><span>${t.titre}${nb[id] ? '' : `<br>${t.hint}`}</span></div>`).join('');
+  })();
+
   function ringHTML(note, max, size = 62) {
     const r = (size - 6) / 2, c = 2 * Math.PI * r, off = c * (1 - Math.min(note / max, 1));
     return `<div class="ring" style="width:${size}px;height:${size}px">
@@ -336,7 +365,7 @@
       const rang = c.rang ? ` · <b>${c.rang === 1 ? '1er' : c.rang + 'e'} / ${c.effectif}</b>` : '';
       return `<div class="glass copie" data-i="${i}" role="button" tabindex="0" aria-label="Ouvrir ${d.titre}">
         <div class="copie-info">
-          <span class="chip ${d.matiere}">${d.matiere === 'droit' ? 'Droit' : 'Économie'}</span><span class="chip type">${TYPES[d.type] || ''} · coef ${d.coef}</span>${estNouvelle(c) ? '<span class="chip new">Nouveau</span>' : ''}
+          <span class="chip ${d.matiere}">${d.matiere === 'droit' ? 'Droit' : 'Économie'}</span><span class="chip type">${TYPES[d.type] || ''} · coef ${d.coef}</span>${estNouvelle(c) ? '<span class="chip new">Nouveau</span>' : ''}${(c.trophees || []).includes('podium') ? `<span class="chip podium">${MEDAILLE[c.rang] || '🏅'} ${c.rang === 1 ? '1er' : c.rang + 'e'}</span>` : ''}${(c.trophees || []).filter(t => t !== 'podium').map(t => `<span class="chip troph">${TROPHEES[t].ic} ${TROPHEES[t].titre}</span>`).join('')}
           <div class="copie-titre">${d.titre}</div>
           <div class="copie-meta">${fmtDate(d.date)}${rang}</div>
         </div>${ringHTML(c.note, d.note_max)}</div>`;
@@ -379,6 +408,7 @@
         ${c.rang != null ? `<div class="stat"><b>${ordinal(c.rang)}</b><span>sur ${c.effectif} élèves</span></div>` : ''}
         ${c.moyenne_classe != null ? `<div class="stat"><b>${fmtNote(c.moyenne_classe)}</b><span>Moyenne classe</span></div>` : ''}
       </div>
+      ${(c.trophees || []).length ? `<div class="bravo"><div class="ic">${(c.trophees.includes('podium') && MEDAILLE[c.rang]) || TROPHEES[c.trophees[0]].ic}</div><div>${c.trophees.map(t => `<b>${TROPHEES[t].bravo(c)}</b>`).join('')}<p>Continue comme ça : ces trophées restent dans ta vitrine toute l'année.</p></div></div>` : ''}
       ${retours || '<div class="empty">Retour détaillé bientôt disponible.</div>'}
       ${c.pdf ? `<a class="pdf-link" href="../${c.pdf}" target="_blank" rel="noopener">📄 Voir ma copie annotée (PDF)</a>` : ''}`;
     modal.classList.add('open');

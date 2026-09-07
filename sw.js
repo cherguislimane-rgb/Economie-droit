@@ -4,7 +4,7 @@
    - Données (/data/) : réseau d'abord, cache en secours (consultation hors-ligne
      des dernières copies chargées)
 */
-const VERSION = 'v6';
+const VERSION = 'v7';
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = `data-${VERSION}`;
 

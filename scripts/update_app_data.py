@@ -79,6 +79,39 @@ def recalculer_classe(conf: dict, classe: str) -> None:
             c["effectif"] = len(notes)
             c["moyenne_classe"] = d["stats"]["moyenne"]
 
+    # 1 bis) Trophées par copie (affichés dans l'app) :
+    #   podium       : rang 1 à 3 sur le devoir
+    #   sans_faute   : maximum obtenu à la question la plus lourde du devoir (≥ 2 pts, ex. argumentation type bac)
+    #   progression  : plus grand gain de places (rang du devoir précédent → rang de ce devoir), s'il est > 0
+    ordre = sorted(devoirs.values(), key=lambda d: d.get("date", ""))
+    precedent = None
+    for d in ordre:
+        parts = [(e, c) for _, e in eleves for c in e.get("copies", []) if c["devoir_id"] == d["id"]]
+        if not parts:
+            continue
+        gains = {}
+        for e, c in parts:
+            t = []
+            if c.get("rang") and c["rang"] <= 3:
+                t.append("podium")
+            retours = c.get("retours") or []
+            pmax = max((float(r.get("points_max") or 0) for r in retours), default=0)
+            if pmax >= 2 and any(float(r.get("points_max") or 0) == pmax and float(r.get("points") or 0) >= pmax - 1e-9 for r in retours):
+                t.append("sans_faute")
+            if precedent:
+                prev = next((x for x in e.get("copies", []) if x["devoir_id"] == precedent["id"]), None)
+                if prev and prev.get("rang") and c.get("rang"):
+                    gains[id(c)] = prev["rang"] - c["rang"]
+            c["trophees"] = t
+        if gains and max(gains.values()) > 0:
+            for _, c in parts:
+                if gains.get(id(c)) == max(gains.values()):
+                    c["trophees"].append("progression")
+        for _, c in parts:
+            if not c["trophees"]:
+                c.pop("trophees")
+        precedent = d
+
     # 2) Moyennes pondérées par périmètre
     def moyennes(filtre) -> dict:
         m = {}

@@ -199,7 +199,10 @@
       ],
       "rang": 5,
       "effectif": 30,
-      "moyenne_classe": 10.5
+      "moyenne_classe": 10.5,
+      "trophees": [
+        "sans_faute"
+      ]
     }
   ],
   "classements": {
