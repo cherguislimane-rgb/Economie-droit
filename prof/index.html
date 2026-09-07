@@ -70,6 +70,57 @@
   .hidden { display: none; }
   a { color: var(--accent); }
   button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  /* ── Copie corrigée (même rendu que dans l'app élève) ── */
+  .btn-copie { padding: 5px 9px; border-radius: 10px; font-size: 13px; flex-shrink: 0; }
+  .btn-copie:hover { background: var(--accent); color: #201409; }
+  .copie-row { display: flex; align-items: center; gap: 10px; padding: 9px 4px; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .copie-row:last-child { border-bottom: none; }
+  .copie-row .ti { flex: 1; min-width: 0; font-size: 13.5px; }
+  .copie-row .ti small { display: block; color: var(--muted); font-size: 11.5px; margin-top: 2px; }
+  .copie-row .nt { font-family: 'Sora', sans-serif; font-weight: 700; font-size: 14px; white-space: nowrap; }
+  .modal { position: fixed; inset: 0; z-index: 50; background: rgba(8,11,20,.75);
+    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); display: none; align-items: flex-end; justify-content: center; }
+  .modal.open { display: flex; }
+  .sheet { width: 100%; max-width: 620px; max-height: 90vh; overflow-y: auto; background: #141B2E;
+    border: 1px solid var(--border); border-bottom: none; border-radius: 24px 24px 0 0; padding: 22px 20px 40px;
+    animation: slideUp .32s cubic-bezier(.2,.8,.3,1) both; }
+  @keyframes slideUp { from { transform: translateY(40px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .sheet { animation: none; } }
+  .sheet-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
+  .sheet h2 { font-family: 'Sora', sans-serif; font-size: 17px; line-height: 1.35; margin-top: 4px; }
+  .sheet .who { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+  .close { background: var(--card-strong); border: 1px solid var(--border); color: var(--text);
+    width: 34px; height: 34px; border-radius: 50%; font-size: 16px; cursor: pointer; flex-shrink: 0; padding: 0; }
+  .chip { display: inline-block; font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+    border-radius: 999px; padding: 3px 9px; margin-right: 6px; }
+  .chip.droit { background: rgba(122,162,247,.15); color: #9AB4FF; }
+  .chip.eco { background: rgba(242,166,90,.15); color: var(--accent); }
+  .chip.type { background: rgba(255,255,255,.09); color: #C6CCDD; }
+  .stats-row { display: flex; gap: 10px; margin-bottom: 16px; }
+  .stat { flex: 1; text-align: center; background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 12px 6px; }
+  .stat b { display: block; font-family: 'Sora', sans-serif; font-size: 19px; font-variant-numeric: tabular-nums; }
+  .stat span { font-size: 11px; color: var(--muted); }
+  .retour { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 14px; margin-bottom: 10px; }
+  .retour-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+  .retour-head b { font-size: 13.5px; }
+  .retour-pts { font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .cap-tags { margin-bottom: 8px; }
+  .cap-tag { display: inline-block; font-size: 10px; font-weight: 600; color: #C9B2E8;
+    background: rgba(155,110,220,.15); border-radius: 999px; padding: 2px 8px; margin: 0 4px 4px 0; }
+  .cap-tag.trans { color: #8FD8C4; background: rgba(85,200,155,.13); }
+  .bar { height: 5px; border-radius: 99px; background: rgba(255,255,255,.1); overflow: hidden; margin-bottom: 10px; }
+  .bar i { display: block; height: 100%; border-radius: 99px; }
+  .retour p { font-size: 13.5px; line-height: 1.55; color: #C6CCDD; }
+  .tarep { background: rgba(0,0,0,.22); border-left: 3px solid rgba(255,255,255,.22); border-radius: 0 10px 10px 0; padding: 8px 12px; margin-bottom: 10px; }
+  .tarep b { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--muted); display: block; margin-bottom: 3px; }
+  .tarep p { font-size: 12.5px; font-style: italic; color: #AEB6C9; line-height: 1.5; }
+  .tarep p.vide { color: var(--muted); }
+  details.attendu { margin-top: 10px; background: rgba(85,200,155,.07); border: 1px solid rgba(85,200,155,.25); border-radius: 12px; padding: 9px 12px; }
+  details.attendu summary { font-size: 12px; font-weight: 700; color: var(--good); cursor: pointer; list-style: none; }
+  details.attendu summary::before { content: '▸ '; }
+  details.attendu[open] summary::before { content: '▾ '; }
+  details.attendu p { font-size: 12.5px; margin-top: 6px; color: #BFE9DA; }
 </style>
 </head>
 <body>
@@ -144,11 +195,14 @@
       <div class="glass"><div class="section-title" style="margin-top:0">Ses notes face à la classe (/20)</div><div id="el-chart"></div></div>
       <div class="glass"><div class="section-title" style="margin-top:0">Ses capacités les plus fragiles</div><div id="el-caps"></div></div>
       <div class="glass"><div class="section-title" style="margin-top:0">Ses questions les plus ratées</div><div id="el-questions"></div></div>
+      <div class="glass"><div class="section-title" style="margin-top:0">Ses copies corrigées — telles qu'il ou elle les voit dans l'app</div><div id="el-copies"></div></div>
     </div>
 
     <div id="v-alertes" class="hidden"><div id="al-liste"></div></div>
   </section>
 </div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="sheet" id="sheet"></div></div>
 
 <script>
 (function () {
@@ -366,14 +420,64 @@
         <span class="rk">${dvTri === 'note' ? (i + 1) + '.' : ''}</span>
         <span class="nm"><b>${l.e.nom}</b> ${l.e.prenom}</span>
         <div class="tr"><i style="width:${l.note / d.note_max * 100}%;background:${col(l.note / d.note_max)}"></i></div>
-        <span class="nt" style="color:${col(l.note / d.note_max)}">${fmt(l.note)}</span></div>`).join('')
+        <span class="nt" style="color:${col(l.note / d.note_max)}">${fmt(l.note)}</span>
+        <button class="btn-copie" data-code="${l.e.code}" data-did="${did}" title="Voir la copie corrigée">📄</button></div>`).join('')
       + absents.map(e => `<div class="row" data-code="${e.code}" style="opacity:.65">
         <span class="rk"></span><span class="nm"><b>${e.nom}</b> ${e.prenom}</span>
         <span style="flex:1;font-size:12px;color:var(--muted);font-style:italic">copie manquante</span>
         <span class="nt" style="color:var(--muted)">—</span></div>`).join(''))
       || `<div class="empty">Personne ne correspond au filtre.</div>`;
     $('dv-liste').querySelectorAll('.row').forEach(r => r.onclick = () => ouvrirEleve(r.dataset.code));
+    $('dv-liste').querySelectorAll('.btn-copie').forEach(b => b.onclick = ev => { ev.stopPropagation(); openCopie(b.dataset.code, b.dataset.did); });
   }
+
+  // ── Copie corrigée : reproduction exacte de la vue élève (app/index.html) ──
+  const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  const fmtDate = iso => { const d = new Date(iso + 'T00:00:00'); return isNaN(d) ? iso : d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' }); };
+  function blocReponse(r) {
+    if (!r.reponse_eleve) return '';
+    const vide = /^\[NON REPONDU\]$/i.test(r.reponse_eleve.trim());
+    const illisible = /\[ILLISIBLE\]/i.test(r.reponse_eleve);
+    const texte = vide ? '— question non traitée —' : esc(r.reponse_eleve);
+    return `<div class="tarep"><b>Sa réponse</b><p class="${vide ? 'vide' : ''}">${texte}${illisible && !vide ? ' <span style="color:var(--muted)">(passage illisible)</span>' : ''}</p></div>`;
+  }
+  function capTags(r) {
+    let h = '';
+    if (r.capacite && CAPS[r.capacite]) h += `<span class="cap-tag">${CAPS[r.capacite].titre}</span>`;
+    for (const t of (r.transversales || [])) if (CAPS[t]) h += `<span class="cap-tag trans">${CAPS[t].titre}</span>`;
+    return h ? `<div class="cap-tags">${h}</div>` : '';
+  }
+  function openCopie(code, did) {
+    const e = ELEVES.find(x => x.code === code), d = DEVOIRS.find(x => x.id === did);
+    const c = e && (e.data.copies || []).find(x => x.devoir_id === did);
+    if (!e || !d || !c) return;
+    const retours = (c.retours || []).map(r => `
+      <div class="retour">
+        <div class="retour-head"><b>${r.question} — ${r.intitule}</b>
+          <span class="retour-pts" style="color:${col(r.points / r.points_max)}">${fmt(r.points)} / ${fmt(r.points_max)}</span></div>
+        ${capTags(r)}
+        <div class="bar"><i style="width:${Math.min(r.points / r.points_max * 100, 100)}%;background:${col(r.points / r.points_max)}"></i></div>
+        ${blocReponse(r)}
+        <p>${r.commentaire}</p>
+        ${r.reponse_attendue ? `<details class="attendu"><summary>Voir la réponse attendue</summary><p>${r.reponse_attendue}</p></details>` : ''}
+      </div>`).join('');
+    $('sheet').innerHTML = `
+      <div class="sheet-head"><div>
+        <span class="chip ${d.matiere}">${d.matiere === 'droit' ? 'Droit' : 'Économie'}</span><span class="chip type">${TYPES[d.type] || ''} · coef ${d.coef}</span>
+        <h2>${d.titre}</h2><div class="who">Copie de <b>${e.nom} ${e.prenom}</b> · ${fmtDate(d.date)}</div></div>
+        <button class="close" aria-label="Fermer">✕</button></div>
+      <div class="stats-row">
+        <div class="stat"><b style="color:${col(c.note / d.note_max)}">${fmt(c.note)}</b><span>Note / ${d.note_max}</span></div>
+        ${c.rang != null ? `<div class="stat"><b>${ord(c.rang)}</b><span>sur ${c.effectif} élèves</span></div>` : ''}
+        ${c.moyenne_classe != null ? `<div class="stat"><b>${fmt(c.moyenne_classe)}</b><span>Moyenne classe</span></div>` : ''}
+      </div>
+      ${retours || '<div class="empty">Pas de retour détaillé pour cette copie.</div>'}`;
+    $('modal').classList.add('open');
+    $('sheet').scrollTop = 0;
+    $('sheet').querySelector('.close').onclick = () => $('modal').classList.remove('open');
+  }
+  $('modal').addEventListener('click', ev => { if (ev.target === $('modal')) $('modal').classList.remove('open'); });
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') $('modal').classList.remove('open'); });
 
   // ── Lacunes ──
   $('lc-sel').onchange = vueLacunes;
@@ -468,6 +572,15 @@
         <div class="tr"><i style="width:${Math.round(r.ratio * 100)}%;background:${col(r.ratio)}"></i></div>
         <span class="pc" style="color:${col(r.ratio)}">${fmt(r.points)}/${fmt(r.points_max)}</span></div>`).join('')
       : `<div class="empty">Aucune question sous la moyenne. 👏</div>`;
+
+    $('el-copies').innerHTML = cs.length ? [...cs].reverse().map(c => {
+      const d = devoirDe(c);
+      return `<div class="copie-row">
+        <span class="ti">${d.titre}<small>${fmtDate(d.date)}${c.rang ? ` · ${ord(c.rang)} / ${c.effectif}` : ''}${c.moyenne_classe != null ? ` · moyenne classe ${fmt(c.moyenne_classe)}` : ''}</small></span>
+        <span class="nt" style="color:${col(c.note / d.note_max)}">${fmt(c.note)} / ${d.note_max}</span>
+        <button class="btn-copie" data-code="${e.code}" data-did="${d.id}">📄 Voir la copie corrigée</button></div>`;
+    }).join('') : `<div class="empty">Aucune copie corrigée pour cet élève.</div>`;
+    $('el-copies').querySelectorAll('.btn-copie').forEach(b => b.onclick = () => openCopie(b.dataset.code, b.dataset.did));
   }
 
   // ── Alertes ──
