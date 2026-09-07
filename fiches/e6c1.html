@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1220">
+<title>Fiche — L'intervention de l'État (TSTMG-E-T1C1)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #0D1220; --card: rgba(255,255,255,.055); --card-strong: rgba(255,255,255,.09);
+    --border: rgba(255,255,255,.12); --text: #EAEEF7; --muted: #A6ADBF; --ink: #0D1220;
+    --accent: #E8735A; --accent-soft: rgba(232,115,90,.18);
+    --green: #55C89B; --green-soft: rgba(85,200,155,.16);
+    --blue: #8FB0F5; --blue-soft: rgba(111,152,240,.18);
+    --gold: #F2C94C; --gold-soft: rgba(242,201,76,.16); --red: #FF7B7B; --grey: #A6ADBF; --grey-soft: rgba(255,255,255,.10); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background-color: var(--bg);
+    background-image: radial-gradient(900px 520px at 90% -10%, rgba(232,115,90,.20), transparent 60%),
+                      radial-gradient(700px 520px at -10% 45%, rgba(85,200,155,.10), transparent 60%);
+    background-attachment: fixed; color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.55;
+    padding: 16px 14px calc(32px + env(safe-area-inset-bottom)); }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .btn { font: 600 13px 'Inter', sans-serif; text-decoration: none; padding: 9px 13px; border-radius: 12px; border: 1px solid var(--border); color: var(--muted); background: var(--card); cursor: pointer; }
+  .btn.acc { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+  .code { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 11.5px; letter-spacing: .08em; padding: 5px 10px; border-radius: 999px; }
+  h1 { font-family: 'Sora', sans-serif; font-size: 27px; line-height: 1.15; font-weight: 800; margin-top: 10px; }
+  .sub { color: var(--muted); font-size: 13.5px; margin-top: 6px; }
+
+  .part { margin-top: 26px; }
+  .part-head { display: flex; align-items: center; gap: 12px; margin: 0 2px 10px; }
+  .part-head .letter { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font: 800 18px 'Sora', sans-serif; color: var(--ink); background: var(--accent); }
+  .part-head h2 { font-family: 'Sora', sans-serif; font-size: 19px; font-weight: 700; line-height: 1.25; }
+  .part-head small { display: block; color: var(--muted); font-size: 12.5px; font-weight: 400; margin-top: 2px; }
+  .A .letter { background: var(--accent); } .B .letter { background: var(--blue); } .C .letter { background: var(--green); } .M .letter { background: var(--gold); }
+
+  .card { background: linear-gradient(160deg, rgba(255,255,255,.085), rgba(255,255,255,.04)); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-top: 12px;
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 10px 30px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.08); }
+  h3 { font-family: 'Sora', sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; }
+  .A h3 { color: var(--accent); } .B h3 { color: var(--blue); } .C h3 { color: var(--green); } .M h3 { color: var(--gold); }
+  .card p { margin-top: 9px; } .card p:first-of-type { margin-top: 8px; }
+  b { font-weight: 700; color: #fff; }
+  .ex { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; border-left: 3px solid var(--grey); }
+  .ex b:first-child { color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .def { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: 14.5px; }
+  .A .def { background: var(--accent-soft); } .B .def { background: var(--blue-soft); } .C .def { background: var(--green-soft); } .M .def { background: var(--gold-soft); }
+  .def b:first-child { color: var(--text); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  @media (max-width: 440px) { .cols { grid-template-columns: 1fr; } }
+  .col { background: var(--card-strong); border-radius: 14px; padding: 12px; font-size: 14px; }
+  .col h4 { font-family: 'Sora', sans-serif; font-size: 13.5px; margin-bottom: 6px; }
+  .col ul { padding-left: 16px; } .col li { margin: 4px 0; }
+  .retiens { margin-top: 12px; padding: 12px 14px; border-radius: 14px; background: var(--card-strong); border: 1px solid var(--border); font-size: 14.5px; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+  .retiens .tag { font: 800 11px 'Sora', sans-serif; letter-spacing: .08em; padding: 5px 8px; border-radius: 8px; color: var(--ink); margin-top: 2px; }
+  .A .retiens .tag { background: var(--accent); } .B .retiens .tag { background: var(--blue); } .C .retiens .tag { background: var(--green); } .M .retiens .tag { background: var(--gold); }
+  .cle { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; }
+  .cle b:first-child { display: block; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .cle .q { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 6px; }
+  .cle .q div { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.18); }
+  .cle .q b { color: var(--text); display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; margin: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.tot td { font-weight: 700; color: #fff; }
+
+  svg.sch { width: 100%; max-width: 420px; height: auto; display: block; margin: 12px auto 0; font-family: 'Inter', system-ui, sans-serif; }
+  .tt { fill: var(--text); } .tm { fill: var(--muted); } .ta { fill: var(--accent); } .tg { fill: var(--green); } .tr { fill: var(--red); }
+  .fa { fill: var(--accent-soft); } .fg { fill: var(--green-soft); } .fx { fill: var(--grey-soft); } .fA { fill: var(--accent); } .fM { fill: var(--grey); } .fR { fill: var(--red); }
+  .sa { stroke: var(--accent); } .sg { stroke: var(--green); } .sm { stroke: var(--grey); } .st { stroke: var(--text); } .sr { stroke: var(--red); }
+  .b7 { font-weight: 700; } .sora { font-family: 'Sora', sans-serif; }
+
+  .modele { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: rgba(0,0,0,.2); font-size: 14px; line-height: 1.6; border-left: 3px solid var(--gold); }
+  .modele mark { background: transparent; color: var(--gold); font-weight: 700; }
+  .modele u { text-decoration: none; border-bottom: 2px solid var(--blue); }
+  .modele i { color: var(--green); font-style: normal; }
+  .grille { display: grid; grid-template-columns: 56px 1fr; gap: 6px 10px; font-size: 13.5px; margin-top: 10px; }
+  .grille b { font-family: 'Sora', sans-serif; color: var(--gold); }
+
+  details { background: var(--card-strong); border-radius: 12px; padding: 10px 12px; margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 14.5px; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; color: var(--accent); font-weight: 800; font-size: 18px; flex: none; }
+  details[open] summary::after { content: '–'; }
+  details .rep { margin-top: 8px; font-size: 14px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .foot { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
+
+  @media print {
+    :root { --bg: #fff; --card: #fff; --card-strong: #f3f4f6; --border: #cfd3da; --text: #111; --muted: #555; --ink: #fff; --accent: #B54A34; --accent-soft: #fbe7e1;
+      --green: #1f7a55; --green-soft: #e3f3ea; --blue: #2f55b8; --blue-soft: #e6ecfb; --gold: #8a6d00; --gold-soft: #fbf3d6; --red: #b3282d; --grey: #666; --grey-soft: #eef0f3; }
+    body { background: #fff; background-image: none; padding: 0; font-size: 12.5px; }
+    .top { display: none; } b { color: #000; }
+    .card { break-inside: avoid; margin-top: 10px; padding: 12px; backdrop-filter: none; box-shadow: none; background: #fff; }
+    .cle .q div, .modele { background: #f3f4f6; }
+    details { break-inside: avoid; } details .rep { display: block; } summary::after { display: none; }
+    h1 { font-size: 22px; } svg.sch { max-width: 330px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <a class="btn" href="../app/">← Mes Copies</a>
+    <button class="btn acc" onclick="window.print()">Imprimer</button>
+  </div>
+  <span class="code">TSTMG-E-T1C1 · ÉCONOMIE · THÈME 1</span>
+  <h1>L'intervention de l'État</h1>
+  <p class="sub">Fiche de synthèse du chapitre 1 · Comment l'État peut-il intervenir dans l'économie ?</p>
+
+  <div class="card">
+    <h3 style="color:var(--text)">De quoi parle ce chapitre ?</h3>
+    <p>Dans le dossier, Nadia (boulangère à Marseille) a été aidée par l'État pendant la crise de l'énergie, et Mehdi (magasinier à Fos) a découvert sur son premier bulletin de paie tout ce que l'État lui prélève. Ces deux histoires posent les <b>trois questions du chapitre</b> :</p>
+    <div class="cle" style="margin-top:10px">
+      <div class="q">
+        <div><b>A · Quel rôle ?</b> Que doit faire l'État : seulement faire respecter les règles, ou aussi aider et protéger ?</div>
+        <div><b>B · Combien ?</b> Faut-il plus ou moins d'État dans l'économie, et jusqu'où l'État doit-il posséder des entreprises ?</div>
+        <div><b>C · Avec quel argent ?</b> D'où viennent les recettes, où vont les dépenses, et pourquoi la France s'endette.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ A ══════════════ -->
+  <section class="part A">
+    <div class="part-head"><div class="letter">A</div><h2>Quel rôle pour l'État ?<small>Capacité : expliquer les différences entre État-gendarme et État-providence</small></h2></div>
+
+    <div class="card">
+      <h3>1. Au départ, un État-gendarme</h3>
+      <p>Jusqu'au XIXᵉ siècle, on attend surtout de l'État qu'il <b>fasse régner l'ordre</b>. Comme un gendarme, il fixe les règles et les fait respecter, mais il ne joue pas lui-même : il laisse chacun produire, vendre et acheter librement.</p>
+      <div class="def"><b>Fonctions régaliennes</b> : les missions que seul l'État peut assurer parce qu'elles engagent sa souveraineté (du latin <i>rex</i>, le roi) : la <b>police</b> (sécurité), la <b>justice</b> (trancher les litiges) et la <b>défense</b> (protéger le territoire).</div>
+      <div class="ex"><b>Dans le dossier</b>Le tribunal qui tranche entre Nadia et son bailleur, la police qui interpelle un voleur : c'est l'État-gendarme. Il ne donne pas d'argent, il applique la règle.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Depuis 1945, un État-providence</h3>
+      <p>Après la guerre, la France décide que l'État doit aussi <b>protéger les personnes contre les risques de la vie</b> (maladie, vieillesse, chômage) et <b>corriger ce que le marché fait mal</b>. Les ordonnances d'octobre 1945 créent la Sécurité sociale : c'est la naissance de l'État-providence.</p>
+      <p>Point essentiel : l'État-providence <b>ne remplace pas</b> l'État-gendarme, il <b>s'ajoute</b> à lui. La police et la justice existent toujours ; on leur ajoute trois nouvelles fonctions, décrites par l'économiste Musgrave (1959) :</p>
+      <table>
+        <tr><th style="width:34%">Fonction</th><th>Ce que fait l'État · exemple</th></tr>
+        <tr><td><b>Allocation</b></td><td>Il produit ou finance ce que le marché ne fournirait pas, ou pas assez.<br><span style="color:var(--muted)">Routes, lycées gratuits, défense, recherche.</span></td></tr>
+        <tr><td><b>Redistribution</b></td><td>Il prélève sur certains pour verser à d'autres, afin de réduire les inégalités.<br><span style="color:var(--muted)">Retraites, RSA, allocations familiales, remboursement des soins.</span></td></tr>
+        <tr><td><b>Régulation</b></td><td>Il soutient l'économie quand elle va mal, la freine quand elle s'emballe.<br><span style="color:var(--muted)">Bouclier tarifaire sur l'électricité (2022-2023).</span></td></tr>
+      </table>
+      <div class="ex"><b>Dans le dossier</b>Le prix plafonné de l'électricité qui a permis à Nadia de passer l'hiver 2022-2023 est de la <b>régulation</b>. Un État-gendarme n'aurait rien fait : ce n'est pas son rôle de corriger un prix.</div>
+    </div>
+
+    <div class="card">
+      <div class="cle"><b>Pour qualifier une intervention</b>Pose-toi une seule question : <b>l'État fait-il respecter une règle, ou donne-t-il, produit-il, corrige-t-il ?</b>
+        <div class="q">
+          <div>Il juge, surveille, protège le territoire → <b>État-gendarme</b> (fonction régalienne).</div>
+          <div>Il verse, finance, produit un service, agit sur un prix → <b>État-providence</b> (allocation, redistribution ou régulation).</div>
+        </div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>L'État-gendarme se limite aux fonctions régaliennes (police, justice, défense). L'État-providence, né en 1945, y <b>ajoute</b> l'allocation, la redistribution et la régulation.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ B ══════════════ -->
+  <section class="part B">
+    <div class="part-head"><div class="letter">B</div><h2>Combien d'État ?<small>Capacité : envisager le degré de participation de l'État via des entreprises publiques, semi-publiques ou privées</small></h2></div>
+
+    <div class="card">
+      <h3>1. Deux façons de penser le rôle de l'État</h3>
+      <p>Tout le monde est d'accord pour que l'État soit gendarme. Le désaccord porte sur le <b>reste</b> : jusqu'où doit-il aller ?</p>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--blue)">Les libéraux — moins d'État</h4>
+          <p style="margin-top:0">Pour Adam Smith (1776), quand chacun poursuit son intérêt, il sert sans le vouloir l'intérêt de tous : c'est la « main invisible ». Le marché s'équilibre seul ; l'État doit se contenter des fonctions régaliennes.</p>
+          <ul><li>Baisser les impôts, alléger les normes</li><li><b>Privatiser</b> les entreprises publiques</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Les interventionnistes — plus d'État</h4>
+          <p style="margin-top:0">Pour J. M. Keynes (1936), la crise de 1929 a montré que le marché ne revient pas seul au plein-emploi. L'État doit relancer l'activité par ses dépenses et corriger les marchés.</p>
+          <ul><li>Hausser le SMIC, plafonner des prix, dépenser</li><li><b>Nationaliser</b> des entreprises</li></ul></div>
+      </div>
+      <p>En réalité, aucun pays n'est purement l'un ou l'autre : chaque gouvernement <b>place le curseur</b> entre les deux, mesure par mesure.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Un cas concret : l'État actionnaire</h3>
+      <p>Une façon très visible d'intervenir est de <b>posséder des entreprises</b>. Le critère est simple : quelle part du capital (des actions) appartient à l'État ?</p>
+      <div class="def"><b>Entreprise publique</b> : capital détenu <b>en totalité</b> par l'État ou une collectivité. <b>Semi-publique</b> : capital détenu <b>en partie</b> seulement. <b>Privée</b> : capital détenu par des personnes ou des sociétés privées.</div>
+      <div class="def"><b>Privatisation</b> : l'État <b>vend</b> ses actions au privé — il se désengage (choix libéral). <b>Nationalisation</b> : l'État <b>rachète</b> une entreprise — il s'engage (choix interventionniste).</div>
+      <table>
+        <tr><th style="width:34%">Entreprise</th><th>Ce qui s'est passé → statut après</th></tr>
+        <tr><td><b>Française des Jeux</b><br><span style="color:var(--muted)">2019</span></td><td>Privatisation : la part de l'État passe de 72 % à ≈ 20 %.<br>→ <b>semi-publique</b></td></tr>
+        <tr><td><b>Aéroports de Paris</b><br><span style="color:var(--muted)">2019-2020</span></td><td>Privatisation autorisée puis <b>abandonnée</b> (référendum, Covid) : aucune opération.<br>→ reste <b>semi-publique</b> (État 50,6 %)</td></tr>
+        <tr><td><b>EDF</b><br><span style="color:var(--muted)">2023</span></td><td>Nationalisation : l'État rachète les 16 % qu'il n'avait pas (≈ 9,7 Md€).<br>→ <b>publique</b> (100 %)</td></tr>
+        <tr><td><b>Bull</b><br><span style="color:var(--muted)">2026</span></td><td>Rachat des supercalculateurs d'Atos (404 M€) au nom de la souveraineté.<br>→ <b>publique</b> (100 %)</td></tr>
+      </table>
+      <div class="ex"><b>À comprendre</b>Le rachat de Bull est <b>interventionniste</b> (l'État devient producteur) <b>et</b> régalien (il protège la défense nationale). Les deux qualifications ne s'excluent pas.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. Où en est la France ?</h3>
+      <p>En 2025, les dépenses publiques représentent <b>57,2 % du PIB</b>. Concrètement : sur 100 € de richesse produite en France, 57 € passent par les administrations publiques (État, collectivités, Sécurité sociale) avant d'être dépensés.</p>
+      <p>C'est le 2ᵉ niveau de la zone euro (derrière la Finlande, 57,5 %), contre 50,5 % en Allemagne et 49,8 % en moyenne dans la zone euro. L'écart avec la moyenne est de <b>7,4 points de PIB</b> — on dit bien des <i>points</i>, pas des %. La France reste donc un pays marqué par l'<b>interventionnisme</b>.</p>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Libéraux (Smith) : moins d'État, privatisations. Interventionnistes (Keynes) : plus d'État, nationalisations. Le statut d'une entreprise dépend de la part du capital détenue par l'État. Avec 57,2 % du PIB de dépenses publiques, la France penche du côté interventionniste.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ C ══════════════ -->
+  <section class="part C">
+    <div class="part-head"><div class="letter">C</div><h2>Avec quel argent ?<small>Capacité : distinguer le déficit public de la dette publique</small></h2></div>
+
+    <div class="card">
+      <h3>1. Les recettes : impôts et cotisations</h3>
+      <p>L'État ne produit pas de richesse : il <b>prélève</b> sur celle des ménages et des entreprises. Deux grandes familles de prélèvements obligatoires, qu'on distingue par un critère unique : <b>y a-t-il une contrepartie pour celui qui paie ?</b></p>
+      <div class="def"><b>Impôt</b> : prélèvement <b>sans contrepartie directe</b>. Il finance l'ensemble des dépenses, sans que tu aies un droit particulier en retour (TVA, impôt sur le revenu, impôt sur les sociétés).</div>
+      <div class="def"><b>Cotisation sociale</b> : prélèvement qui <b>ouvre un droit</b> à une prestation : en cotisant, tu acquiers le droit à une retraite, à une indemnité de chômage, au remboursement de tes soins.</div>
+      <div class="ex"><b>Dans le dossier</b>Sur le bulletin de Mehdi, les cotisations retraite et chômage lui donnent des droits : ce sont des cotisations. Le prélèvement à la source et la TVA sur ses courses ne lui ouvrent aucun droit : ce sont des impôts.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Les dépenses, et le solde qui en découle</h3>
+      <p>Le premier poste de dépense, de loin, est celui des <b>prestations sociales</b> (retraites, santé, chômage, famille) : 772 Md€, soit 45 % du total. C'est la marque de l'État-providence.</p>
+      <table>
+        <tr><th>2025, en Md€</th><th class="n">Recettes</th><th></th><th class="n">Dépenses</th></tr>
+        <tr><td>Impôts</td><td class="n">862,0</td><td>Prestations sociales</td><td class="n">771,6</td></tr>
+        <tr><td>Cotisations sociales</td><td class="n">466,3</td><td>Fonctionnement, salaires</td><td class="n">549,2</td></tr>
+        <tr><td>Autres</td><td class="n">233,3</td><td>Subventions, investissement</td><td class="n">329,3</td></tr>
+        <tr><td></td><td></td><td>Intérêts de la dette</td><td class="n">64,7</td></tr>
+        <tr class="tot"><td>Total</td><td class="n">1 561,6</td><td>Total</td><td class="n">1 714,1</td></tr>
+      </table>
+      <p><b>Solde public</b> = recettes − dépenses = 1 561,6 − 1 714,1 = <b>− 152,5 Md€</b>. Le solde est négatif : c'est un <b>déficit</b>. L'État doit emprunter la différence.</p>
+      <p>Pourquoi l'exprimer « en % du PIB » ? Parce que 152 milliards ne veulent rien dire sans comparaison : rapportés à la richesse produite (PIB 2025 = 2 991,1 Md€), cela donne 152,5 ÷ 2 991,1 × 100 ≈ <b>5,1 % du PIB</b>. Ce ratio permet de comparer des pays et des années.</p>
+    </div>
+
+    <div class="card">
+      <h3>3. Déficit et dette : ne plus jamais les confondre</h3>
+      <p>Le <b>déficit</b> est un <b>flux</b> : ce que l'État emprunte <b>pendant une année</b>. La <b>dette</b> est un <b>stock</b> : la somme de <b>tous</b> les emprunts passés pas encore remboursés. Le déficit de chaque année vient s'ajouter à la dette.</p>
+      <svg class="sch" viewBox="0 0 360 300" role="img" aria-label="Robinet déficit, baignoire dette, fuite intérêts">
+        <defs><marker id="m5" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" class="fR"/></marker>
+        <clipPath id="tub"><path d="M28 156 h304 v96 a16 16 0 0 1 -16 16 h-272 a16 16 0 0 1 -16 -16 z"/></clipPath></defs>
+        <rect x="30" y="14" width="70" height="16" rx="6" class="fM"/><rect x="56" y="26" width="18" height="44" rx="4" class="fM"/><rect x="50" y="68" width="30" height="10" rx="3" class="fM"/>
+        <path d="M65 90 c-6 8 -6 14 0 16 c6 -2 6 -8 0 -16z" class="fA"/><path d="M65 114 c-6 8 -6 14 0 16 c6 -2 6 -8 0 -16z" class="fA"/><path d="M65 138 c-6 8 -6 14 0 16 c6 -2 6 -8 0 -16z" class="fA"/>
+        <text x="112" y="36" font-size="16" class="ta b7 sora">DÉFICIT = flux</text>
+        <text x="112" y="56" font-size="12" class="tt">ce qui coule <tspan class="b7">pendant une année</tspan></text>
+        <text x="112" y="76" font-size="12.5" class="tt b7">2025 : 5,1 % du PIB</text>
+        <text x="112" y="94" font-size="11.5" class="tm">(2024 : 5,8 % → le robinet coule un peu moins)</text>
+        <path d="M28 156 h304 v96 a16 16 0 0 1 -16 16 h-272 a16 16 0 0 1 -16 -16 z" class="fx sm" stroke-width="2.5"/>
+        <g clip-path="url(#tub)">
+          <rect x="28" y="180" width="304" height="90" class="fA" opacity=".5"/>
+          <path d="M28 180 q19 -7 38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 t38 0 V168 H28 z" class="fA" opacity=".5"/>
+          <line x1="28" y1="202" x2="332" y2="202" class="st" stroke-width="1.5" stroke-dasharray="5 4" opacity=".7"/>
+          <text x="322" y="199" text-anchor="end" font-size="10" class="tt">niveau fin 2024 : 112,6 %</text>
+        </g>
+        <text x="180" y="234" text-anchor="middle" font-size="16" class="tt b7 sora">DETTE = stock</text>
+        <text x="180" y="254" text-anchor="middle" font-size="12.5" class="tt b7">fin 2025 : 115,6 % du PIB (3 460,5 Md€)</text>
+        <path d="M110 270 v20" class="sr" stroke-width="5" marker-end="url(#m5)"/>
+        <text x="126" y="288" font-size="12" class="tr b7">fuite : intérêts de la dette, 64,7 Md€</text>
+      </svg>
+      <p><b>Le paradoxe de 2025, expliqué avec la baignoire.</b> Le déficit a diminué (5,8 % → 5,1 %) : le robinet coule moins fort. Pourtant la dette a augmenté (112,6 % → 115,6 %) : le niveau de la baignoire monte quand même, parce que <b>tant qu'il coule de l'eau, le niveau monte</b>. Pour que la dette baisse, il faudrait un <b>excédent</b> : vider plus qu'on ne remplit.</p>
+      <p><b>Pourquoi les intérêts sont un problème.</b> Sur les 1 714 Md€ dépensés, 64,7 Md€ servent uniquement à payer les intérêts de la dette (+ 11,2 % en un an). C'est de l'argent qui ne finance ni école, ni hôpital, ni route — et qui creuse le déficit de l'année suivante. C'est l'effet « boule de neige » : plus la dette est grosse, plus les intérêts sont lourds, plus il faut emprunter.</p>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Impôt = sans contrepartie ; cotisation = ouvre un droit. Solde = recettes − dépenses ; négatif → déficit (un flux, par an). Dette = cumul des emprunts (un stock). Un déficit qui baisse fait <b>monter la dette moins vite</b>, il ne la fait pas baisser.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MÉTHODE ══════════════ -->
+  <section class="part M">
+    <div class="part-head"><div class="letter">M</div><h2>Méthode : l'argumentation type bac<small>Sujet du dossier : « Avec une dette de 115,6 % du PIB, l'État doit-il réduire son intervention ? »</small></h2></div>
+
+    <div class="card">
+      <h3>Ce qu'est un argument (et ce qui n'en est pas)</h3>
+      <p>Une opinion (« je pense que l'État dépense trop ») n'est pas un argument. Un argument, c'est trois choses enchaînées : <mark style="background:transparent;color:var(--gold);font-weight:700">une affirmation</mark>, <u style="text-decoration:none;border-bottom:2px solid var(--blue)">une preuve tirée d'un document</u> (un chiffre, un exemple), et <i style="color:var(--green);font-style:normal">une explication</i> qui montre pourquoi la preuve soutient l'affirmation.</p>
+      <div class="modele">
+        <mark>L'État ne peut pas continuer à intervenir autant, car sa dette lui coûte de plus en plus cher.</mark> <u>D'après le document 10, les intérêts de la dette atteignent 64,7 Md€ en 2025, en hausse de 11,2 % en un an.</u> <i>Cet argent est dépensé sans rendre aucun service à la population, et il aggrave le déficit suivant : chaque euro d'intérêt est un euro de moins pour les écoles ou les hôpitaux. Réduire les dépenses permettrait de casser cette spirale.</i>
+      </div>
+      <p style="margin-top:10px;font-size:13.5px;color:var(--muted)">Doré = affirmation · souligné bleu = preuve du dossier · vert = explication. C'est ce qui vaut le niveau 4.</p>
+    </div>
+
+    <div class="card">
+      <h3>Le plan en quatre temps</h3>
+      <div class="grille">
+        <b>1</b><span><b>Ma position</b>, en une phrase, dès le début : oui / non / oui mais.</span>
+        <b>2</b><span><b>Premier argument</b> = affirmation + preuve (document) + explication.</span>
+        <b>3</b><span><b>Deuxième argument</b>, différent du premier, appuyé sur un <b>autre</b> document.</span>
+        <b>4</b><span><b>Conclusion</b> : je réponds à la question posée, sans ajouter d'idée nouvelle.</span>
+      </div>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--blue)">Si tu réponds « oui, réduire »</h4><ul><li>Les intérêts (64,7 Md€, + 11,2 %) étouffent les autres dépenses.</li><li>57,2 % du PIB contre 49,8 % en zone euro : d'autres pays vivent avec moins d'État.</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Si tu réponds « non, maintenir »</h4><ul><li>Sans régulation, Nadia n'aurait pas survécu à l'hiver 2022-2023.</li><li>Bull : la souveraineté impose parfois de nationaliser.</li></ul></div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Une seule position, deux arguments complets (affirmation, preuve, explication) sur deux documents différents, une conclusion. Le vocabulaire du chapitre doit apparaître.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AUTO-CONTRÔLE ══════════════ -->
+  <section class="part">
+    <div class="part-head"><div class="letter" style="background:var(--grey)">✓</div><h2>Je vérifie que j'ai compris<small>Réponds dans ta tête, puis touche pour vérifier</small></h2></div>
+    <div class="card">
+      <details><summary>Un lycée public accueille gratuitement les élèves : gendarme ou providence, et quelle fonction ?</summary><div class="rep">État-providence, fonction d'<b>allocation</b> : l'État produit un service que le marché ne fournirait pas gratuitement.</div></details>
+      <details><summary>Pourquoi dit-on que l'État-providence « s'ajoute » à l'État-gendarme ?</summary><div class="rep">Parce que la police, la justice et la défense continuent d'exister ; 1945 ajoute la protection sociale et la correction des marchés, sans rien retirer.</div></details>
+      <details><summary>Le rachat d'EDF à 100 % : quel courant de pensée, quel statut ensuite ?</summary><div class="rep">Une nationalisation, donc un choix <b>interventionniste</b>. EDF devient une entreprise <b>publique</b> (capital entièrement détenu par l'État).</div></details>
+      <details><summary>Qu'est-ce qui distingue un impôt d'une cotisation ?</summary><div class="rep">La <b>contrepartie</b> : la cotisation ouvre un droit (retraite, chômage, soins), l'impôt non.</div></details>
+      <details><summary>Recettes 1 561,6 Md€, dépenses 1 714,1 Md€, PIB 2 991,1 Md€ : solde en Md€ puis en % du PIB ?</summary><div class="rep">1 561,6 − 1 714,1 = <b>− 152,5 Md€</b> (déficit). 152,5 ÷ 2 991,1 × 100 ≈ <b>5,1 % du PIB</b>. Toujours méthode + résultat + unité.</div></details>
+      <details><summary>Le déficit passe de 5,8 % à 5,1 % du PIB. La dette baisse-t-elle ?</summary><div class="rep">Non : elle passe de 112,6 % à 115,6 %. Un déficit, même réduit, s'ajoute au stock de dette. Seul un excédent la ferait baisser.</div></details>
+      <details><summary>57,2 − 49,8 = 7,4… quoi ?</summary><div class="rep">7,4 <b>points de PIB</b>. On soustrait deux pourcentages : l'écart s'exprime en points, pas en %.</div></details>
+    </div>
+  </section>
+
+  <p class="foot">Données 2025 : Insee (Informations rapides n° 78, comptes de la Nation, mai 2026), Eurostat (avril 2026), Agence des participations de l'État.</p>
+</div>
+</body>
+</html>
