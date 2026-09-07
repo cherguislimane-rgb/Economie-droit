@@ -1,6 +1,13 @@
 {
   "code": "pc8w6s",
   "classe": "TSTMG",
-  "maj": "2026-09-03",
-  "copies": []
+  "maj": "2026-09-07",
+  "copies": [],
+  "classements": {
+    "general": null,
+    "types": {},
+    "matieres": {},
+    "themes": {}
+  },
+  "capacites": {}
 }

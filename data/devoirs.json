@@ -91,7 +91,24 @@
       ]
     }
   },
-  "devoirs": [],
+  "devoirs": [
+    {
+      "id": "ts-e6c1-dossier",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c1",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier — L'intervention de l'État (Éco T1, chap. 1)",
+      "date": "2026-09-04",
+      "note_max": 20,
+      "stats": {
+        "moyenne": 10.5,
+        "effectif": 30
+      }
+    }
+  ],
   "chapitres": {
     "1STMG": [],
     "TSTMG": [

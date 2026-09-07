@@ -1,6 +1,274 @@
 {
   "code": "ffhhzb",
   "classe": "TSTMG",
-  "maj": "2026-09-03",
-  "copies": []
+  "maj": "2026-09-07",
+  "copies": [
+    {
+      "devoir_id": "ts-e6c1-dossier",
+      "note": 9.03,
+      "publie_le": "2026-09-07",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Situation Nadia : gendarme ou providence ?",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Les trois interventions sont relevées et les justifications sont pertinentes (aide aux petites entreprises, le tribunal rend la justice). Erreur sur la ligne 1 : plafonner le prix de l'électricité est une intervention économique, donc État-providence, pas État-gendarme. Écris au stylo : le crayon est très pâle au scan.",
+          "reponse_eleve": "(au crayon, pâle) ligne 1 — intervention : « Prix électricité des petits entreprises plafonné 280 mégawatteurs » [écrit par-dessus un texte gommé ; en dessous, en plus pâle : « megawatteurs »] | case : gendarme | justification : « L'État aide les petits entreprise en baissant le prix de l'électricité 280 par heure » ligne 2 — intervention : « L'urssaf a décalé le paiement des cotisation » [écrit par-dessus un texte gommé] | case : providence | justification : « L'urssaf et en charge de la cotisation » ligne 3 — intervention : « Elle a était cambriolé elle a porté plainte. [barré : Elle] Et le tribunal jugé l'individu » | case : gendarme | justification : « La police a pris sa déposition Et […]",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-qualif",
+            "t-doc"
+          ],
+          "reponse_attendue": "Plafonnement du prix de l'électricité à 280 €/MWh → État-providence (soutien économique, fonction de régulation). Report du paiement des cotisations à l'Urssaf → État-providence. Plainte prise par le commissariat / jugement de l'auteur du cambriolage → État-gendarme (sécurité, justice = fonctions régaliennes)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Fonctions régaliennes : définition",
+          "points": 0.25,
+          "points_max": 0.5,
+          "commentaire": "Les exemples sont justes (justice, sécurité intérieure et extérieure). Il manque l'idée centrale : des missions que seul l'État peut exercer, parce qu'elles engagent la souveraineté.",
+          "reponse_eleve": "(au crayon, pâle) Les fonctions régaliennes sont se que l'état va faire pour les citoyens il rende justice, assure la sécurité intérieur et extérieur.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Missions de souveraineté que seul l'État peut exercer (il ne peut les déléguer) : justice, police, défense ; accepter monnaie, impôt, diplomatie."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Gendarme ou providence ? (cases à cocher)",
+          "points": 1.25,
+          "points_max": 1.5,
+          "commentaire": "Cinq bonnes réponses. Le lycée public gratuit (f) est un service produit par l'État-providence.",
+          "reponse_eleve": "a: gendarme b: providence c: gendarme d: providence e: gendarme f: gendarme",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "a gendarme · b providence · c gendarme · d providence · e gendarme · f providence."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Les fonctions de l'État-providence",
+          "points": 0.44,
+          "points_max": 1,
+          "commentaire": "Question neutralisée : la page du cahier était absente de ta copie (non imprimée), tu n'as pas pu y répondre. Les points sont attribués au prorata de ta réussite sur le reste du devoir (7,25 / 16), ce qui revient à noter ta copie sur 16 puis à la ramener sur 20. Pour réviser : La page 3 du cahier (Q4 à Q6) est absente de ta copie : ces trois questions n'ont pas pu être corrigées. Si tu avais bien cette page, signale-le. Attendu ici : redistribution, allocation, régulation, allocation.",
+          "reponse_eleve": "[PAGE ABSENTE DU CAHIER]",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "a redistribution · b allocation · c régulation · d allocation."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Pourquoi un État-gendarme n'aurait pas aidé Nadia",
+          "points": 0.68,
+          "points_max": 1.5,
+          "commentaire": "Question neutralisée : la page du cahier était absente de ta copie (non imprimée), tu n'as pas pu y répondre. Les points sont attribués au prorata de ta réussite sur le reste du devoir (7,25 / 16), ce qui revient à noter ta copie sur 16 puis à la ramener sur 20. Pour réviser : l'État-gendarme se limite aux fonctions régaliennes ; le plafonnement et le report des cotisations sont des interventions économiques ; donc seul un État-providence pouvait aider Nadia.",
+          "reponse_eleve": "[PAGE ABSENTE DU CAHIER]",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-argu",
+            "t-syllogisme"
+          ],
+          "reponse_attendue": "Règle : un État-gendarme se limite aux fonctions régaliennes (justice, police, défense) et n'intervient pas dans l'économie. Application : le plafonnement du prix de l'électricité et le report des cotisations sont des interventions économiques (fonction de régulation), hors du champ régalien. Conclusion : seul un État-providence pouvait aider Nadia ; un État-gendarme n'aurait traité que le cambriolage. La simple reprise des définitions sans développement personnel appliqué à Nadia ne crédite rien."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Libérale ou interventionniste ?",
+          "points": 0.66,
+          "points_max": 1.5,
+          "commentaire": "Question neutralisée : la page du cahier était absente de ta copie (non imprimée), tu n'as pas pu y répondre. Les points sont attribués au prorata de ta réussite sur le reste du devoir (7,25 / 16), ce qui revient à noter ta copie sur 16 puis à la ramener sur 20. Pour réviser : Page absente de la copie (voir Q4). Repère : baisser un impôt, privatiser, supprimer des normes = libéral ; hausser le SMIC, plafonner un prix, racheter EDF = interventionniste.",
+          "reponse_eleve": "[PAGE ABSENTE DU CAHIER]",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "a libérale · b interventionniste · c libérale · d interventionniste · e libérale · f interventionniste."
+        },
+        {
+          "question": "Q7",
+          "intitule": "L'État actionnaire : engagement et statut",
+          "points": 1.25,
+          "points_max": 1.5,
+          "commentaire": "Presque tout est juste. Pour ADP, la privatisation est abandonnée : aucune opération à cocher.",
+          "reponse_eleve": "FDJ — État : desengage | statut : semi-publique ADP — État : desengage | statut : semi-publique EDF — État : engage | statut : publique Bull — État : engage | statut : publique",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-qualif",
+            "t-doc"
+          ],
+          "reponse_attendue": "FDJ : l'État se désengage → entreprise semi-publique (≈ 20 % du capital). ADP : aucune opération, la privatisation est abandonnée → reste semi-publique (50,6 %). EDF : l'État s'engage → entreprise publique (100 %). Bull : l'État s'engage → entreprise publique (100 %)."
+        },
+        {
+          "question": "Q8",
+          "intitule": "Écart France / zone euro / Allemagne",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Les soustractions sont mal posées : 57,2 − 49,8 = 7,4 points de PIB et 57,2 − 50,5 = 6,7 points (on soustrait le plus petit du plus grand). Il fallait conclure : logique interventionniste, État-providence étendu.",
+          "reponse_eleve": "(au crayon, pâle) La zone euros est a 49,8 et la france et a 57,2) 49,8 - 5[ILLISIBLE],[ILLISIBLE] = 12,6 l'Allemagne est a 50,5 et la france 57,2) 50,5 - 57,2 = 7,3",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-calc",
+            "t-doc"
+          ],
+          "reponse_attendue": "57,2 − 49,8 = 7,4 points de PIB ; 57,2 − 50,5 = 6,7 points. La France est le deuxième pays de la zone euro où l'État pèse le plus : logique interventionniste / État-providence étendu."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Bull : interventionniste et régalien",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "L'aspect régalien est bien vu (souveraineté technologique, mission que seul l'État exerce). Il manque l'aspect interventionniste : l'État n'a pas laissé faire le marché, il a payé 404 M€ pour devenir l'unique actionnaire.",
+          "reponse_eleve": "(au crayon, pâle) Le rachat est de Bull va permettre une avancer dans la souveraineté technologique et sa releve d'une mission régalienne dans le cadre que l'État seul a des missions de souveraineté.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-argu",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Interventionniste : l'État n'a pas laissé faire le marché, il est devenu producteur en payant 404 M€ pour devenir l'unique actionnaire (fonction d'allocation). Régalien : les supercalculateurs servent la défense (dissuasion nucléaire) et la souveraineté ; c'est une mission que l'État ne peut confier à personne. Les deux logiques se cumulent."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Bulletin de Mehdi : impôt ou cotisation ?",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Trois cases justes et la contrepartie de la cotisation (retraite, chômage) est vue. Le prélèvement à la source est l'impôt sur le revenu : un impôt, sans contrepartie directe, comme la CSG et la TVA.",
+          "reponse_eleve": "(au crayon, pâle) a — case : cotisation | justification : « c'est pour la retraite et le chomage » b — case : impot | justification : « c'est la protection sociale » c — case : cotisation | justification : « » d — case : impot | justification : « Taxe sur la valeur ajouté »",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-qualif",
+            "t-vocab"
+          ],
+          "reponse_attendue": "a cotisation sociale (ouvre droit à la retraite et au chômage) · b impôt (classée impôt par l'Insee : finance la protection sociale mais sans droit individuel en contrepartie) · c impôt sur le revenu (sans contrepartie directe) · d impôt (TVA, sans contrepartie)."
+        },
+        {
+          "question": "Q11",
+          "intitule": "Part des dépenses dans le PIB et solde 2025",
+          "points": 0.25,
+          "points_max": 1.5,
+          "commentaire": "La formule du solde (recettes − dépenses) est bonne, mais le calcul n'est pas terminé : 1 561,6 − 1 714,1 = − 152,5 Md€, un déficit. Pour la part des dépenses, c'est une division : 1 714,1 ÷ 2 991,1 × 100 = 57,3 %. Sur la capacité *distinguer le déficit public de la dette publique*, ces calculs sont à savoir refaire.",
+          "reponse_eleve": "(au crayon, pâle) 1714,1 - 2991,1 les administrations publiques qui n'ont eu que 1561,6 de recettes on dépenser 1714,1 qui est plus haut que se qui sont eu. 1561,6 - 1714,1 recette - dépenses = soldes public",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-calc"
+          ],
+          "reponse_attendue": "(a) 1 714,1 ÷ 2 991,1 × 100 = 57,3 % du PIB. (b) 1 561,6 − 1 714,1 = − 152,5 Md€ : le solde est négatif, c'est un déficit public."
+        },
+        {
+          "question": "Q12",
+          "intitule": "Déficit en baisse, dette en hausse : le paradoxe",
+          "points": 0.0,
+          "points_max": 2,
+          "commentaire": "Le raisonnement est inversé : emprunter sur les marchés ne diminue pas la dette, cela l'augmente. Le déficit est un flux annuel : tant qu'il existe, même réduit (5,8 → 5,1 %), l'État emprunte et la somme s'ajoute au stock de dette (112,6 → 115,6 %).",
+          "reponse_eleve": "(au crayon, pâle) Le déficit a diminié car le flux manquant a était combler par les marchés financiers, Et en comblant bas on prend de l'argent qui servirer a diminué la dette.",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-argu",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Le déficit est un flux annuel : tant qu'il est positif, l'État emprunte (152,5 Md€ en 2025) et cette somme s'ajoute au stock de dette, qui ne peut donc qu'augmenter (+ 154,4 Md€). Le déficit a diminué (5,8 → 5,1 % du PIB) mais n'a pas disparu : on ajoute moins qu'avant, mais on ajoute encore. La dette augmente aussi plus vite que le PIB (+ 2 % en valeur), d'où la hausse du ratio de 112,6 à 115,6 %. Pour que la dette baisse, il faudrait un excédent. La réponse « la dette baisse quand le déficit baisse » = 0."
+        },
+        {
+          "question": "Q13",
+          "intitule": "Le poids des intérêts de la dette",
+          "points": 0.25,
+          "points_max": 0.5,
+          "commentaire": "L'idée que les intérêts font monter la dette est là. Ajoute la conséquence concrète : 64,7 Md€ d'intérêts, c'est de l'argent indisponible pour les services publics.",
+          "reponse_eleve": "(au crayon, pâle) c'est un problème car sa fait encore plus d'argent a payer c'est son fin ils payent une partie pour que après les [ILLISIBLE] [ILLISIBLE] se qui fait monter la dette",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Les intérêts sont une dépense publique (64,7 Md€, 2,2 % du PIB) qui augmente avec la dette et les taux : elle creuse le déficit, donc l'emprunt, donc la dette — effet « boule de neige ». Cet argent (l'équivalent de 42 % du déficit 2025) n'est pas disponible pour les services publics ou la baisse des prélèvements."
+        },
+        {
+          "question": "Q14",
+          "intitule": "L'État doit-il réduire son intervention ?",
+          "points": 1.5,
+          "points_max": 3.5,
+          "commentaire": "Position nette et un bon argument appuyé sur le document 4 (Keynes, la crise de 1929, soutenir en période de crise). Il manque un second argument distinct appuyé sur le dossier (Nadia et le plafonnement, les prestations sociales…), le vocabulaire du chapitre (État-providence, régulation, déficit…) et une structure avec conclusion.",
+          "reponse_eleve": "(au crayon, pâle) L'état ne devrait pas réduire son intervention. Si il l'a reduise sa fera beaucoup plus de dépenses pour les Français avec toute celle qui sont déjà, sa ne fera que plus les enfoncer. Comme a dit John Maynard Keynes les marchés ne reviennent pas d'eux même comme la crise de 1929 la montré. L'État doit soutenir les citoyens en période de crise.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Une seule position défendue. Position « oui » : la dette (115,6 % du PIB) et ses intérêts (64,7 Md€, + 11,2 %) contraignent les choix futurs (doc 10) ; la France dépense 7,4 points de PIB de plus que la zone euro sans croissance supérieure (doc 7) ; logique libérale de recentrage sur le régalien (doc 4). Position « non » : l'État-providence a permis à Nadia et aux TPE de survivre (situation A, doc 3, fonction de régulation) ; la souveraineté justifie EDF et Bull (doc 6) ; réduire la dépense en période de crise aggrave la récession (Keynes, doc 4) ; l'écart européen s'explique par des choix de protection sociale. Le catalogue de définitions sans prise de position plafonne au niveau 2. Une seule partie défendue par question : une réponse « oui et non » sans trancher est au niveau 2 maximum."
+        }
+      ],
+      "rang": 21,
+      "effectif": 30,
+      "moyenne_classe": 10.5
+    }
+  ],
+  "classements": {
+    "general": {
+      "rang": 21,
+      "effectif": 30,
+      "moyenne": 9.03
+    },
+    "types": {
+      "dossier": {
+        "rang": 21,
+        "effectif": 30,
+        "moyenne": 9.03
+      }
+    },
+    "matieres": {
+      "eco": {
+        "rang": 21,
+        "effectif": 30,
+        "moyenne": 9.03
+      }
+    },
+    "themes": {
+      "e6": {
+        "rang": 21,
+        "effectif": 30,
+        "moyenne": 9.03
+      }
+    }
+  },
+  "capacites": {
+    "e6-1": {
+      "pts": 7.53,
+      "max": 14.5
+    },
+    "t-qualif": {
+      "pts": 5.16,
+      "max": 7.5
+    },
+    "t-doc": {
+      "pts": 2.69,
+      "max": 5.0
+    },
+    "t-vocab": {
+      "pts": 1.75,
+      "max": 5.0
+    },
+    "t-argu": {
+      "pts": 2.93,
+      "max": 8.5
+    },
+    "t-syllogisme": {
+      "pts": 0.68,
+      "max": 1.5
+    },
+    "t-calc": {
+      "pts": 0.25,
+      "max": 2.5
+    },
+    "e6-2": {
+      "pts": 1.5,
+      "max": 5.5
+    },
+    "t-redaction": {
+      "pts": 1.5,
+      "max": 3.5
+    }
+  }
 }
