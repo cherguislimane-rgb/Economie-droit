@@ -110,7 +110,16 @@
     }
   ],
   "chapitres": {
-    "1STMG": [],
+    "1STMG": [
+      {
+        "id": "e1c1",
+        "theme": "e1",
+        "titre": "Un Marseillais de 2026 vit-il mieux que Louis XIV ?",
+        "fiche": null,
+        "fiche_visible": false,
+        "brique": "La richesse d'aujourd'hui est faite de biens et de services que personne, même le roi, ne pouvait acheter hier : l'économie étudie comment on en est arrivé là."
+      }
+    ],
     "TSTMG": [
       {
         "id": "e6c1",
