@@ -207,7 +207,7 @@
 <script>
 (function () {
   const $ = id => document.getElementById(id);
-  const TYPES = { dossier: 'Dossiers', lecon: 'Leçons', bac: 'Type bac' };
+  const TYPES = { dossier: 'Dossiers', conso: 'Consolidations', lecon: 'Leçons', bac: 'Type bac' };
   const fmt = n => (Math.round(n * 100) / 100).toLocaleString('fr-FR');
   const col = r => r >= .6 ? 'var(--good)' : r >= .4 ? 'var(--mid)' : 'var(--bad)';
   const ord = n => n === 1 ? '1er' : n + 'e';
@@ -298,7 +298,7 @@
   function vueClasse() {
     const gen = ELEVES.map(e => (e.data.classements.general || {}).moyenne).filter(v => v != null);
     const cards = [`<div class="kpi"><b>${gen.length ? fmt(gen.reduce((a, b) => a + b) / gen.length) : '—'}</b><span>Moyenne générale de classe /20</span></div>`];
-    for (const t of ['dossier', 'lecon', 'bac']) {
+    for (const t of ['dossier', 'conso', 'lecon', 'bac']) {
       const vals = ELEVES.map(e => ((e.data.classements.types || {})[t] || {}).moyenne).filter(v => v != null);
       const nb = DEVOIRS.filter(d => d.type === t).length;
       cards.push(`<div class="kpi"><b>${vals.length ? fmt(vals.reduce((a, b) => a + b) / vals.length) : '—'}</b><span>${TYPES[t]}${nb ? ` · ${nb} publié${nb > 1 ? 's' : ''}` : ''}</span></div>`);
@@ -324,6 +324,7 @@
       `<option value="matiere:droit">Droit</option>`,
       `<option value="matiere:eco">Économie</option>`,
       `<option value="type:dossier">Dossiers</option>`,
+      `<option value="type:conso">Consolidations</option>`,
       `<option value="type:lecon">Contrôles de leçon</option>`,
       `<option value="type:bac">Type bac</option>`,
       ...themes.map(t => `<option value="theme:${t}">Thème — ${(titresThemes[t] || t).slice(0, 45)}</option>`),

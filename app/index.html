@@ -304,7 +304,7 @@
     .sort((a, b) => devoirById[a.devoir_id].date < devoirById[b.devoir_id].date ? 1 : -1);
   const chapitres = (CONF.chapitres || {})[ELEVE.classe] || [];
 
-  const TYPES = { dossier: 'Dossier', lecon: 'Contrôle de leçon', bac: 'Type bac' };
+  const TYPES = { dossier: 'Dossier', conso: 'Consolidation', lecon: 'Contrôle de leçon', bac: 'Type bac' };
   const fmtDate = iso => new Date(iso + 'T12:00:00').toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
   const fmtNote = n => (Math.round(n * 100) / 100).toLocaleString('fr-FR');
   const noteColor = (n, max) => { const r = n / max; return r >= .6 ? 'var(--good)' : r >= .4 ? 'var(--mid)' : 'var(--bad)'; };
@@ -442,7 +442,7 @@
   })();
 
   const types = (ELEVE.classements || {}).types || {};
-  document.getElementById('type-cards').innerHTML = ['dossier', 'lecon', 'bac'].map(t => {
+  document.getElementById('type-cards').innerHTML = ['dossier', 'conso', 'lecon', 'bac'].map(t => {
     const b = types[t];
     return `<div class="type-card">${b
       ? `<b style="color:${noteColor(b.moyenne, 20)}">${fmtNote(b.moyenne)}</b><span>${TYPES[t]}</span><span>${b.rang === 1 ? '1er' : b.rang + 'e'} / ${b.effectif}</span>`

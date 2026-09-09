@@ -96,6 +96,6 @@ Duplique le dossier de devoir le plus récent de `corrections/` en le nommant pa
 chapitre (ex. `corrections/d6c1/`), puis, à partir du nouveau
 sujet et du corrigé fournis par le professeur : régénère `bareme.json` (mêmes conventions : chaque question porte `capacite` (id du référentiel data/capacites.json) et `transversales` — ATTENTION : `t-qualif` et `t-syllogisme` sont des capacités de DROIT, jamais dans un barème d'économie (une capacité mal étiquetée fausse le suivi par capacité dans l'app) ;
 checklists chiffrées dont la somme vaut exactement la note_max de chaque question, total 20,
-variantes de notation) et `devoir.json` (nouvel `id` unique, `type` dossier/lecon/bac, `coef` fixé par le professeur, `chapitre` existant ou à créer dans le bloc chapitres, bon `theme` parmi ceux de
+variantes de notation) et `devoir.json` (nouvel `id` unique, `type` dossier/conso/lecon/bac (conso = consolidation du vendredi, pondérée par son coef comme un dossier), `coef` fixé par le professeur, `chapitre` existant ou à créer dans le bloc chapitres, bon `theme` parmi ceux de
 `data/devoirs.json`, date du devoir). Vide `copies/`, `transcriptions/`, `transcriptions_app/`, `corrections/`,
 `sortie/`. Les scripts sont réutilisables tels quels.

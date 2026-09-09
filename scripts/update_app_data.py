@@ -4,7 +4,7 @@ Moteur de publication v3.
 Intègre les résultats d'un devoir puis recalcule, pour toute la classe :
   - rang et moyenne de classe sur chaque copie
   - moyennes et classements PONDÉRÉS PAR LES COEFFICIENTS :
-      général · par type d'évaluation (dossier/lecon/bac) · par matière · par thème
+      général · par type d'évaluation (dossier/conso/lecon/bac) · par matière · par thème
   - le cumul de points par capacité (thématiques et transversales) de chaque élève
 
 Usage :
@@ -29,7 +29,7 @@ DEVOIRS_JSON = RACINE / "data" / "devoirs.json"
 CAPACITES_JSON = RACINE / "data" / "capacites.json"
 ELEVES_DIR = RACINE / "data" / "eleves"
 
-TYPES_VALIDES = {"dossier", "lecon", "bac"}
+TYPES_VALIDES = {"dossier", "conso", "lecon", "bac"}
 
 
 def charger(p: Path):
@@ -149,7 +149,7 @@ def recalculer_classe(conf: dict, classe: str) -> None:
         cl = {"general": bloc("general")}
         if cl["general"] and ancien and ancien != cl["general"]["rang"]:
             cl["general"]["rang_precedent"] = ancien
-        cl["types"] = {t: b for t in ("dossier", "lecon", "bac") if (b := bloc(f"type:{t}"))}
+        cl["types"] = {t: b for t in ("dossier", "conso", "lecon", "bac") if (b := bloc(f"type:{t}"))}
         cl["matieres"] = {m: b for m in ("droit", "eco") if (b := bloc(f"matiere:{m}"))}
         cl["themes"] = {t: b for t in sorted(themes) if (b := bloc(f"theme:{t}"))}
         e["classements"] = cl

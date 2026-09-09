@@ -107,6 +107,18 @@
         "moyenne": 10.5,
         "effectif": 30
       }
+    },
+    {
+      "id": "ts-e6c1-conso",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c1",
+      "type": "conso",
+      "coef": 1,
+      "titre": "Consolidation — L'intervention de l'État",
+      "date": "2026-09-11",
+      "note_max": 20
     }
   ],
   "chapitres": {
