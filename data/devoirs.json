@@ -128,7 +128,7 @@
         "theme": "e1",
         "titre": "Un Marseillais de 2026 vit-il mieux que Louis XIV ?",
         "fiche": "https://cherguislimane-rgb.github.io/Economie-droit/fiches/e1c1.html?v=1",
-        "fiche_visible": false,
+        "fiche_visible": true,
         "brique": "La richesse d'aujourd'hui est faite de biens et de services que personne, même le roi, ne pouvait acheter hier : l'économie étudie comment on en est arrivé là."
       }
     ],
