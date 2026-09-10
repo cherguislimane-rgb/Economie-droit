@@ -194,6 +194,34 @@
   .prio-q p { font-size: 12.5px; color: #C6CCDD; line-height: 1.5; }
   .prio-q .pts { font-size: 11px; font-weight: 700; }
 
+
+  /* ── Fil rouge ── */
+  .fr-hero { background: linear-gradient(160deg, rgba(242,166,90,.22), rgba(255,255,255,.04)); border: 1px solid var(--border);
+    border-radius: 20px; padding: 18px; margin-bottom: 14px; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); }
+  .fr-hero .lab { font: 800 11px 'Sora', sans-serif; letter-spacing: .1em; color: var(--accent); text-transform: uppercase; }
+  .fr-hero h2 { font-family: 'Sora', sans-serif; font-size: 19px; line-height: 1.3; margin-top: 6px; }
+  .fr-hero p { font-size: 13px; color: #C6CCDD; line-height: 1.5; margin-top: 8px; }
+  .fr-prog { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-size: 12px; color: var(--muted); }
+  .fr-prog .bar { flex: 1; margin: 0; height: 6px; }
+  .fr-prog b { color: var(--text); font-family: 'Sora', sans-serif; white-space: nowrap; }
+  .fr-volet { font-family: 'Sora', sans-serif; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin: 22px 4px 10px; }
+  .fr-volet small { display: block; text-transform: none; letter-spacing: 0; font-weight: 400; font-size: 12px; margin-top: 2px; }
+  .brique { display: flex; gap: 12px; padding: 13px 4px; border-bottom: 1px solid rgba(255,255,255,.06); }
+  .brique:last-child { border-bottom: none; }
+  .brique .ic { width: 36px; height: 36px; border-radius: 12px; display: grid; place-items: center; font-size: 17px; flex-shrink: 0;
+    background: rgba(242,166,90,.16); }
+  .brique.droit .ic { background: rgba(122,162,247,.15); }
+  .brique.lock .ic { background: rgba(255,255,255,.07); filter: grayscale(1); opacity: .7; }
+  .brique .t { font-size: 13.5px; font-weight: 600; line-height: 1.35; }
+  .brique.lock .t { color: var(--muted); font-weight: 500; }
+  .brique .b { font-size: 13px; color: #C6CCDD; line-height: 1.5; margin-top: 5px; padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.2);
+    border-left: 3px solid var(--accent); }
+  .brique.droit .b { border-left-color: #7AA2F7; }
+  .brique .m { font-size: 11.5px; color: var(--muted); margin-top: 3px; }
+  .brique .m a { color: var(--accent); font-weight: 700; text-decoration: none; }
+  .fr-final { text-align: center; padding: 18px; font-size: 13px; color: var(--muted); line-height: 1.5; }
+  .fr-final b { display: block; font-family: 'Sora', sans-serif; color: var(--text); font-size: 14px; margin-top: 4px; }
+
   nav { position: fixed; bottom: 0; left: 0; right: 0; z-index: 40; background: rgba(13,18,32,.85);
     backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-top: 1px solid var(--border);
     display: flex; justify-content: space-around; padding: 8px 0 max(10px, env(safe-area-inset-bottom)); }
@@ -252,6 +280,12 @@
     <div class="section-title">Tes priorités de révision</div>
     <div id="prio-list"></div>
   </section>
+
+  <section class="page" id="page-filrouge">
+    <div class="section-title">La question de l'année</div>
+    <div id="fr-hero"></div>
+    <div id="fr-volets"></div>
+  </section>
 </div>
 
 <div class="modal" id="modal"><div class="sheet" id="sheet"></div></div>
@@ -261,6 +295,7 @@
   <button data-page="progression"><span class="i">📈</span>Progression</button>
   <button data-page="capacites"><span class="i">🧭</span>Capacités</button>
   <button data-page="reviser"><span class="i">🎯</span>Réviser</button>
+  <button data-page="filrouge" id="nav-filrouge" style="display:none"><span class="i">🧵</span>Fil rouge</button>
 </nav>
 
 <script>
@@ -602,6 +637,38 @@
         ${chVis ? `<div class="fiche" style="border:none;padding:6px 0 0"><a href="${chVis.fiche}" target="_blank" rel="noopener">📖 Réviser la fiche « ${chVis.titre} »</a></div>` : ''}
       </div>`;
     }).join('');
+  })();
+
+
+  // ── Fil rouge : la question de l'année et ses briques (bloc fil_rouge de devoirs.json) ──
+  (function renderFilRouge() {
+    const fr = (CONF.fil_rouge || {})[ELEVE.classe];
+    if (!fr || !fr.question) return;
+    document.getElementById('nav-filrouge').style.display = '';
+    const MAT = { eco: 'Économie', droit: 'Droit' };
+    const plan = fr.plan && fr.plan.length ? fr.plan : chapitres.map(ch => ({ id: ch.id, matiere: ch.id[0] === 'd' ? 'droit' : 'eco', titre: ch.titre, volet: 1 }));
+    const debloquee = e => { const ch = chapById[e.id]; return ch && ch.fiche_visible && ch.brique ? ch : null; };
+    const nb = plan.filter(debloquee).length;
+    document.getElementById('fr-hero').innerHTML = `<div class="fr-hero">
+      <div class="lab">Fil rouge · Économie et Droit</div>
+      <h2>${fr.question}</h2>
+      ${fr.intro ? `<p>${fr.intro}</p>` : ''}
+      <div class="fr-prog"><span>Briques posées</span><div class="bar"><i style="width:${plan.length ? Math.round(nb / plan.length * 100) : 0}%;background:var(--accent)"></i></div><b>${nb} / ${plan.length}</b></div>
+    </div>`;
+    const volets = fr.volets && fr.volets.length ? fr.volets : [{ num: 1, titre: 'Les briques', sous: '' }];
+    const html = volets.map(v => {
+      const etapes = plan.filter(e => (e.volet || 1) === v.num);
+      if (!etapes.length) return '';
+      return `<div class="fr-volet">${v.titre}${v.sous ? `<small>${v.sous}</small>` : ''}</div><div class="glass">` + etapes.map(e => {
+        const ch = debloquee(e);
+        if (ch) return `<div class="brique ${e.matiere}"><div class="ic">${e.matiere === 'droit' ? '⚖️' : '🧱'}</div>
+          <div style="flex:1;min-width:0"><div class="t">${ch.titre}</div><div class="b">${ch.brique}</div>
+          <div class="m">${MAT[e.matiere] || ''}${ch.fiche ? ` · <a href="${ch.fiche}" target="_blank" rel="noopener">Revoir la fiche</a>` : ''}</div></div></div>`;
+        return `<div class="brique ${e.matiere} lock"><div class="ic">🔒</div>
+          <div style="flex:1;min-width:0"><div class="t">${e.titre}</div><div class="m">${MAT[e.matiere] || ''} · brique à venir</div></div></div>`;
+      }).join('') + `</div>`;
+    }).join('');
+    document.getElementById('fr-volets').innerHTML = html + (fr.final ? `<div class="glass fr-final">${fr.final.texte || ''}<b>${fr.final.titre || ''}</b></div>` : '');
   })();
 
   // ── Navigation ──

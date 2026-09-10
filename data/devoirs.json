@@ -142,5 +142,185 @@
       }
     ]
   },
-  "_doc_chapitres": "Chaque chapitre : id (ex. d7c1), theme, titre, fiche (URL Objectif BAC ou null), fiche_visible (true = fiche débloquée pour TOUTE la classe — c'est TOI qui passes ce champ à true, typiquement le jour du ramassage du dossier)."
+  "_doc_chapitres": "Chaque chapitre : id (ex. d7c1), theme, titre, fiche (URL Objectif BAC ou null), fiche_visible (true = fiche débloquée pour TOUTE la classe — c'est TOI qui passes ce champ à true, typiquement le jour du ramassage du dossier).",
+  "fil_rouge": {
+    "1STMG": {
+      "question": "Pourquoi un Marseillais de 2026 vit-il mieux que Louis XIV — et qu'est-ce qui rend cela possible ?",
+      "intro": "Depuis deux siècles, la richesse par habitant a été multipliée par vingt et la durée de vie a plus que triplé : c'est le grand enrichissement. Chaque chapitre d'économie et de droit pose une brique de la réponse. Elles apparaissent ici quand la fiche du chapitre est débloquée.",
+      "volets": [
+        {
+          "num": 1,
+          "titre": "1 · Le constat",
+          "sous": "Le miracle, mesuré et expliqué"
+        },
+        {
+          "num": 2,
+          "titre": "2 · Concrètement",
+          "sous": "Ce que ça change dans une vie"
+        },
+        {
+          "num": 3,
+          "titre": "3 · Ce qui le permet",
+          "sous": "Les moteurs de l'économie et l'infrastructure invisible du droit"
+        }
+      ],
+      "plan": [
+        {
+          "id": "e1c1",
+          "matiere": "eco",
+          "titre": "Un Marseillais de 2026 vit-il mieux que Louis XIV ?",
+          "volet": 1
+        },
+        {
+          "id": "d1c1",
+          "matiere": "droit",
+          "titre": "Le sujet du roi et le citoyen",
+          "volet": 3
+        },
+        {
+          "id": "e1c2",
+          "matiere": "eco",
+          "titre": "Choisir, c'est renoncer",
+          "volet": 1
+        },
+        {
+          "id": "d1c2",
+          "matiere": "droit",
+          "titre": "La règle de droit",
+          "volet": 3
+        },
+        {
+          "id": "e1c3",
+          "matiere": "eco",
+          "titre": "Échanger",
+          "volet": 1
+        },
+        {
+          "id": "d1c3",
+          "matiere": "droit",
+          "titre": "Qui fabrique la règle ?",
+          "volet": 3
+        },
+        {
+          "id": "e2c1",
+          "matiere": "eco",
+          "titre": "Produire",
+          "volet": 3
+        },
+        {
+          "id": "d3c1",
+          "matiere": "droit",
+          "titre": "La boulangerie est une personne",
+          "volet": 3
+        },
+        {
+          "id": "e2c2",
+          "matiere": "eco",
+          "titre": "Le secret du miracle : la productivité",
+          "volet": 3
+        },
+        {
+          "id": "d3c2",
+          "matiere": "droit",
+          "titre": "Capacité et patrimoine",
+          "volet": 2
+        },
+        {
+          "id": "e2c3",
+          "matiere": "eco",
+          "titre": "Mesurer",
+          "volet": 1
+        },
+        {
+          "id": "e2c4",
+          "matiere": "eco",
+          "titre": "Partager",
+          "volet": 2
+        },
+        {
+          "id": "e3c1",
+          "matiere": "eco",
+          "titre": "De l'assiette au smartphone",
+          "volet": 2
+        },
+        {
+          "id": "d4c1",
+          "matiere": "droit",
+          "titre": "La propriété",
+          "volet": 3
+        },
+        {
+          "id": "e3c2",
+          "matiere": "eco",
+          "titre": "Consommer ou épargner",
+          "volet": 2
+        },
+        {
+          "id": "d4c2",
+          "matiere": "droit",
+          "titre": "Posséder une idée",
+          "volet": 3
+        },
+        {
+          "id": "e4c1",
+          "matiere": "eco",
+          "titre": "Besoins et capacités de financement",
+          "volet": 3
+        },
+        {
+          "id": "d4c3",
+          "matiere": "droit",
+          "titre": "La personne n'est pas à vendre",
+          "volet": 2
+        },
+        {
+          "id": "e4c2",
+          "matiere": "eco",
+          "titre": "Les banques créent la monnaie",
+          "volet": 3
+        },
+        {
+          "id": "d2c1",
+          "matiere": "droit",
+          "titre": "Du conflit au litige",
+          "volet": 3
+        },
+        {
+          "id": "e5c1",
+          "matiere": "eco",
+          "titre": "Le marché et le prix",
+          "volet": 3
+        },
+        {
+          "id": "d2c2",
+          "matiere": "droit",
+          "titre": "Prouver",
+          "volet": 3
+        },
+        {
+          "id": "e5c2",
+          "matiere": "eco",
+          "titre": "Concurrence, oligopole, monopole",
+          "volet": 3
+        },
+        {
+          "id": "d2c3",
+          "matiere": "droit",
+          "titre": "Le procès",
+          "volet": 3
+        },
+        {
+          "id": "e5c3",
+          "matiere": "eco",
+          "titre": "Pourquoi le téléviseur coûte 100 fois moins",
+          "volet": 3
+        }
+      ],
+      "final": {
+        "titre": "Devoir croisé de fin d'année : « Le grand enrichissement, miracle ou mécanisme ? »",
+        "texte": "Quand toutes les briques seront posées, tu auras de quoi répondre à la question de l'année, en économie comme en droit."
+      }
+    }
+  },
+  "_doc_fil_rouge": "Par classe : question, intro, volets (num, titre, sous), plan (id, matiere, titre, volet — l'ordre d'affichage), final. Une brique s'affiche quand le chapitre existe dans chapitres[classe] avec fiche_visible: true ET un champ brique. Les chapitres du plan absents de chapitres[] apparaissent verrouillés."
 }
