@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
-      "note": 10.5,
+      "note": 12.0,
       "publie_le": "2026-09-10",
       "pdf": null,
       "retours": [
@@ -177,9 +177,9 @@
         {
           "question": "Q13",
           "intitule": "Vit-on mieux que Louis XIV ?",
-          "points": 2.0,
+          "points": 3.5,
           "points_max": 3.5,
-          "commentaire": "Introduction très bien construite (position, annonce des deux arguments et de la nuance) et un premier argument exemplaire : chiffres du document 2 (25 ans contre 80,3), causes précises, vocabulaire du chapitre. La réponse s'arrête là, sans deuxième argument ni conclusion : c'est une question de temps. La prochaine fois, garde vingt minutes pour cette question et écris les deux paragraphes plus courts plutôt qu'un seul très développé.",
+          "commentaire": "Argumentation de niveau 4 (la suite au verso de la page 8 a bien été lue) : position annoncée dès l'introduction avec l'annonce du plan, deux arguments distincts et appuyés sur le dossier (la santé avec les chiffres du document 2, la communication avec l'idée du document 5 que le luxe d'hier devient une nécessité), vocabulaire du chapitre (ressources, besoins secondaires, biens matériels, richesses) et une conclusion qui répond en nuançant par le pouvoir du roi. Très bon travail ; la prochaine fois, écris au stylo : le crayon pâle a failli rendre ta page invisible au scan.",
           "reponse_eleve": "Un Français de 2026 vit mieux (sur plusieurs points) que Louis XIV. Je vais défendre cette position avec deux arguments, et ensuite faire une conclusion en nuançant ma position. I. Pourquoi un Français vit mieux que Louis XIV dans certains points ? Tout d'abord, vers 1740-1750 l'espérance de vie est d'environ 25 ans, cette espérance de vie est beaucoup plus petite que celle de 2025 qui est de 80,3, cette différence s'explique par l'absence de vaccination contre la variole, l'absence d'antibiotiques, mais également les famines. Si en 2025 les hommes ont eu une augmentation de l'espérance de vie c'est parce qu'il y a eu l'apparition de nouvelles ressources (vaccination en 1810, antibiotiques, […]",
           "capacite": "e1-2",
           "transversales": [
@@ -189,42 +189,46 @@
           "reponse_attendue": "Une seule position défendue. Position « oui » (attendue) : santé et durée de vie (doc 2 : 25 → 83 ans ; Louis XIV mort d'une gangrène, ses dents arrachées sans anesthésie ; Léa guérie par un antibiotique à 2 €) ; quantité et variété de biens et services accessibles (doc 1 : ×22 ; doc 4 : ce qui n'existait à aucun prix — électricité, transport rapide, communication instantanée) ; services non marchands pour tous (école, hôpital). Position « non » recevable si argumentée : le roi avait le pouvoir, les palais, des centaines de domestiques, le statut ; le PIB par habitant ne mesure pas tout ; un Français moyen subit encore des contraintes (situation Fontaine) et des inégalités. La conclusion peut nuancer (« mieux sur la santé et le confort, pas sur le pouvoir »). Catalogue de définitions sans réponse = niveau 1 ; « oui et non » sans trancher = niveau 2 maximum."
         }
       ],
-      "rang": 20,
+      "rang": 16,
       "effectif": 25,
-      "moyenne_classe": 12.6
+      "moyenne_classe": 12.6,
+      "trophees": [
+        "sans_faute"
+      ]
     }
   ],
   "classements": {
     "general": {
-      "rang": 20,
+      "rang": 16,
       "effectif": 25,
-      "moyenne": 10.5
+      "moyenne": 12.0,
+      "rang_precedent": 20
     },
     "types": {
       "dossier": {
-        "rang": 20,
+        "rang": 16,
         "effectif": 25,
-        "moyenne": 10.5
+        "moyenne": 12.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 20,
+        "rang": 16,
         "effectif": 25,
-        "moyenne": 10.5
+        "moyenne": 12.0
       }
     },
     "themes": {
       "e1": {
-        "rang": 20,
+        "rang": 16,
         "effectif": 25,
-        "moyenne": 10.5
+        "moyenne": 12.0
       }
     }
   },
   "capacites": {
     "e1-2": {
-      "pts": 6.0,
+      "pts": 7.5,
       "max": 9.75
     },
     "t-calc": {
@@ -240,7 +244,7 @@
       "max": 7.75
     },
     "t-argu": {
-      "pts": 4.75,
+      "pts": 6.25,
       "max": 8.75
     },
     "e1-3": {
@@ -252,7 +256,7 @@
       "max": 1.75
     },
     "t-redaction": {
-      "pts": 2.5,
+      "pts": 4.0,
       "max": 5.5
     },
     "e1-1": {
