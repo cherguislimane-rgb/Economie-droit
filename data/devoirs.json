@@ -119,6 +119,22 @@
       "titre": "Consolidation — L'intervention de l'État",
       "date": "2026-09-11",
       "note_max": 20
+    },
+    {
+      "id": "1s-e1c1-dossier",
+      "classe": "1STMG",
+      "matiere": "eco",
+      "theme": "e1",
+      "chapitre": "e1c1",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier — Un Marseillais de 2026 vit-il mieux que Louis XIV ?",
+      "date": "2026-09-10",
+      "note_max": 20,
+      "stats": {
+        "moyenne": 12.6,
+        "effectif": 25
+      }
     }
   ],
   "chapitres": {

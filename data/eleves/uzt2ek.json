@@ -1,6 +1,13 @@
 {
   "code": "uzt2ek",
   "classe": "1STMG",
-  "maj": "2026-09-03",
-  "copies": []
+  "maj": "2026-09-10",
+  "copies": [],
+  "classements": {
+    "general": null,
+    "types": {},
+    "matieres": {},
+    "themes": {}
+  },
+  "capacites": {}
 }

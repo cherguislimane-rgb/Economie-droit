@@ -1,6 +1,263 @@
 {
   "code": "t2hm36",
   "classe": "1STMG",
-  "maj": "2026-09-03",
-  "copies": []
+  "maj": "2026-09-10",
+  "copies": [
+    {
+      "devoir_id": "1s-e1c1-dossier",
+      "note": 14.0,
+      "publie_le": "2026-09-10",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "PIB par habitant : multiplié par combien depuis 1820 ?",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Réponse complète : valeurs relevées, coefficient multiplicateur nommé et calculé (21,6), phrase de lecture. Formule-la plutôt ainsi : le PIB par habitant a été multiplié par environ 22 ; « plus d'argent » est un raccourci, le PIB mesure la production de richesses.",
+          "reponse_eleve": "En 1820 le PIB de la France est de 1809 et en 2022 il est de 39 066. Pour calculer le coefficient multiplicateur on fait 39 066 ÷ 1809 ≃ 21,6, aujourd'hui on vit avec 21,6 fois plus d'argent qu'en 1820.",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-calc",
+            "t-doc"
+          ],
+          "reponse_attendue": "1820 : 1 809 $ ; 2022 : 39 066 $. Coefficient multiplicateur = 39 066 ÷ 1 809 ≈ 21,6, arrondi à 22. Phrase : entre 1820 et 2022, la richesse produite par habitant en France a été multipliée par environ 22 (à prix constants)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Un siècle immobile, deux siècles d'envol",
+          "points": 0.75,
+          "points_max": 0.75,
+          "commentaire": "Excellente comparaison : coefficient de chaque période (×1,03 puis ×22), calcul écrit, conclusion explicite. C'est exactement ce qui était attendu.",
+          "reponse_eleve": "Entre 1700 et 1820 le coefficient multiplicateur est de 1,03 (1809 ÷ 1758 = 1,03) ce qui est très peu alors qu'entre 1820 et 2022 il a explosé de presque 22 fois. Donc non le PIB par habitant n'a pas évolué au même rythme.",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-doc",
+            "t-calc"
+          ],
+          "reponse_attendue": "Non. Entre 1700 et 1820 (120 ans), le PIB par habitant passe de 1 758 à 1 809 $ : quasi stagnation (+ 3 %). Entre 1820 et 2022, il est multiplié par 22 (ou : ×3 avant 1913, ×4 entre 1950 et 2022). L'enrichissement est un phénomène récent et accéléré, pas une tendance de toujours."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Espérance de vie : combien d'années gagnées ?",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Le calcul attendu était 83 − 25 = 58 ans ; 48 ne correspond pas aux valeurs du document 2. Pour les causes, attention : les maladies et les famines décrivent la situation de 1740, ce n'est pas ce qui a fait monter l'espérance de vie ; le document cite la vaccination, l'eau potable et l'hygiène, les antibiotiques, la Sécurité sociale.",
+          "reponse_eleve": "Entre 1740-1750 et 2025 l'espérance de vie à la naissance a augmenté d'environ 48 ans. 1re cause : les maladies (varioles, rougeole, dysenterie et famines). 2e cause : la pauvreté ou les avancées techniques, en 1740 les avancées contre les maladies n'étaient pas aussi avancées.",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-calc",
+            "t-doc"
+          ],
+          "reponse_attendue": "Vers 1740-1750 : environ 25 ans ; 2025 : environ 83 ans sexes réunis. Gain ≈ 83 − 25 = 58 ans (accepter 55 à 60 selon l'arrondi, et une réponse par sexe : 80,3 − 25 ≈ 55 ; 85,9 − 25 ≈ 61). Deux causes parmi : vaccination (variole), eau potable / égouts / hygiène, antibiotiques, vaccins, Sécurité sociale, lutte contre les maladies cardio-vasculaires et les cancers, baisse de la mortalité infantile."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Bien ou service ? Marchand ou non marchand ?",
+          "points": 1.25,
+          "points_max": 2,
+          "commentaire": "Sur la capacité *distinguer la nature des biens et services* : cinq lignes justes, dont la consultation en marchand. Erreurs : le trajet en bus est un service (immatériel, consommé au moment où il est produit), la visio est un service vendu par un opérateur donc marchand, et l'électricité est un bien.",
+          "reponse_eleve": "a: bien, marchand b: bien, marchand c: service, non marchand d: service, non marchand e: service, non marchand f: service, marchand g: bien, marchand h: service, marchand",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "a paracétamol : bien, marchand · b bus RTM : service, marchand · c cours au lycée : service, non marchand · d infirmerie du lycée : service, non marchand · e visio : service, marchand · f consultation du médecin : service, marchand · g amoxicilline : bien, marchand · h électricité : bien, marchand. Une ligne = deux cases (une dans chaque paire) ; 0,25 par ligne si les deux cases sont justes."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Plus riche que Vanderbilt ?",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Deux arguments distincts et très précis grâce au document 4 : le transport (dix jours de traversée contre douze heures d'avion) et les soins (ni antibiotique ni vaccin, les meilleurs médecins impuissants, contre l'antibiotique à 2 €). Il manque l'idée-clé qui relie les deux (« ce n'est pas l'argent qui a changé, c'est ce qu'une société sait produire ») et le vocabulaire du chapitre : biens, services, richesse.",
+          "reponse_eleve": "Premièrement une lycéenne d'aujourd'hui peut se déplacer beaucoup plus facilement et rapidement : Vanderbilt prendrait 10 j pour traverser l'Atlantique tandis que nous on prendrait moins de 12 h et dans de meilleures conditions avec un billet d'avion. Et enfin les soins, en 1876 il n'y avait pas d'antibiotique pas de vaccin et les meilleurs médecins du pays ne savent ni diagnostiquer ni soigner contrairement à aujourd'hui avec un antibiotique acheté à 2 € dans une pharmacie.",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-argu",
+            "t-doc"
+          ],
+          "reponse_attendue": "Idée centrale : l'argent ne permet d'acheter que ce qui existe ; en 1876, la santé (antibiotiques, aspirine, vaccins), la communication instantanée (téléphone, visio), le transport rapide, le confort (électricité, réfrigération) n'existaient pas ou étaient rudimentaires. Argument 1 santé : Vanderbilt meurt en 1877 de ce que ses médecins ne savent pas soigner, Léa guérit d'une angine avec un antibiotique à 2 €. Argument 2 au choix : communication (visio Marseille-Montréal contre aucune ligne téléphonique), transport (train/avion contre dix jours de traversée), confort. La simple recopie du document sans lien avec Léa ne crédite pas les arguments."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Science économique : définition",
+          "points": 0.5,
+          "points_max": 0.75,
+          "commentaire": "Définition proche du document 5 : des choix pour produire, répartir et consommer avec des ressources rares. Il manque le mot « besoins » exigé par la consigne, et l'idée qu'ils sont presque illimités : c'est ce déséquilibre avec des ressources rares qui oblige à choisir.",
+          "reponse_eleve": "La science économique étudie les choix des sociétés et des personnes pour réussir à produire, répartir et consommer des biens et des services avec des ressources rares. Et pourquoi certaines sociétés le font mieux que d'autres.",
+          "capacite": "e1-3",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "La science économique étudie comment les individus et les sociétés font des choix pour satisfaire des besoins (presque) illimités avec des ressources rares (limitées) : quoi produire, comment répartir, comment consommer. Les trois mots doivent être présents et articulés (besoins illimités / ressources rares / donc choix)."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Quatre contraintes chez les Fontaine",
+          "points": 1.0,
+          "points_max": 2,
+          "commentaire": "Sur la capacité *décrire les choix économiques sous contrainte* : Revenu et Temps (l'heure passée à comparer) sont justes. Pour Espace et Information, tu as recopié les définitions du document 6 ; il fallait un passage de la situation : le trois-pièces pour quatre où Léa partage sa chambre avec Tom, et le père qui ne sait pas quel vendeur reconditionné est fiable.",
+          "reponse_eleve": "Revenu: C'est 3600 € net par mois. Temps: Le père a passé une heure sur trois sites de comparaison. Espace: Chaque mètre carré utilisé à une chose ne l'est pas à une autre. Information: Chercher l'info coûte du temps et on décide souvent sans tout savoir.",
+          "capacite": "e1-3",
+          "transversales": [
+            "t-doc",
+            "t-qualif"
+          ],
+          "reponse_attendue": "Revenu : 3 600 € nets pour des dépenses fixes de 2 430 €, il reste 450 € en fin de mois, les demandes de septembre (90 + 180 + 250 = 520 €) dépassent ce reste. Temps : la mère hésite entre deux dimanches de garde (260 €) et deux week-ends avec les enfants ; le père a passé une heure à comparer. Espace : trois-pièces pour quatre, Léa partage sa chambre avec Tom. Information : le père compare trois sites, ne sait pas quel vendeur reconditionné est fiable."
+        },
+        {
+          "question": "Q8",
+          "intitule": "L'arbitrage de septembre",
+          "points": 1.25,
+          "points_max": 1.25,
+          "commentaire": "Arbitrage complet et justifié : la calculatrice d'abord (besoin scolaire), le téléphone ensuite, le club en dernier, avec des raisons tirées de la situation (90 €, 250 €) et les mots « besoin » et « renoncer ». On peut discuter le choix de sacrifier le sport de Tom avant le téléphone, mais l'arbitrage est argumenté, c'est ce qui compte.",
+          "reponse_eleve": "Il vaut mieux acheter la calculatrice de Léa à 90 € car elle en a besoin pour mieux étudier, ensuite le téléphone reconditionné à 250 € c'est cher mais aujourd'hui tout le monde a un téléphone, c'est compliqué de vivre sans, et enfin l'inscription de Tom devrait être le dernier problème car ce n'est qu'un loisir, il peut donc y renoncer.",
+          "capacite": "e1-3",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Un classement explicite : d'abord les fournitures et la calculatrice (besoin lié à la scolarité, obligatoire, 90 €), puis le club de football de Tom (180 €, santé et sociabilité, mais peut se négocier ou s'étaler), le smartphone reconditionné (250 €) reporté ou financé par les gardes du dimanche, ou renoncement provisoire à l'épargne de 200 €. Toute hiérarchie cohérente et justifiée par la situation est acceptée ; ce qui est noté, c'est l'existence d'un arbitrage explicite, les raisons tirées de la situation et le vocabulaire (besoin, renoncer)."
+        },
+        {
+          "question": "Q9",
+          "intitule": "La rareté a-t-elle disparu ?",
+          "points": 0.75,
+          "points_max": 1.5,
+          "commentaire": "Position claire et une excellente utilisation du document 5, avec la citation exacte sur le temps d'une vie. Il manque l'argument tiré de la situation (avec 3 600 € par mois, les Fontaine doivent encore arbitrer) et une conclusion nuancée : la rareté a reculé depuis 1820 (×22), elle n'a pas disparu.",
+          "reponse_eleve": "Non je ne suis pas d'accord car aujourd'hui nos besoins sont illimités tandis que des ressources ne le sont pas, surtout les plus importantes : le temps, les revenus, les matières premières… On doit donc prioriser en renonçant à certains besoins. Comme à la fin du doc 5 on nous dit : « Même l'individu le plus riche n'échappe pas à la rareté : le temps d'une vie est compté ».",
+          "capacite": "e1-3",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Position attendue : non, la rareté a reculé mais n'a pas disparu. Argument 1 (situation) : même avec 3 600 € par mois, les Fontaine doivent arbitrer (reste de 450 €, smartphone reporté, chambre partagée, temps de la mère). Argument 2 (document 5) : les besoins se renouvellent sans cesse (le luxe d'hier devient la nécessité d'aujourd'hui), le temps d'une vie reste compté, et une société manque de tout ce qu'elle ne sait pas encore produire. Conclusion : le grand enrichissement a desserré les contraintes, il ne les a pas supprimées. Une position « oui, la rareté a disparu » est recevable seulement si elle est argumentée avec les documents ; elle plafonne en pratique au deuxième élément car le document 5 dit le contraire."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Qui est qui ? (cases à cocher)",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Sur la capacité *identifier les acteurs économiques* : huit lignes justes, y compris l'usine étrangère dans le reste du monde et l'AP-HM en administration publique.",
+          "reponse_eleve": "a: ménage b: entreprise c: administration publique d: banque e: association f: administration publique g: reste du monde h: entreprise",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-qualif"
+          ],
+          "reponse_attendue": "a famille Fontaine : ménage · b boulangerie : entreprise · c lycée Montgrand : administration publique · d banque : banque / société financière · e club de football : association · f AP-HM : administration publique · g usine étrangère : reste du monde · h pharmacie : entreprise."
+        },
+        {
+          "question": "Q11",
+          "intitule": "Lycée et pharmacie : deux services, deux logiques",
+          "points": 0.25,
+          "points_max": 1,
+          "commentaire": "La pharmacie est bien une entreprise, mais pas le lycée : c'est une administration publique, qui fournit un service non marchand (gratuit pour Léa) financé par les impôts et cotisations. La pharmacie vend un service marchand, financé par le prix payé par le client. La question portait sur ces trois points, pas sur le but de chacun. Tu l'avais juste dans la Q10 !",
+          "reponse_eleve": "Le lycée et la pharmacie sont tous les deux des entreprises mais ils n'ont pas le même but, le lycée assure une éducation, un bon avenir à Léa, alors que la pharmacie est là en cas de besoin : consultation du médecin, médicament en cas de maladie…",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-vocab",
+            "t-argu"
+          ],
+          "reponse_attendue": "Le lycée est une administration publique qui produit un service non marchand (gratuit pour Léa), financé par les impôts (et cotisations) ; la pharmacie est une entreprise qui produit un service marchand, financé par le prix payé par le client (même si une partie est ensuite remboursée). Les deux répondent à un besoin, mais l'un est fourni par la collectivité, l'autre vendu."
+        },
+        {
+          "question": "Q12",
+          "intitule": "La chaîne de l'antibiotique",
+          "points": 1.25,
+          "points_max": 1.75,
+          "commentaire": "Laboratoire et pharmacie sont justes. Le médecin exerce en France, en libéral : c'est une entreprise (il vend sa consultation), pas le reste du monde. Pour l'Assurance maladie, la fonction attendue est ce qu'elle fait pour Léa : rembourser 70 % de la consultation et 65 % de l'antibiotique ; les cotisations sont ce qui la finance.",
+          "reponse_eleve": "1: Labo pharmaceutique | Entreprise | Il est fabriqué là-bas par des chimistes, des ouvriers et des chercheurs 2: La pharmacie | Entreprise | C'est l'entreprise qui vend le produit acheté par Léa. 3: Le médecin | Reste du monde | Examine Léa et lui vend la consultation qui lui permettra d'acheter 4: L'assurance maladie | Administration publique | Finance les cotisations sociales",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-doc",
+            "t-qualif"
+          ],
+          "reponse_attendue": "Quatre acteurs parmi : le laboratoire pharmaceutique (entreprise — fabrique le médicament) ; la pharmacie (entreprise — vend et conseille) ; le médecin libéral (entreprise — diagnostique et prescrit ; accepter « ménage » avec justification « il exerce seul », commentaire sur l'entrepreneur individuel) ; l'Assurance maladie (administration publique — rembourse 70 % / 65 %, financée par cotisations et CSG) ; la complémentaire santé (banque / société financière — rembourse le reste contre une cotisation) ; la famille Fontaine (ménage — consomme et paie le reste). Un acteur = catégorie juste + fonction juste."
+        },
+        {
+          "question": "Q13",
+          "intitule": "Vit-on mieux que Louis XIV ?",
+          "points": 3.0,
+          "points_max": 3.5,
+          "commentaire": "Argumentation solide : position tenue, deux arguments distincts appuyés sur les documents (le document 4 pour ce que l'argent ne peut pas acheter, le document 2 et la situation pour la santé et les conditions de vie de Louis XIV), conclusion qui répond. Pour le niveau 4, mobilise le vocabulaire du chapitre (biens, services, non marchand, acteur économique, PIB par habitant) : tu as les idées, il manque les mots précis.",
+          "reponse_eleve": "Oui, un Français de 2026 vit mieux que Louis XIV, dans le doc 4 on nous précise que l'homme le plus riche du monde en 1876 peut s'acheter tout ce qui se vend (domestiques, palais, chevaux de course) mais il ne peut pas acheter ce qui n'existe pas encore comme des vaccins ou d'autres encore, le téléphone vient de sortir et aucune ligne ne le relie à personne. Les voyages sont longs et avec de mauvaises conditions tout contrairement à aujourd'hui. Les maladies sont également un gros problème, sans médecins avec les compétences requises l'espérance de vie était seulement de 25 ans voire moins (doc 2). Les conditions de vie chez Louis XIV étaient moins bonnes que pour un élève de 16 ans […]",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Une seule position défendue. Position « oui » (attendue) : santé et durée de vie (doc 2 : 25 → 83 ans ; Louis XIV mort d'une gangrène, ses dents arrachées sans anesthésie ; Léa guérie par un antibiotique à 2 €) ; quantité et variété de biens et services accessibles (doc 1 : ×22 ; doc 4 : ce qui n'existait à aucun prix — électricité, transport rapide, communication instantanée) ; services non marchands pour tous (école, hôpital). Position « non » recevable si argumentée : le roi avait le pouvoir, les palais, des centaines de domestiques, le statut ; le PIB par habitant ne mesure pas tout ; un Français moyen subit encore des contraintes (situation Fontaine) et des inégalités. La conclusion peut nuancer (« mieux sur la santé et le confort, pas sur le pouvoir »). Catalogue de définitions sans réponse = niveau 1 ; « oui et non » sans trancher = niveau 2 maximum."
+        }
+      ],
+      "rang": 9,
+      "effectif": 25,
+      "moyenne_classe": 12.6
+    }
+  ],
+  "classements": {
+    "general": {
+      "rang": 9,
+      "effectif": 25,
+      "moyenne": 14.0
+    },
+    "types": {
+      "dossier": {
+        "rang": 9,
+        "effectif": 25,
+        "moyenne": 14.0
+      }
+    },
+    "matieres": {
+      "eco": {
+        "rang": 9,
+        "effectif": 25,
+        "moyenne": 14.0
+      }
+    },
+    "themes": {
+      "e1": {
+        "rang": 9,
+        "effectif": 25,
+        "moyenne": 14.0
+      }
+    }
+  },
+  "capacites": {
+    "e1-2": {
+      "pts": 7.0,
+      "max": 9.75
+    },
+    "t-calc": {
+      "pts": 1.75,
+      "max": 2.75
+    },
+    "t-doc": {
+      "pts": 5.0,
+      "max": 8.0
+    },
+    "t-qualif": {
+      "pts": 5.5,
+      "max": 7.75
+    },
+    "t-argu": {
+      "pts": 6.25,
+      "max": 8.75
+    },
+    "e1-3": {
+      "pts": 3.5,
+      "max": 5.5
+    },
+    "t-vocab": {
+      "pts": 0.75,
+      "max": 1.75
+    },
+    "t-redaction": {
+      "pts": 4.75,
+      "max": 5.5
+    },
+    "e1-1": {
+      "pts": 3.5,
+      "max": 4.75
+    }
+  }
 }
