@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1220">
+<title>Fiche — Un Marseillais de 2026 vit-il mieux que Louis XIV ? (1STMG-E-T1C1)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #0D1220; --card: rgba(255,255,255,.055); --card-strong: rgba(255,255,255,.09);
+    --border: rgba(255,255,255,.12); --text: #EAEEF7; --muted: #A6ADBF; --ink: #0D1220;
+    --accent: #F2A65A; --accent-soft: rgba(242,166,90,.18);
+    --green: #55C89B; --green-soft: rgba(85,200,155,.16);
+    --blue: #8FB0F5; --blue-soft: rgba(111,152,240,.18);
+    --gold: #F2C94C; --gold-soft: rgba(242,201,76,.16); --red: #FF7B7B; --grey: #A6ADBF; --grey-soft: rgba(255,255,255,.10); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background-color: var(--bg);
+    background-image: radial-gradient(900px 520px at 90% -10%, rgba(242,166,90,.20), transparent 60%),
+                      radial-gradient(700px 520px at -10% 45%, rgba(85,200,155,.10), transparent 60%);
+    background-attachment: fixed; color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.55;
+    padding: 16px 14px calc(32px + env(safe-area-inset-bottom)); }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .btn { font: 600 13px 'Inter', sans-serif; text-decoration: none; padding: 9px 13px; border-radius: 12px; border: 1px solid var(--border); color: var(--muted); background: var(--card); cursor: pointer; }
+  .btn.acc { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+  .code { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 11.5px; letter-spacing: .08em; padding: 5px 10px; border-radius: 999px; }
+  h1 { font-family: 'Sora', sans-serif; font-size: 27px; line-height: 1.15; font-weight: 800; margin-top: 10px; }
+  .sub { color: var(--muted); font-size: 13.5px; margin-top: 6px; }
+
+  .part { margin-top: 26px; }
+  .part-head { display: flex; align-items: center; gap: 12px; margin: 0 2px 10px; }
+  .part-head .letter { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font: 800 18px 'Sora', sans-serif; color: var(--ink); background: var(--accent); }
+  .part-head h2 { font-family: 'Sora', sans-serif; font-size: 19px; font-weight: 700; line-height: 1.25; }
+  .part-head small { display: block; color: var(--muted); font-size: 12.5px; font-weight: 400; margin-top: 2px; }
+  .A .letter { background: var(--accent); } .B .letter { background: var(--blue); } .C .letter { background: var(--green); } .M .letter { background: var(--gold); }
+
+  .card { background: linear-gradient(160deg, rgba(255,255,255,.085), rgba(255,255,255,.04)); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-top: 12px;
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 10px 30px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.08); }
+  h3 { font-family: 'Sora', sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; }
+  .A h3 { color: var(--accent); } .B h3 { color: var(--blue); } .C h3 { color: var(--green); } .M h3 { color: var(--gold); }
+  .card p { margin-top: 9px; } .card p:first-of-type { margin-top: 8px; }
+  b { font-weight: 700; color: #fff; }
+  .ex { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; border-left: 3px solid var(--grey); }
+  .ex b:first-child { color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .def { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: 14.5px; }
+  .A .def { background: var(--accent-soft); } .B .def { background: var(--blue-soft); } .C .def { background: var(--green-soft); } .M .def { background: var(--gold-soft); }
+  .def b:first-child { color: var(--text); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  @media (max-width: 440px) { .cols { grid-template-columns: 1fr; } }
+  .col { background: var(--card-strong); border-radius: 14px; padding: 12px; font-size: 14px; }
+  .col h4 { font-family: 'Sora', sans-serif; font-size: 13.5px; margin-bottom: 6px; }
+  .col ul { padding-left: 16px; } .col li { margin: 4px 0; }
+  .retiens { margin-top: 12px; padding: 12px 14px; border-radius: 14px; background: var(--card-strong); border: 1px solid var(--border); font-size: 14.5px; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+  .retiens .tag { font: 800 11px 'Sora', sans-serif; letter-spacing: .08em; padding: 5px 8px; border-radius: 8px; color: var(--ink); margin-top: 2px; }
+  .A .retiens .tag { background: var(--accent); } .B .retiens .tag { background: var(--blue); } .C .retiens .tag { background: var(--green); } .M .retiens .tag { background: var(--gold); }
+  .cle { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; }
+  .cle b:first-child { display: block; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .cle .q { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 6px; }
+  .cle .q div { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.18); }
+  .cle .q b { color: var(--text); display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; margin: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.tot td { font-weight: 700; color: #fff; }
+
+  svg.sch { width: 100%; max-width: 420px; height: auto; display: block; margin: 12px auto 0; font-family: 'Inter', system-ui, sans-serif; }
+  .tt { fill: var(--text); } .tm { fill: var(--muted); } .ta { fill: var(--accent); } .tg { fill: var(--green); } .tr { fill: var(--red); }
+  .fa { fill: var(--accent-soft); } .fg { fill: var(--green-soft); } .fx { fill: var(--grey-soft); } .fA { fill: var(--accent); } .fM { fill: var(--grey); } .fR { fill: var(--red); }
+  .sa { stroke: var(--accent); } .sg { stroke: var(--green); } .sm { stroke: var(--grey); } .st { stroke: var(--text); } .sr { stroke: var(--red); }
+  .b7 { font-weight: 700; } .sora { font-family: 'Sora', sans-serif; }
+
+  .modele { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: rgba(0,0,0,.2); font-size: 14px; line-height: 1.6; border-left: 3px solid var(--gold); }
+  .modele mark { background: transparent; color: var(--gold); font-weight: 700; }
+  .modele u { text-decoration: none; border-bottom: 2px solid var(--blue); }
+  .modele i { color: var(--green); font-style: normal; }
+  .grille { display: grid; grid-template-columns: 56px 1fr; gap: 6px 10px; font-size: 13.5px; margin-top: 10px; }
+  .grille b { font-family: 'Sora', sans-serif; color: var(--gold); }
+
+  details { background: var(--card-strong); border-radius: 12px; padding: 10px 12px; margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 14.5px; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; color: var(--accent); font-weight: 800; font-size: 18px; flex: none; }
+  details[open] summary::after { content: '–'; }
+  details .rep { margin-top: 8px; font-size: 14px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .brique { margin-top: 26px; padding: 16px; border-radius: 20px; border: 1px solid var(--border);
+    background: linear-gradient(160deg, rgba(242,166,90,.22), rgba(255,255,255,.04)); }
+  .brique .lab { font: 800 11px 'Sora', sans-serif; letter-spacing: .1em; color: var(--accent); text-transform: uppercase; }
+  .brique h3 { color: var(--text); margin-top: 6px; }
+  .brique p { margin-top: 8px; }
+  .brique .q { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: rgba(0,0,0,.18); font-size: 14px; color: var(--muted); }
+  @media print { .brique { background: #fdeedb; break-inside: avoid; } }
+  .foot { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
+
+  @media print {
+    :root { --bg: #fff; --card: #fff; --card-strong: #f3f4f6; --border: #cfd3da; --text: #111; --muted: #555; --ink: #fff; --accent: #9a5a12; --accent-soft: #fdeedb;
+      --green: #1f7a55; --green-soft: #e3f3ea; --blue: #2f55b8; --blue-soft: #e6ecfb; --gold: #8a6d00; --gold-soft: #fbf3d6; --red: #b3282d; --grey: #666; --grey-soft: #eef0f3; }
+    body { background: #fff; background-image: none; padding: 0; font-size: 12.5px; }
+    .top { display: none; } b { color: #000; }
+    .card { break-inside: avoid; margin-top: 10px; padding: 12px; backdrop-filter: none; box-shadow: none; background: #fff; }
+    .cle .q div, .modele { background: #f3f4f6; }
+    details { break-inside: avoid; } details .rep { display: block; } summary::after { display: none; }
+    h1 { font-size: 22px; } svg.sch { max-width: 330px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <a class="btn" href="../app/">← Mes Copies</a>
+    <button class="btn acc" onclick="window.print()">Imprimer</button>
+  </div>
+  <span class="code">1STMG-E-T1C1 · ÉCONOMIE · THÈME 1</span>
+  <h1>Un Marseillais de 2026 vit-il mieux que Louis XIV ?</h1>
+  <p class="sub">Fiche de synthèse du chapitre 1 · Quelles sont les grandes questions économiques et leurs enjeux actuels ?</p>
+
+  <div class="card">
+    <h3 style="color:var(--text)">De quoi parle ce chapitre ?</h3>
+    <p>Léa, 16 ans, guérit d'une angine avec un antibiotique à 2 € ; Louis XIV, l'homme le plus puissant d'Europe, meurt d'une gangrène que ses médecins ne savent pas soigner. Entre les deux : deux siècles de <b>grand enrichissement</b>. C'est la question qui nous suivra toute l'année, en économie comme en droit : <b>pourquoi un Marseillais de 2026 vit-il mieux que Louis XIV, et qu'est-ce qui rend cela possible ?</b></p>
+    <div class="cle" style="margin-top:10px">
+      <div class="q">
+        <div><b>A · De quoi est faite notre richesse ?</b> Des biens et des services — et surtout de ceux qui n'existaient pas hier.</div>
+        <div><b>B · Pourquoi faut-il toujours choisir ?</b> Parce que les besoins sont sans limite et les ressources rares : c'est l'objet de la science économique.</div>
+        <div><b>C · Qui fait quoi ?</b> Six acteurs économiques, chacun avec sa fonction, produisent ensemble ce dont Léa profite.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ A ══════════════ -->
+  <section class="part A">
+    <div class="part-head"><div class="letter">A</div><h2>Le miracle : de quoi est faite notre richesse ?<small>Capacité : distinguer la nature des biens et services</small></h2></div>
+
+    <div class="card">
+      <h3>1. Vingt fois plus riches, trois fois plus longtemps</h3>
+      <p>Pendant des siècles, la richesse par habitant n'a presque pas bougé : entre 1700 et 1820, elle passe de 1 758 à 1 809 dollars (prix constants). Puis tout s'accélère : <b>39 066 dollars en 2022</b>, soit <b>× 22 depuis 1820</b>. L'espérance de vie suit : environ <b>25 ans vers 1740</b>, 45 ans en 1900, <b>83 ans en 2025</b> (80,3 pour les hommes, 85,9 pour les femmes).</p>
+      <svg class="sch" viewBox="0 0 420 200" role="img" aria-label="PIB par habitant de la France, 1700-2022">
+        <text x="6" y="16" class="tt sora b7" font-size="12">PIB par habitant, France (dollars de 2011)</text>
+        <line x1="40" y1="170" x2="410" y2="170" class="sm" stroke-width="1"/>
+        <g>
+          <rect x="52" y="163" width="46" height="7" class="fM"/><text x="75" y="184" class="tm" font-size="11" text-anchor="middle">1700</text><text x="75" y="157" class="tt" font-size="10.5" text-anchor="middle">1 758</text>
+          <rect x="122" y="163" width="46" height="7" class="fM"/><text x="145" y="184" class="tm" font-size="11" text-anchor="middle">1820</text><text x="145" y="157" class="tt" font-size="10.5" text-anchor="middle">1 809</text>
+          <rect x="192" y="148" width="46" height="22" class="fM"/><text x="215" y="184" class="tm" font-size="11" text-anchor="middle">1913</text><text x="215" y="142" class="tt" font-size="10.5" text-anchor="middle">5 555</text>
+          <rect x="262" y="88" width="46" height="82" class="fA"/><text x="285" y="184" class="tm" font-size="11" text-anchor="middle">1973</text><text x="285" y="82" class="tt" font-size="10.5" text-anchor="middle">20 441</text>
+          <rect x="332" y="14" width="46" height="156" class="fA"/><text x="355" y="184" class="tm" font-size="11" text-anchor="middle">2022</text><text x="355" y="34" class="tt b7" font-size="10.5" text-anchor="middle" fill="#0D1220">39 066</text>
+        </g>
+        <text x="410" y="198" class="tm" font-size="9.5" text-anchor="end">Maddison Project Database 2023</text>
+      </svg>
+      <div class="ex"><b>Dans le dossier</b>Q1 : 39 066 ÷ 1 809 ≈ 22. On dit « <b>multiplié par 22</b> », jamais « + 22 % ». Q3 : 83 − 25 = <b>58 années gagnées</b>, grâce à la vaccination, l'eau potable, les antibiotiques, la Sécurité sociale.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. La richesse, ce sont des biens et des services</h3>
+      <p>Être riche, ce n'est pas d'abord avoir de l'argent : c'est <b>disposer de biens et de services</b>. Cornelius Vanderbilt, l'homme le plus riche du monde en 1876, pouvait acheter tout ce qui se vendait — mais pas un antibiotique, pas une ampoule, pas un appel à Montréal : <b>on ne peut pas acheter ce qui n'existe pas</b>. Ce qui a changé, c'est ce qu'une société sait produire.</p>
+      <div class="def"><b>Bien</b> : produit matériel, que l'on peut stocker et transporter (une boîte de paracétamol, un smartphone). <b>Service</b> : produit immatériel, consommé au moment où il est produit (un trajet en bus, une consultation, un cours).</div>
+      <div class="def"><b>Marchand</b> : vendu à un prix qui couvre au moins la moitié de son coût (ce que vendent les entreprises). <b>Non marchand</b> : gratuit ou presque, financé par les impôts et cotisations (école, hôpital public) ou par les dons et cotisations d'une association.</div>
+      <table>
+        <tr><th>Ce que Léa consomme</th><th>Bien / service</th><th>Marchand ?</th></tr>
+        <tr><td>Le paracétamol, l'amoxicilline, l'électricité</td><td>biens</td><td>marchands</td></tr>
+        <tr><td>Le bus RTM, la visio, la consultation du médecin</td><td>services</td><td>marchands</td></tr>
+        <tr><td>Le cours au lycée, l'infirmerie</td><td>services</td><td><b>non marchands</b></td></tr>
+      </table>
+      <div class="ex"><b>Piège du dossier</b>La consultation à 30 € est <b>marchande</b> même si elle est remboursée : le médecin la <b>vend</b>. Le remboursement vient d'un autre acteur (l'Assurance maladie). Le bus est marchand : le billet paie une partie du coût.</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Bien = matériel, service = immatériel. Marchand = vendu à un prix, non marchand = financé par la collectivité. Le grand enrichissement, c'est surtout <b>de nouveaux biens et services</b> que personne, même le roi, ne pouvait acheter.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ B ══════════════ -->
+  <section class="part B">
+    <div class="part-head"><div class="letter">B</div><h2>Des besoins sans limite, des ressources rares<small>Première approche des choix économiques : contraintes et arbitrage</small></h2></div>
+
+    <div class="card">
+      <h3>1. La rareté, point de départ de l'économie</h3>
+      <p>Nos <b>besoins</b> sont presque sans limite : se nourrir, se loger, se soigner (besoins primaires), mais aussi se déplacer, apprendre, se distraire, communiquer (besoins secondaires, qui se renouvellent : le luxe d'hier devient la nécessité d'aujourd'hui). Les <b>ressources</b> pour les satisfaire sont limitées : revenu, temps, terre, matières premières, travail, machines. C'est la <b>rareté</b>, et elle oblige à <b>choisir</b>.</p>
+      <div class="def"><b>Science économique</b> : la science des choix. Elle étudie comment les individus et les sociétés produisent, répartissent et consomment des biens et des services à partir de <b>ressources rares</b> pour satisfaire des <b>besoins illimités</b>.</div>
+      <div class="ex"><b>Dans le dossier</b>Q9 : « Vingt fois plus riches, donc la rareté a disparu » ? <b>Non.</b> Les Fontaine gagnent 3 600 € et doivent pourtant arbitrer ; les besoins se renouvellent ; le temps d'une vie reste compté ; et une société manque de tout ce qu'elle ne sait pas encore produire. La rareté a <b>reculé</b>, elle n'a pas disparu.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Quatre contraintes, un arbitrage</h3>
+      <table>
+        <tr><th style="width:28%">Contrainte</th><th>Chez les Fontaine</th></tr>
+        <tr><td><b>Revenu</b></td><td>3 600 € nets, 450 € de reste en fin de mois, 520 € de demandes en septembre : on ne peut pas dépenser plus que ce que l'on gagne.</td></tr>
+        <tr><td><b>Temps</b></td><td>Deux dimanches de garde = 260 € de plus, mais deux week-ends en moins. 24 heures pour tout le monde.</td></tr>
+        <tr><td><b>Espace</b></td><td>Un trois-pièces pour quatre ; Léa partage sa chambre avec Tom.</td></tr>
+        <tr><td><b>Information</b></td><td>Une heure pour comparer trois sites ; aucun moyen de savoir quel vendeur reconditionné est fiable.</td></tr>
+      </table>
+      <div class="def"><b>Arbitrer</b> : classer ses besoins et choisir ceux que l'on satisfait en premier, parce qu'on ne peut pas tout avoir. Chaque arbitrage est un <b>renoncement</b> : l'argent, le temps ou l'espace mis sur une chose ne le sont pas sur une autre.</div>
+      <div class="ex"><b>Dans le dossier</b>Q8 : d'abord les fournitures (90 €, besoin lié à la scolarité), puis le club de Tom (180 €), et le smartphone (250 €) reporté ou financé par les gardes du dimanche — ou en renonçant ce mois-ci aux 200 € d'épargne. Il n'y a pas une seule bonne réponse : il y a un <b>arbitrage justifié</b>.</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Besoins illimités + ressources rares = obligation de choisir. Quatre contraintes : <b>revenu, temps, espace, information</b>. Choisir, c'est renoncer — le chapitre 2 donnera un nom à ce renoncement : le coût d'opportunité.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ C ══════════════ -->
+  <section class="part C">
+    <div class="part-head"><div class="letter">C</div><h2>Qui fait quoi ? Les acteurs économiques<small>Capacité : identifier les acteurs économiques et leurs fonctions</small></h2></div>
+
+    <div class="card">
+      <h3>1. Six acteurs, six fonctions</h3>
+      <p>Un <b>acteur économique</b> est une personne ou un groupe qui prend des décisions économiques : produire, consommer, épargner, prêter, redistribuer. Pour répondre à nos besoins, chacun se spécialise dans une fonction principale. L'Insee regroupe les acteurs selon <b>ce qu'ils font</b> et <b>d'où vient leur argent</b>.</p>
+      <table>
+        <tr><th style="width:30%">Acteur</th><th>Fonction principale</th><th>Ressources</th></tr>
+        <tr><td><b>Ménages</b></td><td>Consommer ; fournir leur travail</td><td>Salaires, pensions, prestations</td></tr>
+        <tr><td><b>Entreprises</b></td><td>Produire des biens et services <b>marchands</b></td><td>Prix de leurs ventes</td></tr>
+        <tr><td><b>Banques et sociétés financières</b></td><td>Collecter l'épargne, prêter, assurer</td><td>Intérêts, primes</td></tr>
+        <tr><td><b>Administrations publiques</b></td><td>Produire des services <b>non marchands</b> ; redistribuer</td><td>Impôts, cotisations</td></tr>
+        <tr><td><b>Associations</b></td><td>Services non marchands pour leurs membres ou pour tous</td><td>Cotisations, dons, subventions</td></tr>
+        <tr><td><b>Reste du monde</b></td><td>Échanger avec l'extérieur</td><td>—</td></tr>
+      </table>
+      <div class="ex"><b>Pièges du dossier</b>L'usine étrangère qui a fabriqué le smartphone est une entreprise, mais du point de vue de l'économie française elle est dans le <b>reste du monde</b>. L'hôpital de la Timone n'est pas une entreprise : il est financé par les cotisations et les impôts → <b>administration publique</b>. Le médecin libéral vend un service → <b>entreprise</b> (individuelle).</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Un antibiotique à 2 € : le travail de quatre acteurs</h3>
+      <p>Aucun acteur n'aurait pu, seul, produire la guérison de Léa. Le <b>laboratoire</b> (entreprise) fabrique l'amoxicilline ; le <b>médecin</b> (entreprise individuelle) diagnostique et prescrit ; la <b>pharmacie</b> (entreprise) vend et conseille ; l'<b>Assurance maladie</b> (administration publique, financée par les cotisations et la CSG) rembourse 70 % de la consultation et 65 % du médicament ; la <b>complémentaire santé</b> (société financière) prend le reste ; la <b>famille</b> (ménage) consomme et paie quelques euros.</p>
+      <div class="cle"><b>Pour classer un acteur</b>Deux questions suffisent : <b>que fait-il principalement, et d'où vient son argent ?</b>
+        <div class="q">
+          <div>Il vend ce qu'il produit → <b>entreprise</b>.</div>
+          <div>Il fournit gratuitement et vit d'impôts ou de cotisations obligatoires → <b>administration publique</b>.</div>
+          <div>Il fournit gratuitement et vit de cotisations volontaires, de dons → <b>association</b>.</div>
+          <div>Il prête, collecte l'épargne, assure → <b>banque / société financière</b>.</div>
+          <div>Il consomme et fournit son travail → <b>ménage</b>. Il est hors de France → <b>reste du monde</b>.</div>
+        </div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Lycée et pharmacie produisent tous deux un service : le premier est une administration publique (non marchand, impôts), la seconde une entreprise (marchand, prix payé par le client). Le grand enrichissement est une <b>production collective</b> : des acteurs spécialisés qui travaillent les uns pour les autres.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MÉTHODE ══════════════ -->
+  <section class="part M">
+    <div class="part-head"><div class="letter">M</div><h2>Méthode : l'argumentation type bac<small>Sujet du dossier : « Un Français de 2026 vit-il mieux que Louis XIV ? »</small></h2></div>
+
+    <div class="card">
+      <h3>Ce qu'est un argument (et ce qui n'en est pas)</h3>
+      <p>Une opinion (« oui, on vit mieux aujourd'hui ») n'est pas un argument. Un argument, c'est trois choses enchaînées : <mark style="background:transparent;color:var(--gold);font-weight:700">une affirmation</mark>, <u style="text-decoration:none;border-bottom:2px solid var(--blue)">une preuve tirée d'un document</u> (un chiffre, un exemple), et <i style="color:var(--green);font-style:normal">une explication</i> qui montre pourquoi la preuve soutient l'affirmation.</p>
+      <div class="modele">
+        <mark>Un Français d'aujourd'hui vit mieux que Louis XIV parce qu'il dispose de services de santé qui n'existaient à aucun prix en 1715.</mark> <u>D'après le document 2, l'espérance de vie à la naissance est passée d'environ 25 ans vers 1740 à 83 ans en 2025 ; dans la situation, Léa guérit d'une angine avec un antibiotique à 2 €, alors que Louis XIV meurt d'une gangrène en trois semaines.</u> <i>La richesse ne se mesure donc pas à la fortune : le roi avait tout l'or du royaume, mais la société de son temps ne savait pas produire ce qui l'aurait sauvé. Un service non marchand comme l'hôpital public, ou un bien marchand comme l'antibiotique, vaut plus que tous ses palais.</i>
+      </div>
+      <p style="margin-top:10px;font-size:13.5px;color:var(--muted)">Doré = affirmation · souligné bleu = preuve du dossier · vert = explication. C'est ce qui vaut le niveau 4.</p>
+    </div>
+
+    <div class="card">
+      <h3>Le plan en quatre temps</h3>
+      <div class="grille">
+        <b>1</b><span><b>Ma position</b>, en une phrase, dès le début : oui / non / oui mais.</span>
+        <b>2</b><span><b>Premier argument</b> = affirmation + preuve (document) + explication.</span>
+        <b>3</b><span><b>Deuxième argument</b>, différent du premier, appuyé sur un <b>autre</b> document.</span>
+        <b>4</b><span><b>Conclusion</b> : je réponds à la question posée ; je peux nuancer, pas changer d'avis.</span>
+      </div>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--blue)">Si tu réponds « oui »</h4><ul><li>Santé et durée de vie : 25 → 83 ans ; l'antibiotique contre la gangrène.</li><li>Biens et services nouveaux : × 22 ; électricité, transport rapide, visio (documents 1 et 4).</li><li>Services non marchands pour tous : lycée, hôpital.</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Si tu nuances</h4><ul><li>Le roi avait le pouvoir, les palais, des centaines de domestiques.</li><li>Le PIB par habitant ne mesure pas tout, et il est inégalement réparti.</li><li>Les Fontaine subissent encore des contraintes : la rareté n'a pas disparu.</li></ul></div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Une seule position, deux arguments complets (affirmation, preuve, explication) sur deux documents différents, une conclusion. Le vocabulaire du chapitre doit apparaître : bien, service, marchand, non marchand, rareté, contrainte, acteur économique.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AUTO-CONTRÔLE ══════════════ -->
+  <section class="part">
+    <div class="part-head"><div class="letter" style="background:var(--grey)">✓</div><h2>Je vérifie que j'ai compris<small>Réponds dans ta tête, puis touche pour vérifier</small></h2></div>
+    <div class="card">
+      <details><summary>PIB par habitant : 1 809 $ en 1820, 39 066 $ en 2022. Comment on le dit ?</summary><div class="rep">39 066 ÷ 1 809 ≈ 22 : le PIB par habitant a été <b>multiplié par 22</b>. Pas « + 22 % ». Toujours méthode + résultat + unité.</div></details>
+      <details><summary>Une consultation chez le médecin, remboursée à 70 % : marchande ou non marchande ?</summary><div class="rep"><b>Marchande</b> : le médecin la vend 30 €. Le remboursement est un autre acte, fait par un autre acteur (l'Assurance maladie, administration publique).</div></details>
+      <details><summary>Pourquoi Vanderbilt, l'homme le plus riche de 1876, vivait-il moins bien que Léa sur certains points ?</summary><div class="rep">Parce qu'on ne peut pas acheter ce qui n'existe pas : ni antibiotique, ni électricité, ni téléphone. La richesse, ce sont des <b>biens et des services</b>, pas seulement de l'argent.</div></details>
+      <details><summary>Définis la science économique avec les mots besoins, ressources, choix.</summary><div class="rep">La science des <b>choix</b> que font les individus et les sociétés pour satisfaire des <b>besoins</b> illimités avec des <b>ressources</b> rares.</div></details>
+      <details><summary>La mère de Léa hésite à prendre deux dimanches de garde : quelle contrainte ?</summary><div class="rep">Le <b>temps</b> (et le revenu, puisqu'elle échange des week-ends contre 260 €). Un arbitrage = un renoncement.</div></details>
+      <details><summary>Le club de football de Tom : quel acteur, et d'où vient son argent ?</summary><div class="rep">Une <b>association</b> : services non marchands pour ses membres, financés par les cotisations (180 €/an), les dons et les subventions.</div></details>
+      <details><summary>L'hôpital de la Timone et la pharmacie soignent tous deux Léa. Quelle différence ?</summary><div class="rep">L'hôpital est une <b>administration publique</b> (service non marchand, impôts et cotisations) ; la pharmacie une <b>entreprise</b> (service marchand, prix payé par le client).</div></details>
+    </div>
+  </section>
+
+  <!-- ══════════════ BRIQUE DU FIL ROUGE ══════════════ -->
+  <div class="brique">
+    <div class="lab">Brique du fil rouge · chapitre 1</div>
+    <h3>La richesse d'aujourd'hui est faite de biens et de services que personne, même le roi, ne pouvait acheter hier.</h3>
+    <p>C'est ce que l'économie va étudier toute l'année : comment on en est arrivé là, et ce qui le permet. Prochaine brique (chapitre 2) : les ressources sont rares, chaque choix a un coût — bien choisir est déjà s'enrichir.</p>
+    <div class="q">Question de l'année : « Pourquoi un Marseillais de 2026 vit-il mieux que Louis XIV, et qu'est-ce qui rend cela possible ? »</div>
+  </div>
+
+  <p class="foot">Données : Maddison Project Database 2023 (université de Groningue) ; Insee, Bilan démographique 2025 (janvier 2026) et comptes de la Nation (mai 2026) ; Ined ; ameli.fr.</p>
+</div>
+</body>
+</html>
