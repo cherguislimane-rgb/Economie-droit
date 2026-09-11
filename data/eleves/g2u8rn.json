@@ -142,8 +142,7 @@
     "general": {
       "rang": 15,
       "effectif": 30,
-      "moyenne": 13.75,
-      "rang_precedent": 16
+      "moyenne": 13.75
     },
     "types": {
       "conso": {

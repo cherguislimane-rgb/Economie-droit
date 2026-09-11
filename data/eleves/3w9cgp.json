@@ -321,7 +321,7 @@
           "intitule": "L'État doit-il rester actionnaire ?",
           "points": 2.5,
           "points_max": 4.5,
-          "commentaire": "Position claire et un bon argument appuyé sur le document 1 : les trois secteurs vitaux (armement, énergie, réseau ferroviaire). L'idée des dividendes est distincte mais reste affirmée : appuie-la sur les 209 Md€ de participations. Il manque le vocabulaire du chapitre (souveraineté est là, ajoute semi-publique, allocation, État-providence) et une structure en paragraphes séparés, dans le cadre.",
+          "commentaire": "Position claire et un bon argument appuyé sur le document 1 : les trois secteurs vitaux (armement, énergie, réseau ferroviaire). L'idée des dividendes est distincte mais reste affirmée : appuie-la sur les 209 Md€ de participations. Il manque le vocabulaire du chapitre (souveraineté est là, ajoute semi-publique, allocation, État-providence) et une structure en paragraphes séparés.",
           "reponse_eleve": "Oui, l'État doit rester actionnaire des entreprises comme Thales, Engie et la SNCF car ces entreprises sont dans le domaine qui fait que le pays fonctionne bien. Par exemple Thales, eux c'est l'armement militaire, Engie c'est le réseau électrique et l'énergie et la SNCF, eux c'est les transports train, car et les routes ferroviaires, et on voit aussi grâce au document que ces entreprises rapportent un dividende à l'État français, ce qui fait que cela fait augmenter ses recettes. Pour conclure, oui l'État doit rester actionnaire de ces entreprises et garder une souveraineté dessus afin de garder un équilibre et de ne pas recevoir de coup de pression par d'autres pays, donc oui l'État doit […]",
           "capacite": "e6-1",
           "transversales": [
@@ -340,8 +340,7 @@
     "general": {
       "rang": 15,
       "effectif": 30,
-      "moyenne": 13.75,
-      "rang_precedent": 14
+      "moyenne": 13.75
     },
     "types": {
       "dossier": {

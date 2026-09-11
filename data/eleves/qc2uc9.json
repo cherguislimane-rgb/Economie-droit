@@ -253,7 +253,7 @@
           "intitule": "Pourquoi l'État reste actionnaire de Thales et d'Engie",
           "points": 1.5,
           "points_max": 1.5,
-          "commentaire": "Réponse complète et bien reformulée : l'armée pour Thales, la minorité de blocage chez Engie, la doctrine « rester là où la souveraineté est en jeu » et le désengagement de Carrefour. Fais tenir ta réponse dans le cadre.",
+          "commentaire": "Réponse complète et bien reformulée : l'armée pour Thales, la minorité de blocage chez Engie, la doctrine « rester là où la souveraineté est en jeu » et le désengagement de Carrefour.",
           "reponse_eleve": "L'État reste actionnaire de Thales et Engie car dans le cas [inséré au-dessus : de] Thales, l'État veut garder l'entreprise afin que l'armée française puisse être équipée, ainsi la France a le pouvoir de se défendre contre une attaque. Dans le cas d'Engie, l'État conserve une minorité de blocage pour peser sur les choix énergétiques par sécurité. Ainsi, l'État reste présent là où la souveraineté est en jeu l'État ne voit pas d'enjeu ni de souveraineté à l'égard de l'entreprise Carrefour c'est pour cela qu'il est désengagé (Les trois dernières lignes débordent du cadre, dans la marge gauche et sur le titre imprimé « B. Lire les comptes publics ».)",
           "capacite": "e6-1",
           "transversales": [
@@ -340,8 +340,7 @@
     "general": {
       "rang": 25,
       "effectif": 30,
-      "moyenne": 11.75,
-      "rang_precedent": 24
+      "moyenne": 11.75
     },
     "types": {
       "dossier": {

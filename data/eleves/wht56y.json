@@ -28,7 +28,7 @@
           "intitule": "Vrai ou faux : les conceptions de l'État",
           "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases et les quatre justifications sont justes : l'impôt lié à la sécurité et à la justice, l'intérêt individuel chez les libéraux, les fonctions de Musgrave après 1945, le seuil de 100 % du capital. Soigne l'orthographe et l'écriture dans le cadre.",
+          "commentaire": "Les quatre cases et les quatre justifications sont justes : l'impôt lié à la sécurité et à la justice, l'intérêt individuel chez les libéraux, les fonctions de Musgrave après 1945, le seuil de 100 % du capital. Soigne l'orthographe.",
           "reponse_eleve": "a: faux — Il prélève l'impôt lior à la sécurité et la justice intérieur b: vrai — Oui car les individus poursuivent leur propre intérêt et pas celui de l'État c: vrai — Oui car avant 1945 l'État ne s'occupait pas de la redistribution, allocation, régulation d: faux — C'est une entreprise semi-publique ; pour être publique l'État doit posséder 100 % part (la fin de la justification d déborde dans la marge droite, hors cadre)",
           "capacite": "e6-1",
           "transversales": [
@@ -142,8 +142,7 @@
     "general": {
       "rang": 18,
       "effectif": 30,
-      "moyenne": 12.75,
-      "rang_precedent": 17
+      "moyenne": 12.75
     },
     "types": {
       "conso": {

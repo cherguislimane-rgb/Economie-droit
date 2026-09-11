@@ -123,7 +123,7 @@
           "intitule": "L'État doit-il rester actionnaire ?",
           "points": 3.5,
           "points_max": 4.5,
-          "commentaire": "Position nette, structure claire, vocabulaire du chapitre (souveraineté, interventionnisme, État-providence). Le premier argument est construit : la régulation des prix de l'énergie via Engie. Le second, sur les actionnaires étrangers, reste affirmé sans appui du livret : cite la minorité de blocage et la sécurité d'approvisionnement (document 1). Attention, « sécurité sociale » n'a pas sa place ici, et fais tenir ta réponse dans le cadre.",
+          "commentaire": "Position nette, structure claire, vocabulaire du chapitre (souveraineté, interventionnisme, État-providence). Le premier argument est construit : la régulation des prix de l'énergie via Engie. Le second, sur les actionnaires étrangers, reste affirmé sans appui du livret : cite la minorité de blocage et la sécurité d'approvisionnement (document 1). Attention, « sécurité sociale » n'a pas sa place ici.",
           "reponse_eleve": "Oui l'État doit rester actionnaire d'entreprises où la souveraineté est en jeu. D'abord, en faisant ça l'État a du pouvoir sur l'entreprise, il exerce un pouvoir de providence, il use de l'interventionnisme pour par exemple réguler les prix de l'électricité pour assurer des prix corrects pour tous et assurer la sécurité sociale. Ensuite si l'État ne devient pas actionnaire de ces entreprises, des entrepreneurs étrangers peuvent le faire à leur place et décideront eux-mêmes des tarifs du gaz et de l'électricité dans le cas d'une entreprise comme Engie. Ce seront les entrepreneurs étrangers qui vont donc influer sur l'économie du pays. L'État doit donc rester actionnaire des entreprises dites […]",
           "capacite": "e6-1",
           "transversales": [
@@ -145,8 +145,7 @@
     "general": {
       "rang": 1,
       "effectif": 30,
-      "moyenne": 16.75,
-      "rang_precedent": 2
+      "moyenne": 16.75
     },
     "types": {
       "conso": {

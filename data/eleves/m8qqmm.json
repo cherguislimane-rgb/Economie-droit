@@ -198,8 +198,7 @@
     "general": {
       "rang": 24,
       "effectif": 31,
-      "moyenne": 11.5,
-      "rang_precedent": 23
+      "moyenne": 11.5
     },
     "types": {
       "dossier": {
