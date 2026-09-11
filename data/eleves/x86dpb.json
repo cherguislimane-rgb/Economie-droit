@@ -1,7 +1,7 @@
 {
   "code": "x86dpb",
   "classe": "TSTMG",
-  "maj": "2026-09-07",
+  "maj": "2026-09-11",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,34 +198,34 @@
         }
       ],
       "rang": 12,
-      "effectif": 30,
-      "moyenne_classe": 10.5
+      "effectif": 13,
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
       "rang": 12,
-      "effectif": 30,
+      "effectif": 13,
       "moyenne": 12.0
     },
     "types": {
       "dossier": {
         "rang": 12,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 12.0
       }
     },
     "matieres": {
       "eco": {
         "rang": 12,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 12.0
       }
     },
     "themes": {
       "e6": {
         "rang": 12,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 12.0
       }
     }

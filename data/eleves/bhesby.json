@@ -1,7 +1,7 @@
 {
   "code": "bhesby",
   "classe": "TSTMG",
-  "maj": "2026-09-07",
+  "maj": "2026-09-11",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,8 +198,8 @@
         }
       ],
       "rang": 1,
-      "effectif": 30,
-      "moyenne_classe": 10.5,
+      "effectif": 13,
+      "moyenne_classe": 13.5,
       "trophees": [
         "podium",
         "sans_faute"
@@ -209,27 +209,27 @@
   "classements": {
     "general": {
       "rang": 1,
-      "effectif": 30,
+      "effectif": 13,
       "moyenne": 16.75
     },
     "types": {
       "dossier": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 16.75
       }
     },
     "matieres": {
       "eco": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 16.75
       }
     },
     "themes": {
       "e6": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 13,
         "moyenne": 16.75
       }
     }
