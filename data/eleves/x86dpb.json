@@ -203,7 +203,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 15.25,
+      "note": 15.75,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -224,9 +224,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.5,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec deux bonnes justifications (le libéral limite l'État au régalien ; 100 % du capital pour être publique, 15 % = semi-publique). Pour a, dis clairement que l'État-gendarme lève l'impôt pour financer ses fonctions régaliennes ; pour c, ta phrase recopie la leçon : explique ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : le libéral limite l'État au régalien ; 100 % du capital pour être publique, 15 % = semi-publique. Pour a, dis clairement que l'État-gendarme lève l'impôt pour financer ses fonctions régaliennes ; pour c, ce que change 1945 : la prise en charge des risques de la vie.",
           "reponse_eleve": "a: faux — puisqu'il se repose sur les fonctions régaliennes b: vrai — puisque pour eux l'État doit se limiter au régalien et ils poursuivent leurs intérêts. c: vrai — en France cet État est né avec la Sécurité sociale (ordonnances d'octobre 1945) d: faux — une entreprise publique détient un capital de 100 % et non seulement 15 %. 15 % → entreprise semi-publique",
           "capacite": "e6-1",
           "transversales": [
@@ -331,17 +331,17 @@
           "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
         }
       ],
-      "rang": 7,
+      "rang": 6,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 14,
+      "rang": 13,
       "effectif": 30,
-      "moyenne": 13.62,
-      "rang_precedent": 12
+      "moyenne": 13.88,
+      "rang_precedent": 14
     },
     "types": {
       "dossier": {
@@ -350,29 +350,29 @@
         "moyenne": 12.0
       },
       "conso": {
-        "rang": 7,
+        "rang": 6,
         "effectif": 30,
-        "moyenne": 15.25
+        "moyenne": 15.75
       }
     },
     "matieres": {
       "eco": {
-        "rang": 14,
+        "rang": 13,
         "effectif": 30,
-        "moyenne": 13.62
+        "moyenne": 13.88
       }
     },
     "themes": {
       "e6": {
-        "rang": 14,
+        "rang": 13,
         "effectif": 30,
-        "moyenne": 13.62
+        "moyenne": 13.88
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 17.25,
+      "pts": 17.75,
       "max": 26.0
     },
     "t-doc": {
@@ -380,7 +380,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 13.2,
+      "pts": 13.7,
       "max": 17.5
     },
     "t-argu": {
@@ -396,7 +396,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 7.5,
+      "pts": 8.0,
       "max": 11.5
     },
     "t-qualif": {

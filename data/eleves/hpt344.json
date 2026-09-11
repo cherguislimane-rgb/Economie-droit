@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 12.75,
+      "note": 13.5,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.25,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes et la justification de a est bonne (l'impôt finance les missions). Les trois autres répètent l'affirmation ou la conclusion : pour b, dis que le libéral limite l'État au régalien ; pour c, ce que change 1945 (la prise en charge des risques de la vie) ; pour d, le critère (semi-publique dès que l'État ne détient qu'une partie, publique à 100 %).",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Point fort : l'impôt finance les missions. Pour les autres, tu répètes l'affirmation ou la conclusion ; au bac, ajoute l'explication : le libéral limite l'État au régalien, 1945 = prise en charge des risques de la vie, semi-publique = une partie du capital seulement.",
           "reponse_eleve": "a: faux — prélève l'impôt afin de financer ses missions b: vrai — un économiste libéral pense que l'intervention de l'État fausse les prix et décourage l'initiative. c: vrai — En France, l'État providence naît en 1945 avec la Sécurité sociale. d: faux (case vrai cochée puis raturée) — elle est semi-publique.",
           "capacite": "e6-1",
           "transversales": [
@@ -135,40 +135,40 @@
       ],
       "rang": 17,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
       "rang": 17,
       "effectif": 30,
-      "moyenne": 12.75
+      "moyenne": 13.5
     },
     "types": {
       "conso": {
         "rang": 17,
         "effectif": 30,
-        "moyenne": 12.75
+        "moyenne": 13.5
       }
     },
     "matieres": {
       "eco": {
         "rang": 17,
         "effectif": 30,
-        "moyenne": 12.75
+        "moyenne": 13.5
       }
     },
     "themes": {
       "e6": {
         "rang": 17,
         "effectif": 30,
-        "moyenne": 12.75
+        "moyenne": 13.5
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 8.25,
+      "pts": 9.0,
       "max": 11.5
     },
     "t-qualif": {
@@ -180,11 +180,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 5.75,
+      "pts": 6.5,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 4.75,
+      "pts": 5.5,
       "max": 8.0
     },
     "e6-2": {

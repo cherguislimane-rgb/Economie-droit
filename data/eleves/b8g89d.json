@@ -206,7 +206,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 14.0,
+      "note": 14.25,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -227,9 +227,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.5,
+          "points": 1.75,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec deux bonnes justifications (l'État-gendarme lève l'impôt ; 15 % = semi-publique). Pour b, la justification est restée inachevée : le libéral veut un État limité au régalien. Pour c, ta phrase recopie la leçon : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes, avec trois justifications : l'État-gendarme lève l'impôt, la Sécurité sociale de 1945, 15 % = semi-publique. Pour b, la justification est restée inachevée (« il lève ») : le libéral veut un État limité au régalien.",
           "reponse_eleve": "a: faux — Un État-gendarme prélève et lève l'impôt. b: vrai — il lève. c: vrai — L'État-providence naît avec la Sécurité sociale (ordonnance d'octobre 1945). d: faux — une entreprise dont l'État détient 15 % est une entreprise semi-publique",
           "capacite": "e6-1",
           "transversales": [
@@ -336,15 +336,15 @@
       ],
       "rang": 13,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 11,
+      "rang": 12,
       "effectif": 30,
-      "moyenne": 14.0,
-      "rang_precedent": 3
+      "moyenne": 14.12,
+      "rang_precedent": 11
     },
     "types": {
       "dossier": {
@@ -355,27 +355,27 @@
       "conso": {
         "rang": 13,
         "effectif": 30,
-        "moyenne": 14.0
+        "moyenne": 14.25
       }
     },
     "matieres": {
       "eco": {
-        "rang": 11,
+        "rang": 12,
         "effectif": 30,
-        "moyenne": 14.0
+        "moyenne": 14.12
       }
     },
     "themes": {
       "e6": {
-        "rang": 11,
+        "rang": 12,
         "effectif": 30,
-        "moyenne": 14.0
+        "moyenne": 14.12
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 19.75,
+      "pts": 20.0,
       "max": 26.0
     },
     "t-doc": {
@@ -383,7 +383,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 13.25,
+      "pts": 13.5,
       "max": 17.5
     },
     "t-argu": {
@@ -399,7 +399,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 8.5,
+      "pts": 8.75,
       "max": 11.5
     },
     "t-qualif": {

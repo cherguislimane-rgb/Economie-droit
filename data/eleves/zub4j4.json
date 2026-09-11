@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 9.5,
+      "note": 9.75,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec trois justifications recevables : l'impôt inséparable de l'État, le libéral qui limite l'État au régalien, 100 % du capital pour être publique. Pour c, ta phrase répète l'affirmation : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt inséparable de l'État, le libéral qui limite l'État au régalien, 100 % du capital pour être publique. Pour c, tu peux préciser ce que change 1945 : la prise en charge des risques de la vie.",
           "reponse_eleve": "a: faux — Tant qu'il y a un État, il y a un impôt. b: vrai — car les interventions faussent les prix et découragent l'initiative, donc l'État doit se limiter au régalien. c: vrai — En France, l'État-providence naît avec la Sécurité sociale en 1945. d: faux — car une entreprise publique détient 100 % du capital.",
           "capacite": "e6-1",
           "transversales": [
@@ -135,40 +135,40 @@
       ],
       "rang": 29,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
       "rang": 29,
       "effectif": 30,
-      "moyenne": 9.5
+      "moyenne": 9.75
     },
     "types": {
       "conso": {
         "rang": 29,
         "effectif": 30,
-        "moyenne": 9.5
+        "moyenne": 9.75
       }
     },
     "matieres": {
       "eco": {
         "rang": 29,
         "effectif": 30,
-        "moyenne": 9.5
+        "moyenne": 9.75
       }
     },
     "themes": {
       "e6": {
         "rang": 29,
         "effectif": 30,
-        "moyenne": 9.5
+        "moyenne": 9.75
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 5.5,
+      "pts": 5.75,
       "max": 11.5
     },
     "t-qualif": {
@@ -180,11 +180,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 4.75,
+      "pts": 5.0,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 2.25,
+      "pts": 2.5,
       "max": 8.0
     },
     "e6-2": {

@@ -206,7 +206,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 15.75,
+      "note": 16.0,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -227,9 +227,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec trois justifications précises : l'impôt finance les missions, l'intérêt individuel sert l'intérêt général chez les libéraux, une partie du capital = semi-publique. Pour c, « on dit qu'il naît » n'explique rien : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, l'intérêt individuel sert l'intérêt général chez les libéraux, une partie du capital = semi-publique. Pour c, tu peux préciser ce que change 1945 : la prise en charge des risques de la vie.",
           "reponse_eleve": "a: faux — Car il lève l'impôt pour financer ses missions b: vrai — Oui car les individus en poursuivant leurs intérêts, servent l'intérêt général c: vrai — Oui, car on dit qu'il « naît ». d: faux — Faux, car l'État en détient quand même une partie, donc c'est une entreprise semi-publique.",
           "capacite": "e6-1",
           "transversales": [
@@ -336,15 +336,14 @@
       ],
       "rang": 5,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
       "rang": 6,
       "effectif": 30,
-      "moyenne": 14.88,
-      "rang_precedent": 3
+      "moyenne": 15.0
     },
     "types": {
       "dossier": {
@@ -355,27 +354,27 @@
       "conso": {
         "rang": 5,
         "effectif": 30,
-        "moyenne": 15.75
+        "moyenne": 16.0
       }
     },
     "matieres": {
       "eco": {
         "rang": 6,
         "effectif": 30,
-        "moyenne": 14.88
+        "moyenne": 15.0
       }
     },
     "themes": {
       "e6": {
         "rang": 6,
         "effectif": 30,
-        "moyenne": 14.88
+        "moyenne": 15.0
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 21.25,
+      "pts": 21.5,
       "max": 26.0
     },
     "t-doc": {
@@ -383,7 +382,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 13.75,
+      "pts": 14.0,
       "max": 17.5
     },
     "t-argu": {
@@ -399,7 +398,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 9.25,
+      "pts": 9.5,
       "max": 11.5
     },
     "t-qualif": {

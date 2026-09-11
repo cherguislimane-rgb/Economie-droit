@@ -203,7 +203,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 16.75,
+      "note": 17.0,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -224,9 +224,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec trois justifications précises : l'impôt finance les missions, les prix faussés donc l'État limité au régalien, la protection contre les risques de la vie depuis 1945. Pour d, donne le critère : semi-publique parce que l'État ne détient qu'une partie du capital, publique seulement à 100 %.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, les prix faussés donc l'État limité au régalien, la protection contre les risques de la vie depuis 1945. Pour d, tu peux donner le critère : semi-publique parce que l'État ne détient qu'une partie du capital, publique seulement à 100 %.",
           "reponse_eleve": "a: faux — L'État-gendarme prélève des impôts afin de financer ses missions. b: vrai — Effectivement les interventions faussent les prix, c'est pour cela que l'État doit se limiter au régalien. c: vrai — La protection des personnes contre les risques de la vie naît en France grâce à la Sécurité sociale en 1945. d: faux — C'est une entreprise semi-publique.",
           "capacite": "e6-1",
           "transversales": [
@@ -333,7 +333,7 @@
       ],
       "rang": 1,
       "effectif": 30,
-      "moyenne_classe": 13.3,
+      "moyenne_classe": 13.5,
       "trophees": [
         "podium",
         "progression"
@@ -342,10 +342,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 10,
+      "rang": 9,
       "effectif": 30,
-      "moyenne": 14.38,
-      "rang_precedent": 12
+      "moyenne": 14.5,
+      "rang_precedent": 10
     },
     "types": {
       "dossier": {
@@ -356,27 +356,27 @@
       "conso": {
         "rang": 1,
         "effectif": 30,
-        "moyenne": 16.75
+        "moyenne": 17.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 10,
+        "rang": 9,
         "effectif": 30,
-        "moyenne": 14.38
+        "moyenne": 14.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 10,
+        "rang": 9,
         "effectif": 30,
-        "moyenne": 14.38
+        "moyenne": 14.5
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 18.25,
+      "pts": 18.5,
       "max": 26.0
     },
     "t-doc": {
@@ -384,7 +384,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 13.75,
+      "pts": 14.0,
       "max": 17.5
     },
     "t-argu": {
@@ -400,7 +400,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 6.75,
+      "pts": 7.0,
       "max": 11.5
     },
     "t-qualif": {

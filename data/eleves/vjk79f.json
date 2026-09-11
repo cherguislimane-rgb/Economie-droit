@@ -203,7 +203,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 10.5,
+      "note": 11.0,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -224,9 +224,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.5,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec deux bonnes justifications (l'impôt finance les missions, 100 % du capital). Pour b, « A. Smith en 1776 » est une référence, pas une justification : dis que l'État doit se limiter au régalien. Pour c, explique ce que change 1945 : la prise en charge des risques de la vie par la Sécurité sociale.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, 100 % du capital. Pour b, « A. Smith en 1776 » est accepté, mais au bac il faudra la phrase : l'État doit se limiter au régalien. Pour c, explique ce que change 1945 : la prise en charge des risques de la vie par la Sécurité sociale.",
           "reponse_eleve": "a: faux — il lève l'impôt pour financer ses missions b: vrai — A. Smith en 1776 c: vrai — la Sécurité sociale n'est pas gendarme d: faux — Elle doit détenir au moins 100 %",
           "capacite": "e6-1",
           "transversales": [
@@ -331,17 +331,17 @@
           "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
         }
       ],
-      "rang": 27,
+      "rang": 25,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 21,
+      "rang": 20,
       "effectif": 30,
-      "moyenne": 12.12,
-      "rang_precedent": 5
+      "moyenne": 12.38,
+      "rang_precedent": 21
     },
     "types": {
       "dossier": {
@@ -350,29 +350,29 @@
         "moyenne": 13.75
       },
       "conso": {
-        "rang": 27,
+        "rang": 25,
         "effectif": 30,
-        "moyenne": 10.5
+        "moyenne": 11.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 21,
+        "rang": 20,
         "effectif": 30,
-        "moyenne": 12.12
+        "moyenne": 12.38
       }
     },
     "themes": {
       "e6": {
-        "rang": 21,
+        "rang": 20,
         "effectif": 30,
-        "moyenne": 12.12
+        "moyenne": 12.38
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 17.5,
+      "pts": 18.0,
       "max": 26.0
     },
     "t-doc": {
@@ -380,7 +380,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 11.5,
+      "pts": 12.0,
       "max": 17.5
     },
     "t-argu": {
@@ -396,7 +396,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 7.0,
+      "pts": 7.5,
       "max": 11.5
     },
     "t-qualif": {

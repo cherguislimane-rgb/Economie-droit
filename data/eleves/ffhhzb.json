@@ -133,34 +133,35 @@
           "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
         }
       ],
-      "rang": 10,
+      "rang": 11,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 8,
+      "rang": 9,
       "effectif": 30,
-      "moyenne": 14.5
+      "moyenne": 14.5,
+      "rang_precedent": 8
     },
     "types": {
       "conso": {
-        "rang": 10,
+        "rang": 11,
         "effectif": 30,
         "moyenne": 14.5
       }
     },
     "matieres": {
       "eco": {
-        "rang": 8,
+        "rang": 9,
         "effectif": 30,
         "moyenne": 14.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 8,
+        "rang": 9,
         "effectif": 30,
         "moyenne": 14.5
       }

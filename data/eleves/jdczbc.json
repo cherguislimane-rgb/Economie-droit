@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 12.0,
+      "note": 12.25,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Trois justifications solides : l'impôt qui finance les missions régaliennes, la Sécurité sociale de 1945, le seuil de 100 % du capital. Pour b, ta phrase répète l'affirmation au lieu de la justifier : il fallait expliquer que, pour un libéral, l'État doit se limiter au régalien et laisser faire les marchés.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt qui finance les missions régaliennes, la Sécurité sociale de 1945, le seuil de 100 % du capital. Pour b, tu peux aller plus loin qu'une reformulation : le libéral veut un État limité au régalien.",
           "reponse_eleve": "a: faux — Un État-gendarme lève l'impôt et le prélève. b: vrai — Oui, le libéralisme pense que l'État fausse les prix et décourage l'initiative. c: vrai — L'État-providence naît en 1945 avec la Sécurité sociale, il se finance avec des prélèvements. d: faux — Une entreprise devient publique quand l'État détient TOUT son capital ; s'il détient 15 %, l'entreprise est semi-publique.",
           "capacite": "e6-1",
           "transversales": [
@@ -135,40 +135,41 @@
       ],
       "rang": 20,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 22,
+      "rang": 21,
       "effectif": 30,
-      "moyenne": 12.0
+      "moyenne": 12.25,
+      "rang_precedent": 22
     },
     "types": {
       "conso": {
         "rang": 20,
         "effectif": 30,
-        "moyenne": 12.0
+        "moyenne": 12.25
       }
     },
     "matieres": {
       "eco": {
-        "rang": 22,
+        "rang": 21,
         "effectif": 30,
-        "moyenne": 12.0
+        "moyenne": 12.25
       }
     },
     "themes": {
       "e6": {
-        "rang": 22,
+        "rang": 21,
         "effectif": 30,
-        "moyenne": 12.0
+        "moyenne": 12.25
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 8.25,
+      "pts": 8.5,
       "max": 11.5
     },
     "t-qualif": {
@@ -180,11 +181,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 5.5,
+      "pts": 5.75,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 4.75,
+      "pts": 5.0,
       "max": 8.0
     },
     "e6-2": {

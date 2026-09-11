@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 15.0,
+      "note": 15.25,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec trois justifications précises : l'impôt finance les missions, le libéral limite l'État au régalien, 15 % = semi-publique. Pour c, ta phrase répète l'affirmation : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, le libéral limite l'État au régalien, 15 % = semi-publique. Pour c, tu peux préciser ce que change 1945 : la prise en charge des risques de la vie.",
           "reponse_eleve": "a: faux — Il prélève pour financer leurs activités. b: vrai — Le libéralisme pense que l'État doit se limiter au régalien. c: vrai — L'État-providence est né avec la Sécurité sociale. d: faux — C'est une entreprise semi-publique vu qu'elle détient 15 %.",
           "capacite": "e6-1",
           "transversales": [
@@ -135,40 +135,40 @@
       ],
       "rang": 8,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
       "rang": 4,
       "effectif": 30,
-      "moyenne": 15.0
+      "moyenne": 15.25
     },
     "types": {
       "conso": {
         "rang": 8,
         "effectif": 30,
-        "moyenne": 15.0
+        "moyenne": 15.25
       }
     },
     "matieres": {
       "eco": {
         "rang": 4,
         "effectif": 30,
-        "moyenne": 15.0
+        "moyenne": 15.25
       }
     },
     "themes": {
       "e6": {
         "rang": 4,
         "effectif": 30,
-        "moyenne": 15.0
+        "moyenne": 15.25
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 9.75,
+      "pts": 10.0,
       "max": 11.5
     },
     "t-qualif": {
@@ -180,11 +180,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 6.5,
+      "pts": 6.75,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 6.25,
+      "pts": 6.5,
       "max": 8.0
     },
     "e6-2": {

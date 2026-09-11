@@ -203,7 +203,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 10.75,
+      "note": 11.0,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -224,9 +224,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.25,
+          "points": 1.5,
           "points_max": 2,
-          "commentaire": "Trois cases justes et deux bonnes justifications (l'intérêt individuel chez les libéraux, entre 0 et 100 % = semi-publique). Pour a, c'est faux : l'État-gendarme lève l'impôt, justement pour financer ses fonctions régaliennes. Pour c, ta phrase recopie la leçon : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Trois lignes justes et justifiées : l'intérêt individuel chez les libéraux, la Sécurité sociale de 1945, entre 0 et 100 % = semi-publique. Pour a, c'est faux : l'État-gendarme lève l'impôt, justement pour financer ses fonctions régaliennes.",
           "reponse_eleve": "a: vrai — un État gendarme se limite aux fonctions régaliennes b: vrai — les individus poursuivent et servent l'intérêt général c: vrai — l'État providence apparaît avec la Sécurité sociale (ordonnances octobre 1945) d: faux — Quand l'État détient entre 0 et 100 % du capital de l'entreprise est semi-publique",
           "capacite": "e6-1",
           "transversales": [
@@ -331,17 +331,17 @@
           "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
         }
       ],
-      "rang": 26,
+      "rang": 25,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 24,
+      "rang": 25,
       "effectif": 30,
-      "moyenne": 11.62,
-      "rang_precedent": 10
+      "moyenne": 11.75,
+      "rang_precedent": 24
     },
     "types": {
       "dossier": {
@@ -350,29 +350,29 @@
         "moyenne": 12.5
       },
       "conso": {
-        "rang": 26,
+        "rang": 25,
         "effectif": 30,
-        "moyenne": 10.75
+        "moyenne": 11.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 24,
+        "rang": 25,
         "effectif": 30,
-        "moyenne": 11.62
+        "moyenne": 11.75
       }
     },
     "themes": {
       "e6": {
-        "rang": 24,
+        "rang": 25,
         "effectif": 30,
-        "moyenne": 11.62
+        "moyenne": 11.75
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 14.75,
+      "pts": 15.0,
       "max": 26.0
     },
     "t-doc": {
@@ -380,7 +380,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 13.0,
+      "pts": 13.25,
       "max": 17.5
     },
     "t-argu": {
@@ -396,7 +396,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 2.75,
+      "pts": 3.0,
       "max": 11.5
     },
     "t-qualif": {

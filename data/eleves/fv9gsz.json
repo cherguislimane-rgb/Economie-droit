@@ -206,7 +206,7 @@
     },
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 16.5,
+      "note": 16.75,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -227,9 +227,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.75,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec trois justifications précises : l'impôt finance les missions, la thèse libérale des prix faussés, 100 % du capital pour être publique. Pour c, ta phrase répète l'affirmation : dis ce que change 1945, la prise en charge des risques de la vie.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, la thèse libérale des prix faussés, 100 % du capital pour être publique. Pour c, tu peux préciser ce que change 1945 : la prise en charge des risques de la vie.",
           "reponse_eleve": "a: faux — C'est faux car l'État-gendarme lève les impôts pour financer les missions b: vrai — C'est vrai car le libéralisme est une pensée où l'intervention de l'État fausse les prix et décourage l'initiative. c: vrai — Oui car l'État-providence naît en 1945 en même temps que la Sécurité sociale. d: faux — C'est faux car une entreprise publique détient 100 % du capital. Dans ce cas-là c'est donc une entreprise semi-publique",
           "capacite": "e6-1",
           "transversales": [
@@ -336,7 +336,7 @@
       ],
       "rang": 2,
       "effectif": 30,
-      "moyenne_classe": 13.3,
+      "moyenne_classe": 13.5,
       "trophees": [
         "podium",
         "sans_faute"
@@ -347,8 +347,7 @@
     "general": {
       "rang": 3,
       "effectif": 30,
-      "moyenne": 15.38,
-      "rang_precedent": 2
+      "moyenne": 15.5
     },
     "types": {
       "dossier": {
@@ -359,27 +358,27 @@
       "conso": {
         "rang": 2,
         "effectif": 30,
-        "moyenne": 16.5
+        "moyenne": 16.75
       }
     },
     "matieres": {
       "eco": {
         "rang": 3,
         "effectif": 30,
-        "moyenne": 15.38
+        "moyenne": 15.5
       }
     },
     "themes": {
       "e6": {
         "rang": 3,
         "effectif": 30,
-        "moyenne": 15.38
+        "moyenne": 15.5
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 21.25,
+      "pts": 21.5,
       "max": 26.0
     },
     "t-doc": {
@@ -387,7 +386,7 @@
       "max": 12.5
     },
     "t-vocab": {
-      "pts": 15.5,
+      "pts": 15.75,
       "max": 17.5
     },
     "t-argu": {
@@ -403,7 +402,7 @@
       "max": 14.0
     },
     "t-redaction": {
-      "pts": 8.75,
+      "pts": 9.0,
       "max": 11.5
     },
     "t-qualif": {

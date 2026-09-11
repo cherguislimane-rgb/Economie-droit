@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 14.5,
+      "note": 15.0,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.5,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec deux bonnes justifications : l'impôt finance les missions, et la citation de Smith sur les prix faussés. Pour c, ta phrase recopie la leçon (dis ce que change 1945, la prise en charge des risques de la vie) ; pour d, donne le critère : semi-publique parce que l'État ne détient qu'une partie, publique seulement à 100 %.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, et la citation de Smith sur les prix faussés. Pour c et d, tu peux préciser : 1945 = prise en charge des risques de la vie ; semi-publique parce que l'État ne détient qu'une partie du capital, publique seulement à 100 %.",
           "reponse_eleve": "a: faux — Un État-gendarme lève des impôts pour ces missions (chaque État en prélève). (texte barré débordant du cadre à droite) b: vrai — Oui, comme l'a cité A. Smith en 1776 : « ses interventions faussent les prix et découragent l'initiative ». c: vrai — Il naît avec la Sécurité sociale (ordonnance d'octobre 1945). d: faux — Elle est semi-publique.",
           "capacite": "e6-1",
           "transversales": [
@@ -135,40 +135,41 @@
       ],
       "rang": 10,
       "effectif": 30,
-      "moyenne_classe": 13.3
+      "moyenne_classe": 13.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 8,
+      "rang": 6,
       "effectif": 30,
-      "moyenne": 14.5
+      "moyenne": 15.0,
+      "rang_precedent": 8
     },
     "types": {
       "conso": {
         "rang": 10,
         "effectif": 30,
-        "moyenne": 14.5
+        "moyenne": 15.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 8,
+        "rang": 6,
         "effectif": 30,
-        "moyenne": 14.5
+        "moyenne": 15.0
       }
     },
     "themes": {
       "e6": {
-        "rang": 8,
+        "rang": 6,
         "effectif": 30,
-        "moyenne": 14.5
+        "moyenne": 15.0
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 8.5,
+      "pts": 9.0,
       "max": 11.5
     },
     "t-qualif": {
@@ -180,11 +181,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 6.0,
+      "pts": 6.5,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 5.0,
+      "pts": 5.5,
       "max": 8.0
     },
     "e6-2": {

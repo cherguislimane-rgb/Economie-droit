@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
-      "note": 16.25,
+      "note": 16.75,
       "publie_le": "2026-09-11",
       "pdf": null,
       "retours": [
@@ -26,9 +26,9 @@
         {
           "question": "Q2",
           "intitule": "Vrai ou faux : les conceptions de l'État",
-          "points": 1.5,
+          "points": 2.0,
           "points_max": 2,
-          "commentaire": "Les quatre cases sont justes, avec deux bonnes justifications : l'impôt finance les missions, A. Smith limite l'État au régalien. Pour c, dis ce que change la Sécurité sociale (la prise en charge des risques de la vie) ; pour d, donne le critère : semi-publique parce que l'État ne détient qu'une partie du capital, publique seulement à 100 %.",
+          "commentaire": "Les quatre cases sont justes et chacune est justifiée. Points forts : l'impôt finance les missions, A. Smith limite l'État au régalien. Pour c et d, tu peux préciser : la Sécurité sociale prend en charge les risques de la vie ; semi-publique parce que l'État ne détient qu'une partie du capital.",
           "reponse_eleve": "a: faux — Il prélève l'impôt pour financer ses missions. b: vrai — A. Smith dit que l'État doit se limiter au régalien c: vrai — L'État-providence s'occupe de la Sécurité sociale. d: faux — C'est une entreprise semi-publique",
           "capacite": "e6-1",
           "transversales": [
@@ -133,9 +133,9 @@
           "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
         }
       ],
-      "rang": 3,
+      "rang": 2,
       "effectif": 30,
-      "moyenne_classe": 13.3,
+      "moyenne_classe": 13.5,
       "trophees": [
         "podium"
       ]
@@ -143,35 +143,36 @@
   ],
   "classements": {
     "general": {
-      "rang": 2,
+      "rang": 1,
       "effectif": 30,
-      "moyenne": 16.25
+      "moyenne": 16.75,
+      "rang_precedent": 2
     },
     "types": {
       "conso": {
-        "rang": 3,
+        "rang": 2,
         "effectif": 30,
-        "moyenne": 16.25
+        "moyenne": 16.75
       }
     },
     "matieres": {
       "eco": {
-        "rang": 2,
+        "rang": 1,
         "effectif": 30,
-        "moyenne": 16.25
+        "moyenne": 16.75
       }
     },
     "themes": {
       "e6": {
-        "rang": 2,
+        "rang": 1,
         "effectif": 30,
-        "moyenne": 16.25
+        "moyenne": 16.75
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 9.5,
+      "pts": 10.0,
       "max": 11.5
     },
     "t-qualif": {
@@ -183,11 +184,11 @@
       "max": 7.5
     },
     "t-vocab": {
-      "pts": 6.25,
+      "pts": 6.75,
       "max": 8.0
     },
     "t-redaction": {
-      "pts": 6.0,
+      "pts": 6.5,
       "max": 8.0
     },
     "e6-2": {
