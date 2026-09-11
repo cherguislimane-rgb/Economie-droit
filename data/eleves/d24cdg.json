@@ -189,36 +189,36 @@
           "reponse_attendue": "Une seule position défendue. Position « oui » (attendue) : santé et durée de vie (doc 2 : 25 → 83 ans ; Louis XIV mort d'une gangrène, ses dents arrachées sans anesthésie ; Léa guérie par un antibiotique à 2 €) ; quantité et variété de biens et services accessibles (doc 1 : ×22 ; doc 4 : ce qui n'existait à aucun prix — électricité, transport rapide, communication instantanée) ; services non marchands pour tous (école, hôpital). Position « non » recevable si argumentée : le roi avait le pouvoir, les palais, des centaines de domestiques, le statut ; le PIB par habitant ne mesure pas tout ; un Français moyen subit encore des contraintes (situation Fontaine) et des inégalités. La conclusion peut nuancer (« mieux sur la santé et le confort, pas sur le pouvoir »). Catalogue de définitions sans réponse = niveau 1 ; « oui et non » sans trancher = niveau 2 maximum."
         }
       ],
-      "rang": 25,
-      "effectif": 30,
+      "rang": 26,
+      "effectif": 31,
       "moyenne_classe": 12.9
     }
   ],
   "classements": {
     "general": {
-      "rang": 25,
-      "effectif": 30,
+      "rang": 26,
+      "effectif": 31,
       "moyenne": 10.75,
-      "rang_precedent": 24
+      "rang_precedent": 25
     },
     "types": {
       "dossier": {
-        "rang": 25,
-        "effectif": 30,
+        "rang": 26,
+        "effectif": 31,
         "moyenne": 10.75
       }
     },
     "matieres": {
       "eco": {
-        "rang": 25,
-        "effectif": 30,
+        "rang": 26,
+        "effectif": 31,
         "moyenne": 10.75
       }
     },
     "themes": {
       "e1": {
-        "rang": 25,
-        "effectif": 30,
+        "rang": 26,
+        "effectif": 31,
         "moyenne": 10.75
       }
     }

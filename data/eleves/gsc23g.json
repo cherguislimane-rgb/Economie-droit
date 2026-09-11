@@ -190,7 +190,7 @@
         }
       ],
       "rang": 1,
-      "effectif": 30,
+      "effectif": 31,
       "moyenne_classe": 12.9,
       "trophees": [
         "podium",
@@ -201,27 +201,27 @@
   "classements": {
     "general": {
       "rang": 1,
-      "effectif": 30,
+      "effectif": 31,
       "moyenne": 19.0
     },
     "types": {
       "dossier": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 19.0
       }
     },
     "matieres": {
       "eco": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 19.0
       }
     },
     "themes": {
       "e1": {
         "rang": 1,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 19.0
       }
     }

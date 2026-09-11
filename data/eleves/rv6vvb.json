@@ -190,34 +190,34 @@
         }
       ],
       "rang": 14,
-      "effectif": 30,
+      "effectif": 31,
       "moyenne_classe": 12.9
     }
   ],
   "classements": {
     "general": {
       "rang": 14,
-      "effectif": 30,
+      "effectif": 31,
       "moyenne": 13.25
     },
     "types": {
       "dossier": {
         "rang": 14,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 13.25
       }
     },
     "matieres": {
       "eco": {
         "rang": 14,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 13.25
       }
     },
     "themes": {
       "e1": {
         "rang": 14,
-        "effectif": 30,
+        "effectif": 31,
         "moyenne": 13.25
       }
     }
