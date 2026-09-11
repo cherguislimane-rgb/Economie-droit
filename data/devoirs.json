@@ -118,7 +118,11 @@
       "coef": 1,
       "titre": "Consolidation — L'intervention de l'État",
       "date": "2026-09-11",
-      "note_max": 20
+      "note_max": 20,
+      "stats": {
+        "moyenne": 13.3,
+        "effectif": 30
+      }
     },
     {
       "id": "1s-e1c1-dossier",

@@ -2,12 +2,202 @@
   "code": "hpt344",
   "classe": "TSTMG",
   "maj": "2026-09-11",
-  "copies": [],
+  "copies": [
+    {
+      "devoir_id": "ts-e6c1-conso",
+      "note": 12.75,
+      "publie_le": "2026-09-11",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "La journée de Camille : gendarme ou providence, et quelle fonction ?",
+          "points": 2.5,
+          "points_max": 2.5,
+          "commentaire": "Sur la capacité *expliquer les différences entre État-gendarme et État-providence* : les six lignes sont justes, conceptions et fonctions comprises. Tu distingues bien allocation, redistribution et régulation.",
+          "reponse_eleve": "a: providence / allocation b: providence / allocation (trait dans la case gendarme, raturé) c: gendarme d: providence / redistribution e: gendarme f: providence / régulation",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-qualif",
+            "t-doc"
+          ],
+          "reponse_attendue": "a bus RTM subventionné → providence, allocation · b lycée public gratuit → providence, allocation · c contrôle de police → gendarme (aucune fonction) · d pension de retraite revalorisée → providence, redistribution · e tribunal judiciaire → gendarme (aucune fonction) · f chômage partiel 2020 → providence, régulation."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Vrai ou faux : les conceptions de l'État",
+          "points": 1.25,
+          "points_max": 2,
+          "commentaire": "Les quatre cases sont justes et la justification de a est bonne (l'impôt finance les missions). Les trois autres répètent l'affirmation ou la conclusion : pour b, dis que le libéral limite l'État au régalien ; pour c, ce que change 1945 (la prise en charge des risques de la vie) ; pour d, le critère (semi-publique dès que l'État ne détient qu'une partie, publique à 100 %).",
+          "reponse_eleve": "a: faux — prélève l'impôt afin de financer ses missions b: vrai — un économiste libéral pense que l'intervention de l'État fausse les prix et décourage l'initiative. c: vrai — En France, l'État providence naît en 1945 avec la Sécurité sociale. d: faux (case vrai cochée puis raturée) — elle est semi-publique.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "a FAUX : l'État-gendarme lève l'impôt pour financer justice, police, armée (lever l'impôt est régalien). b VRAI : c'est la thèse libérale (A. Smith). c VRAI : ordonnances d'octobre 1945, prise en charge des risques sociaux. d FAUX : 15 % = semi-publique ; publique = 100 % du capital."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Publique, semi-publique ou privée ?",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Les quatre statuts sont justes, avec le bon repère : 100 % publique, entre les deux semi-publique, 0 % privée.",
+          "reponse_eleve": "SNCF: publique Engie: semi-publique Renault: semi-publique Carrefour: privée",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "SNCF publique (100 %) · Engie semi-publique (23,6 %) · Renault semi-publique (15 %) · Carrefour privée (0 %)."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Pourquoi l'État reste actionnaire de Thales et d'Engie",
+          "points": 0.0,
+          "points_max": 1.5,
+          "commentaire": "La réponse inverse le raisonnement : ce n'est pas Carrefour qui a la souveraineté, c'est l'État qui garde des parts là où sa souveraineté est en jeu. Relis le document 1 : Thales équipe l'armée (droit de regard), Engie assure l'approvisionnement en énergie (minorité de blocage) ; Carrefour est dans un secteur concurrentiel sans enjeu, donc pas d'argent public.",
+          "reponse_eleve": "Carrefour détient 100 % de son entreprise ce qui la rend en état de souveraineté totale. L'État reste actionnaire de Thales et d'Engie car il possède des parts dans leur entreprise.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-doc",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Thales équipe l'armée et Engie gère l'énergie : deux secteurs où la souveraineté (défense, sécurité d'approvisionnement) est en jeu, donc l'État garde un droit de regard ou une minorité de blocage (doctrine APE). Carrefour est dans un secteur concurrentiel sans enjeu de souveraineté : rien ne justifie de l'argent public au capital."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Déficit ou dette ? (cases à cocher)",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Sur la capacité *distinguer le déficit public de la dette publique* : sans faute, le flux et le stock sont bien identifiés dans chaque affirmation.",
+          "reponse_eleve": "a: déficit b: dette c: dette d: déficit e: dette f: déficit",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a déficit · b dette · c dette · d déficit · e dette · f déficit."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Du déficit de l'année à la hausse de la dette",
+          "points": 1.0,
+          "points_max": 2.5,
+          "commentaire": "Bonne idée de calculer recettes − dépenses, c'est une méthode équivalente, mais 1 561,6 − 1 714,1 = −152,5, pas −153,1 : vérifie l'arithmétique. La comparaison avec + 154,4 Md€ est là. En revanche, ce ne sont pas deux nombres qui bougent en sens inverse : le déficit (flux) est financé par emprunt et vient s'ajouter à la dette (stock), d'où des valeurs proches.",
+          "reponse_eleve": "Recettes - dépenses 1561,6 - 1714,1 = - 153,1 Md€ Déficit public = - 153,1 Md€ Dette 2025 = + 154,4 Md€ Ces deux nombres sont proches car ils sont le flux et le stock du solde public, ils forment ensemble une boucle. Lorsque l'un diminue l'autre augmente.",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-calc",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Déficit 2025 = 5,1 × 2 991,1 ÷ 100 = 152,5 Md€ (accepter 152,4 à 152,8). La dette a augmenté de 154,4 Md€ : les deux nombres sont proches parce que le déficit de l'année (flux) est financé par emprunt et vient s'ajouter au stock de dette ; la hausse de la dette est donc à peu près égale au déficit. Le petit écart (~2 Md€) vient d'autres opérations (trésorerie, prêts, arrondis)."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Le poids des intérêts et pourquoi il monte",
+          "points": 0.0,
+          "points_max": 2.5,
+          "commentaire": "Question non traitée. La part se calcule ainsi : 64,7 ÷ 1 561,6 × 100 = 4,1 % des recettes. Elle risque de monter parce que la dette continue de grossir, que l'État emprunte plus cher (3,4 % contre moins de 1 % en 2021) et que les anciens emprunts à échéance sont remplacés par des emprunts plus coûteux (document 3).",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-calc",
+            "t-doc"
+          ],
+          "reponse_attendue": "Part = 64,7 ÷ 1 561,6 × 100 = 4,1 % des recettes publiques. Elle risque d'augmenter parce que (1) la dette continue de grossir (déficit encore élevé, 310 Md€ à emprunter en 2026) ; (2) l'État emprunte plus cher qu'avant (3,4 % à 10 ans en 2025 contre < 1 % en 2021) ; (3) les anciens emprunts à taux bas arrivent à échéance et sont remplacés par des emprunts plus coûteux (durée de vie moyenne ~8 ans), donc le taux moyen de la dette monte même si le déficit baisse."
+        },
+        {
+          "question": "Q8",
+          "intitule": "La boucle déficit → dette → intérêts, à compléter",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "La boucle est complète et juste (les mots écrits sur les pointillés du texte comptent). Attention à l'orthographe de déficit et dépense.",
+          "reponse_eleve": "1: solde (dans la colonne) ; sur les pointillés du texte : déficit 2: flux 3: emprunte 4: dette 5: stock 6: intérêts 7: dépense (« dépense » sur les pointillés du texte) 8: déficit (« déficit » sur les pointillés du texte)",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "(1) déficit · (2) flux · (3) emprunte · (4) dette · (5) stock · (6) intérêts · (7) dépense · (8) déficit."
+        },
+        {
+          "question": "Q9",
+          "intitule": "L'État doit-il rester actionnaire ?",
+          "points": 3.5,
+          "points_max": 4.5,
+          "commentaire": "Position nette et tenue, structure claire, vocabulaire du chapitre (régalien, intérêt général, semi-publique). Le premier argument est solide : la thèse libérale de la leçon 2, l'État limité au régalien pour ne pas décourager l'initiative. Le second reste affirmé sans appui : tu pouvais citer les 209 Md€ immobilisés au capital (document 1) qui pourraient réduire la dette, ou la doctrine de l'APE de se désengager là où il n'y a pas d'enjeu.",
+          "reponse_eleve": "À mon avis, l'État doit arrêter d'être actionnaire auprès des entreprises comme Thales ou Engie. Tout d'abord, les individus peuvent eux-mêmes en poursuivant leur intérêt, aider l'intérêt général donc l'État doit se restreindre à des fonctions régaliennes et non interférer dans les marchés des entreprises ce qui découragerait l'initiative. Ensuite, lorsque l'État s'approprie des parts d'une entreprise elle devient automatiquement publique ou semi ce qui est injuste et fausserait les réels résultats d'une entreprise. Pour conclure, l'État ne devrait plus être actionnaire.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Une seule position. « Oui » : souveraineté (Thales équipe l'armée, Engie = sécurité d'approvisionnement, SNCF = réseau essentiel non rentable partout, doc 1) ; fonction d'allocation de l'État-providence (le marché ne fournirait pas le réseau ferré partout, leçon 1) ; logique interventionniste (leçon 2). « Non » : logique libérale, l'État fausse les prix et décourage l'initiative (leçon 2) ; l'argent immobilisé au capital (209 Md€) pourrait réduire la dette ou financer d'autres priorités (doc 1 + leçon 3) ; l'État n'est pas un bon gestionnaire, il peut réguler sans être actionnaire (doctrine APE : se désengager là où il n'y a pas d'enjeu). Réponse « oui et non » sans trancher : niveau 2 maximum."
+        }
+      ],
+      "rang": 17,
+      "effectif": 30,
+      "moyenne_classe": 13.3
+    }
+  ],
   "classements": {
-    "general": null,
-    "types": {},
-    "matieres": {},
-    "themes": {}
+    "general": {
+      "rang": 17,
+      "effectif": 30,
+      "moyenne": 12.75
+    },
+    "types": {
+      "conso": {
+        "rang": 17,
+        "effectif": 30,
+        "moyenne": 12.75
+      }
+    },
+    "matieres": {
+      "eco": {
+        "rang": 17,
+        "effectif": 30,
+        "moyenne": 12.75
+      }
+    },
+    "themes": {
+      "e6": {
+        "rang": 17,
+        "effectif": 30,
+        "moyenne": 12.75
+      }
+    }
   },
-  "capacites": {}
+  "capacites": {
+    "e6-1": {
+      "pts": 8.25,
+      "max": 11.5
+    },
+    "t-qualif": {
+      "pts": 2.5,
+      "max": 2.5
+    },
+    "t-doc": {
+      "pts": 3.5,
+      "max": 7.5
+    },
+    "t-vocab": {
+      "pts": 5.75,
+      "max": 8.0
+    },
+    "t-redaction": {
+      "pts": 4.75,
+      "max": 8.0
+    },
+    "e6-2": {
+      "pts": 4.5,
+      "max": 8.5
+    },
+    "t-calc": {
+      "pts": 1.0,
+      "max": 5.0
+    },
+    "t-argu": {
+      "pts": 3.5,
+      "max": 4.5
+    }
+  }
 }
