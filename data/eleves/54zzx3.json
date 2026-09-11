@@ -5,7 +5,7 @@
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
-      "note": 14.75,
+      "note": 15.0,
       "publie_le": "2026-09-10",
       "pdf": null,
       "retours": [
@@ -54,15 +54,15 @@
         {
           "question": "Q4",
           "intitule": "Bien ou service ? Marchand ou non marchand ?",
-          "points": 1.25,
+          "points": 1.5,
           "points_max": 2,
-          "commentaire": "Sur la capacité *distinguer la nature des biens et services* : cinq lignes justes. La visio est un service vendu par un opérateur, donc marchand ; pour la consultation, une seule case par paire (le médecin la vend 30 €, elle est marchande) ; l'électricité est un bien.",
+          "commentaire": "Sur la capacité *distinguer la nature des biens et services* : six lignes justes. Deux erreurs : la visio est un service vendu par un opérateur, donc marchand ; l'électricité est un bien. Pour la consultation, une seule case par paire suffit.",
           "reponse_eleve": "a: bien, marchand b: service, marchand c: service, non marchand d: service, non marchand e: service, non marchand f: service, marchand+non marchand g: bien, marchand h: service, marchand",
           "capacite": "e1-2",
           "transversales": [
             "t-qualif"
           ],
-          "reponse_attendue": "a paracétamol : bien, marchand · b bus RTM : service, marchand · c cours au lycée : service, non marchand · d infirmerie du lycée : service, non marchand · e visio : service, marchand · f consultation du médecin : service, marchand · g amoxicilline : bien, marchand · h électricité : bien, marchand. Une ligne = deux cases (une dans chaque paire) ; 0,25 par ligne si les deux cases sont justes."
+          "reponse_attendue": "a paracétamol : bien (marchand ou non marchand acceptés) · b bus RTM : service, marchand · c cours au lycée : service, non marchand · d infirmerie du lycée : service, non marchand · e visio : service, marchand · f consultation du médecin : service (marchand ou non marchand acceptés) · g amoxicilline : bien (marchand ou non marchand acceptés) · h électricité : bien, marchand. Pour le paracétamol, la consultation et l'amoxicilline, pris en charge en partie par l'Assurance maladie, les deux réponses sont acceptées : seule la case bien / service compte. Pour les autres lignes, une ligne = deux cases justes."
         },
         {
           "question": "Q5",
@@ -189,45 +189,43 @@
           "reponse_attendue": "Une seule position défendue. Position « oui » (attendue) : santé et durée de vie (doc 2 : 25 → 83 ans ; Louis XIV mort d'une gangrène, ses dents arrachées sans anesthésie ; Léa guérie par un antibiotique à 2 €) ; quantité et variété de biens et services accessibles (doc 1 : ×22 ; doc 4 : ce qui n'existait à aucun prix — électricité, transport rapide, communication instantanée) ; services non marchands pour tous (école, hôpital). Position « non » recevable si argumentée : le roi avait le pouvoir, les palais, des centaines de domestiques, le statut ; le PIB par habitant ne mesure pas tout ; un Français moyen subit encore des contraintes (situation Fontaine) et des inégalités. La conclusion peut nuancer (« mieux sur la santé et le confort, pas sur le pouvoir »). Catalogue de définitions sans réponse = niveau 1 ; « oui et non » sans trancher = niveau 2 maximum."
         }
       ],
-      "rang": 3,
-      "effectif": 29,
-      "moyenne_classe": 12.7,
-      "trophees": [
-        "podium"
-      ]
+      "rang": 5,
+      "effectif": 30,
+      "moyenne_classe": 12.9
     }
   ],
   "classements": {
     "general": {
-      "rang": 3,
-      "effectif": 29,
-      "moyenne": 14.75
+      "rang": 5,
+      "effectif": 30,
+      "moyenne": 15.0,
+      "rang_precedent": 3
     },
     "types": {
       "dossier": {
-        "rang": 3,
-        "effectif": 29,
-        "moyenne": 14.75
+        "rang": 5,
+        "effectif": 30,
+        "moyenne": 15.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 3,
-        "effectif": 29,
-        "moyenne": 14.75
+        "rang": 5,
+        "effectif": 30,
+        "moyenne": 15.0
       }
     },
     "themes": {
       "e1": {
-        "rang": 3,
-        "effectif": 29,
-        "moyenne": 14.75
+        "rang": 5,
+        "effectif": 30,
+        "moyenne": 15.0
       }
     }
   },
   "capacites": {
     "e1-2": {
-      "pts": 6.75,
+      "pts": 7.0,
       "max": 9.75
     },
     "t-calc": {
@@ -239,7 +237,7 @@
       "max": 8.0
     },
     "t-qualif": {
-      "pts": 6.5,
+      "pts": 6.75,
       "max": 7.75
     },
     "t-argu": {
