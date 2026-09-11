@@ -1,7 +1,7 @@
 {
   "code": "6g3cuf",
   "classe": "1STMG",
-  "maj": "2026-09-10",
+  "maj": "2026-09-11",
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
@@ -190,8 +190,8 @@
         }
       ],
       "rang": 3,
-      "effectif": 25,
-      "moyenne_classe": 12.6,
+      "effectif": 29,
+      "moyenne_classe": 12.7,
       "trophees": [
         "podium"
       ]
@@ -200,27 +200,27 @@
   "classements": {
     "general": {
       "rang": 3,
-      "effectif": 25,
+      "effectif": 29,
       "moyenne": 14.75
     },
     "types": {
       "dossier": {
         "rang": 3,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.75
       }
     },
     "matieres": {
       "eco": {
         "rang": 3,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.75
       }
     },
     "themes": {
       "e1": {
         "rang": 3,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.75
       }
     }

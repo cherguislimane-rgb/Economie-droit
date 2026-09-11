@@ -1,7 +1,7 @@
 {
   "code": "bwd4z6",
   "classe": "1STMG",
-  "maj": "2026-09-10",
+  "maj": "2026-09-11",
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
@@ -190,34 +190,34 @@
         }
       ],
       "rang": 6,
-      "effectif": 25,
-      "moyenne_classe": 12.6
+      "effectif": 29,
+      "moyenne_classe": 12.7
     }
   ],
   "classements": {
     "general": {
       "rang": 6,
-      "effectif": 25,
+      "effectif": 29,
       "moyenne": 14.5
     },
     "types": {
       "dossier": {
         "rang": 6,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.5
       }
     },
     "matieres": {
       "eco": {
         "rang": 6,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.5
       }
     },
     "themes": {
       "e1": {
         "rang": 6,
-        "effectif": 25,
+        "effectif": 29,
         "moyenne": 14.5
       }
     }

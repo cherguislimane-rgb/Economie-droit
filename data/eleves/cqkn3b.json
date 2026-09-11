@@ -1,7 +1,7 @@
 {
   "code": "cqkn3b",
   "classe": "1STMG",
-  "maj": "2026-09-10",
+  "maj": "2026-09-11",
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
@@ -189,36 +189,36 @@
           "reponse_attendue": "Une seule position défendue. Position « oui » (attendue) : santé et durée de vie (doc 2 : 25 → 83 ans ; Louis XIV mort d'une gangrène, ses dents arrachées sans anesthésie ; Léa guérie par un antibiotique à 2 €) ; quantité et variété de biens et services accessibles (doc 1 : ×22 ; doc 4 : ce qui n'existait à aucun prix — électricité, transport rapide, communication instantanée) ; services non marchands pour tous (école, hôpital). Position « non » recevable si argumentée : le roi avait le pouvoir, les palais, des centaines de domestiques, le statut ; le PIB par habitant ne mesure pas tout ; un Français moyen subit encore des contraintes (situation Fontaine) et des inégalités. La conclusion peut nuancer (« mieux sur la santé et le confort, pas sur le pouvoir »). Catalogue de définitions sans réponse = niveau 1 ; « oui et non » sans trancher = niveau 2 maximum."
         }
       ],
-      "rang": 20,
-      "effectif": 25,
-      "moyenne_classe": 12.6
+      "rang": 23,
+      "effectif": 29,
+      "moyenne_classe": 12.7
     }
   ],
   "classements": {
     "general": {
-      "rang": 20,
-      "effectif": 25,
+      "rang": 23,
+      "effectif": 29,
       "moyenne": 10.75,
-      "rang_precedent": 19
+      "rang_precedent": 20
     },
     "types": {
       "dossier": {
-        "rang": 20,
-        "effectif": 25,
+        "rang": 23,
+        "effectif": 29,
         "moyenne": 10.75
       }
     },
     "matieres": {
       "eco": {
-        "rang": 20,
-        "effectif": 25,
+        "rang": 23,
+        "effectif": 29,
         "moyenne": 10.75
       }
     },
     "themes": {
       "e1": {
-        "rang": 20,
-        "effectif": 25,
+        "rang": 23,
+        "effectif": 29,
         "moyenne": 10.75
       }
     }
