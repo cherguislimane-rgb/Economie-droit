@@ -136,16 +136,206 @@
       "rang": 6,
       "effectif": 30,
       "moyenne_classe": 13.5
+    },
+    {
+      "devoir_id": "ts-e6c2-dossier",
+      "note": 6.75,
+      "publie_le": "2026-09-14",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Situation Élise : coût privé, coût externe",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Le décideur et le coût externe sont justes : la compagnie et le croisiériste fixent le prix, et c'est la fille d'Élise qui subit l'asthme. « Laisser les moteurs allumés » est une action, pas un coût : le coût privé, c'est ce que la compagnie paie elle-même, comme le carburant brûlé à quai, les redevances portuaires ou les salaires de l'équipage (document 3).",
+          "reponse_eleve": "Décideur : la compagnie et le croisiériste Coût privé : laisser les moteurs allumés Coût externe : qui le subit Élise et sa fille etc. l'asthme de la fille, la fumée noire → malade",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-doc",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Décideur : la compagnie de croisière (avec le croisiériste qui achète le billet). Coût privé : carburant brûlé à quai, redevances portuaires, salaires. Coût externe : pollution de l'air (asthme, consultation chez le pneumologue, fenêtres fermées) subie par les riverains de Saint-André et, pour les soins, par la Sécurité sociale."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Externalité négative : définition",
+          "points": 0.5,
+          "points_max": 1.0,
+          "commentaire": "Ton exemple de la voiture polluante est juste. La définition doit dire l'essentiel : une externalité négative touche un tiers qui ne participe pas à l'échange, sans qu'il soit indemnisé ni que le prix en tienne compte.",
+          "reponse_eleve": "C'est les conséquences d'une action et que la conséquence nuit à l'écologie ou autres... Exp : conduire une voiture non écologique peut nuire à l'environnement.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Conséquence négative d'une activité de production ou de consommation sur un tiers qui n'a pas participé à l'échange et n'est pas indemnisé ; le prix du marché ne la prend pas en compte. Exemple différent : bruit d'un bar, embouteillage, rejet d'une usine dans une rivière, tabagisme passif."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Pourquoi le marché produit trop d'escales polluantes",
+          "points": 0.0,
+          "points_max": 2.0,
+          "commentaire": "Question non traitée. Le raisonnement attendu tient en trois temps : le marché est efficace si le prix intègre toutes les conséquences ; ici la compagnie ne paie pas la fumée, donc son coût privé est inférieur au coût social ; le billet est trop bon marché et il y a trop d'escales polluantes, avec un chiffre du document 2 à l'appui.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Règle : le marché alloue efficacement à condition que le prix contienne toutes les conséquences de l'échange (coût privé = coût social). Application : la compagnie décide selon son coût privé ; la fumée est un coût externe (20 000 voitures par paquebot, 37 % des NOx, 780 décès prématurés) payé par les riverains et la Sécurité sociale ; le coût social est supérieur au coût privé, le billet est trop bon marché. Conclusion : il y a plus d'escales polluantes que ce qui serait bon pour la collectivité — allocation inefficace. La reprise du cours sans application au cas ne crédite rien."
+        },
+        {
+          "question": "Q4",
+          "intitule": "La croisière : richesse et coût pour Marseille",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Sur la capacité *justifier pourquoi l'allocation n'est plus efficace en présence d'une défaillance de marché* : tes données sont bien choisies des deux côtés (hausse de 8 % en 2025, 30 % des passagers, 20 000 voitures, 780 décès par an). Il manquait la conclusion demandée : la richesse passe par le marché, mais le coût de la pollution ne passe par aucun prix, c'est une externalité négative.",
+          "reponse_eleve": "En 2025 on a eu une progression de 8 % sur un an avec des navires remplis puisque environ 30 % des passagers commencent ou terminent leur croisière à Marseille et y séjournent, environ un croisiériste sur cinq revient dans la région, mais un paquebot à quai, moteurs allumés vaut environ 20 000 voitures en polluants atmosphériques et on a également le transport maritime qui est le deuxième émetteur d'oxydes d'azote, on a également 780 décès par an à cause de la pollution dans la ville. Certes cela permet à Marseille un énorme chiffre de revenu mais en termes d'écologie cela est complètement et infiniment dégradant.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-doc",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Richesse : 2,6 millions de croisiéristes en 2025 (+ 8 % sur un an) ; 660 escales ; 30 % des passagers commencent ou finissent à Marseille et y séjournent ; un croisiériste sur cinq revient. Coût : un paquebot à quai = environ 20 000 voitures ; 37 % des NOx de Marseille viennent du maritime (2023) ; 780 décès prématurés par an dus à la pollution de l'air. Conclusion : la richesse passe par le marché (billets, hôtels), le coût n'y passe pas — c'est une externalité négative."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Rival ? exclusif ? quel type de bien",
+          "points": 1.0,
+          "points_max": 1.5,
+          "commentaire": "Quatre types justes sur cinq. Un abonnement vidéo est un bien de club : non rival, mais on peut exclure celui qui ne paie pas. Vérifie la cohérence de tes colonnes avec le document 5 : un bien commun est rival et non exclusif, un bien public est non rival et non exclusif.",
+          "reponse_eleve": "a: rival=non (case « oui » cochée puis annulée entre parenthèses) exclusion=non (case « oui » cochée puis annulée entre parenthèses) type=commun b: rival=oui exclusion=[VIDE] type=prive c: rival=non exclusion=non type=public d: rival=oui (case « non » cochée puis annulée entre parenthèses) exclusion=oui type=public e: rival=non exclusion=non type=commun",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a calanque en juillet : rival oui, exclusion non → bien commun. b sandwich : oui / oui → bien privé. c qualité de l'air : non / non → bien public. d plateforme vidéo : non / oui → bien de club. e poissons de la Méditerranée : oui / non → bien commun."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Sugiton : la tragédie des biens communs",
+          "points": 0.5,
+          "points_max": 1.5,
+          "commentaire": "Tu expliques bien l'effet de la jauge : l'érosion ralentit et la végétation se régénère. Mais la calanque est rivale, car le passage de l'un abîme ce que les autres viennent chercher, et non exclusive : c'est ce qui en fait un bien commun. Il fallait aussi le mécanisme : chacun pense que son passage ne change rien, mais 2 500 passages par jour détruisent le site.",
+          "reponse_eleve": "Les calanques de Sugiton se dégradent puisque 2500 passages par jour pendant deux mois ça détruit de sol et la tranquillité des lieux mais puisque c'est un bien commun c'est normal mais d'après le Parc national, une jauge de 400 personnes par jour et réservation obligatoire, du 20 juin au 30 août d'ici quatre étés l'érosion ralentira, la végétation se régénère malgré que ça soit non rival.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-argu",
+            "t-vocab"
+          ],
+          "reponse_attendue": "La calanque est un bien commun : rival (le piétinement de l'un abîme ce que les autres viennent chercher) et non exclusif (personne ne peut être empêché de venir). Chacun juge son passage négligeable, mais 2 500 passages par jour érodent le sol et la pinède : le bien se dégrade sans que personne le veuille. La jauge limite le nombre d'usagers, donc la rivalité, et laisse le milieu se régénérer."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Quelle défaillance de marché ? (cases à cocher)",
+          "points": 0.75,
+          "points_max": 1.5,
+          "commentaire": "Trois lignes justes. La répartition des marques entre distributeurs est un pouvoir de marché (une entente) ; les ruches qui pollinisent les vergers voisins sont une externalité, positive cette fois ; la surpêche épuise un bien commun.",
+          "reponse_eleve": "a: externalite b: bien-public-commun c: asymetrie d: externalite e: [VIDE] f: pouvoir",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a externalité · b bien public/commun · c asymétrie d'information · d pouvoir de marché · e externalité (positive) · f bien public/commun."
+        },
+        {
+          "question": "Q8",
+          "intitule": "L'entente dans le bio : qui perd, qui corrige",
+          "points": 0.0,
+          "points_max": 1.0,
+          "commentaire": "La réponse inverse le mécanisme. En se répartissant les marques, les distributeurs ne se font plus concurrence : le consommateur ne peut plus comparer, il paie plus cher et achète moins. L'Autorité de la concurrence corrige en sanctionnant l'entente, ce qui la rend moins rentable et rétablit la concurrence.",
+          "reponse_eleve": "Les distributeurs se répartissent les mêmes produits donc cela fait que le produit a une forte quantité et se vend moins cher, plus la quantité se réduit plus le client va l'acheter plus cher.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-doc",
+            "t-argu"
+          ],
+          "reponse_attendue": "En se répartissant les marques, magasins spécialisés et généralistes ne se font plus concurrence sur ces produits : le consommateur ne peut plus comparer, le prix est plus élevé et il achète moins. L'Autorité de la concurrence sanctionne (12,67 M€) : la menace d'amende rend l'entente moins rentable et rétablit la concurrence."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Quel outil de l'État ? (cases à cocher)",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Sur la capacité *énoncer des solutions pour corriger les défaillances de marché* : les six outils sont bien identifiés. Sans faute.",
+          "reponse_eleve": "a: reglementer b: taxer-quotas c: subventionner d: reglementer e: informer f: sanctionner",
+          "capacite": "e6-4",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a réglementer · b taxer/quotas · c subventionner · d réglementer · e informer · f sanctionner la concurrence."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Pourquoi la subvention ne suffit pas",
+          "points": 0.0,
+          "points_max": 1.5,
+          "commentaire": "Question non traitée. Le document 9 donne la clé : se brancher coûte plus cher à la compagnie que brûler du fioul, donc son coût privé la pousse à laisser tourner les moteurs. La subvention paie les prises mais ne change pas ce calcul : il faut réglementer, avec une obligation de branchement, ou taxer le fioul brûlé à quai.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-4",
+          "transversales": [
+            "t-argu"
+          ],
+          "reponse_attendue": "Se brancher coûte plus cher à la compagnie que le fioul : son coût privé la pousse à laisser tourner les moteurs. La subvention paie l'équipement mais ne change pas ce calcul à chaque escale. Outil complémentaire : réglementer (obligation de branchement, comme l'AFIR en 2030) ou taxer / quotas (renchérir le fioul brûlé à quai) pour rapprocher le coût privé du coût social."
+        },
+        {
+          "question": "Q11",
+          "intitule": "MaPrimeRénov' : trois signes de défaillance de l'État",
+          "points": 0.0,
+          "points_max": 1.5,
+          "commentaire": "Question non traitée. Le document 10 offrait plusieurs faits : la fraude estimée à 12 à 20 % des aides (captation et fraude), les deux suspensions du guichet (instabilité), la révision de tous les dossiers (coût et lenteur administratifs).",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-5",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Faits acceptables : fraude estimée à 12-20 % / devis survalorisés (+ 50 %) → captation et fraude ; budget de 3,6 Md€ consommé avant l'été / ne connaît pas le vrai coût → information imparfaite ; deux suspensions (été 2025, janvier 2026), 13 000 dossiers seulement → instabilité et horizon politique ; révision exhaustive des dossiers, files d'attente → coût et lenteur administratifs ; artisans qui perdent des chantiers alors que l'aide devait soutenir la rénovation → effet pervers."
+        },
+        {
+          "question": "Q12",
+          "intitule": "Défaillance de l'État : définition",
+          "points": 0.5,
+          "points_max": 1.0,
+          "commentaire": "Ta définition est juste : l'intervention publique peut coûter plus qu'elle ne rapporte. Il manquait la nuance demandée : corriger une défaillance de marché n'est donc pas toujours la bonne réponse, il faut comparer le coût de l'intervention et le gain attendu.",
+          "reponse_eleve": "Quand l'État intervient pour un besoin mais ce n'est pas suffisant et peu efficace et coûte plus qu'il apporte à la collectivité.",
+          "capacite": "e6-5",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Situation où l'intervention publique aboutit à une allocation des ressources moins efficace que celle qu'elle voulait corriger, ou coûte plus qu'elle ne rapporte à la collectivité. Nuance : corriger une défaillance de marché n'est pas automatiquement bénéfique ; il faut comparer le coût de l'intervention et le gain attendu, et choisir l'outil le moins exposé aux défaillances de l'État."
+        },
+        {
+          "question": "Q13",
+          "intitule": "L'intervention de l'État est-elle toujours la bonne solution ?",
+          "points": 0.0,
+          "points_max": 3.0,
+          "commentaire": "Question non traitée, c'est la plus lourde du dossier. Une position dès la première phrase, deux arguments appuyés chacun sur un document, par exemple MaPrimeRénov' pour le « non » ou la jauge de Sugiton pour le « oui », le vocabulaire du chapitre et une conclusion suffisent à gagner des points.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Une seule position. Position « non, pas toujours » : MaPrimeRénov' (doc 10) montre fraude, instabilité et coût administratif ; les prises à quai (doc 9) financées 200 M€ n'évitent que 3,5 % des NOx tant que rien n'oblige à se brancher ; la négociation privée (Coase) ou la jauge peuvent suffire. Position « oui, l'État doit intervenir » : sans lui, le coût externe de la fumée (20 000 voitures, 780 décès) n'est jamais payé (doc 2-3) ; Sugiton s'est régénéré grâce à la jauge (doc 4) ; les ententes ne cessent que par la sanction (doc 6) — le bon raisonnement étant de choisir l'outil adapté. Le catalogue de définitions sans position plafonne au niveau 2."
+        }
+      ],
+      "rang": 17,
+      "effectif": 25,
+      "moyenne_classe": 8.3
     }
   ],
   "classements": {
     "general": {
-      "rang": 3,
+      "rang": 20,
       "effectif": 30,
-      "moyenne": 15.75,
-      "rang_precedent": 13
+      "moyenne": 11.25,
+      "rang_precedent": 3
     },
     "types": {
+      "dossier": {
+        "rang": 22,
+        "effectif": 27,
+        "moyenne": 6.75
+      },
       "conso": {
         "rang": 6,
         "effectif": 30,
@@ -154,16 +344,16 @@
     },
     "matieres": {
       "eco": {
-        "rang": 3,
+        "rang": 20,
         "effectif": 30,
-        "moyenne": 15.75
+        "moyenne": 11.25
       }
     },
     "themes": {
       "e6": {
-        "rang": 3,
+        "rang": 20,
         "effectif": 30,
-        "moyenne": 15.75
+        "moyenne": 11.25
       }
     }
   },
@@ -177,16 +367,16 @@
       "max": 2.5
     },
     "t-doc": {
-      "pts": 5.0,
-      "max": 7.5
+      "pts": 7.0,
+      "max": 13.0
     },
     "t-vocab": {
-      "pts": 7.25,
-      "max": 8.0
+      "pts": 13.0,
+      "max": 17.5
     },
     "t-redaction": {
-      "pts": 6.5,
-      "max": 8.0
+      "pts": 7.5,
+      "max": 12.5
     },
     "e6-2": {
       "pts": 5.75,
@@ -197,8 +387,20 @@
       "max": 5.0
     },
     "t-argu": {
-      "pts": 3.5,
-      "max": 4.5
+      "pts": 4.0,
+      "max": 13.5
+    },
+    "e6-3": {
+      "pts": 4.75,
+      "max": 14.5
+    },
+    "e6-4": {
+      "pts": 1.5,
+      "max": 3.0
+    },
+    "e6-5": {
+      "pts": 0.5,
+      "max": 2.5
     }
   }
 }

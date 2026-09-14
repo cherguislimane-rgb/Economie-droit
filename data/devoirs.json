@@ -150,7 +150,11 @@
       "coef": 1,
       "titre": "Dossier — Quand le marché rate (Éco T1, chap. 2)",
       "date": "2026-09-14",
-      "note_max": 20
+      "note_max": 20,
+      "stats": {
+        "moyenne": 8.3,
+        "effectif": 25
+      }
     },
     {
       "id": "ts-e6c2-lecon",

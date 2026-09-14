@@ -345,15 +345,15 @@
   ],
   "classements": {
     "general": {
-      "rang": 4,
+      "rang": 1,
       "effectif": 30,
       "moyenne": 15.5,
-      "rang_precedent": 3
+      "rang_precedent": 4
     },
     "types": {
       "dossier": {
         "rang": 2,
-        "effectif": 12,
+        "effectif": 27,
         "moyenne": 14.25
       },
       "conso": {
@@ -364,14 +364,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 4,
+        "rang": 1,
         "effectif": 30,
         "moyenne": 15.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 4,
+        "rang": 1,
         "effectif": 30,
         "moyenne": 15.5
       }

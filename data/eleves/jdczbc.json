@@ -140,9 +140,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 21,
+      "rang": 12,
       "effectif": 30,
-      "moyenne": 12.25
+      "moyenne": 12.25,
+      "rang_precedent": 21
     },
     "types": {
       "conso": {
@@ -153,14 +154,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 21,
+        "rang": 12,
         "effectif": 30,
         "moyenne": 12.25
       }
     },
     "themes": {
       "e6": {
-        "rang": 21,
+        "rang": 12,
         "effectif": 30,
         "moyenne": 12.25
       }
