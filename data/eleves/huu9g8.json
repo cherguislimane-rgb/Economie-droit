@@ -1,7 +1,7 @@
 {
   "code": "huu9g8",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,8 +198,8 @@
         }
       ],
       "rang": 7,
-      "effectif": 13,
-      "moyenne_classe": 13.5
+      "effectif": 12,
+      "moyenne_classe": 13.6
     },
     {
       "devoir_id": "ts-e6c1-conso",
@@ -338,14 +338,15 @@
   ],
   "classements": {
     "general": {
-      "rang": 8,
+      "rang": 9,
       "effectif": 30,
-      "moyenne": 14.57
+      "moyenne": 14.57,
+      "rang_precedent": 8
     },
     "types": {
       "dossier": {
         "rang": 7,
-        "effectif": 13,
+        "effectif": 12,
         "moyenne": 13.63
       },
       "conso": {
@@ -356,14 +357,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 8,
+        "rang": 9,
         "effectif": 30,
         "moyenne": 14.57
       }
     },
     "themes": {
       "e6": {
-        "rang": 8,
+        "rang": 9,
         "effectif": 30,
         "moyenne": 14.57
       }

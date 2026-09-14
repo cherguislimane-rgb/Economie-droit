@@ -1,7 +1,7 @@
 {
   "code": "fv9gsz",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,8 +198,8 @@
         }
       ],
       "rang": 2,
-      "effectif": 13,
-      "moyenne_classe": 13.5,
+      "effectif": 12,
+      "moyenne_classe": 13.6,
       "trophees": [
         "podium"
       ]
@@ -345,14 +345,15 @@
   ],
   "classements": {
     "general": {
-      "rang": 3,
+      "rang": 4,
       "effectif": 30,
-      "moyenne": 15.5
+      "moyenne": 15.5,
+      "rang_precedent": 3
     },
     "types": {
       "dossier": {
         "rang": 2,
-        "effectif": 13,
+        "effectif": 12,
         "moyenne": 14.25
       },
       "conso": {
@@ -363,14 +364,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 3,
+        "rang": 4,
         "effectif": 30,
         "moyenne": 15.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 3,
+        "rang": 4,
         "effectif": 30,
         "moyenne": 15.5
       }

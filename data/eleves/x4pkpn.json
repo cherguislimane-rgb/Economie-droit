@@ -1,7 +1,7 @@
 {
   "code": "x4pkpn",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,8 +198,8 @@
         }
       ],
       "rang": 5,
-      "effectif": 13,
-      "moyenne_classe": 13.5,
+      "effectif": 12,
+      "moyenne_classe": 13.6,
       "trophees": [
         "sans_faute"
       ]
@@ -341,14 +341,15 @@
   ],
   "classements": {
     "general": {
-      "rang": 13,
+      "rang": 14,
       "effectif": 30,
-      "moyenne": 13.88
+      "moyenne": 13.88,
+      "rang_precedent": 13
     },
     "types": {
       "dossier": {
         "rang": 5,
-        "effectif": 13,
+        "effectif": 12,
         "moyenne": 13.75
       },
       "conso": {
@@ -359,14 +360,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 13,
+        "rang": 14,
         "effectif": 30,
         "moyenne": 13.88
       }
     },
     "themes": {
       "e6": {
-        "rang": 13,
+        "rang": 14,
         "effectif": 30,
         "moyenne": 13.88
       }

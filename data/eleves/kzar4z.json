@@ -1,7 +1,7 @@
 {
   "code": "kzar4z",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -143,9 +143,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 4,
+      "rang": 5,
       "effectif": 30,
-      "moyenne": 15.25
+      "moyenne": 15.25,
+      "rang_precedent": 4
     },
     "types": {
       "conso": {
@@ -156,14 +157,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 4,
+        "rang": 5,
         "effectif": 30,
         "moyenne": 15.25
       }
     },
     "themes": {
       "e6": {
-        "rang": 4,
+        "rang": 5,
         "effectif": 30,
         "moyenne": 15.25
       }

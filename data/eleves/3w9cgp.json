@@ -1,7 +1,7 @@
 {
   "code": "3w9cgp",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -198,8 +198,8 @@
         }
       ],
       "rang": 9,
-      "effectif": 13,
-      "moyenne_classe": 13.5
+      "effectif": 12,
+      "moyenne_classe": 13.6
     },
     {
       "devoir_id": "ts-e6c1-conso",
@@ -345,7 +345,7 @@
     "types": {
       "dossier": {
         "rang": 9,
-        "effectif": 13,
+        "effectif": 12,
         "moyenne": 13.0
       },
       "conso": {

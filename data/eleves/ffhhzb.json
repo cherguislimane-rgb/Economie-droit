@@ -1,7 +1,7 @@
 {
   "code": "ffhhzb",
   "classe": "TSTMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-14",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -140,9 +140,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 9,
+      "rang": 10,
       "effectif": 30,
-      "moyenne": 14.5
+      "moyenne": 14.5,
+      "rang_precedent": 9
     },
     "types": {
       "conso": {
@@ -153,14 +154,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 9,
+        "rang": 10,
         "effectif": 30,
         "moyenne": 14.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 9,
+        "rang": 10,
         "effectif": 30,
         "moyenne": 14.5
       }
