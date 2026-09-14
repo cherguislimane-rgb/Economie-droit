@@ -139,6 +139,42 @@
         "moyenne": 12.9,
         "effectif": 31
       }
+    },
+    {
+      "id": "ts-e6c2-dossier",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c2",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier — Quand le marché rate (Éco T1, chap. 2)",
+      "date": "2026-09-14",
+      "note_max": 20
+    },
+    {
+      "id": "ts-e6c2-lecon",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c2",
+      "type": "lecon",
+      "coef": 1,
+      "titre": "Contrôle de connaissances — Quand le marché rate (+ rappels chap. 1)",
+      "date": "2026-09-17",
+      "note_max": 20
+    },
+    {
+      "id": "ts-e6c2-conso",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c2",
+      "type": "conso",
+      "coef": 1,
+      "titre": "Consolidation — Quand le marché rate",
+      "date": "2026-09-18",
+      "note_max": 20
     }
   ],
   "chapitres": {
@@ -159,6 +195,13 @@
         "titre": "L'intervention de l'État",
         "fiche": "https://cherguislimane-rgb.github.io/Economie-droit/fiches/e6c1.html?v=1",
         "fiche_visible": true
+      },
+      {
+        "id": "e6c2",
+        "theme": "e6",
+        "titre": "Quand le marché rate",
+        "fiche": null,
+        "fiche_visible": false
       }
     ]
   },
