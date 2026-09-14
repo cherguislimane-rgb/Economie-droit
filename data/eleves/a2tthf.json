@@ -516,22 +516,22 @@
           "reponse_attendue": "Une seule position. Position « non, pas toujours » : MaPrimeRénov' (doc 10) montre fraude, instabilité et coût administratif ; les prises à quai (doc 9) financées 200 M€ n'évitent que 3,5 % des NOx tant que rien n'oblige à se brancher ; la négociation privée (Coase) ou la jauge peuvent suffire. Position « oui, l'État doit intervenir » : sans lui, le coût externe de la fumée (20 000 voitures, 780 décès) n'est jamais payé (doc 2-3) ; Sugiton s'est régénéré grâce à la jauge (doc 4) ; les ententes ne cessent que par la sanction (doc 6) — le bon raisonnement étant de choisir l'outil adapté. Le catalogue de définitions sans position plafonne au niveau 2."
         }
       ],
-      "rang": 17,
-      "effectif": 25,
-      "moyenne_classe": 8.3
+      "rang": 20,
+      "effectif": 28,
+      "moyenne_classe": 8.4
     }
   ],
   "classements": {
     "general": {
-      "rang": 21,
+      "rang": 20,
       "effectif": 30,
       "moyenne": 10.38,
-      "rang_precedent": 23
+      "rang_precedent": 21
     },
     "types": {
       "dossier": {
-        "rang": 12,
-        "effectif": 27,
+        "rang": 13,
+        "effectif": 29,
         "moyenne": 9.95
       },
       "conso": {
@@ -542,14 +542,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 21,
+        "rang": 20,
         "effectif": 30,
         "moyenne": 10.38
       }
     },
     "themes": {
       "e6": {
-        "rang": 21,
+        "rang": 20,
         "effectif": 30,
         "moyenne": 10.38
       }

@@ -517,8 +517,8 @@
         }
       ],
       "rang": 2,
-      "effectif": 25,
-      "moyenne_classe": 8.3,
+      "effectif": 28,
+      "moyenne_classe": 8.4,
       "trophees": [
         "podium"
       ]
@@ -526,15 +526,15 @@
   ],
   "classements": {
     "general": {
-      "rang": 6,
+      "rang": 5,
       "effectif": 30,
       "moyenne": 13.17,
-      "rang_precedent": 15
+      "rang_precedent": 6
     },
     "types": {
       "dossier": {
         "rang": 3,
-        "effectif": 27,
+        "effectif": 29,
         "moyenne": 12.5
       },
       "conso": {
@@ -545,14 +545,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 6,
+        "rang": 5,
         "effectif": 30,
         "moyenne": 13.17
       }
     },
     "themes": {
       "e6": {
-        "rang": 6,
+        "rang": 5,
         "effectif": 30,
         "moyenne": 13.17
       }

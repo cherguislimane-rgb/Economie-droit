@@ -319,20 +319,21 @@
         }
       ],
       "rang": 4,
-      "effectif": 25,
-      "moyenne_classe": 8.3
+      "effectif": 28,
+      "moyenne_classe": 8.4
     }
   ],
   "classements": {
     "general": {
-      "rang": 5,
+      "rang": 4,
       "effectif": 30,
-      "moyenne": 13.38
+      "moyenne": 13.38,
+      "rang_precedent": 5
     },
     "types": {
       "dossier": {
         "rang": 9,
-        "effectif": 27,
+        "effectif": 29,
         "moyenne": 11.5
       },
       "conso": {
@@ -343,14 +344,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 5,
+        "rang": 4,
         "effectif": 30,
         "moyenne": 13.38
       }
     },
     "themes": {
       "e6": {
-        "rang": 5,
+        "rang": 4,
         "effectif": 30,
         "moyenne": 13.38
       }
