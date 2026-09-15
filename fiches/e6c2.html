@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1220">
+<title>Fiche — Quand le marché rate (TSTMG-E-T1C2)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #0D1220; --card: rgba(255,255,255,.055); --card-strong: rgba(255,255,255,.09);
+    --border: rgba(255,255,255,.12); --text: #EAEEF7; --muted: #A6ADBF; --ink: #0D1220;
+    --accent: #E8735A; --accent-soft: rgba(232,115,90,.18);
+    --green: #55C89B; --green-soft: rgba(85,200,155,.16);
+    --blue: #8FB0F5; --blue-soft: rgba(111,152,240,.18);
+    --gold: #F2C94C; --gold-soft: rgba(242,201,76,.16); --red: #FF7B7B; --grey: #A6ADBF; --grey-soft: rgba(255,255,255,.10); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background-color: var(--bg);
+    background-image: radial-gradient(900px 520px at 90% -10%, rgba(232,115,90,.20), transparent 60%),
+                      radial-gradient(700px 520px at -10% 45%, rgba(85,200,155,.10), transparent 60%);
+    background-attachment: fixed; color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.55;
+    padding: 16px 14px calc(32px + env(safe-area-inset-bottom)); }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .btn { font: 600 13px 'Inter', sans-serif; text-decoration: none; padding: 9px 13px; border-radius: 12px; border: 1px solid var(--border); color: var(--muted); background: var(--card); cursor: pointer; }
+  .btn.acc { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+  .code { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 11.5px; letter-spacing: .08em; padding: 5px 10px; border-radius: 999px; }
+  h1 { font-family: 'Sora', sans-serif; font-size: 27px; line-height: 1.15; font-weight: 800; margin-top: 10px; }
+  .sub { color: var(--muted); font-size: 13.5px; margin-top: 6px; }
+
+  .part { margin-top: 26px; }
+  .part-head { display: flex; align-items: center; gap: 12px; margin: 0 2px 10px; }
+  .part-head .letter { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font: 800 18px 'Sora', sans-serif; color: var(--ink); background: var(--accent); }
+  .part-head h2 { font-family: 'Sora', sans-serif; font-size: 19px; font-weight: 700; line-height: 1.25; }
+  .part-head small { display: block; color: var(--muted); font-size: 12.5px; font-weight: 400; margin-top: 2px; }
+  .A .letter { background: var(--accent); } .B .letter { background: var(--blue); } .C .letter { background: var(--green); } .M .letter { background: var(--gold); }
+
+  .card { background: linear-gradient(160deg, rgba(255,255,255,.085), rgba(255,255,255,.04)); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-top: 12px;
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 10px 30px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.08); }
+  h3 { font-family: 'Sora', sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; }
+  .A h3 { color: var(--accent); } .B h3 { color: var(--blue); } .C h3 { color: var(--green); } .M h3 { color: var(--gold); }
+  .card p { margin-top: 9px; } .card p:first-of-type { margin-top: 8px; }
+  b { font-weight: 700; color: #fff; }
+  .ex { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; border-left: 3px solid var(--grey); }
+  .ex b:first-child { color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .def { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: 14.5px; }
+  .A .def { background: var(--accent-soft); } .B .def { background: var(--blue-soft); } .C .def { background: var(--green-soft); } .M .def { background: var(--gold-soft); }
+  .def b:first-child { color: var(--text); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  @media (max-width: 440px) { .cols { grid-template-columns: 1fr; } }
+  .col { background: var(--card-strong); border-radius: 14px; padding: 12px; font-size: 14px; }
+  .col h4 { font-family: 'Sora', sans-serif; font-size: 13.5px; margin-bottom: 6px; }
+  .col ul { padding-left: 16px; } .col li { margin: 4px 0; }
+  .retiens { margin-top: 12px; padding: 12px 14px; border-radius: 14px; background: var(--card-strong); border: 1px solid var(--border); font-size: 14.5px; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+  .retiens .tag { font: 800 11px 'Sora', sans-serif; letter-spacing: .08em; padding: 5px 8px; border-radius: 8px; color: var(--ink); margin-top: 2px; }
+  .A .retiens .tag { background: var(--accent); } .B .retiens .tag { background: var(--blue); } .C .retiens .tag { background: var(--green); } .M .retiens .tag { background: var(--gold); }
+  .cle { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; }
+  .cle b:first-child { display: block; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .cle .q { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 6px; }
+  .cle .q div { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.18); }
+  .cle .q b { color: var(--text); display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; margin: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.tot td { font-weight: 700; color: #fff; }
+
+  svg.sch { width: 100%; max-width: 420px; height: auto; display: block; margin: 12px auto 0; font-family: 'Inter', system-ui, sans-serif; }
+  .tt { fill: var(--text); } .tm { fill: var(--muted); } .ta { fill: var(--accent); } .tg { fill: var(--green); } .tr { fill: var(--red); }
+  .fa { fill: var(--accent-soft); } .fg { fill: var(--green-soft); } .fx { fill: var(--grey-soft); } .fA { fill: var(--accent); } .fM { fill: var(--grey); } .fR { fill: var(--red); }
+  .sa { stroke: var(--accent); } .sg { stroke: var(--green); } .sm { stroke: var(--grey); } .st { stroke: var(--text); } .sr { stroke: var(--red); }
+  .b7 { font-weight: 700; } .sora { font-family: 'Sora', sans-serif; }
+
+  .modele { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: rgba(0,0,0,.2); font-size: 14px; line-height: 1.6; border-left: 3px solid var(--gold); }
+  .modele mark { background: transparent; color: var(--gold); font-weight: 700; }
+  .modele u { text-decoration: none; border-bottom: 2px solid var(--blue); }
+  .modele i { color: var(--green); font-style: normal; }
+  .grille { display: grid; grid-template-columns: 56px 1fr; gap: 6px 10px; font-size: 13.5px; margin-top: 10px; }
+  .grille b { font-family: 'Sora', sans-serif; color: var(--gold); }
+
+  details { background: var(--card-strong); border-radius: 12px; padding: 10px 12px; margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 14.5px; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; color: var(--accent); font-weight: 800; font-size: 18px; flex: none; }
+  details[open] summary::after { content: '–'; }
+  details .rep { margin-top: 8px; font-size: 14px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .foot { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
+  .foot a { color: var(--accent); }
+
+  @media print {
+    :root { --bg: #fff; --card: #fff; --card-strong: #f3f4f6; --border: #cfd3da; --text: #111; --muted: #555; --ink: #fff; --accent: #B54A34; --accent-soft: #fbe7e1;
+      --green: #1f7a55; --green-soft: #e3f3ea; --blue: #2f55b8; --blue-soft: #e6ecfb; --gold: #8a6d00; --gold-soft: #fbf3d6; --red: #b3282d; --grey: #666; --grey-soft: #eef0f3; }
+    body { background: #fff; background-image: none; padding: 0; font-size: 12.5px; }
+    .top { display: none; } b { color: #000; }
+    .card { break-inside: avoid; margin-top: 10px; padding: 12px; backdrop-filter: none; box-shadow: none; background: #fff; }
+    .cle .q div, .modele { background: #f3f4f6; }
+    details { break-inside: avoid; } details .rep { display: block; } summary::after { display: none; }
+    h1 { font-size: 22px; } svg.sch { max-width: 330px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <a class="btn" href="../app/">← Mes Copies</a>
+    <button class="btn acc" onclick="window.print()">Imprimer</button>
+  </div>
+  <span class="code">TSTMG-E-T1C2 · ÉCONOMIE · THÈME 1</span>
+  <h1>Quand le marché rate</h1>
+  <p class="sub">Fiche de synthèse du chapitre 2 · Pourquoi le marché produit-il parfois trop ou trop peu, et comment l'État corrige-t-il ?</p>
+
+  <div class="card">
+    <h3 style="color:var(--text)">De quoi parle ce chapitre ?</h3>
+    <p>En Première, tu as vu que le marché concurrentiel alloue efficacement les ressources. Ce chapitre regarde les cas où cette mécanique <b>rate</b>. Dans le dossier, Élise respire la fumée des paquebots qui accostent en face de chez elle, Chloé et Tom ne peuvent pas descendre à Sugiton sans réservation, et Yanis, chauffagiste à Aubagne, perd des chantiers quand le guichet de MaPrimeRénov' ferme. Trois histoires, <b>trois questions</b> :</p>
+    <div class="cle" style="margin-top:10px">
+      <div class="q">
+        <div><b>A · Pourquoi le marché rate-t-il ?</b> Quand une partie de la facture est payée par des gens extérieurs à l'échange.</div>
+        <div><b>B · Quelles autres défaillances ?</b> Les biens qui sont à tous, l'information cachée, les vendeurs qui s'entendent.</div>
+        <div><b>C · L'État sait-il corriger ?</b> Sa boîte à outils, et les cas où il rate à son tour.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ A ══════════════ -->
+  <section class="part A">
+    <div class="part-head"><div class="letter">A</div><h2>Quand le marché laisse la facture aux autres<small>Capacité : justifier pourquoi l'allocation des ressources n'est plus efficace en présence d'une défaillance de marché</small></h2></div>
+
+    <div class="card">
+      <h3>1. Quand le marché alloue bien… et quand il rate</h3>
+      <p>Sur un marché concurrentiel, le prix d'équilibre réalise une <b>allocation efficace des ressources</b> : chaque bien est produit par ceux qui le font au moindre coût et acheté par ceux qui le valorisent le plus, sans gaspillage ni pénurie. Cela suppose quatre conditions : toutes les conséquences de l'échange sont payées par ceux qui échangent ; chacun est bien informé ; le bien peut être vendu à l'unité à qui le paie ; aucun vendeur n'est assez puissant pour dicter son prix.</p>
+      <div class="def"><b>Défaillance de marché</b> : situation où, parce qu'une de ces conditions manque, le marché livré à lui-même produit <b>trop</b> ou <b>trop peu</b> par rapport à ce qui serait bon pour la collectivité. L'allocation des ressources n'est plus efficace.</div>
+      <table>
+        <tr><th style="width:34%">Défaillance</th><th>Ce qui manque → ce qui se passe</th></tr>
+        <tr><td><b>Externalité</b></td><td>Une conséquence de l'échange touche des tiers sans passer par un prix.<br><span style="color:var(--muted)">→ trop d'activité nuisible, pas assez d'activité bénéfique.</span></td></tr>
+        <tr><td><b>Bien public ou bien commun</b></td><td>On ne peut pas écarter ceux qui ne paient pas, ou chacun puise sans limite.<br><span style="color:var(--muted)">→ personne ne le finance, personne ne le préserve.</span></td></tr>
+        <tr><td><b>Asymétrie d'information</b></td><td>L'un des deux échangistes en sait beaucoup plus que l'autre sur la qualité du bien.<br><span style="color:var(--muted)">→ l'acheteur se méfie, le marché rétrécit.</span></td></tr>
+        <tr><td><b>Pouvoir de marché</b></td><td>Un monopole ou une entente fixe le prix au lieu de le subir.<br><span style="color:var(--muted)">→ prix plus élevé, quantité plus faible.</span></td></tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h3>2. Coût privé, coût externe, coût social</h3>
+      <p>Une escale de paquebot coûte à la compagnie le carburant brûlé à quai, les redevances portuaires et les salaires de l'équipage : c'est le <b>coût privé</b>, celui qui entre dans ses comptes et donc dans le prix du billet. La fumée a un autre coût, payé par des gens qui ne sont pas parties à l'échange : consultations, journées d'école ou de travail perdues, dépenses de la Sécurité sociale. C'est le <b>coût externe</b>.</p>
+      <svg class="sch" viewBox="0 0 360 214" role="img" aria-label="Coût social égale coût privé plus coût externe ; le prix du billet ne couvre que le coût privé">
+        <path d="M20 34 v-8 h180 v8" class="sa" fill="none" stroke-width="1.5"/>
+        <text x="20" y="18" font-size="11.5" class="ta b7">le prix du billet ne couvre que ce coût</text>
+        <rect x="20" y="40" width="320" height="48" rx="10" class="fR" opacity=".45"/>
+        <rect x="20" y="40" width="180" height="48" rx="10" class="fA"/>
+        <rect x="190" y="40" width="10" height="48" class="fA"/>
+        <text x="110" y="61" text-anchor="middle" font-size="13" class="b7 sora" style="fill:var(--ink)">COÛT PRIVÉ</text>
+        <text x="110" y="78" text-anchor="middle" font-size="10" style="fill:var(--ink)">carburant, redevances, salaires</text>
+        <text x="270" y="61" text-anchor="middle" font-size="13" class="tt b7 sora">COÛT EXTERNE</text>
+        <text x="270" y="78" text-anchor="middle" font-size="10" class="tt">santé des riverains</text>
+        <path d="M20 96 v8 h320 v-8" class="st" fill="none" stroke-width="1.5" opacity=".7"/>
+        <text x="180" y="126" text-anchor="middle" font-size="14" class="tt b7 sora">COÛT SOCIAL = privé + externe</text>
+        <text x="180" y="144" text-anchor="middle" font-size="12" class="tm">ce que l'escale coûte vraiment à la collectivité</text>
+        <text x="180" y="172" text-anchor="middle" font-size="12" class="tr b7">L'écart n'entre dans aucun prix :</text>
+        <text x="180" y="189" text-anchor="middle" font-size="12" class="tr b7">le billet est trop bon marché,</text>
+        <text x="180" y="206" text-anchor="middle" font-size="12" class="tr b7">il y a trop d'escales polluantes.</text>
+      </svg>
+      <div class="def"><b>Externalité négative</b> : conséquence négative d'une activité sur des tiers qui n'ont pas participé à l'échange et ne sont pas indemnisés ; le prix du marché n'en tient pas compte. Exemples : la fumée des paquebots, le bruit d'un bar la nuit, une usine qui pollue une rivière.</div>
+      <div class="def"><b>Externalité positive</b> : l'inverse, un bénéfice pour des tiers que personne ne paie (un vaccin qui protège aussi les autres, des ruches qui pollinisent les vergers voisins). Celui qui la produit n'est pas payé pour ce bénéfice : elle est <b>sous-produite</b>.</div>
+      <div class="ex"><b>Dans le dossier</b>La croisière rapporte : 2,6 millions de croisiéristes à Marseille en 2025 (+ 8 % en un an), qui font travailler hôtels, taxis et commerces. Mais un paquebot à quai, moteurs allumés, pollue comme <b>20 000 voitures</b> ; le transport maritime émet 37 % des oxydes d'azote de la ville, et la pollution de l'air, toutes sources confondues, y cause 780 décès prématurés par an. La richesse passe par le marché (billets, hôtels) ; le coût sanitaire n'y passe pas.</div>
+    </div>
+
+    <div class="card">
+      <div class="cle"><b>Pour montrer que le marché est inefficace</b>Trois temps, dans cet ordre :
+        <div class="q">
+          <div><b>La règle</b> : le marché est efficace si le prix intègre toutes les conséquences de l'échange (coût privé = coût social).</div>
+          <div><b>Le cas</b> : la compagnie décide selon son coût privé ; la fumée est un coût externe payé par les riverains ; le coût social dépasse le coût privé, le billet est trop bon marché (un chiffre du dossier à l'appui).</div>
+          <div><b>La conclusion</b> : il y a trop d'escales polluantes par rapport à l'intérêt de la collectivité, l'allocation n'est pas efficace.</div>
+        </div>
+      </div>
+      <div class="ex"><b>Pièges à éviter</b>Les bénéfices de la croisière (hôtels, taxis) passent par le marché : ce n'est <b>pas</b> une externalité positive. La climatisation ou les piscines du navire sont des usages, pas des coûts : le coût privé, c'est ce que la compagnie <b>paie</b>. Et c'est la compagnie qui décide de l'escale et fixe le prix, pas le port qui l'autorise.</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Coût social = coût privé + coût externe. Avec une externalité négative, le producteur ne voit que son coût privé : le prix est trop bas et on produit <b>trop</b>. Avec une externalité positive, on produit <b>trop peu</b>.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ B ══════════════ -->
+  <section class="part B">
+    <div class="part-head"><div class="letter">B</div><h2>Ce qui est à tous, ce que l'on cache, ce que l'on vend trop cher<small>Même capacité : biens publics et biens communs, asymétrie d'information, pouvoir de marché</small></h2></div>
+
+    <div class="card">
+      <h3>1. Rival ou pas, exclusif ou pas : la carte des biens</h3>
+      <p>Deux questions suffisent pour classer un bien. <b>Rivalité</b> : ce que l'un consomme est-il retiré aux autres ? <b>Exclusion</b> : peut-on empêcher quelqu'un d'en profiter s'il ne paie pas ?</p>
+      <table>
+        <tr><th style="width:22%"></th><th>Exclusion possible</th><th>Exclusion impossible</th></tr>
+        <tr><td><b>Rival</b></td><td><b>Bien privé</b><br><span style="color:var(--muted)">un sandwich, une place de concert</span><br>Le marché fonctionne.</td><td><b>Bien commun</b><br><span style="color:var(--muted)">la calanque en été, les poissons de la Méditerranée</span><br>Risque d'épuisement.</td></tr>
+        <tr><td><b>Non rival</b></td><td><b>Bien de club</b><br><span style="color:var(--muted)">une plateforme de vidéo, une autoroute à péage</span><br>Le marché fonctionne.</td><td><b>Bien public</b><br><span style="color:var(--muted)">un phare, l'éclairage d'une rue, la défense nationale</span><br>Personne ne veut payer.</td></tr>
+      </table>
+      <div class="def"><b>Passager clandestin</b> : celui qui profite d'un bien sans le payer, parce qu'on ne peut pas l'en exclure. Aucun armateur ne paiera un phare que tous les bateaux voient gratuitement : le marché ne le produit pas. Les biens publics sont donc financés par l'impôt et produits ou commandés par l'État (P. Samuelson, 1954).</div>
+    </div>
+
+    <div class="card">
+      <h3>2. La tragédie des biens communs</h3>
+      <p>La calanque de Sugiton est à tous. Chaque visiteur pense, à juste titre, que <i>son</i> passage ne change rien. Mais jusqu'à 2 500 passages par jour, tout l'été, font glisser la terre vers la mer et empêchent la végétation de repousser : ils détruisent ce que chacun venait chercher. Le biologiste Garrett Hardin (1968) appelle ce mécanisme la <b>tragédie des biens communs</b> : ce qui est à tous et que rien ne limite finit dégradé, même si personne ne le souhaite.</p>
+      <div class="def"><b>Bien commun</b> : bien <b>rival</b> (l'usage de l'un abîme ou retire ce que les autres viennent chercher) et <b>non exclusif</b> (on ne peut pas empêcher les gens d'y accéder).</div>
+      <div class="ex"><b>Dans le dossier</b>Depuis 2022, le Parc national des Calanques, un établissement public, limite l'accès à <b>400 personnes par jour</b> l'été, sur réservation gratuite. Ce n'est pas un prix, c'est une jauge. Bilan après quatre étés : l'érosion ralentit et la végétation se régénère.</div>
+      <div class="ex"><b>Piège à éviter</b>La calanque ne devient pas rivale à cause de la jauge : elle l'est par nature. La jauge limite le nombre d'usagers, donc l'usure, en créant une forme d'exclusion.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. Quand l'un en sait plus que l'autre</h3>
+      <p>Le vendeur d'une voiture d'occasion sait si le moteur a chauffé ou si l'accident a été bien réparé ; l'acheteur, lui, ne le sait pas. L'économiste George Akerlof (1970) a montré l'engrenage qui suit :</p>
+      <div class="grille">
+        <b>1</b><span>L'acheteur, qui craint de tomber sur une mauvaise voiture (un « citron »), ne propose qu'un <strong>prix moyen</strong>.</span>
+        <b>2</b><span>Les propriétaires de bonnes voitures refusent ce prix et <strong>se retirent</strong> du marché.</span>
+        <b>3</b><span>Il ne reste que les mauvaises voitures : le prix <strong>baisse encore</strong>.</span>
+        <b>4</b><span>Le marché <strong>rétrécit</strong>, jusqu'à disparaître, alors qu'il était utile à tous.</span>
+      </div>
+      <div class="def"><b>Asymétrie d'information</b> : situation où l'un des deux échangistes en sait beaucoup plus que l'autre sur la qualité du bien.</div>
+      <div class="ex"><b>La correction : obliger à informer</b>Contrôle technique de moins de six mois pour vendre une voiture de plus de quatre ans, garantie légale de deux ans chez un professionnel, historique du véhicule (Histovec). Même principe pour le Nutri-Score des aliments, le diagnostic de performance énergétique (DPE) d'un logement ou l'information des investisseurs, surveillée par l'Autorité des marchés financiers (AMF).</div>
+    </div>
+
+    <div class="card">
+      <h3>4. Quand les vendeurs s'entendent : le pouvoir de marché</h3>
+      <p>En concurrence, chaque vendeur <b>subit</b> le prix du marché. Un monopole, ou plusieurs vendeurs qui s'entendent, <b>fixent</b> le prix : ils réduisent la quantité offerte et vendent plus cher. Le consommateur paie davantage, achète moins, et une partie de la richesse que l'échange aurait créée disparaît.</p>
+      <div class="ex"><b>Dans le dossier</b>Des magasins bio spécialisés et des enseignes de la grande distribution se sont <b>réparti les marques</b> des fournisseurs : à chacun ses marques, donc moins de concurrence entre les rayons. Le 16 avril 2026, l'Autorité de la concurrence, autorité administrative indépendante créée en 2008, les a sanctionnés : <b>12,67 millions d'euros</b> d'amende. Elle peut aller jusqu'à 10 % du chiffre d'affaires mondial.</div>
+      <div class="ex"><b>Piège à éviter</b>Citer le montant de l'amende n'explique rien. Ce qui corrige, c'est le mécanisme : la sanction rend l'entente moins rentable, les vendeurs se refont concurrence et le prix baisse.</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Bien public (non rival, non exclusif) → passager clandestin → <b>sous-production</b>. Bien commun (rival, non exclusif) → <b>surexploitation</b>. Asymétrie d'information → le marché <b>rétrécit</b>. Pouvoir de marché → prix <b>trop élevé</b>, quantité trop faible.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ C ══════════════ -->
+  <section class="part C">
+    <div class="part-head"><div class="letter">C</div><h2>L'État corrige… et rate parfois<small>Capacités : énoncer des solutions pour corriger les défaillances de marché · citer des situations de défaillance de l'État</small></h2></div>
+
+    <div class="card">
+      <h3>1. La boîte à outils de l'État</h3>
+      <table>
+        <tr><th style="width:30%">Outil</th><th>Principe · exemple</th></tr>
+        <tr><td><b>Réglementer</b></td><td>Interdire, obliger, plafonner : la loi fixe la quantité ou le comportement.<br><span style="color:var(--muted)">Branchement électrique à quai obligatoire dans les grands ports européens au 1ᵉʳ janvier 2030 (règlement AFIR) ; jauge de Sugiton.</span></td></tr>
+        <tr><td><b>Taxer, ou vendre des droits à polluer</b></td><td>Faire payer le coût externe au pollueur (« pollueur-payeur ») pour ramener son coût privé au niveau du coût social.<br><span style="color:var(--muted)">Depuis 2024, les compagnies maritimes achètent des quotas d'émission de CO₂ sur le marché européen.</span></td></tr>
+        <tr><td><b>Subventionner</b></td><td>Payer pour ce qui profite aux autres et que le marché ne produit pas assez.<br><span style="color:var(--muted)">Plus de 200 M€ publics pour les prises à quai de Marseille ; MaPrimeRénov' (3,6 Md€ en 2025).</span></td></tr>
+        <tr><td><b>Produire ou financer soi-même</b></td><td>Fournir directement un bien public.<br><span style="color:var(--muted)">Le Parc national des Calanques, les phares, les lycées.</span></td></tr>
+        <tr><td><b>Informer, labelliser</b></td><td>Réduire l'asymétrie d'information.<br><span style="color:var(--muted)">Nutri-Score, DPE, contrôle technique, AMF.</span></td></tr>
+        <tr><td><b>Surveiller la concurrence</b></td><td>Empêcher et sanctionner les ententes et les abus de position dominante.<br><span style="color:var(--muted)">Autorité de la concurrence : 12,67 M€ d'amende dans le bio.</span></td></tr>
+      </table>
+      <div class="cle"><b>Quel outil pour quelle défaillance ?</b>
+        <div class="q">
+          <div>Externalité négative → <b>taxer</b> ou <b>réglementer</b> ; externalité positive → <b>subventionner</b>.</div>
+          <div>Bien public → l'État le <b>produit ou le finance</b> par l'impôt ; bien commun → il <b>limite l'accès</b> (la jauge de Sugiton).</div>
+          <div>Asymétrie d'information → <b>informer</b> ; pouvoir de marché → <b>surveiller et sanctionner</b>.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>2. Pourquoi la subvention ne suffit pas toujours</h3>
+      <p>Depuis le 11 avril 2026, trois paquebots peuvent se brancher en même temps au réseau électrique du port de Marseille et couper leurs moteurs, grâce à plus de 200 M€ d'argent public. L'expérience des ferries invite pourtant à la prudence : leurs quais sont électrifiés depuis 2017, et en 2023, <b>3,5 % seulement</b> des émissions d'oxydes d'azote du port étaient évitées grâce au branchement.</p>
+      <p>L'explication tient en deux mots : <b>coût privé</b>. Se brancher coûte plus cher à la compagnie que brûler du fioul ; tant que c'est le cas, elle laisse tourner ses moteurs. La subvention a payé les prises, mais elle ne change pas ce calcul à chaque escale.</p>
+      <div class="ex"><b>À comprendre</b>Financer l'équipement ne change pas le comportement. Pour que les navires se branchent, il faut <b>réglementer</b> (le branchement obligatoire en 2030) ou <b>taxer</b> le fioul brûlé à quai : on rapproche alors le coût privé du coût social.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. La défaillance de l'État</h3>
+      <div class="def"><b>Défaillance de l'État</b> : situation où l'intervention publique aboutit à une allocation des ressources <b>moins efficace</b> que celle qu'elle voulait corriger, ou <b>coûte plus qu'elle ne rapporte</b> à la collectivité.</div>
+      <p>Les économistes du <i>Public Choice</i> (J. Buchanan et G. Tullock, 1962) rappellent que les décideurs publics, comme les autres, ont une information limitée et des intérêts propres. MaPrimeRénov', l'aide à la rénovation des logements, montre les cinq types de défaillance :</p>
+      <table>
+        <tr><th style="width:36%">Type</th><th>Ce qui se passe · MaPrimeRénov' 2025-2026</th></tr>
+        <tr><td><b>Information imparfaite</b></td><td>L'État ne connaît pas mieux que le marché le vrai coût des choses.<br><span style="color:var(--muted)">Il subventionne des devis gonflés ; le budget de 3,6 Md€ prévu pour l'année est presque épuisé dès juin.</span></td></tr>
+        <tr><td><b>Captation et fraude</b></td><td>L'aide attire des acteurs qui la détournent.<br><span style="color:var(--muted)">Fraude estimée à 12 à 20 % des aides ; 21 000 tentatives bloquées en 2025.</span></td></tr>
+        <tr><td><b>Coût et lenteur administratifs</b></td><td>Contrôler et instruire coûte cher et prend du temps.<br><span style="color:var(--muted)">Guichet fermé tout l'été 2025 pour réviser tous les dossiers.</span></td></tr>
+        <tr><td><b>Instabilité et horizon politique</b></td><td>Les règles changent au gré des budgets : plus personne ne peut prévoir.<br><span style="color:var(--muted)">Deux suspensions en six mois (été 2025, janvier 2026) ; réouverture limitée à 13 000 dossiers.</span></td></tr>
+        <tr><td><b>Effets pervers</b></td><td>La mesure produit l'inverse du but visé.<br><span style="color:var(--muted)">L'aide devait soutenir la rénovation : des artisans perdent des chantiers, des propriétaires reportent leurs travaux.</span></td></tr>
+      </table>
+      <div class="ex"><b>Pièges à éviter</b>La pollution est une défaillance de <b>marché</b> ; la fraude à une aide publique est une défaillance de <b>l'État</b>. Et un montant d'aide (19,2 Md€ distribués depuis 2020) n'est pas en soi une défaillance : cherche ce qui dysfonctionne (fraude, suspensions, lenteurs).</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>L'État dispose de six outils : réglementer, taxer, subventionner, produire, informer, surveiller la concurrence. Mais corriger une défaillance de marché n'est pas automatiquement bénéfique : il faut <b>comparer le coût de l'intervention et le gain attendu</b>, et choisir l'outil le moins exposé aux défaillances de l'État.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MÉTHODE ══════════════ -->
+  <section class="part M">
+    <div class="part-head"><div class="letter">M</div><h2>Méthode : l'argumentation type bac<small>Sujet du dossier : « Face à une défaillance de marché, l'intervention de l'État est-elle toujours la bonne solution ? »</small></h2></div>
+
+    <div class="card">
+      <h3>Un argument complet, sur le sujet du chapitre</h3>
+      <p>Comme au chapitre 1, un argument enchaîne trois choses : <mark style="background:transparent;color:var(--gold);font-weight:700">une affirmation</mark>, <u style="text-decoration:none;border-bottom:2px solid var(--blue)">une preuve tirée d'un document</u> (un chiffre, un exemple, une définition), et <i style="color:var(--green);font-style:normal">une explication</i> qui montre pourquoi la preuve soutient l'affirmation.</p>
+      <div class="modele">
+        <mark>L'intervention de l'État n'est pas toujours la bonne solution, car elle peut coûter plus qu'elle ne rapporte.</mark> <u>D'après le document 10, la fraude représente 12 à 20 % des aides de MaPrimeRénov', et le guichet a été suspendu deux fois en six mois.</u> <i>Une partie de l'argent public finance des devis gonflés au lieu de la rénovation, et les artisans ne peuvent plus prévoir leurs chantiers : c'est une défaillance de l'État. Avant d'intervenir, il faut donc comparer le coût de l'intervention et le gain attendu.</i>
+      </div>
+      <p style="margin-top:10px;font-size:13.5px;color:var(--muted)">Doré = affirmation · souligné bleu = preuve du dossier · vert = explication. C'est ce qui vaut le niveau 4.</p>
+    </div>
+
+    <div class="card">
+      <h3>Le plan en quatre temps</h3>
+      <div class="grille">
+        <b>1</b><span><b>Ma position</b>, en une phrase, dès le début : oui ou non, et une seule.</span>
+        <b>2</b><span><b>Premier argument</b> = affirmation + preuve (document) + explication.</span>
+        <b>3</b><span><b>Deuxième argument</b>, différent du premier, appuyé sur un <b>autre</b> document.</span>
+        <b>4</b><span><b>Conclusion</b> : je réponds à la question posée, sans ajouter d'idée nouvelle.</span>
+      </div>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--blue)">Si tu réponds « non, pas toujours »</h4><ul><li>MaPrimeRénov' : fraude, suspensions, lenteurs (doc. 10 et 11).</li><li>Prises à quai : plus de 200 M€ publics, mais 3,5 % seulement des émissions évitées tant que rien n'oblige à se brancher (doc. 9).</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Si tu réponds « oui, il faut intervenir »</h4><ul><li>Sans l'État, personne ne paie la fumée : un paquebot à quai pollue comme 20 000 voitures (doc. 2 et 3).</li><li>Sugiton se régénère grâce à la jauge (doc. 4) ; une entente ne cesse que si elle est sanctionnée (doc. 6).</li></ul></div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Une seule position : « oui et non » sans trancher, ou une liste de définitions sans position, ne dépasse pas le niveau 2. Il faut deux arguments complets sur deux documents différents, le vocabulaire du chapitre (externalité, coût social, bien commun, asymétrie d'information, défaillance de l'État) et une conclusion.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AUTO-CONTRÔLE ══════════════ -->
+  <section class="part">
+    <div class="part-head"><div class="letter" style="background:var(--grey)">✓</div><h2>Je vérifie que j'ai compris<small>Réponds dans ta tête, puis touche pour vérifier</small></h2></div>
+    <div class="card">
+      <details><summary>Coût privé d'une production : 100 ; coût externe : 40. Que vaut le coût social, et que fait le marché ?</summary><div class="rep">Coût social = 100 + 40 = <b>140</b>. Le producteur ne voit que ses 100 : son prix est trop bas et il produit <b>trop</b> par rapport à l'intérêt de la collectivité.</div></details>
+      <details><summary>Pourquoi le billet de croisière est-il « trop bon marché » ?</summary><div class="rep">La compagnie le calcule sur son <b>coût privé</b> (carburant, redevances, salaires). Le coût externe de la fumée, payé par les riverains et la Sécurité sociale, n'y entre pas : il y a trop d'escales polluantes.</div></details>
+      <details><summary>Une plateforme de vidéo par abonnement : rivale ? exclusive ? quel type de bien ?</summary><div class="rep">Non rivale (ton visionnage n'empêche pas celui des autres) et exclusion possible (sans abonnement, pas d'accès) : c'est un <b>bien de club</b>, le marché fonctionne.</div></details>
+      <details><summary>Pourquoi aucune entreprise ne construirait-elle un phare ?</summary><div class="rep">C'est un <b>bien public</b>, non rival et non exclusif : chaque bateau le voit gratuitement, c'est le <b>passager clandestin</b>. Personne ne paierait, donc le marché ne le produit pas : l'État le finance par l'impôt.</div></details>
+      <details><summary>Sugiton se dégradait alors qu'aucun visiteur ne le voulait. Pourquoi ?</summary><div class="rep">C'est la <b>tragédie des biens communs</b> : chacun juge son passage négligeable, mais le cumul (jusqu'à 2 500 passages par jour) détruit le site. La calanque est rivale et non exclusive ; la jauge de 400 personnes limite l'usure.</div></details>
+      <details><summary>Sans contrôle technique, pourquoi les bonnes voitures d'occasion se feraient-elles rares ?</summary><div class="rep">L'acheteur ignore la qualité et ne propose qu'un prix moyen ; les vendeurs de bonnes voitures se retirent, il ne reste que les mauvaises et le prix baisse encore. C'est l'<b>asymétrie d'information</b> (Akerlof) : l'obligation d'informer la corrige.</div></details>
+      <details><summary>Les prises à quai existent : pourquoi tant de navires ne se branchent-ils pas ?</summary><div class="rep">Parce que se brancher coûte plus cher que brûler du fioul : le <b>coût privé</b> pousse à laisser tourner les moteurs. La subvention a payé l'équipement sans changer ce calcul : il faut <b>réglementer</b> ou <b>taxer</b>.</div></details>
+      <details><summary>Une aide publique fraudée à 12-20 % : défaillance de marché ou de l'État ? De quel type ?</summary><div class="rep">Défaillance de <b>l'État</b>, de type <b>captation et fraude</b> : l'aide attire des acteurs qui la détournent.</div></details>
+      <details><summary>En quoi une amende de l'Autorité de la concurrence corrige-t-elle une entente ?</summary><div class="rep">Elle rend l'entente <b>moins rentable</b> : les vendeurs se refont concurrence, le prix baisse et le consommateur retrouve le choix.</div></details>
+    </div>
+  </section>
+
+  <p class="foot">Pour les rappels du chapitre 1 (État-gendarme et État-providence, déficit et dette), revois aussi <a href="e6c1.html?v=1">la fiche du chapitre 1</a>.<br>Données : Marseille Provence Croisières (bilan 2025), AtmoSud (avril 2026), Parc national des Calanques (2026), Autorité de la concurrence (décision du 16 avril 2026), Anah (bilan 2025), règlement européen AFIR.</p>
+</div>
+</body>
+</html>
