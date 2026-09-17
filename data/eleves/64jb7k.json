@@ -1,7 +1,7 @@
 {
   "code": "64jb7k",
   "classe": "TSTMG",
-  "maj": "2026-09-14",
+  "maj": "2026-09-17",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -140,10 +140,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 2,
-      "effectif": 30,
+      "rang": 1,
+      "effectif": 31,
       "moyenne": 14.25,
-      "rang_precedent": 3
+      "rang_precedent": 2
     },
     "types": {
       "conso": {
@@ -154,15 +154,15 @@
     },
     "matieres": {
       "eco": {
-        "rang": 2,
-        "effectif": 30,
+        "rang": 1,
+        "effectif": 31,
         "moyenne": 14.25
       }
     },
     "themes": {
       "e6": {
-        "rang": 2,
-        "effectif": 30,
+        "rang": 1,
+        "effectif": 31,
         "moyenne": 14.25
       }
     }

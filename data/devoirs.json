@@ -182,7 +182,11 @@
       "coef": 1,
       "titre": "Contrôle de connaissances — Quand le marché rate (+ rappels chap. 1)",
       "date": "2026-09-17",
-      "note_max": 20
+      "note_max": 20,
+      "stats": {
+        "moyenne": 8.6,
+        "effectif": 28
+      }
     },
     {
       "id": "ts-e6c2-conso",

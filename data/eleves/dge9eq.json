@@ -1,7 +1,7 @@
 {
   "code": "dge9eq",
   "classe": "TSTMG",
-  "maj": "2026-09-14",
+  "maj": "2026-09-17",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -324,14 +324,275 @@
       "rang": 11,
       "effectif": 28,
       "moyenne_classe": 8.4
+    },
+    {
+      "devoir_id": "ts-e6c2-lecon",
+      "note": 8.0,
+      "publie_le": "2026-09-17",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Définition : défaillance de marché",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Une défaillance de marché, c'est quand le marché, livré à lui-même, produit trop ou trop peu par rapport à ce qui serait bon pour la collectivité : l'allocation des ressources n'est plus efficace.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Situation où le marché, livré à lui-même, produit trop ou trop peu par rapport à ce qui serait bon pour la collectivité, parce qu'une des conditions de la concurrence manque : l'allocation des ressources n'est plus efficace."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Définition : externalité négative",
+          "points": 0.75,
+          "points_max": 1,
+          "commentaire": "L'impact sur la population et l'exemple du bar sont justes. Ajoute que ces tiers sont extérieurs à l'échange et ne reçoivent aucune compensation.",
+          "reponse_eleve": "Une externalité négative, c'est quand servir un intérêt commun a un impact mauvais sur l'environnement et/ou la population. Un bar dans la rue met de la musique à fond, les voisins ne dorment plus.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Conséquence négative d'une activité sur des tiers qui n'ont pas participé à l'échange et ne sont pas indemnisés ; le prix du marché n'en tient pas compte. Exemple : la fumée des paquebots à quai qui abîme la santé des riverains."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Quelle défaillance de marché ?",
+          "points": 0.75,
+          "points_max": 1,
+          "commentaire": "Trois lignes justes. Les herbiers de la rade sont une ressource accessible à tous que chaque bateau abîme : c'est un bien commun, pas une externalité.",
+          "reponse_eleve": "a: externalite b: pouvoir c: asymetrie d: externalite",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a: externalite (Un bar de la rue de la Loge diffuse de la musique jusqu'à 2 h du… → Externalité) ; b: pouvoir (Trois producteurs de béton de la région se mettent d'accord pour… → Pouvoir de marché) ; c: asymetrie (Le vendeur d'un scooter d'occasion cache que le moteur a déjà été… → Asymétrie d'information) ; d: bien-public-commun (Chaque été, des milliers de bateaux jettent l'ancre dans les… → Bien public ou commun)"
+        },
+        {
+          "question": "Q4",
+          "intitule": "Bien public et bien commun",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Tu vas droit au critère qui sépare les deux biens, la rivalité, avec deux exemples justes. Ajoute que tous deux sont non exclusifs : on ne peut empêcher personne d'en profiter.",
+          "reponse_eleve": "Un bien public, contrairement à un bien commun, n'est pas rival. Ex. de bien public -> lampadaire. Ex. de bien commun -> la pêche",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Un bien public est non rival (ma consommation ne prive personne) et non exclusif (on ne peut empêcher personne d'en profiter) : un phare, l'éclairage public. Un bien commun est rival (l'usage de l'un abîme ou retire ce que les autres viennent chercher) mais non exclusif : la calanque de Sugiton en été, les poissons de la Méditerranée."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Mécanisme : trop d'escales polluantes",
+          "points": 0.0,
+          "points_max": 2,
+          "commentaire": "Question non traitée, c'est la plus lourde du contrôle. La compagnie décide selon son coût privé ; la fumée est un coût externe subi par les riverains ; le coût social (privé + externe) dépasse le coût privé, donc le billet est trop bon marché et il y a trop d'escales.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "La compagnie décide de faire escale et fixe le prix du billet en fonction de son seul coût privé (carburant, redevances, salaires). La fumée impose un coût externe aux riverains (santé), qui ne participent pas à l'échange et ne sont pas indemnisés. Le coût social (privé + externe) est donc supérieur au coût privé : le billet est trop bon marché. Il y a trop d'escales polluantes par rapport à l'intérêt de la collectivité : l'allocation des ressources n'est pas efficace."
+        },
+        {
+          "question": "Q6",
+          "intitule": "L'asymétrie d'information",
+          "points": 0.75,
+          "points_max": 1,
+          "commentaire": "Définition juste, et tu expliques bien que les acheteurs méfiants ne veulent plus payer le prix. Va au bout : les vendeurs de bonnes voitures se retirent, il ne reste que les mauvaises, le marché rétrécit.",
+          "reponse_eleve": "L'asymétrie d'information, c'est le fait de cacher au client une erreur sur un produit. Ex. voiture d'occasion : les clients ne veulent plus acheter des voitures d'occasion à leur prix initial car ils craignent que le vendeur leur a caché un défaut sur la voiture.",
+          "capacite": "e6-3",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Situation où l'un des échangistes (le vendeur) en sait beaucoup plus que l'autre sur la qualité du bien. L'acheteur, qui craint de tomber sur une mauvaise voiture, ne propose qu'un prix moyen ; les vendeurs de bonnes voitures se retirent ; il ne reste que les mauvaises, le prix baisse encore et le marché rétrécit."
+        },
+        {
+          "question": "Q7",
+          "intitule": "À chaque défaillance son remède",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "Vérifications obligatoires et limite de visiteurs : justes. Contre une entente, l'État ne fixe pas les prix : il surveille la concurrence et sanctionne. Ligne d vide : taxer ou réglementer les paquebots.",
+          "reponse_eleve": "a: Obliger des vérifications sur le produit vendu b: Mettre des prix fixes pour les produits c: Exiger une limite de consommateurs par jour d: [VIDE]",
+          "capacite": "e6-4",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a (Asymétrie d'information) : informer, labelliser, obliger le vendeur à informer (contrôle technique, Nutri-Score, DPE) ; b (Pouvoir de marché (entente entre vendeurs)) : surveiller la concurrence et sanctionner (amende de l'Autorité de la concurrence) ; c (Bien commun surexploité (la calanque de Sugiton)) : limiter l'accès, réglementer (jauge de 400 personnes, réservation) ; d (Externalité négative (la fumée des paquebots)) : taxer ou faire payer des droits à polluer, ou réglementer (branchement à quai obligatoire en 2030)"
+        },
+        {
+          "question": "Q8",
+          "intitule": "Pourquoi la subvention ne suffit pas",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Se brancher coûte plus cher à la compagnie que garder ses moteurs : elle n'y a pas intérêt. L'État peut alors réglementer (branchement obligatoire) ou taxer.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-4",
+          "transversales": [
+            "t-redaction"
+          ],
+          "reponse_attendue": "Se brancher coûte plus cher à la compagnie que brûler du fioul : son coût privé ne l'incite pas à se brancher, la subvention a payé les prises mais ne change pas ce calcul. L'État peut réglementer (branchement obligatoire en 2030) ou taxer le fioul brûlé à quai pour rapprocher le coût privé du coût social."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Définition : défaillance de l'État",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Une défaillance de l'État, c'est une intervention publique qui aboutit à un résultat moins efficace ou coûte plus qu'elle ne rapporte ; exemple : MaPrimeRénov' (fraude, guichet suspendu).",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-5",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Situation où l'intervention publique aboutit à une allocation des ressources moins efficace que celle qu'elle voulait corriger, ou coûte plus qu'elle ne rapporte. Exemple : MaPrimeRénov' (fraude de 12 à 20 % des aides, guichet suspendu deux fois, artisans qui perdent des chantiers)."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Rappel — les fonctions régaliennes",
+          "points": 0.25,
+          "points_max": 1,
+          "commentaire": "Oui, ce sont des fonctions que seul l'État exerce. Mais tu cites ensuite les fonctions de Musgrave : les fonctions régaliennes sont la police, la justice et la défense.",
+          "reponse_eleve": "C'est des fonctions uniquement exécutées par l'État. Allocation Distribution Régulation",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Missions que seul l'État peut assurer parce qu'elles engagent sa souveraineté : la police (sécurité), la justice et la défense."
+        },
+        {
+          "question": "Q11",
+          "intitule": "Rappel — État-gendarme et État-providence",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Sur la capacité *expliquer les différences entre État-gendarme et État-providence* : deux définitions justes et deux exemples bien choisis. Très bien.",
+          "reponse_eleve": "État-gendarme, c'est uniquement la sécurité et la justice. Ex. arrestation d'un malfaiteur par la police. État-providence, c'est s'occuper de l'économie / sécurité sociale. Ex. : réguler les prix trop hauts de l'électricité dans une petite entreprise",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "L'État-gendarme se limite aux fonctions régaliennes : il fixe les règles et les fait respecter (un tribunal qui tranche un litige). L'État-providence, né en 1945, y ajoute la protection contre les risques de la vie et la correction du marché : allocation, redistribution, régulation (le RSA, le bouclier tarifaire)."
+        },
+        {
+          "question": "Q12",
+          "intitule": "Rappel — les trois fonctions de Musgrave",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "Les trois fonctions sont là (on dit « redistribution »). Aider les familles dans le besoin, c'est de la redistribution ; l'allocation finance ce que le marché ne fournit pas (routes, lycées). Pour la régulation, un exemple : le bouclier tarifaire.",
+          "reponse_eleve": "1. Fonction : Allocation / Exemple : Allouer de l'argent pour les familles dans le besoin 2. Fonction : Distribution / Exemple : Distribuer à ceux qui ont besoin 3. Fonction : Régulation / Exemple : Réguler l'économie du pays",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Allocation (routes, lycées, recherche) ; redistribution (retraites, RSA, allocations familiales) ; régulation (bouclier tarifaire, relance en crise)."
+        },
+        {
+          "question": "Q13",
+          "intitule": "Rappel — libéraux et interventionnistes",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "Les deux positions sont justes. Il manquait une mesure typique de chacun : privatiser ou baisser les impôts ; nationaliser ou dépenser pour relancer.",
+          "reponse_eleve": "Les libéraux ne veulent pas d'intervention de l'État car ça fausserait l'économie, tandis que les interventionnistes disent qu'ils sont nécessaires pour pas causer la faillite du pays.",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Libéraux : le marché s'équilibre seul, l'État se limite au régalien ; mesures : privatiser, baisser les impôts. Interventionnistes : le marché ne revient pas seul au plein-emploi, l'État doit relancer et corriger ; mesures : nationaliser, dépenser, hausser le SMIC."
+        },
+        {
+          "question": "Q14",
+          "intitule": "Rappel — statut des entreprises",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Sans faute, y compris la FDJ, semi-publique avec 20 % du capital.",
+          "reponse_eleve": "a: publique b: semi-publique c: privee d: semi-publique",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a: publique (EDF depuis 2023 : l'État détient 100 % du capital. → Publique) ; b: semi-publique (Aéroports de Paris : l'État détient 50,6 % du capital. → Semi-publique) ; c: privee (La boulangerie de Nadia : le capital appartient à Nadia et à son… → Privée) ; d: semi-publique (La Française des Jeux après 2019 : l'État détient environ 20 % du… → Semi-publique)"
+        },
+        {
+          "question": "Q15",
+          "intitule": "Rappel — privatisation et nationalisation",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "La privatisation est bien décrite comme un passage au privé. Pour la nationalisation, décris aussi l'opération : l'État rachète tout ou partie du capital d'une entreprise.",
+          "reponse_eleve": "Une privatisation -> une entreprise semi-publique/publique devient entièrement privée. Nationalisation, quand une entreprise appartient à 100 % à l'État",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Privatisation : l'État vend tout ou partie de ses actions d'une entreprise au secteur privé (il se désengage). Nationalisation : l'État rachète tout ou partie du capital d'une entreprise privée (il s'engage)."
+        },
+        {
+          "question": "Q16",
+          "intitule": "Rappel — impôt et cotisation sociale",
+          "points": 0.5,
+          "points_max": 1,
+          "commentaire": "TVA et retraite sont de bons exemples (la TVA se paie sur les achats, pas sur le salaire). Mais la cotisation sociale est obligatoire, elle aussi : la différence, c'est que l'impôt est sans contrepartie directe alors que la cotisation ouvre un droit à une prestation.",
+          "reponse_eleve": "L'impôt est obligatoire et parfois directement prélevé sur le salaire (TVA). Cotisation sociale (retraite) non obligatoire",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "L'impôt est un prélèvement obligatoire sans contrepartie directe (TVA, impôt sur le revenu). La cotisation sociale ouvre un droit à une prestation (retraite, chômage, remboursement des soins) : cotisation retraite sur le bulletin de paie."
+        },
+        {
+          "question": "Q17",
+          "intitule": "Rappel — déficit public et dette publique",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Déficit : dépenses supérieures aux recettes sur une année (flux). Dette : total des emprunts passés non remboursés (stock).",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Déficit public : solde négatif des administrations publiques sur une année (dépenses supérieures aux recettes) ; c'est un flux. Dette publique : total des emprunts passés des administrations publiques pas encore remboursés ; c'est un stock."
+        },
+        {
+          "question": "Q18",
+          "intitule": "Rappel — le premier poste de dépense publique",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Le premier poste, ce sont les prestations sociales (retraites, santé, chômage, famille) : la marque de l'État-providence.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Les prestations sociales (retraites, santé, chômage, famille : environ 772 Md€, 45 % du total en 2025). C'est la marque de l'État-providence."
+        },
+        {
+          "question": "Q19",
+          "intitule": "Rappel — le paradoxe de 2025",
+          "points": 0.0,
+          "points_max": 1,
+          "commentaire": "Question non traitée. Même plus petit, un déficit reste un flux d'emprunts nouveaux qui s'ajoute au stock de dette : elle continue donc d'augmenter.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-2",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Le déficit est un flux : ce que l'État emprunte pendant l'année. La dette est un stock : l'accumulation des emprunts non remboursés. Même plus petit, un déficit reste un déficit : l'État emprunte encore et ajoute ce montant à la dette, qui continue donc d'augmenter. La dette ne baisserait que si le solde devenait positif."
+        }
+      ],
+      "rang": 14,
+      "effectif": 28,
+      "moyenne_classe": 8.6
     }
   ],
   "classements": {
     "general": {
-      "rang": 7,
-      "effectif": 30,
-      "moyenne": 12.62,
-      "rang_precedent": 8
+      "rang": 13,
+      "effectif": 31,
+      "moyenne": 11.08,
+      "rang_precedent": 7
     },
     "types": {
       "dossier": {
@@ -343,27 +604,32 @@
         "rang": 2,
         "effectif": 30,
         "moyenne": 16.75
+      },
+      "lecon": {
+        "rang": 14,
+        "effectif": 28,
+        "moyenne": 8.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 7,
-        "effectif": 30,
-        "moyenne": 12.62
+        "rang": 13,
+        "effectif": 31,
+        "moyenne": 11.08
       }
     },
     "themes": {
       "e6": {
-        "rang": 7,
-        "effectif": 30,
-        "moyenne": 12.62
+        "rang": 13,
+        "effectif": 31,
+        "moyenne": 11.08
       }
     }
   },
   "capacites": {
     "e6-1": {
-      "pts": 10.0,
-      "max": 11.5
+      "pts": 13.75,
+      "max": 18.5
     },
     "t-qualif": {
       "pts": 2.5,
@@ -374,16 +640,16 @@
       "max": 13.0
     },
     "t-vocab": {
-      "pts": 14.0,
-      "max": 17.5
+      "pts": 22.0,
+      "max": 36.5
     },
     "t-redaction": {
-      "pts": 7.5,
-      "max": 12.5
+      "pts": 8.0,
+      "max": 17.5
     },
     "e6-2": {
-      "pts": 6.75,
-      "max": 8.5
+      "pts": 7.25,
+      "max": 11.5
     },
     "t-calc": {
       "pts": 3.5,
@@ -394,16 +660,16 @@
       "max": 13.5
     },
     "e6-3": {
-      "pts": 7.0,
-      "max": 14.5
+      "pts": 10.25,
+      "max": 21.5
     },
     "e6-4": {
-      "pts": 1.5,
-      "max": 3.0
+      "pts": 2.0,
+      "max": 5.0
     },
     "e6-5": {
       "pts": 0.0,
-      "max": 2.5
+      "max": 3.5
     }
   }
 }

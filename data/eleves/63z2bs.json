@@ -1,7 +1,7 @@
 {
   "code": "63z2bs",
   "classe": "TSTMG",
-  "maj": "2026-09-14",
+  "maj": "2026-09-17",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -325,9 +325,10 @@
   ],
   "classements": {
     "general": {
-      "rang": 29,
-      "effectif": 30,
-      "moyenne": 8.12
+      "rang": 28,
+      "effectif": 31,
+      "moyenne": 8.12,
+      "rang_precedent": 29
     },
     "types": {
       "dossier": {
@@ -343,15 +344,15 @@
     },
     "matieres": {
       "eco": {
-        "rang": 29,
-        "effectif": 30,
+        "rang": 28,
+        "effectif": 31,
         "moyenne": 8.12
       }
     },
     "themes": {
       "e6": {
-        "rang": 29,
-        "effectif": 30,
+        "rang": 28,
+        "effectif": 31,
         "moyenne": 8.12
       }
     }
