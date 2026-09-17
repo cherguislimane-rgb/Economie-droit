@@ -1,7 +1,7 @@
 {
   "code": "54zzx3",
   "classe": "1STMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-17",
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
@@ -197,7 +197,7 @@
   "classements": {
     "general": {
       "rang": 5,
-      "effectif": 31,
+      "effectif": 32,
       "moyenne": 15.0
     },
     "types": {
@@ -210,14 +210,14 @@
     "matieres": {
       "eco": {
         "rang": 5,
-        "effectif": 31,
+        "effectif": 32,
         "moyenne": 15.0
       }
     },
     "themes": {
       "e1": {
         "rang": 5,
-        "effectif": 31,
+        "effectif": 32,
         "moyenne": 15.0
       }
     }

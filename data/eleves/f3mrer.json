@@ -1,7 +1,7 @@
 {
   "code": "f3mrer",
   "classe": "1STMG",
-  "maj": "2026-09-11",
+  "maj": "2026-09-17",
   "copies": [
     {
       "devoir_id": "1s-e1c1-dossier",
@@ -192,72 +192,226 @@
       "rang": 10,
       "effectif": 31,
       "moyenne_classe": 12.9
+    },
+    {
+      "devoir_id": "1s-e1c1-conso",
+      "note": 18.0,
+      "publie_le": "2026-09-17",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Bien et service : définitions",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Sur la capacité *distinguer la nature des biens et services* : réponse complète et précise. Définitions, critère du service consommé au moment où il est produit, et deux exemples pris dans la journée de Camille.",
+          "reponse_eleve": "Un bien est un produit matériel qui est réutilisable ou non, on peut le stocker, le toucher, le transporter ainsi que le revendre comme par exemple le croissant que Camille a acheté Un service est un produit immatériel qui est réalisé par quelqu'un ou par quelqu'un et qui ne peut se consommer qu'au moment même où elle est produite comme par exemple la consultation chez le médecin de Camille",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Bien : produit matériel, que l'on peut stocker, transporter, revendre (ex. : le croissant, la boîte de paracétamol, les conserves). Service : produit immatériel, activité réalisée pour quelqu'un et consommée au moment où elle est produite, non stockable (ex. : le trajet en métro, la consultation, l'emprunt à la bibliothèque, les soins aux urgences, l'abonnement musical)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "La journée de Camille : bien ou service, marchand ou non ?",
+          "points": 1.5,
+          "points_max": 2,
+          "commentaire": "Six lignes justes, dont la consultation et les conserves des Restos du Cœur. Le trajet en métro est un service : on n'emporte rien, on est transporté (le ticket n'est que la preuve d'achat). L'emprunt à la bibliothèque est aussi un service : on ne garde pas le livre.",
+          "reponse_eleve": "a: nature=bien marche=marchand b: nature=bien marche=marchand c: nature=service marche=marchand d: nature=bien marche=marchand e: nature=bien marche=non-marchand f: nature=service marche=marchand g: nature=service marche=non-marchand h: nature=bien marche=non-marchand",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a: bien + marchand; b: service + marchand; c: service + marchand; d: bien + marchand; e: service + non-marchand; f: service + marchand; g: service + non-marchand; h: bien + non-marchand."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Phrase de lecture (document 1)",
+          "points": 1.0,
+          "points_max": 1,
+          "commentaire": "Phrase de lecture complète, avec la source. Attention pour l'évolution : entre 17 % et 91 %, la hausse est de 74 POINTS de pourcentage, pas de 74 %.",
+          "reponse_eleve": "Selon le Crédoc pour l'Arcep en France, en 2025 91 % de la population entre 12 ans et plus possède un smartphone. Entre 2011 et 2025 le pourcentage d'individus entre 12 ans et plus possédant un smartphone a augmenté de 74 %",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Selon le Crédoc, en France, en 2025, 91 % des personnes de 12 ans et plus possèdent un smartphone."
+        },
+        {
+          "question": "Q4",
+          "intitule": "1965-2025 : ce qui monte, ce qui baisse",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Sans faute : sens des évolutions et nature des postes bien identifiés.",
+          "reponse_eleve": "a: evolution=diminue nature=biens b: evolution=diminue nature=biens c: evolution=augmente nature=services d: evolution=augmente nature=services",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "a: diminue + biens (Alimentation (hors alcool) : 17,5 % → 9,3 %); b: diminue + biens (Habillement et chaussures : 10,1 % → 2,1 %); c: augmente + services (Restaurants et hôtels : 4,4 % → 6,8 %); d: augmente + services (Santé, enseignement… payés par les administrations publiques : 13,9 % → 22,4 %)."
+        },
+        {
+          "question": "Q5",
+          "intitule": "Louis XIV et le prix de la lumière",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Bonne réponse : deux données datées, l'absence de moyens modernes à l'époque, et l'emploi de « nouveaux biens et services » avec l'ampoule. Une précision : 5 h 24 n'est pas le temps pendant lequel on allume des bougies, c'est le temps de TRAVAIL nécessaire pour se payer cette quantité de lumière.",
+          "reponse_eleve": "Vers 1800 les seuls moyens d'éclairage étaient les chandelles de suif et de cire, ils devaient en allumer des milliers afin d'éclairer les châteaux. Louis XIV, même en étant l'homme le plus riche de son royaume n'échappe pas à cette règle. Par cause le manque d'avance dans le domaine énergétique. Afin de pouvoir avoir la même quantité de lumière qu'une ampoule (électrique moderne) il fallait allumer des bougies à la chaîne durant plus de 5 h, alors que depuis 1992 il faut environ 0,4 seconde afin d'avoir la même quantité de lumière grâce à une ampoule moderne. Grâce aux nouveaux biens et services l'utilisation de la lumière est plus simple et rapide. Ainsi Louis XIV avait plus de difficulté […]",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-doc",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Vers 1800, il fallait environ 5 h 24 de travail pour 1 000 lumens-heures de lumière, contre 0,4 seconde en 1992. Louis XIV ne pouvait pas acheter une lumière que personne ne savait produire : sa richesse ne servait à rien face à l'absence de l'ampoule et du réseau électrique. Ce sont de nouveaux biens (l'ampoule, la LED) et de nouveaux services (le réseau électrique) qui ont rendu la lumière abondante et bon marché."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Les quatre contraintes d'Hugo",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Les quatre contraintes sont très bien expliquées, avec les chiffres et l'idée de choix. Excellent.",
+          "reponse_eleve": "Revenu : Hugo a gagné 600 € mais souhaite s'offrir un scooter à 900 €, une paire de chaussures à 120 €, un séjour à Barcelone pour 250 € et il souhaite économiser pour son permis il doit chois[ILLISIBLE] Temps : Hugo souhaite travailler au snack le week-end mais il doit réviser son code et assister à ses cours de hand le mercredi et le samedi, il doit faire un choix Espace : Hugo partage sa chambre avec son frère, il n'y a donc pas assez de place pour un vélo d'appartement Information : Hugo recherche un scooter, il a trouvé une annonce sur un site mais ne sait pas si le moteur est en bon état et si le vendeur est honnête",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Revenu : il n'a gagné que 600 € alors que ses envies (scooter 900 €, Barcelone 250 €, baskets 120 €, permis) dépassent largement cette somme. Temps : avec les cours, le hand le mercredi et le samedi et le code, il n'aura plus le temps de travailler au snack. Espace : il partage sa chambre avec son frère, il n'y a pas la place pour le vélo d'appartement. Information : il ne peut pas savoir si le moteur du scooter est en bon état ni si le vendeur est honnête."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Plus riche, donc plus de rareté ?",
+          "points": 2.0,
+          "points_max": 2,
+          "commentaire": "Très bonne réponse : la richesse éloigne la rareté sans la supprimer, les besoins se renouvellent, et le temps reste limité même pour un Hugo riche, qui devra encore renoncer à quelque chose. La remarque « dans la limite de ce qui existe » est très juste : c'est le lien avec Louis XIV.",
+          "reponse_eleve": "Même si Hugo était riche il faudra quand même faire des choix peu importe les moyens financiers. Par cause la rareté des ressources par exemple. La richesse éloigne seulement la rareté mais ne la supprime pas, les besoins sont presque sans limite et se renouvellent avec le temps mais la vie elle, est limitée. Pour avoir plus d'argent il faut du temps et c'est ce temps-là qui permet d'utiliser nos ressources. Alors sans temps il devra renoncer à ses proches et à ses loisirs. Certes il ne devra plus choisir entre ses besoins matériels (dans la limite de ce qui existe) mais il devra renoncer quand même à quelque chose. Son temps.",
+          "capacite": "e1-2",
+          "transversales": [
+            "t-argu",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Hugo a tort : la richesse ne supprime pas la rareté. Les besoins sont illimités et se renouvellent : plus on a, plus on désire de nouveaux biens et services. Et certaines contraintes restent même pour les plus riches : le temps (24 heures pour tous), l'espace, l'information (le scooter). Le document 2 montre qu'un pays bien plus riche qu'en 1965 continue de faire des choix : la part de l'alimentation baisse, celle du logement ou des services augmente. Tout le monde doit donc arbitrer."
+        },
+        {
+          "question": "Q8",
+          "intitule": "Les acteurs autour de Manon",
+          "points": 1.25,
+          "points_max": 2,
+          "commentaire": "Sur la capacité *identifier les acteurs économiques* : cinq lignes justes, dont l'hôpital public et le médecin en cabinet. Une association est un groupement à but non lucratif, comme les Restos du Cœur : la mère et le frère de Manon forment un ménage, et le supermarché est une entreprise. Le fabricant de pâtes italien appartient au reste du monde.",
+          "reponse_eleve": "a: association b: association c: entreprise d: association e: apu f: banque g: apu h: entreprise",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "a: menage; b: entreprise; c: rdm; d: association; e: apu; f: banque; g: apu; h: entreprise."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Les administrations publiques produisent aussi",
+          "points": 1.25,
+          "points_max": 1.5,
+          "commentaire": "Bonne phrase de lecture avec la source, et bon critère : des services fournis gratuitement, ce qui les différencie des entreprises. Deux précisions : la hausse depuis 1965 est de 8,5 points (pas 8,5 %), et « financé par l'État » est trop vague : l'argent vient des impôts et des cotisations sociales obligatoires, comme tu l'écris très bien en Q10.",
+          "reponse_eleve": "Selon l'Insee en France, en 2025, la consommation des ménages payée par les administrations publiques représente 22,4 %. Entre 1965 et 2025 elle a augmenté de 8,5 %. Ces consommations des ménages sont majoritairement, les hôpitaux publics et les établissements scolaires comme le lycée par exemple. Ces deux organisations fonctionnent donc grâce à l'argent que les administrations publiques leur donnent. Ainsi elles fournissent des services gratuitement. C'est donc ça qui les différencie des entreprises. Les hôpitaux et les lycées sont à but non lucratif et sont financés par l'État ce qui en fait également des administrations publiques",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-doc",
+            "t-vocab"
+          ],
+          "reponse_attendue": "Selon l'Insee, en France, en 2025, les administrations publiques financent 22,4 % de la consommation effective des ménages. L'hôpital public et le lycée sont des administrations publiques car leurs services ne sont pas vendus (gratuits ou presque, non marchands) et sont financés par les impôts et les cotisations sociales obligatoires ; une entreprise, elle, vend sa production."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Vivre aussi bien sans administrations ni associations ?",
+          "points": 3.0,
+          "points_max": 3.5,
+          "commentaire": "Deux arguments solides et distincts, chacun appuyé sur des données (22,4 % et le lycée gratuit ; les associations et 1,3 million de personnes accueillies par les Restos du Cœur), avec un vocabulaire précis. Ce qui manque : annoncer ta position dès l'introduction (« Non, un Marseillais ne pourrait pas… »). Ici, on ne la découvre qu'à la conclusion.",
+          "reponse_eleve": "Tout d'abord, en 2025 parmi les consommations des ménages 22,4 % de celles-ci sont financées par les administrations publiques. En effet ces consommations représentent 1/4 de nos consommations parmi ce que proposent les administrations publiques il y a, les le lycée par exemple. Celui-ci est gratuit (lycées publics) et financé par les impôts et les cotisations sociales obligatoires. Cela permet donc de scolariser les individus entre 3 et 18 ans. Ce qui retire un coût aux familles les plus démunies. Les associations quant à elles représentent 3,3 % en 2025 de nos consommations par ménage elles permettent aux moins aisés de se nourrir, se loger, se vêtir et plus simplement vivre. Les Restos […]",
+          "capacite": "e1-1",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Une seule position. « Non » (attendue le plus souvent) : les administrations publiques financent 22,4 % de la consommation des ménages en 2025 (doc 5) : santé, école, gratuites pour l'usager ; les associations comme les Restos du Cœur nourrissent 1,3 million de personnes et distribuent plus de 161 millions de repas (doc 4) ; la part de la santé et de l'enseignement payés par les administrations a fortement augmenté depuis 1965 (doc 2) ; les soins aux urgences sans avance de frais (situation A). « Oui » recevable s'il est argumenté : 74,2 % de la consommation reste payée directement par les ménages (doc 5) ; les entreprises produisent l'essentiel des nouveaux biens (smartphone, doc 1 ; lumière, doc 3)."
+        }
+      ],
+      "rang": 1,
+      "effectif": 31,
+      "moyenne_classe": 14.1,
+      "trophees": [
+        "podium"
+      ]
     }
   ],
   "classements": {
     "general": {
-      "rang": 10,
-      "effectif": 31,
-      "moyenne": 14.5
+      "rang": 2,
+      "effectif": 32,
+      "moyenne": 16.25,
+      "rang_precedent": 10
     },
     "types": {
       "dossier": {
         "rang": 10,
         "effectif": 31,
         "moyenne": 14.5
+      },
+      "conso": {
+        "rang": 1,
+        "effectif": 31,
+        "moyenne": 18.0
       }
     },
     "matieres": {
       "eco": {
-        "rang": 10,
-        "effectif": 31,
-        "moyenne": 14.5
+        "rang": 2,
+        "effectif": 32,
+        "moyenne": 16.25
       }
     },
     "themes": {
       "e1": {
-        "rang": 10,
-        "effectif": 31,
-        "moyenne": 14.5
+        "rang": 2,
+        "effectif": 32,
+        "moyenne": 16.25
       }
     }
   },
   "capacites": {
     "e1-2": {
-      "pts": 8.25,
-      "max": 9.75
+      "pts": 20.75,
+      "max": 22.75
     },
     "t-calc": {
       "pts": 2.0,
       "max": 2.75
     },
     "t-doc": {
-      "pts": 5.0,
-      "max": 8.0
+      "pts": 13.25,
+      "max": 16.5
     },
     "t-qualif": {
       "pts": 5.0,
       "max": 7.75
     },
     "t-argu": {
-      "pts": 7.5,
-      "max": 8.75
+      "pts": 12.5,
+      "max": 14.25
     },
     "e1-3": {
       "pts": 2.0,
       "max": 5.5
     },
     "t-vocab": {
-      "pts": 1.0,
-      "max": 1.75
+      "pts": 11.0,
+      "max": 13.25
     },
     "t-redaction": {
-      "pts": 4.25,
-      "max": 5.5
+      "pts": 7.25,
+      "max": 9.0
     },
     "e1-1": {
-      "pts": 4.25,
-      "max": 4.75
+      "pts": 9.75,
+      "max": 11.75
     }
   }
 }

@@ -149,8 +149,12 @@
       "type": "conso",
       "coef": 1,
       "titre": "Consolidation — Un Marseillais de 2026 vit-il mieux que Louis XIV ?",
-      "date": "2026-09-18",
-      "note_max": 20
+      "date": "2026-09-17",
+      "note_max": 20,
+      "stats": {
+        "moyenne": 14.1,
+        "effectif": 31
+      }
     },
     {
       "id": "ts-e6c2-dossier",
