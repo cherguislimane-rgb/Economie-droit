@@ -199,6 +199,18 @@
       "titre": "Consolidation — Quand le marché rate",
       "date": "2026-09-18",
       "note_max": 20
+    },
+    {
+      "id": "ts-e6c3-dossier",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c3",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier — Relancer ou freiner ? (Éco T1, chap. 3)",
+      "date": "2026-09-21",
+      "note_max": 20
     }
   ],
   "chapitres": {
@@ -226,6 +238,13 @@
         "titre": "Quand le marché rate",
         "fiche": "https://cherguislimane-rgb.github.io/Economie-droit/fiches/e6c2.html?v=1",
         "fiche_visible": true
+      },
+      {
+        "id": "e6c3",
+        "theme": "e6",
+        "titre": "Relancer ou freiner ?",
+        "fiche": null,
+        "fiche_visible": false
       }
     ]
   },
