@@ -1,7 +1,7 @@
 {
   "code": "3w9cgp",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -781,16 +781,16 @@
         }
       ],
       "rang": 8,
-      "effectif": 28,
-      "moyenne_classe": 8.6
+      "effectif": 31,
+      "moyenne_classe": 8.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 4,
+      "rang": 3,
       "effectif": 31,
       "moyenne": 12.56,
-      "rang_precedent": 5
+      "rang_precedent": 4
     },
     "types": {
       "dossier": {
@@ -805,20 +805,20 @@
       },
       "lecon": {
         "rang": 8,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 10.75
       }
     },
     "matieres": {
       "eco": {
-        "rang": 4,
+        "rang": 3,
         "effectif": 31,
         "moyenne": 12.56
       }
     },
     "themes": {
       "e6": {
-        "rang": 4,
+        "rang": 3,
         "effectif": 31,
         "moyenne": 12.56
       }

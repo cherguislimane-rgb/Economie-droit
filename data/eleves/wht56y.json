@@ -1,7 +1,7 @@
 {
   "code": "wht56y",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -580,8 +580,8 @@
         }
       ],
       "rang": 2,
-      "effectif": 28,
-      "moyenne_classe": 8.6,
+      "effectif": 31,
+      "moyenne_classe": 8.5,
       "trophees": [
         "podium",
         "progression"
@@ -592,8 +592,7 @@
     "general": {
       "rang": 17,
       "effectif": 31,
-      "moyenne": 10.58,
-      "rang_precedent": 25
+      "moyenne": 10.58
     },
     "types": {
       "dossier": {
@@ -608,7 +607,7 @@
       },
       "lecon": {
         "rang": 2,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 12.75
       }
     },

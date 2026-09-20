@@ -1,7 +1,7 @@
 {
   "code": "nfurfh",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -584,16 +584,15 @@
         }
       ],
       "rang": 5,
-      "effectif": 28,
-      "moyenne_classe": 8.6
+      "effectif": 31,
+      "moyenne_classe": 8.5
     }
   ],
   "classements": {
     "general": {
       "rang": 9,
       "effectif": 31,
-      "moyenne": 11.83,
-      "rang_precedent": 12
+      "moyenne": 11.83
     },
     "types": {
       "dossier": {
@@ -608,7 +607,7 @@
       },
       "lecon": {
         "rang": 5,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 11.75
       }
     },

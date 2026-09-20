@@ -1,7 +1,7 @@
 {
   "code": "qa6fta",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -580,16 +580,16 @@
         }
       ],
       "rang": 9,
-      "effectif": 28,
-      "moyenne_classe": 8.6
+      "effectif": 31,
+      "moyenne_classe": 8.5
     }
   ],
   "classements": {
     "general": {
-      "rang": 5,
+      "rang": 4,
       "effectif": 31,
       "moyenne": 12.33,
-      "rang_precedent": 4
+      "rang_precedent": 5
     },
     "types": {
       "dossier": {
@@ -604,20 +604,20 @@
       },
       "lecon": {
         "rang": 9,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 10.25
       }
     },
     "matieres": {
       "eco": {
-        "rang": 5,
+        "rang": 4,
         "effectif": 31,
         "moyenne": 12.33
       }
     },
     "themes": {
       "e6": {
-        "rang": 5,
+        "rang": 4,
         "effectif": 31,
         "moyenne": 12.33
       }

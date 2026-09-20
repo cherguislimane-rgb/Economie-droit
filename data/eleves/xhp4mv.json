@@ -1,7 +1,7 @@
 {
   "code": "xhp4mv",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -781,16 +781,15 @@
         }
       ],
       "rang": 6,
-      "effectif": 28,
-      "moyenne_classe": 8.6
+      "effectif": 31,
+      "moyenne_classe": 8.5
     }
   ],
   "classements": {
     "general": {
       "rang": 8,
       "effectif": 31,
-      "moyenne": 12.0,
-      "rang_precedent": 11
+      "moyenne": 12.0
     },
     "types": {
       "dossier": {
@@ -805,7 +804,7 @@
       },
       "lecon": {
         "rang": 6,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 11.0
       }
     },

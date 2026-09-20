@@ -1,7 +1,7 @@
 {
   "code": "qc2uc9",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -777,17 +777,16 @@
           "reponse_attendue": "Le déficit est un flux : ce que l'État emprunte pendant l'année. La dette est un stock : l'accumulation des emprunts non remboursés. Même plus petit, un déficit reste un déficit : l'État emprunte encore et ajoute ce montant à la dette, qui continue donc d'augmenter. La dette ne baisserait que si le solde devenait positif."
         }
       ],
-      "rang": 27,
-      "effectif": 28,
-      "moyenne_classe": 8.6
+      "rang": 29,
+      "effectif": 31,
+      "moyenne_classe": 8.5
     }
   ],
   "classements": {
     "general": {
       "rang": 25,
       "effectif": 31,
-      "moyenne": 8.69,
-      "rang_precedent": 21
+      "moyenne": 8.69
     },
     "types": {
       "dossier": {
@@ -801,8 +800,8 @@
         "moyenne": 11.0
       },
       "lecon": {
-        "rang": 27,
-        "effectif": 28,
+        "rang": 29,
+        "effectif": 31,
         "moyenne": 4.75
       }
     },

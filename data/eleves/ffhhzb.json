@@ -1,7 +1,7 @@
 {
   "code": "ffhhzb",
   "classe": "TSTMG",
-  "maj": "2026-09-17",
+  "maj": "2026-09-20",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -580,8 +580,8 @@
         }
       ],
       "rang": 3,
-      "effectif": 28,
-      "moyenne_classe": 8.6,
+      "effectif": 31,
+      "moyenne_classe": 8.5,
       "trophees": [
         "podium"
       ]
@@ -591,8 +591,7 @@
     "general": {
       "rang": 10,
       "effectif": 31,
-      "moyenne": 11.67,
-      "rang_precedent": 18
+      "moyenne": 11.67
     },
     "types": {
       "dossier": {
@@ -607,7 +606,7 @@
       },
       "lecon": {
         "rang": 3,
-        "effectif": 28,
+        "effectif": 31,
         "moyenne": 12.0
       }
     },
