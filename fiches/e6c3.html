@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1220">
+<title>Fiche — Relancer ou freiner ? (TSTMG-E-T1C3)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #0D1220; --card: rgba(255,255,255,.055); --card-strong: rgba(255,255,255,.09);
+    --border: rgba(255,255,255,.12); --text: #EAEEF7; --muted: #A6ADBF; --ink: #0D1220;
+    --accent: #E8735A; --accent-soft: rgba(232,115,90,.18);
+    --green: #55C89B; --green-soft: rgba(85,200,155,.16);
+    --blue: #8FB0F5; --blue-soft: rgba(111,152,240,.18);
+    --gold: #F2C94C; --gold-soft: rgba(242,201,76,.16); --red: #FF7B7B; --grey: #A6ADBF; --grey-soft: rgba(255,255,255,.10); }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background-color: var(--bg);
+    background-image: radial-gradient(900px 520px at 90% -10%, rgba(232,115,90,.20), transparent 60%),
+                      radial-gradient(700px 520px at -10% 45%, rgba(85,200,155,.10), transparent 60%);
+    background-attachment: fixed; color: var(--text); font-family: 'Inter', system-ui, sans-serif; font-size: 15px; line-height: 1.55;
+    padding: 16px 14px calc(32px + env(safe-area-inset-bottom)); }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; }
+  .btn { font: 600 13px 'Inter', sans-serif; text-decoration: none; padding: 9px 13px; border-radius: 12px; border: 1px solid var(--border); color: var(--muted); background: var(--card); cursor: pointer; }
+  .btn.acc { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+  .code { display: inline-block; background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: 11.5px; letter-spacing: .08em; padding: 5px 10px; border-radius: 999px; }
+  h1 { font-family: 'Sora', sans-serif; font-size: 27px; line-height: 1.15; font-weight: 800; margin-top: 10px; }
+  .sub { color: var(--muted); font-size: 13.5px; margin-top: 6px; }
+
+  .part { margin-top: 26px; }
+  .part-head { display: flex; align-items: center; gap: 12px; margin: 0 2px 10px; }
+  .part-head .letter { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font: 800 18px 'Sora', sans-serif; color: var(--ink); background: var(--accent); }
+  .part-head h2 { font-family: 'Sora', sans-serif; font-size: 19px; font-weight: 700; line-height: 1.25; }
+  .part-head small { display: block; color: var(--muted); font-size: 12.5px; font-weight: 400; margin-top: 2px; }
+  .A .letter { background: var(--accent); } .B .letter { background: var(--blue); } .C .letter { background: var(--green); } .M .letter { background: var(--gold); }
+
+  .card { background: linear-gradient(160deg, rgba(255,255,255,.085), rgba(255,255,255,.04)); border: 1px solid var(--border); border-radius: 20px; padding: 16px; margin-top: 12px;
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: 0 10px 30px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.08); }
+  h3 { font-family: 'Sora', sans-serif; font-size: 16px; font-weight: 700; line-height: 1.3; }
+  .A h3 { color: var(--accent); } .B h3 { color: var(--blue); } .C h3 { color: var(--green); } .M h3 { color: var(--gold); }
+  .card p { margin-top: 9px; } .card p:first-of-type { margin-top: 8px; }
+  b { font-weight: 700; color: #fff; }
+  .ex { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; border-left: 3px solid var(--grey); }
+  .ex b:first-child { color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; display: block; margin-bottom: 2px; }
+  .def { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-size: 14.5px; }
+  .A .def { background: var(--accent-soft); } .B .def { background: var(--blue-soft); } .C .def { background: var(--green-soft); } .M .def { background: var(--gold-soft); }
+  .def b:first-child { color: var(--text); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+  @media (max-width: 440px) { .cols { grid-template-columns: 1fr; } }
+  .col { background: var(--card-strong); border-radius: 14px; padding: 12px; font-size: 14px; }
+  .col h4 { font-family: 'Sora', sans-serif; font-size: 13.5px; margin-bottom: 6px; }
+  .col ul { padding-left: 16px; } .col li { margin: 4px 0; }
+  .retiens { margin-top: 12px; padding: 12px 14px; border-radius: 14px; background: var(--card-strong); border: 1px solid var(--border); font-size: 14.5px; display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start; }
+  .retiens .tag { font: 800 11px 'Sora', sans-serif; letter-spacing: .08em; padding: 5px 8px; border-radius: 8px; color: var(--ink); margin-top: 2px; }
+  .A .retiens .tag { background: var(--accent); } .B .retiens .tag { background: var(--blue); } .C .retiens .tag { background: var(--green); } .M .retiens .tag { background: var(--gold); }
+  .cle { margin-top: 10px; padding: 10px 12px; border-radius: 12px; background: var(--card-strong); font-size: 14px; }
+  .cle b:first-child { display: block; color: var(--muted); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; margin-bottom: 4px; }
+  .cle .q { display: grid; grid-template-columns: 1fr; gap: 6px; margin-top: 6px; }
+  .cle .q div { padding: 8px 10px; border-radius: 10px; background: rgba(0,0,0,.18); }
+  .cle .q b { color: var(--text); display: inline; text-transform: none; letter-spacing: 0; font-size: inherit; margin: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-top: 10px; }
+  th, td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; }
+  td.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.tot td { font-weight: 700; color: #fff; }
+
+  svg.sch { width: 100%; max-width: 420px; height: auto; display: block; margin: 12px auto 0; font-family: 'Inter', system-ui, sans-serif; }
+  .tt { fill: var(--text); } .tm { fill: var(--muted); } .ta { fill: var(--accent); } .tg { fill: var(--green); } .tr { fill: var(--red); }
+  .fa { fill: var(--accent-soft); } .fg { fill: var(--green-soft); } .fx { fill: var(--grey-soft); } .fA { fill: var(--accent); } .fM { fill: var(--grey); } .fR { fill: var(--red); }
+  .sa { stroke: var(--accent); } .sg { stroke: var(--green); } .sm { stroke: var(--grey); } .st { stroke: var(--text); } .sr { stroke: var(--red); }
+  .b7 { font-weight: 700; } .sora { font-family: 'Sora', sans-serif; }
+
+  .modele { margin-top: 10px; padding: 12px 14px; border-radius: 12px; background: rgba(0,0,0,.2); font-size: 14px; line-height: 1.6; border-left: 3px solid var(--gold); }
+  .modele mark { background: transparent; color: var(--gold); font-weight: 700; }
+  .modele u { text-decoration: none; border-bottom: 2px solid var(--blue); }
+  .modele i { color: var(--green); font-style: normal; }
+  .grille { display: grid; grid-template-columns: 56px 1fr; gap: 6px 10px; font-size: 13.5px; margin-top: 10px; }
+  .grille b { font-family: 'Sora', sans-serif; color: var(--gold); }
+
+  details { background: var(--card-strong); border-radius: 12px; padding: 10px 12px; margin-top: 8px; }
+  summary { cursor: pointer; font-weight: 600; font-size: 14.5px; list-style: none; display: flex; justify-content: space-between; gap: 10px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: '+'; color: var(--accent); font-weight: 800; font-size: 18px; flex: none; }
+  details[open] summary::after { content: '–'; }
+  details .rep { margin-top: 8px; font-size: 14px; border-top: 1px solid var(--border); padding-top: 8px; }
+  .foot { color: var(--muted); font-size: 12px; text-align: center; margin-top: 26px; }
+  .foot a { color: var(--accent); }
+
+  @media print {
+    :root { --bg: #fff; --card: #fff; --card-strong: #f3f4f6; --border: #cfd3da; --text: #111; --muted: #555; --ink: #fff; --accent: #B54A34; --accent-soft: #fbe7e1;
+      --green: #1f7a55; --green-soft: #e3f3ea; --blue: #2f55b8; --blue-soft: #e6ecfb; --gold: #8a6d00; --gold-soft: #fbf3d6; --red: #b3282d; --grey: #666; --grey-soft: #eef0f3; }
+    body { background: #fff; background-image: none; padding: 0; font-size: 12.5px; }
+    .top { display: none; } b { color: #000; }
+    .card { break-inside: avoid; margin-top: 10px; padding: 12px; backdrop-filter: none; box-shadow: none; background: #fff; }
+    .cle .q div, .modele { background: #f3f4f6; }
+    details { break-inside: avoid; } details .rep { display: block; } summary::after { display: none; }
+    h1 { font-size: 22px; } svg.sch { max-width: 330px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <a class="btn" href="../app/">← Mes Copies</a>
+    <button class="btn acc" onclick="window.print()">Imprimer</button>
+  </div>
+  <span class="code">TSTMG-E-T1C3 · ÉCONOMIE · THÈME 1</span>
+  <h1>Relancer ou freiner ?</h1>
+  <p class="sub">Fiche de synthèse du chapitre 3 · Face à un choc, que peuvent faire l'État avec son budget et la BCE avec ses taux, et dans quelles limites ?</p>
+
+  <div class="card">
+    <h3 style="color:var(--text)">De quoi parle ce chapitre ?</h3>
+    <p>L'économie n'avance pas en ligne droite : elle alterne expansion et ralentissement, c'est le <b>cycle économique</b>. Au printemps 2026, la guerre au Moyen-Orient fait flamber le pétrole. Dans le dossier, Julien, transporteur à Vitrolles, voit son gazole passer à 2,33 € le litre ; Camille et Thomas repoussent l'achat de leur appartement parce que le crédit a renchéri ; et Sofiane, l'expert-comptable, explique à Julien pourquoi l'État aide beaucoup moins qu'en 2022. Trois histoires, <b>trois questions</b> :</p>
+    <div class="cle" style="margin-top:10px">
+      <div class="q">
+        <div><b>A · Pour quoi faire ?</b> Soutenir tout de suite (conjoncturel) ou transformer l'économie (structurel), du côté de l'offre ou de la demande.</div>
+        <div><b>B · Avec la monnaie ?</b> La BCE et ses taux directeurs : le canal du crédit.</div>
+        <div><b>C · Avec le budget ?</b> Dépenses et impôts, l'effet multiplicateur… et les règles fixées par l'Europe.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ A ══════════════ -->
+  <section class="part A">
+    <div class="part-head"><div class="letter">A</div><h2>Soutenir tout de suite ou transformer l'économie ?<small>Capacité : énumérer et distinguer les fonctions des politiques d'offre et de demande (cycles conjoncturels ou structurels)</small></h2></div>
+
+    <div class="card">
+      <h3>1. Lire la conjoncture : croissance, inflation, phase du cycle</h3>
+      <p>La <b>croissance</b> se mesure par la variation du PIB en volume. L'<b>inflation</b> est la hausse générale et durable des prix ; on la mesure sur un an (août 2026 comparé à août 2025). Quand les prix montent plus vite que les revenus, le <b>pouvoir d'achat</b> recule.</p>
+      <div class="def"><b>Récession</b> : recul du PIB pendant <b>deux trimestres de suite</b>. Un seul trimestre de recul, c'est un ralentissement, pas une récession.</div>
+      <table>
+        <tr><th style="width:36%">Indicateur</th><th>France, premier semestre 2026 (document 1)</th></tr>
+        <tr><td><b>Croissance du PIB</b></td><td><b>−0,2 %</b> au 1ᵉʳ trimestre 2026, puis <b>0,0 %</b> au 2ᵉ trimestre (après +0,5 % au T3 2025). Prévision : 0,4 % sur toute l'année 2026.</td></tr>
+        <tr><td><b>Inflation (sur un an)</b></td><td><b>0,3 %</b> en janvier, 2,2 % en avril, <b>2,4 %</b> en mai, 1,8 % en juin, 2,4 % en août : elle repart avec l'énergie.</td></tr>
+        <tr><td><b>Pouvoir d'achat</b></td><td>−0,6 % au 2ᵉ trimestre 2026.</td></tr>
+      </table>
+      <p>Conclusion : la France est en phase de <b>ralentissement</b>, presque en stagnation, <b>au bord de la récession</b> sans y être (un seul trimestre de recul).</p>
+      <div class="ex"><b>À comprendre</b>Un choc sur le prix de l'énergie frappe <b>deux fois</b> : il augmente les coûts de production des entreprises (le carburant, c'est près d'un tiers des coûts de Julien) et il réduit le pouvoir d'achat des ménages, donc leurs dépenses.</div>
+      <div class="ex"><b>Pièges à éviter</b>Un chiffre se cite avec sa <b>date</b> et son <b>unité</b> : « 2,4 » tout seul ne vaut rien, « 2,4 % en mai 2026 » oui. N'oublie pas le signe (−0,2 %). Et passer de +0,2 % à −0,2 % ne fait pas « −4 % » : l'écart entre deux taux se dit en <b>points</b> (−0,4 point).</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Deux questions pour classer une mesure</h3>
+      <p>Une <b>politique économique</b> est l'ensemble des décisions prises par les pouvoirs publics pour agir sur l'économie. Chaque mesure a un horizon <b>et</b> une cible.</p>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--accent)">Quel horizon ?</h4><ul><li><b>Conjoncturelle</b> : court terme, agit sur le cycle. Elle soutient l'activité (<b>relance</b>) ou la freine (<b>rigueur</b>). Mesures souvent temporaires.</li><li><b>Structurelle</b> : long terme, transforme durablement l'économie (énergie, formation, recherche). Effets en plusieurs années.</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Quelle cible ?</h4><ul><li><b>Demande</b> : soutenir les dépenses des ménages et des entreprises (une prime aux ménages).</li><li><b>Offre</b> : améliorer les conditions de production des entreprises : baisser leurs coûts, les aider à investir, à innover.</li></ul></div>
+      </div>
+      <table>
+        <tr><th style="width:34%">Mesure (situation de Julien)</th><th style="width:30%">Horizon</th><th>Cible</th></tr>
+        <tr><td>Remise de 20 c/L aux transporteurs, en avril</td><td>Conjoncturelle<br><span style="color:var(--muted)">un mois</span></td><td><b>Offre</b><br><span style="color:var(--muted)">baisse un coût de production</span></td></tr>
+        <tr><td>Aide « grands rouleurs » de 100 € à Kevin</td><td>Conjoncturelle</td><td><b>Demande</b><br><span style="color:var(--muted)">pouvoir d'achat d'un ménage</span></td></tr>
+        <tr><td>Report des cotisations sociales</td><td>Conjoncturelle</td><td><b>Offre</b><br><span style="color:var(--muted)">trésorerie de l'entreprise</span></td></tr>
+        <tr><td>Aide jusqu'à 100 000 € pour un poids lourd électrique</td><td><b>Structurelle</b></td><td><b>Offre</b><br><span style="color:var(--muted)">transforme l'appareil de production</span></td></tr>
+      </table>
+      <div class="cle"><b>La méthode en deux réflexes</b>
+        <div class="q">
+          <div><b>Horizon</b> : est-ce temporaire, pour passer le choc (conjoncturel), ou est-ce fait pour durer et changer l'économie (structurel) ?</div>
+          <div><b>Cible</b> : qui reçoit l'aide ? Une <b>entreprise</b>, pour produire moins cher ou investir → offre. Un <b>ménage</b>, pour continuer à dépenser → demande.</div>
+        </div>
+      </div>
+      <div class="ex"><b>Piège à éviter</b>L'aide à l'achat d'un camion électrique pousse bien l'entreprise à acheter, mais ce n'est pas une politique de la demande : elle vise à transformer ses conditions de production, c'est de l'<b>offre</b>.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. Deux plans, deux problèmes : ils se complètent</h3>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--accent)">Plan de soutien immédiat (27 mars 2026)</h4><ul><li>Problème traité : l'<b>urgence</b>, aider tout de suite les plus touchés par la hausse du carburant.</li><li>Près de <b>70 millions d'euros</b> sur avril : transport (50 M€, 20 c/L), agriculture, pêche ; aide « grands rouleurs ».</li><li>Aides <b>ciblées et limitées dans le temps</b>, pour ne pas creuser le déficit.</li><li>→ réponse <b>conjoncturelle</b>.</li></ul></div>
+        <div class="col"><h4 style="color:var(--accent)">Plan d'électrification (avril 2026)</h4><ul><li>Problème traité : la <b>cause</b>, la dépendance au pétrole et au gaz importés.</li><li>De <b>60 % à 40 %</b> de l'énergie consommée en 2030 ; soutien public de 5,5 à <b>10 Md€ par an</b>.</li><li>Poids lourds électriques, leasing social, pompes à chaleur, bornes.</li><li>→ réponse <b>structurelle</b>.</li></ul></div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>Dire que deux plans « se complètent » ne suffit pas, il faut l'expliquer : l'un <b>amortit le choc d'aujourd'hui</b>, l'autre <b>réduit l'exposition aux chocs de demain</b>. Comme le dit Julien : « le jour où le pétrole flambera de nouveau, je ne serai plus à la merci de ce qui se passe à l'autre bout du monde. »</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ B ══════════════ -->
+  <section class="part B">
+    <div class="part-head"><div class="letter">B</div><h2>La BCE et l'arme des taux d'intérêt<small>Capacité : désigner les principaux outils et canaux de transmission de la politique monétaire</small></h2></div>
+
+    <div class="card">
+      <h3>1. La politique monétaire en quatre réponses</h3>
+      <div class="def"><b>Politique monétaire</b> : action sur la <b>quantité de monnaie</b> en circulation et sur son <b>prix</b>, le taux d'intérêt, pour influencer le crédit, l'activité et les prix.</div>
+      <table>
+        <tr><th style="width:30%">Question</th><th>Réponse</th></tr>
+        <tr><td><b>Qui ?</b></td><td>La <b>Banque centrale européenne (BCE)</b>, à Francfort, depuis 1999, pour les 21 pays de la zone euro. Elle est <b>indépendante</b> des gouvernements.</td></tr>
+        <tr><td><b>Pour quoi ?</b></td><td>La <b>stabilité des prix</b> : une inflation proche de <b>2 %</b> à moyen terme.</td></tr>
+        <tr><td><b>Avec quoi ?</b></td><td>Les <b>taux directeurs</b> : les taux auxquels les banques se refinancent auprès de la BCE ou y placent leur argent (le plus suivi : le taux de la facilité de dépôt).</td></tr>
+      </table>
+      <div class="ex"><b>Piège à éviter</b>Ce n'est ni l'État ni la Banque de France qui décide : depuis 1999, la France a <b>confié sa monnaie à la BCE</b>.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. Les taux de la BCE suivent l'inflation</h3>
+      <table>
+        <tr><th style="width:24%">Période</th><th>Inflation (zone euro)</th><th>Taux de dépôt de la BCE</th></tr>
+        <tr><td><b>2022-2023</b></td><td>Très forte : 8,4 % en 2022, 5,4 % en 2023</td><td>Il <b>monte</b> : −0,50 % début 2022, 0 % en juillet 2022, <b>4 % en septembre 2023</b></td></tr>
+        <tr><td><b>2024-2025</b></td><td>Elle revient vers 2 % : 2,4 % puis 2,1 %</td><td>Il <b>baisse</b> (huit baisses) : <b>2 % en juin 2025</b></td></tr>
+        <tr><td><b>2026</b></td><td>Elle repart : 3,3 % en août 2026</td><td>Il <b>remonte</b> : 2,25 % en juin, <b>2,50 % en septembre 2026</b></td></tr>
+      </table>
+      <div class="ex"><b>Pièges à éviter</b>Sur le document 4, les <b>barres</b> sont l'inflation et la <b>courbe</b> est le taux de dépôt : ne lis pas 8,4 % comme un taux de la BCE. Le taux monte « <b>à</b> » 4 % (niveau), il n'augmente pas « de » 4 %. Et c'est l'inflation qui fait bouger les taux, pas l'inverse : inflation forte → la BCE <b>relève</b> ses taux.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. Le canal du crédit, étape par étape</h3>
+      <svg class="sch" viewBox="0 0 360 330" role="img" aria-label="Canal du crédit : la BCE relève ses taux, les banques relèvent les taux des crédits, ménages et entreprises empruntent moins, la demande ralentit et les prix augmentent moins vite">
+        <rect x="14" y="6" width="332" height="58" rx="12" style="fill:var(--blue-soft)"/>
+        <text x="180" y="28" text-anchor="middle" font-size="13" class="tt b7 sora">1 · La BCE relève ses taux directeurs</text>
+        <text x="180" y="47" text-anchor="middle" font-size="11" class="tm">+0,25 point en juin puis en septembre 2026 : 2,50 %</text>
+        <path d="M180 66 v18 m-6 -7 l6 8 l6 -8" class="st" fill="none" stroke-width="1.6" opacity=".7"/>
+        <rect x="14" y="88" width="332" height="58" rx="12" style="fill:var(--blue-soft)"/>
+        <text x="180" y="110" text-anchor="middle" font-size="13" class="tt b7 sora">2 · Les banques relèvent les taux des crédits</text>
+        <text x="180" y="129" text-anchor="middle" font-size="11" class="tm">elles se refinancent plus cher : 3,10 % → 3,55 %</text>
+        <path d="M180 148 v18 m-6 -7 l6 8 l6 -8" class="st" fill="none" stroke-width="1.6" opacity=".7"/>
+        <rect x="14" y="170" width="332" height="58" rx="12" style="fill:var(--blue-soft)"/>
+        <text x="180" y="192" text-anchor="middle" font-size="13" class="tt b7 sora">3 · On emprunte et on dépense moins</text>
+        <text x="180" y="211" text-anchor="middle" font-size="11" class="tm">+55 € par mois : achat reporté, machine repoussée</text>
+        <path d="M180 230 v18 m-6 -7 l6 8 l6 -8" class="st" fill="none" stroke-width="1.6" opacity=".7"/>
+        <rect x="14" y="252" width="332" height="58" rx="12" class="fg"/>
+        <text x="180" y="274" text-anchor="middle" font-size="13" class="tt b7 sora">4 · La demande ralentit</text>
+        <text x="180" y="293" text-anchor="middle" font-size="11" class="tg b7">les prix augmentent moins vite → inflation vers 2 %</text>
+      </svg>
+      <div class="ex"><b>Dans le dossier</b>Camille et Thomas veulent emprunter 230 000 € sur 25 ans. En juin 2025, leur banque proposait <b>3,10 %</b> (1 103 € par mois) ; en septembre 2026, <b>3,55 %</b> (1 158 €) : 55 € de plus chaque mois, environ 16 500 € d'intérêts en plus. Avec 1 100 € par mois, ils ne peuvent plus emprunter que <b>218 500 €</b> : ils <b>reportent</b> leur achat et épargnent. L'employeur de Thomas <b>repousse</b> l'achat d'une machine. En moyenne, le taux des crédits immobiliers est passé de 3,06 % (juin 2025) à 3,30 % (juillet 2026) et la demande de crédits recule.</div>
+      <div class="def"><b>Politique monétaire restrictive</b> : la BCE relève ses taux pour renchérir le crédit, freiner la demande et faire ralentir les prix. <b>Expansionniste</b> (ou accommodante) : elle les baisse pour soutenir l'activité, comme entre juin 2024 et juin 2025.</div>
+      <p>Deux compléments : le <b>canal de l'épargne</b> (des taux plus élevés rendent l'épargne plus rémunératrice, on dépense moins tout de suite) et le <b>délai</b> (une décision de la BCE met un à deux ans à produire tous ses effets sur les prix).</p>
+      <div class="ex"><b>Piège à éviter</b>À chaque étape, il faut <b>ce qui se passe</b> ET <b>un chiffre ou un exemple</b> du dossier. La dernière étape doit aller jusqu'aux <b>prix</b> : c'est le but de la BCE.</div>
+    </div>
+
+    <div class="card">
+      <h3>4. Une politique restrictive… en plein ralentissement</h3>
+      <p>La BCE relève ses taux parce que l'inflation atteint 3,3 % en août 2026. Mais l'économie française <b>ralentit déjà</b> : PIB à −0,2 % puis 0,0 %, prévision de 0,4 % pour 2026 (0,9 % pour la zone euro). Un crédit plus cher réduit <b>encore</b> la consommation et l'investissement : l'activité est freinée davantage, avec un risque de <b>récession</b> et de <b>chômage</b>.</p>
+      <div class="ex"><b>La nuance qui fait la différence</b>L'inflation de 2026 vient surtout du pétrole : c'est un <b>choc d'offre</b>. Relever les taux freine la demande, mais ne fait pas baisser le prix du baril.</div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>BCE → taux directeurs → taux des crédits → moins d'emprunts et de dépenses → demande qui ralentit → prix qui augmentent moins vite. Restrictive = hausse des taux, contre l'inflation ; expansionniste = baisse des taux, pour l'activité. La BCE ne peut pas viser les deux à la fois.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ C ══════════════ -->
+  <section class="part C">
+    <div class="part-head"><div class="letter">C</div><h2>Le budget de l'État, un levier encadré par l'Europe<small>Capacités : désigner les outils et canaux de la politique budgétaire · décrire l'évolution du rôle de l'État dans le cadre européen</small></h2></div>
+
+    <div class="card">
+      <h3>1. Deux outils et un effet multiplicateur</h3>
+      <div class="def"><b>Politique budgétaire</b> : utilisation du budget des administrations publiques pour agir sur l'activité. Deux outils : les <b>dépenses publiques</b> (investissements, aides, prestations, salaires des fonctionnaires) et les <b>prélèvements obligatoires</b> (impôts, taxes, cotisations sociales).</div>
+      <div class="grille">
+        <b>1</b><span>L'État <strong>dépense plus</strong> ou <strong>prélève moins</strong>.</span>
+        <b>2</b><span>Les <strong>revenus</strong> des ménages et des entreprises augmentent.</span>
+        <b>3</b><span>Ils <strong>consomment et investissent</strong> davantage.</span>
+        <b>4</b><span>Les entreprises <strong>produisent plus et embauchent</strong>.</span>
+        <b>5</b><span>Ces nouveaux revenus sont <strong>à leur tour dépensés</strong> : 1 € de dépense publique peut entraîner plus de 1 € de production. C'est l'<strong>effet multiplicateur</strong>.</span>
+      </div>
+      <div class="ex"><b>La contrepartie</b>Une relance <b>creuse le déficit public</b> (un flux, sur une année) et <b>fait grossir la dette publique</b> (un stock, accumulé). Plus la dette est élevée et plus les taux montent, plus les intérêts pèsent sur le budget. À l'inverse, la <b>rigueur</b> (dépenser moins ou prélever plus) assainit les finances publiques mais freine l'activité à court terme.</div>
+      <div class="ex"><b>Piège à éviter</b>La remise à la pompe ou le bouclier tarifaire sont des <b>mesures</b>, pas les outils. Et une chaîne de causes compte au moins trois maillons : « l'État dépense donc la croissance augmente » ne suffit pas.</div>
+    </div>
+
+    <div class="card">
+      <h3>2. 2022 et 2026 : deux crises de l'énergie, deux réponses</h3>
+      <table>
+        <tr><th style="width:24%"></th><th>Crise de 2022</th><th>Crise de 2026</th></tr>
+        <tr><td><b>Coût des aides</b></td><td>Environ <b>72 milliards</b> d'euros (2021-2024), dont plus de 8 Md€ pour les carburants</td><td>Environ <b>70 millions</b> d'euros pour le plan d'avril</td></tr>
+        <tr><td><b>Qui est aidé ?</b></td><td><b>Tout le monde</b> : bouclier tarifaire, remise à la pompe pour tous les automobilistes (jusqu'à 30 c/L)</td><td>Aide <b>ciblée</b> : transport, agriculture, pêche ; salariés modestes « grands rouleurs »</td></tr>
+        <tr><td><b>Règles européennes</b></td><td>Règles budgétaires <b>suspendues</b> (2020-2023)</td><td>France sous <b>procédure pour déficit excessif</b> depuis juillet 2024</td></tr>
+        <tr><td><b>Finances publiques</b></td><td>Déficit 4,7 % du PIB, dette 111,4 %</td><td>Déficit 5,1 % du PIB, dette 115,6 % (2025)</td></tr>
+      </table>
+      <div class="ex"><b>Pièges à éviter</b><b>Millions</b> et <b>milliards</b> : 72 milliards, c'est mille fois 70 millions, et c'est tout l'intérêt de la comparaison. Dans « Qui est aidé ? », on attend des <b>bénéficiaires</b> (tous les ménages / des secteurs ciblés), pas l'origine de la crise (Ukraine, Moyen-Orient) ni la liste des mesures.</div>
+    </div>
+
+    <div class="card">
+      <h3>3. Pourquoi l'État ne peut plus faire ce qu'il veut</h3>
+      <table>
+        <tr><th style="width:34%">Règle européenne</th><th>Contenu · situation de la France</th></tr>
+        <tr><td><b>Les deux seuils</b><br><span style="color:var(--muted)">Maastricht 1992, pacte de stabilité 1997</span></td><td>Déficit public limité à <b>3 % du PIB</b>, dette à <b>60 % du PIB</b>.<br><span style="color:var(--muted)">France 2025 : déficit 5,1 %, dette 115,6 % : les deux seuils sont dépassés. Dix pays de l'UE dépassent 3 %.</span></td></tr>
+        <tr><td><b>La réforme de 2024</b></td><td>Chaque État présente un plan sur quatre à sept ans, avec un plafond annuel de hausse de ses dépenses.</td></tr>
+        <tr><td><b>La procédure pour déficit excessif</b></td><td>Surveillance renforcée des pays au-dessus de 3 %, amende possible.<br><span style="color:var(--muted)">France : depuis le 26 juillet 2024 ; retour sous 3 % en <b>2029</b> au plus tard ; dépenses en hausse de <b>1,2 % maximum</b> en 2026.</span></td></tr>
+        <tr><td><b>Des règles qui s'assouplissent</b></td><td>Suspendues de 2020 à fin 2023 (Covid-19, énergie) ; plan de relance européen de <b>750 Md€</b>, dont environ 40 Md€ pour la France.</td></tr>
+      </table>
+      <p>Pourquoi des règles communes ? Avec une monnaie unique, les finances d'un pays qui dérapent peuvent fragiliser tous les autres.</p>
+      <div class="cle"><b>Le rôle de l'État dans le cadre européen : ce qui a changé</b>
+        <div class="q">
+          <div><b>La monnaie</b> : l'État n'a plus ce levier, confié depuis 1999 à une BCE indépendante.</div>
+          <div><b>Le budget</b> : il reste national, c'est son principal levier… mais il est <b>encadré</b> par les règles européennes.</div>
+          <div><b>La nuance</b> : l'Europe ne fait pas que contraindre, elle sait aussi assouplir ses règles et soutenir (2020-2023, plan de relance).</div>
+        </div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>« L'Europe interdit » ne vaut rien sans chiffre ni règle précise. Cite les seuils (3 % et 60 %), la situation de la France (5,1 % et 115,6 %), la procédure pour déficit excessif (2029, +1,2 %) : c'est ce qui explique que l'État « fasse si peu » en 2026 et choisisse des aides ciblées.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MÉTHODE ══════════════ -->
+  <section class="part M">
+    <div class="part-head"><div class="letter">M</div><h2>Méthode : l'argumentation type bac<small>Sujet du chapitre : « Face au choc de 2026, l'État doit-il relancer l'économie par le budget ? »</small></h2></div>
+
+    <div class="card">
+      <h3>Un argument complet, sur le sujet du chapitre</h3>
+      <p>Un argument enchaîne trois choses : <mark style="background:transparent;color:var(--gold);font-weight:700">une affirmation</mark>, <i style="color:var(--green);font-style:normal">le mécanisme économique</i> (« parce que… donc… »), et <u style="text-decoration:none;border-bottom:2px solid var(--blue)">un chiffre daté tiré d'un document, avec son numéro</u>.</p>
+      <div class="modele">
+        <mark>Non, l'État ne doit pas relancer massivement par le budget, car il n'en a plus les moyens.</mark> <i>Une relance creuse le déficit et fait grossir la dette ; or la France est déjà sous procédure pour déficit excessif et emprunte à des taux qui remontent.</i> <u>En 2025, son déficit atteint 5,1 % du PIB, au-dessus du seuil de 3 %, et ses dépenses ne doivent pas augmenter de plus de 1,2 % en 2026 (documents 7 et 8).</u>
+      </div>
+      <p style="margin-top:10px;font-size:13.5px;color:var(--muted)">Doré = affirmation · vert = mécanisme · souligné bleu = donnée datée d'un document. C'est ce qui vaut le niveau 4.</p>
+    </div>
+
+    <div class="card">
+      <h3>Le plan, et des arguments pour chaque position</h3>
+      <div class="grille">
+        <b>1</b><span><b>Ma position</b>, dès la première phrase : « oui », « non » ou « oui, mais ciblée » : toujours <b>une seule</b>, tenue jusqu'au bout.</span>
+        <b>2</b><span><b>Premier argument</b> : affirmation + mécanisme + donnée d'un document.</span>
+        <b>3</b><span><b>Deuxième argument</b>, différent du premier, appuyé sur un <b>autre</b> document.</span>
+        <b>4</b><span><b>Conclusion</b> : une phrase qui reprend ma position.</span>
+      </div>
+      <div class="cols">
+        <div class="col"><h4 style="color:var(--accent)">Si tu réponds « oui »</h4><ul><li>La croissance est à l'arrêt et le pouvoir d'achat recule (doc. 1) : une relance soutient la demande par l'effet multiplicateur.</li><li>La BCE freine déjà l'économie (doc. 5) : le budget est le seul levier national de soutien.</li><li>En 2022, le bouclier a réduit l'inflation d'environ 2,2 points (doc. 7) ; l'Europe sait assouplir ses règles (doc. 8).</li></ul></div>
+        <div class="col"><h4 style="color:var(--blue)">Si tu réponds « non »</h4><ul><li>Déficit 5,1 %, dette 115,6 %, procédure pour déficit excessif, dépenses plafonnées à +1,2 % (doc. 7 à 9).</li><li>Relancer augmenterait une dette qui coûte plus cher quand les taux montent (doc. 5).</li><li>C'est un choc d'offre : soutenir la demande nourrirait l'inflation. Mieux vaut des aides ciblées et du structurel (doc. 2 et 3).</li></ul></div>
+      </div>
+      <div class="retiens"><span class="tag">RETIENS</span><span>À éviter : défendre les deux positions à la fois, recopier un document sans l'expliquer, donner un chiffre sans date ni numéro de document, raconter l'histoire de Julien au lieu d'argumenter. Emploie le vocabulaire du chapitre : relance, rigueur, effet multiplicateur, déficit, dette, taux directeurs, BCE, conjoncturel, structurel, offre, demande, procédure pour déficit excessif.</span></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AUTO-CONTRÔLE ══════════════ -->
+  <section class="part">
+    <div class="part-head"><div class="letter" style="background:var(--grey)">✓</div><h2>Je vérifie que j'ai compris<small>Réponds dans ta tête, puis touche pour vérifier</small></h2></div>
+    <div class="card">
+      <details><summary>Le PIB recule de 0,2 % au T1 2026 puis stagne à 0,0 % au T2. La France est-elle en récession ?</summary><div class="rep"><b>Non.</b> Une récession, c'est deux trimestres de recul de suite. Ici un seul : la France est en <b>ralentissement</b>, au bord de la récession.</div></details>
+      <details><summary>Une prime de 150 € versée pendant trois mois aux ménages modestes : horizon ? cible ?</summary><div class="rep"><b>Conjoncturelle</b> (temporaire, pour passer le choc) et politique de la <b>demande</b> (elle soutient les dépenses des ménages).</div></details>
+      <details><summary>Une baisse durable des cotisations payées par les employeurs : horizon ? cible ?</summary><div class="rep"><b>Structurelle</b> (elle est faite pour durer) et politique de l'<b>offre</b> (elle baisse les coûts de production des entreprises).</div></details>
+      <details><summary>Pourquoi le plan de soutien et le plan d'électrification se complètent-ils ?</summary><div class="rep">Le premier, conjoncturel, <b>amortit le choc d'aujourd'hui</b> en aidant tout de suite les plus touchés ; le second, structurel, <b>réduit la dépendance</b> au pétrole importé (60 % → 40 % en 2030), donc l'exposition aux chocs futurs.</div></details>
+      <details><summary>Qui conduit la politique monétaire de la France, avec quel objectif et quel outil ?</summary><div class="rep">La <b>BCE</b>, indépendante, pour toute la zone euro depuis 1999. Objectif : la stabilité des prix, une inflation proche de <b>2 %</b>. Outil : les <b>taux directeurs</b>.</div></details>
+      <details><summary>L'inflation passe à 3,3 % dans la zone euro. Que fait la BCE, et comment cela agit-il sur les prix ?</summary><div class="rep">Elle <b>relève</b> ses taux (politique restrictive) → les banques relèvent les taux des crédits → ménages et entreprises empruntent et dépensent moins → la demande ralentit → les prix augmentent moins vite.</div></details>
+      <details><summary>Pourquoi cette hausse des taux est-elle risquée pour la France en 2026 ?</summary><div class="rep">Parce que l'économie est <b>déjà à l'arrêt</b> (0,0 % au T2 2026) : un crédit plus cher réduit encore la consommation et l'investissement, avec un risque de récession et de chômage. Et elle ne fait pas baisser le prix du pétrole, qui est la cause de l'inflation.</div></details>
+      <details><summary>Explique l'effet multiplicateur en une chaîne de causes.</summary><div class="rep">L'État dépense plus → les revenus augmentent → ménages et entreprises consomment et investissent → les entreprises produisent plus et embauchent → ces nouveaux revenus sont à leur tour dépensés. Contrepartie : le <b>déficit</b> se creuse et la <b>dette</b> grossit.</div></details>
+      <details><summary>Quels sont les deux seuils européens, et où en est la France ?</summary><div class="rep">Déficit public sous <b>3 %</b> du PIB et dette sous <b>60 %</b>. France 2025 : <b>5,1 %</b> et <b>115,6 %</b> : elle est sous procédure pour déficit excessif depuis juillet 2024 et doit revenir sous 3 % en 2029.</div></details>
+      <details><summary>Pourquoi l'État aide-t-il mille fois moins en 2026 qu'en 2022 ?</summary><div class="rep">En 2022, les règles européennes étaient <b>suspendues</b> et l'État empruntait à des taux très bas : environ 72 milliards d'euros pour tout le monde. En 2026, la France est <b>sous surveillance</b> et emprunte plus cher : environ 70 millions d'euros d'aides <b>ciblées</b>, et un choix structurel (l'électrification).</div></details>
+    </div>
+  </section>
+
+  <p class="foot">Pour les rappels sur le déficit et la dette, revois <a href="e6c1.html?v=1">la fiche du chapitre 1</a> ; pour les outils de l'État face aux défaillances de marché, <a href="e6c2.html?v=1">celle du chapitre 2</a>.<br>Données du livret : Insee (comptes trimestriels, prix à la consommation, note de conjoncture de septembre 2026), economie.gouv.fr et info.gouv.fr (2026), BCE (décision du 10 septembre 2026), Eurostat, Observatoire Crédit Logement/CSA, Cour des comptes (2024), Conseil de l'Union européenne. Situations de Julien, Camille et Thomas : fictives.</p>
+</div>
+</body>
+</html>
