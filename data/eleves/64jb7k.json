@@ -1,7 +1,7 @@
 {
   "code": "64jb7k",
   "classe": "TSTMG",
-  "maj": "2026-09-20",
+  "maj": "2026-09-21",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -397,16 +397,165 @@
       "rang": 9,
       "effectif": 31,
       "moyenne_classe": 8.5
+    },
+    {
+      "devoir_id": "ts-e6c3-dossier",
+      "note": 10.0,
+      "publie_le": "2026-09-21",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "Classer quatre mesures : horizon et cible",
+          "points": 2.31,
+          "points_max": 3.08,
+          "commentaire": "Les quatre cibles sont justes. Pour l'horizon, deux inversions : la remise de 20 centimes (a) est temporaire, donc conjoncturelle ; l'aide à l'achat d'un poids lourd électrique (d) transforme durablement la production, elle est structurelle.",
+          "reponse_eleve": "a: horizon=structurelle cible=offre b: horizon=conjoncturelle cible=demande c: horizon=conjoncturelle cible=offre d: horizon=conjoncturelle cible=offre",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-doc",
+            "t-vocab"
+          ],
+          "reponse_attendue": "a. Remise de 20 c/L aux transporteurs : conjoncturelle + offre (elle baisse temporairement un coût de production). b. Aide « grands rouleurs » : conjoncturelle + demande (elle soutient le pouvoir d'achat des ménages). c. Report des cotisations sociales : conjoncturelle + offre (trésorerie de l'entreprise). d. Aide jusqu'à 100 000 € pour un poids lourd électrique : structurelle + offre (transforme durablement l'appareil de production)."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Conjoncturelle ou structurelle ?",
+          "points": 0.77,
+          "points_max": 1.54,
+          "commentaire": "Les deux définitions sont justes. Les exemples ne conviennent pas : le prix du carburant n'est pas une mesure de politique économique, et la remise de 20 centimes est temporaire, donc conjoncturelle. L'exemple structurel de la situation est l'aide à l'achat de camions électriques.",
+          "reponse_eleve": "Politique conjoncturelle : agit à court terme, elle soutient l'activité quand elle ralentit ou la freine quand l'économie s'emballe et que les prix augmentent ex : le prix du carburant mi-avril en 2026. Politique structurelle : agit à long terme, elle transforme durablement l'organisation de l'économie ex : la remise de 20 centimes par litre réservée au conducteur / transporteurs.",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Une politique conjoncturelle agit à court terme sur le cycle pour soutenir (relance) ou freiner (rigueur) l'activité, avec des mesures souvent temporaires : ex. la remise de 20 c/L d'avril, le report des cotisations, l'aide grands rouleurs. Une politique structurelle agit à long terme pour transformer durablement l'économie : ex. l'aide à l'achat de camions électriques / le plan d'électrification."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Lire la conjoncture de 2026",
+          "points": 1.15,
+          "points_max": 1.54,
+          "commentaire": "Bonne lecture des deux graphiques, chiffres datés, et la phase de ralentissement est bien identifiée. Pour compléter : ajoute le 0,0 % du T2 2026 et relie ce ralentissement au choc sur le prix de l'énergie, qui fait reculer le pouvoir d'achat.",
+          "reponse_eleve": "a) La croissance du PIB démarre à 0,1 % au T1 2025 et perçoit un pic au T3 2025 à +0,5 % avant de chuter début 2026 à -0,2 %. b) L'inflation en janvier 2026 débute à 0,3 % et ne cesse d'augmenter jusqu'en mai à 2,4 % avant de diminuer à 1,8 % en juin puis réaugmente à 2,4 % en août. La France est dans une phase de ralentissement.",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Croissance : le PIB recule de 0,2 % au T1 2026 puis stagne (0,0 %) au T2 2026, après +0,5 % au T3 2025. Inflation : 0,3 % sur un an en janvier 2026, 2,4 % en août 2026 (2,2 % en avril, pic de 2,4 % en mai), sous l'effet de l'énergie. La France est en phase de ralentissement / quasi-stagnation, au bord de la récession (un seul trimestre de recul, pas deux), avec un pouvoir d'achat en recul (-0,6 % au T2)."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Deux plans, deux objectifs",
+          "points": 0.0,
+          "points_max": 2.31,
+          "commentaire": "Question non traitée. La piste : le plan de soutien immédiat est conjoncturel (il aide tout de suite les plus touchés par la hausse du carburant), le plan d'électrification est structurel (il réduit durablement la dépendance au pétrole importé) ; ils se complètent.",
+          "reponse_eleve": "[NON REPONDU]",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-argu",
+            "t-doc"
+          ],
+          "reponse_attendue": "Le plan de soutien immédiat (doc 2) est conjoncturel : il répond à l'urgence en aidant tout de suite les secteurs et les ménages les plus touchés par la hausse du carburant (70 M€ en avril, 20 c/L, 100 € grands rouleurs), sans creuser le déficit. Le plan d'électrification (doc 3) est structurel : il s'attaque à la cause, la dépendance au pétrole et au gaz importés (60 % → 40 % en 2030, 10 Md€ par an). Ils se complètent : l'un amortit le choc d'aujourd'hui, l'autre réduit l'exposition aux chocs futurs."
+        },
+        {
+          "question": "Q5",
+          "intitule": "La politique monétaire : définition",
+          "points": 1.15,
+          "points_max": 1.54,
+          "commentaire": "Définition, objectif et outil exacts. Il manque qui la conduit : la Banque centrale européenne (BCE), pour toute la zone euro.",
+          "reponse_eleve": "Elle agit sur la quantité de monnaie dans l'économie et sur son prix, son objectif est la stabilité des prix et son outil principal est : les taux directeurs.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "La politique monétaire agit sur la quantité de monnaie et sur son prix, le taux d'intérêt, pour influencer le crédit et l'activité. Pour la France, elle est conduite par la BCE (indépendante, pour les 21 pays de la zone euro). Objectif principal : la stabilité des prix, une inflation proche de 2 % à moyen terme. Outil principal : les taux directeurs (taux de la facilité de dépôt, de refinancement)."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Les taux de la BCE suivent l'inflation",
+          "points": 0.77,
+          "points_max": 1.54,
+          "commentaire": "Évolution bien décrite, avec des niveaux datés. Pour le lien, tu expliques le canal du crédit (c'est la question 7) : ici on attendait que la BCE relève ses taux quand l'inflation est forte (8,4 % en 2022) et les baisse quand elle revient vers 2 % (2,1 % en 2025).",
+          "reponse_eleve": "En 2022 les taux de la BCE est inférieur à 0 %. En septembre 2023, la BCE porte le taux de sa facilité de dépôt à 4 %, c'est son pic puis en 2025 les taux de la BCE diminue jusqu'à 2 %. Enfin en août 2026 le taux subit une augmentation de 0,50 % et passe à 2,50 %. Le lien entre cette évolution et celle de l'inflation c'est les crédits car les banques se financent plus cher et augmentent les taux de crédits car la BCE relève ses taux.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Le taux de dépôt passe de −0,50 % début 2022 (0 % en juillet 2022) à 4 % en septembre 2023, redescend à 2 % en juin 2025, puis remonte à 2,25 % en juin 2026 et 2,50 % en septembre 2026. La BCE relève ses taux quand l'inflation est forte (8,4 % en 2022, 5,4 % en 2023), les baisse quand elle revient près de 2 % (2,4 % en 2024, 2,1 % en 2025), et les remonte en 2026 quand elle repart (3,3 % en août 2026)."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Le canal du crédit, étape par étape",
+          "points": 0.38,
+          "points_max": 2.31,
+          "commentaire": "L'étape 1 est chiffrée. Les suivantes demandaient chacune un exemple du dossier : taux du crédit de Camille et Thomas de 3,10 % à 3,55 % (étape 2), achat reporté ou machine repoussée (étape 3), puis la conclusion : la demande ralentit, les prix augmentent moins vite et l'inflation revient vers 2 % (étape 4).",
+          "reponse_eleve": "1 : Les banques se financent plus cher : elle relève ses taux de 0,25 en mi 2026. 2 : [VIDE] 3 : Baisse du pouvoir d'achat. 4 : Les ménages empruntent sur de plus longue durée : près de 21 ans.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "1. La BCE relève ses taux de 0,25 point en juin (2,25 %) puis en septembre 2026 (2,50 %). 2. Les banques se refinancent plus cher et relèvent les taux des crédits : 3,06 % en juin 2025 → 3,30 % en juillet 2026 ; la banque de Camille et Thomas passe de 3,10 % à 3,55 %. 3. Emprunter coûte plus cher : mensualité +55 €/mois, capacité d'emprunt ramenée à 218 500 €, achat reporté ; l'employeur de Thomas repousse l'achat d'une machine ; épargner rapporte davantage ; demande de crédit en recul. 4. Moins de consommation et d'investissement → la demande ralentit → les entreprises augmentent moins leurs prix → l'inflation se rapproche de 2 %."
+        },
+        {
+          "question": "Q8",
+          "intitule": "Une politique restrictive… en plein ralentissement",
+          "points": 0.38,
+          "points_max": 2.31,
+          "commentaire": "Tu montres que le crédit devient plus cher ; ajoute le but, qui fait le caractère restrictif : freiner la demande pour ramener l'inflation vers 2 %. Le risque à court terme n'est pas la dette : l'économie est déjà à l'arrêt (PIB 0,0 % au T2 2026) et un crédit plus cher réduit encore la consommation et l'investissement.",
+          "reponse_eleve": "C'est une politique monétaire restrictive. Car la BCE relève ses taux des banques se financent plus cher et augmentent les taux de crédits qu'elles accordent aux ménages et aux entreprises. Cela peut aggraver à court terme les difficultés de l'économie française car cela va augmenter les dettes.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-argu",
+            "t-doc"
+          ],
+          "reponse_attendue": "La politique est restrictive : la BCE relève ses taux (2,25 % puis 2,50 %) pour renchérir le crédit et freiner la demande afin de ramener l'inflation (3,3 % en août) vers 2 %. Or l'économie française ralentit déjà (PIB −0,2 % au T1 et 0,0 % au T2 2026, prévision 0,4 % pour 2026 ; 0,9 % pour la zone euro) : un crédit plus cher réduit encore l'investissement et la consommation (achats immobiliers reportés, machine repoussée, demande de crédits en recul), ce qui peut faire basculer vers la récession et le chômage. Nuance : l'inflation vient surtout du pétrole ; la hausse des taux ne fait pas baisser son prix."
+        },
+        {
+          "question": "Q9",
+          "intitule": "La politique budgétaire et le multiplicateur",
+          "points": 1.54,
+          "points_max": 1.54,
+          "commentaire": "Réponse complète sur la capacité *désigner les outils et canaux de transmission de la politique budgétaire* : outils, chaîne, contrepartie. Tu peux nommer l'enchaînement : l'effet multiplicateur.",
+          "reponse_eleve": "Les deux outils sont les dépenses publiques et les prélèvements obligatoires. L'État dépense plus ou prélève moins puis les revenus des ménages et des entreprises augmentent, ils consomment davantage et les entreprises produisent plus et embauchent, ensuite ces nouveaux revenus sont à leur tour dépensés. La contrepartie c'est qu'une relance creuse le déficit et fait grossir la dette publique.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-vocab"
+          ],
+          "reponse_attendue": "Deux outils : les dépenses publiques et les prélèvements obligatoires (impôts, taxes, cotisations). Hausse des dépenses → revenus des ménages et des entreprises ↑ → consommation et investissement ↑ → production et embauches ↑ → nouveaux revenus à nouveau dépensés : c'est l'effet multiplicateur. Contrepartie : le déficit public se creuse et la dette augmente (avec la charge d'intérêts)."
+        },
+        {
+          "question": "Q10",
+          "intitule": "2022 et 2026 : deux réponses budgétaires",
+          "points": 1.54,
+          "points_max": 2.31,
+          "commentaire": "Bénéficiaires et règles européennes exacts. Dans la ligne « coût », tu as reporté le déficit et la dette : on attendait le coût des mesures, environ 72 milliards d'euros en 2022 contre environ 70 millions en 2026.",
+          "reponse_eleve": "Cout 2022 : 4,7 % du PIB Dette 111,4 % du PIB / Cout 2026 : 5,1 % du PIB Dette 115,6 % Qui 2022 : Les automobilistes / Qui 2026 : « Grands rouleurs » transport / agriculture / pêche Regles 2022 : Règles budgétaires suspendues de 2020 à 2023 / Regles 2026 : Procédure sous déficit excessif.",
+          "capacite": "e6-8",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Coût : 2022 ≈ 72 Md€ (coût brut 2021-2024, dont plus de 8 Md€ pour les carburants) ; 2026 ≈ 70 M€ pour le plan d'avril. Qui : 2022 tous les ménages / automobilistes (aide générale : bouclier, remise à la pompe pour tous) ; 2026 aide ciblée (transport, agriculture, pêche ; salariés modestes grands rouleurs). Règles : 2022 règles budgétaires suspendues (2020-2023) ; 2026 France sous procédure pour déficit excessif depuis juillet 2024."
+        }
+      ],
+      "rang": 18,
+      "effectif": 29,
+      "moyenne_classe": 10.4
     }
   ],
   "classements": {
     "general": {
-      "rang": 5,
+      "rang": 10,
       "effectif": 31,
-      "moyenne": 12.25,
-      "rang_precedent": 1
+      "moyenne": 11.5,
+      "rang_precedent": 5
     },
     "types": {
+      "dossier": {
+        "rang": 14,
+        "effectif": 31,
+        "moyenne": 10.0
+      },
       "conso": {
         "rang": 13,
         "effectif": 30,
@@ -420,16 +569,16 @@
     },
     "matieres": {
       "eco": {
-        "rang": 5,
+        "rang": 10,
         "effectif": 31,
-        "moyenne": 12.25
+        "moyenne": 11.5
       }
     },
     "themes": {
       "e6": {
-        "rang": 5,
+        "rang": 10,
         "effectif": 31,
-        "moyenne": 12.25
+        "moyenne": 11.5
       }
     }
   },
@@ -443,12 +592,12 @@
       "max": 2.5
     },
     "t-doc": {
-      "pts": 5.5,
-      "max": 7.5
+      "pts": 12.03,
+      "max": 22.9
     },
     "t-vocab": {
-      "pts": 15.5,
-      "max": 27.0
+      "pts": 21.27,
+      "max": 34.7
     },
     "t-redaction": {
       "pts": 8.0,
@@ -463,8 +612,8 @@
       "max": 5.0
     },
     "t-argu": {
-      "pts": 3.5,
-      "max": 4.5
+      "pts": 3.88,
+      "max": 9.12
     },
     "e6-3": {
       "pts": 3.0,
@@ -477,6 +626,18 @@
     "e6-5": {
       "pts": 0.5,
       "max": 1.0
+    },
+    "e6-7": {
+      "pts": 4.23,
+      "max": 8.47
+    },
+    "e6-6": {
+      "pts": 4.22,
+      "max": 9.24
+    },
+    "e6-8": {
+      "pts": 1.54,
+      "max": 2.31
     }
   }
 }

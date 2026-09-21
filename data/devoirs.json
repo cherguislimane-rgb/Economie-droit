@@ -210,7 +210,11 @@
       "coef": 1,
       "titre": "Dossier — Relancer ou freiner ? (Éco T1, chap. 3)",
       "date": "2026-09-21",
-      "note_max": 20
+      "note_max": 20,
+      "stats": {
+        "moyenne": 10.4,
+        "effectif": 29
+      }
     }
   ],
   "chapitres": {

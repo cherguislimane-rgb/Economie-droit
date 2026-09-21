@@ -1,7 +1,7 @@
 {
   "code": "fv9gsz",
   "classe": "TSTMG",
-  "maj": "2026-09-20",
+  "maj": "2026-09-21",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -797,13 +797,12 @@
     "general": {
       "rang": 1,
       "effectif": 31,
-      "moyenne": 14.21,
-      "rang_precedent": 2
+      "moyenne": 14.21
     },
     "types": {
       "dossier": {
-        "rang": 2,
-        "effectif": 29,
+        "rang": 5,
+        "effectif": 31,
         "moyenne": 12.55
       },
       "conso": {

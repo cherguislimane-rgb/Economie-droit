@@ -1,7 +1,7 @@
 {
   "code": "2znnbz",
   "classe": "TSTMG",
-  "maj": "2026-09-20",
+  "maj": "2026-09-21",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -588,13 +588,12 @@
     "general": {
       "rang": 30,
       "effectif": 31,
-      "moyenne": 7.08,
-      "rang_precedent": 31
+      "moyenne": 7.08
     },
     "types": {
       "dossier": {
-        "rang": 28,
-        "effectif": 29,
+        "rang": 31,
+        "effectif": 31,
         "moyenne": 5.25
       },
       "conso": {
