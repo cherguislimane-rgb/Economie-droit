@@ -215,6 +215,18 @@
         "moyenne": 10.4,
         "effectif": 29
       }
+    },
+    {
+      "id": "ts-e6c3-dossier2",
+      "classe": "TSTMG",
+      "matiere": "eco",
+      "theme": "e6",
+      "chapitre": "e6c3",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier (2e passage) — Relancer ou freiner ? (Éco T1, chap. 3)",
+      "date": "2026-09-28",
+      "note_max": 20
     }
   ],
   "chapitres": {
