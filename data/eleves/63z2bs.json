@@ -1,7 +1,7 @@
 {
   "code": "63z2bs",
   "classe": "TSTMG",
-  "maj": "2026-09-21",
+  "maj": "2026-09-28",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -736,7 +736,7 @@
     },
     "types": {
       "dossier": {
-        "rang": 28,
+        "rang": 29,
         "effectif": 31,
         "moyenne": 7.03
       },

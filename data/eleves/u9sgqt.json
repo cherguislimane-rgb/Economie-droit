@@ -1,7 +1,7 @@
 {
   "code": "u9sgqt",
   "classe": "TSTMG",
-  "maj": "2026-09-21",
+  "maj": "2026-09-28",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -743,14 +743,14 @@
   ],
   "classements": {
     "general": {
-      "rang": 8,
+      "rang": 10,
       "effectif": 31,
       "moyenne": 12.05,
-      "rang_precedent": 11
+      "rang_precedent": 8
     },
     "types": {
       "dossier": {
-        "rang": 3,
+        "rang": 4,
         "effectif": 31,
         "moyenne": 12.86
       },
@@ -767,14 +767,14 @@
     },
     "matieres": {
       "eco": {
-        "rang": 8,
+        "rang": 10,
         "effectif": 31,
         "moyenne": 12.05
       }
     },
     "themes": {
       "e6": {
-        "rang": 8,
+        "rang": 10,
         "effectif": 31,
         "moyenne": 12.05
       }

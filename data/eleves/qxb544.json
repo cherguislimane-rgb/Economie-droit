@@ -1,7 +1,7 @@
 {
   "code": "qxb544",
   "classe": "TSTMG",
-  "maj": "2026-09-21",
+  "maj": "2026-09-28",
   "copies": [
     {
       "devoir_id": "ts-e6c1-conso",
@@ -732,12 +732,11 @@
     "general": {
       "rang": 29,
       "effectif": 31,
-      "moyenne": 7.37,
-      "rang_precedent": 26
+      "moyenne": 7.37
     },
     "types": {
       "dossier": {
-        "rang": 30,
+        "rang": 31,
         "effectif": 31,
         "moyenne": 5.73
       },

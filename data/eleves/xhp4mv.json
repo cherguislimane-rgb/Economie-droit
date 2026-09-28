@@ -1,7 +1,7 @@
 {
   "code": "xhp4mv",
   "classe": "TSTMG",
-  "maj": "2026-09-21",
+  "maj": "2026-09-28",
   "copies": [
     {
       "devoir_id": "ts-e6c1-dossier",
@@ -927,20 +927,172 @@
       "rang": 21,
       "effectif": 29,
       "moyenne_classe": 10.4
+    },
+    {
+      "devoir_id": "ts-e6c3-dossier2",
+      "note": 17.0,
+      "publie_le": "2026-09-28",
+      "pdf": null,
+      "retours": [
+        {
+          "question": "Q1",
+          "intitule": "2026 : trois chiffres pour un diagnostic",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Trois chiffres exacts, datés, dans la bonne ligne.",
+          "reponse_eleve": "Activité : -0,2 % -0,0 %, 1er et 2ème trimestre 2026 Pouvoir d'achat : -0,6 %, unité de consommation, 2ème trimestre 2026. Prix : +2,4 %, hausse des prix sur un an, août 2026",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Activité à l'arrêt : PIB −0,2 % au 1er trimestre 2026 ou 0,0 % (stable) au 2e trimestre 2026 (par rapport au trimestre précédent). Pouvoir d'achat : −0,6 % par unité de consommation au 2e trimestre 2026. Prix : inflation +2,4 % sur un an en août 2026 (contre +0,3 % en janvier 2026), ou prix de l'énergie +16,7 % en août 2026, ou inflation de la zone euro +3,2 % en août 2026. Chaque chiffre avec son unité (%) et sa date."
+        },
+        {
+          "question": "Q2",
+          "intitule": "Relancer, freiner : définitions",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Réponse claire et complète, avec un exemple daté pour chaque mot. Précision : en 2022-2023, c'est la BCE qui agit, pas l'État.",
+          "reponse_eleve": "« Relancer » signifie que l'activité ralentit ou recule et qu'il faut la soutenir. On peut baisser les taxes ou impôts pour l'aider. L'État avait réagi lors de la pandémie en 2020. Tandis que « freiner » correspond à calmer l'activité quand les prix montent rapidement. On peut augmenter les impôts pour réduire les dépenses. L'État avait réagi en 2022-2023 quand la Banque centrale européenne avait relevé ses taux pour freiner l'inflation.",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Relancer = soutenir l'activité quand elle ralentit ou recule (croissance faible, récession, chômage) en augmentant les dépenses publiques, en baissant les impôts ou les taux d'intérêt (politique expansionniste / de relance). Freiner = calmer la dépense quand les prix montent trop vite (inflation) ou quand le déficit et la dette deviennent trop lourds, en réduisant les dépenses, en augmentant les impôts ou les taux (politique restrictive / de rigueur)."
+        },
+        {
+          "question": "Q3",
+          "intitule": "Demande ou offre ? (cases à cocher)",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Sans faute : tu as bien regardé qui reçoit l'aide. Une aide versée aux ménages soutient la demande, une aide versée aux entreprises soutient l'offre.",
+          "reponse_eleve": "a: demande b: offre c: offre d: demande",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "a : chèque énergie versé aux ménages → politique de DEMANDE. b : aide de 20 centimes par litre aux entreprises de transport → politique de l'OFFRE. c : report des cotisations sociales des entreprises → OFFRE. d : MaPrimeRénov' versée aux ménages → DEMANDE."
+        },
+        {
+          "question": "Q4",
+          "intitule": "Conjoncturel ou structurel ?",
+          "points": 1.5,
+          "points_max": 1.5,
+          "commentaire": "Très bonne réponse : classement, durée et objectif pour chaque plan.",
+          "reponse_eleve": "Le plan de soutien du 27 mars 2026 est une politique conjoncturelle, car il est temporaire (jusqu'au mois d'avril 2026), et sert à réagir à la crise. Tandis que le plan d'électrification est une politique structurelle, car il se mettra en place durant plusieurs années, afin de transformer la structure de la dépendance au pétrole.",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-vocab",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Le plan de soutien du 27 mars 2026 est conjoncturel : limité au mois d'avril, il réagit au choc pétrolier pour aider la trésorerie des entreprises de transport, d'agriculture et de pêche (passer le cap). Le plan d'électrification est structurel : prévu sur plusieurs années, il vise à transformer durablement l'économie en réduisant la dépendance au pétrole importé (transports, chauffage, industrie)."
+        },
+        {
+          "question": "Q5",
+          "intitule": "La chaîne du chèque énergie",
+          "points": 1.5,
+          "points_max": 2.0,
+          "commentaire": "Les étapes 2 et 3 sont justes. À l'étape 4, tu as changé de situation : l'emprunt trop cher, c'est Émilie (politique monétaire). Ici la production et l'emploi augmentent, et les nouveaux revenus sont dépensés à leur tour.",
+          "reponse_eleve": "Étape 2 : n'a pas besoin de sortir de l'argent pour payer ses factures grâce au chèque et donc va dépenser plus. Étape 3 : font autant de ventes en plus Étape 4 : emprunter est trop cher et donc les entreprises vendent moins donc produisent moins. (un utilitaire électrique à 45 000 €)",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-redaction",
+            "t-doc"
+          ],
+          "reponse_attendue": "Étape 2 : Nathalie paie sa facture d'électricité avec le chèque et dépense l'argent ainsi libéré (marché du Prado, coiffeur) : sa consommation augmente, la demande augmente. Étape 3 : les commerçants vendent plus, leurs revenus augmentent ; ils commandent ou produisent davantage, peuvent embaucher et dépensent à leur tour. Étape 4 : la production et l'emploi augmentent dans l'économie ; les nouveaux revenus sont à leur tour dépensés : c'est l'effet multiplicateur."
+        },
+        {
+          "question": "Q6",
+          "intitule": "Le taux de la BCE : trois temps et une raison",
+          "points": 1.75,
+          "points_max": 2.0,
+          "commentaire": "Lecture du graphique précise et complète. Pour la raison, va au bout : le conflit fait monter les prix de l'énergie, l'inflation dépasse l'objectif de 2 %.",
+          "reponse_eleve": "En 2022, le taux de la BCE se trouve entre 0 et -1 %. Avant 2023, il subit une hausse, qui monte jusqu'à 4 % en 2023. De septembre 2023 à juin 2024, le taux reste à 4 % avant de baisser à 2 % jusqu'à 2025. De juin 2025 à juin 2026 le taux stagne à 2 %, et subit une nouvelle hausse qui monte jusqu'à 2,50 % en septembre 2026, selon le graphique des taux directeurs de la B.C.E. L'explication donnée par la B.C.E est que le conflit du Moyen-Orient pousse à augmenter les taux.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-doc",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Trois temps du taux de dépôt de la BCE (document 3) : 1) hausse de 2022 à 2023, de −0,50 % (début 2022) à 4,00 % (septembre 2023) ; 2) baisse de juin 2024 à juin 2025, de 4,00 % à 2,00 % (juin 2025), taux maintenu jusqu'en juin 2026 ; 3) nouvelle hausse en 2026 : 2,25 % en juin 2026 puis 2,50 % le 16 septembre 2026. Raison (document 4) : le conflit au Moyen-Orient fait monter les prix de l'énergie, l'inflation de la zone euro (3,2 % en août 2026) est nettement au-dessus de l'objectif de 2 % et devrait le rester ; la BCE relève ses taux pour la ramener vers 2 %."
+        },
+        {
+          "question": "Q7",
+          "intitule": "Le camion d'Émilie et le canal du crédit",
+          "points": 1.5,
+          "points_max": 2.0,
+          "commentaire": "Chaîne bien menée jusqu'à la demande, avec les chiffres. Conclus sur l'inflation : moins de demande, donc moins de pression sur les prix, l'inflation ralentit vers 2 %.",
+          "reponse_eleve": "Émilie souhaite acheter un utilitaire électrique en faisant un crédit sur cinq années. La banque lui a proposé un taux de 3,4 %, mais lorsqu'elle revient en septembre 2026 (après les deux hausses de la B.C.E), le taux est à 3,9 %. Les intérêts sont trop chers pour Émilie donc elle repousse. Pour la demande, le produit n'est pas vendu, et la production est réduite. Pour l'inflation, la hausse des taux sert à freiner l'activité.",
+          "capacite": "e6-6",
+          "transversales": [
+            "t-redaction",
+            "t-vocab"
+          ],
+          "reponse_attendue": "1) La BCE relève ses taux directeurs (juin et septembre 2026) → les banques se financent plus cher et relèvent le taux des crédits : la banque d'Émilie passe de 3,4 % à 3,9 %. 2) Emprunter coûte plus cher (près de 600 € d'intérêts en plus) → Émilie repousse son investissement, l'achat du camion. 3) La demande baisse : le concessionnaire ne vend pas, l'usine produit un camion de moins ; en se répétant dans toute l'économie, cette baisse de la demande réduit la pression sur les prix. 4) L'inflation ralentit et revient vers 2 % (avec un délai d'un à deux ans) : c'est le canal du crédit d'une politique monétaire qui freine."
+        },
+        {
+          "question": "Q8",
+          "intitule": "Les seuils européens : respectés ou dépassés ?",
+          "points": 1.0,
+          "points_max": 1.0,
+          "commentaire": "Sans faute : le déficit dépasse 3 % du PIB et la dette dépasse 60 % du PIB sur les quatre années. Bonne lecture des seuils européens.",
+          "reponse_eleve": "a: deficit=depasse dette=depasse b: deficit=depasse dette=depasse c: deficit=depasse dette=depasse d: deficit=depasse dette=depasse",
+          "capacite": "e6-8",
+          "transversales": [
+            "t-doc"
+          ],
+          "reponse_attendue": "Déficit public : 4,7 % (2022), 5,4 % (2023), 5,8 % (2024), 5,1 % (2025), tous supérieurs à 3 % → « dépassé » sur les quatre années. Dette publique : 111,4 %, 109,5 %, 112,6 %, 115,6 %, tous supérieurs à 60 % → « dépassé » sur les quatre années."
+        },
+        {
+          "question": "Q9",
+          "intitule": "Pourquoi pas comme en 2020 ?",
+          "points": 0.75,
+          "points_max": 2.0,
+          "commentaire": "Premier temps juste. Ajoute un chiffre (déficit 5,1 % en 2025) et traite le second temps : en 2020, les règles ont été suspendues et l'Europe a relancé en commun (750 milliards d'euros).",
+          "reponse_eleve": "Depuis 1997, les États européens se soumettent à des règles qui les empêchent de dépasser un déficit de 3 % et une dette de 60 %. Depuis 2022, la France dépasse de beaucoup la limite fixée, et est engagée dans une procédure au risque d'une amende.",
+          "capacite": "e6-8",
+          "transversales": [
+            "t-argu",
+            "t-doc"
+          ],
+          "reponse_attendue": "(1) La France s'est engagée avec le traité de Maastricht et le pacte de stabilité sur un déficit inférieur à 3 % du PIB et une dette inférieure à 60 % ; elle dépasse ces seuils (déficit 5,1 % en 2025, dette 115,6 % du PIB). Depuis le 26 juillet 2024, elle est sous procédure pour déficit excessif : elle doit revenir sous 3 % en 2029 au plus tard, limiter la hausse de ses dépenses à 1,2 % par an de 2026 à 2028 et risque une amende si elle ne fait pas d'effort. L'État ne peut donc pas dépenser librement des centaines de milliards. (2) En 2020, les règles ont été suspendues face au Covid (« quoi qu'il en coûte », déficit proche de 9 % du PIB) et l'Europe a relancé en commun : premier emprunt commun européen, plan NextGenerationEU de 750 milliards d'euros, qui a financé 40 des 100 milliards de France Relance. L'Europe ne fait donc pas qu'interdire : elle peut aussi permettre ou organiser une relance quand le choc est commun."
+        },
+        {
+          "question": "Q10",
+          "intitule": "Relancer ou freiner : ta position",
+          "points": 4.5,
+          "points_max": 5.0,
+          "commentaire": "Argumentation bien construite : position, deux arguments annoncés, conclusion. Le second est solide (document 5). Dans le premier, ajoute un chiffre daté (taux à 2,50 % en septembre 2026) et dis pourquoi l'État doit aller dans le même sens que la BCE.",
+          "reponse_eleve": "L'État doit absolument freiner ses dépenses. Nous allons aborder deux arguments : Dans un premier temps, on constate que le conflit du Moyen-Orient affecte énormément notre pays. Selon la B.C.E, c'est la raison pour laquelle elle augmente ses taux. Augmenter les taux sert à réduire les dépenses des ménages et à baisser l'inflation. L'objectif de la B.C.E est d'atteindre le seuil d'inflation à 2 % et d'y rester. Deuxièmement, face aux réglementations européennes, la France est en procédure pour dette et déficit excessif. Le pays dépasse les 3 % maximum (pour le déficit) depuis 2022, et les 60 % maximum (pour la dette) aussi depuis 2022 d'après le document n°5. Si la France ne rentre pas dans […]",
+          "capacite": "e6-7",
+          "transversales": [
+            "t-argu",
+            "t-redaction"
+          ],
+          "reponse_attendue": "Grille officielle du bac (construction 2 pts / arguments et concepts 3 pts), deux arguments exigés dans un dossier, une seule position. Position « relancer » : l'activité est à l'arrêt (PIB −0,2 % puis 0,0 %, pouvoir d'achat −0,6 %, doc 1), une relance budgétaire soutient la demande par l'effet multiplicateur (ressource 3, situation B) ; la BCE freine déjà en relevant ses taux (docs 3-4), le budget est le seul levier national qui reste ; le chèque énergie et les aides ciblées ont protégé ménages et entreprises (doc 2, situation A) ; l'Europe sait suspendre ses règles ou relancer en commun quand le choc est grave (ressource 5, 2020). Position « freiner » : la France est sous procédure pour déficit excessif, déficit 5,1 % et dette 115,6 % du PIB, dépenses plafonnées à +1,2 % par an (doc 5) ; relancer creuserait le déficit alors que les taux montent (docs 3-4) et que le budget 2027 doit trouver 54 Md€ (doc 2) ; le choc vient du pétrole (offre) : soutenir la demande nourrirait l'inflation que la BCE combat (ressource 3) ; mieux vaut des aides ciblées financées « à l'euro près » et une politique structurelle (électrification, doc 2). Position nuancée (« relancer de façon ciblée sans creuser le déficit ») acceptée si elle est tenue comme une seule position. Accepter tous les arguments pertinents."
+        }
+      ],
+      "rang": 2,
+      "effectif": 26,
+      "moyenne_classe": 12.1,
+      "trophees": [
+        "podium",
+        "progression"
+      ]
     }
   ],
   "classements": {
     "general": {
-      "rang": 12,
+      "rang": 8,
       "effectif": 31,
-      "moyenne": 11.37,
-      "rang_precedent": 8
+      "moyenne": 12.31,
+      "rang_precedent": 12
     },
     "types": {
       "dossier": {
-        "rang": 15,
+        "rang": 12,
         "effectif": 31,
-        "moyenne": 9.95
+        "moyenne": 11.71
       },
       "conso": {
         "rang": 5,
@@ -955,16 +1107,16 @@
     },
     "matieres": {
       "eco": {
-        "rang": 12,
+        "rang": 8,
         "effectif": 31,
-        "moyenne": 11.37
+        "moyenne": 12.31
       }
     },
     "themes": {
       "e6": {
-        "rang": 12,
+        "rang": 8,
         "effectif": 31,
-        "moyenne": 11.37
+        "moyenne": 12.31
       }
     }
   },
@@ -974,16 +1126,16 @@
       "max": 33.0
     },
     "t-doc": {
-      "pts": 16.02,
-      "max": 33.4
+      "pts": 24.02,
+      "max": 43.4
     },
     "t-vocab": {
-      "pts": 37.02,
-      "max": 53.7
+      "pts": 41.52,
+      "max": 58.7
     },
     "t-argu": {
-      "pts": 9.5,
-      "max": 26.62
+      "pts": 14.75,
+      "max": 33.62
     },
     "t-calc": {
       "pts": 4.0,
@@ -994,8 +1146,8 @@
       "max": 17.0
     },
     "t-redaction": {
-      "pts": 11.75,
-      "max": 21.0
+      "pts": 24.0,
+      "max": 35.0
     },
     "t-qualif": {
       "pts": 2.5,
@@ -1014,16 +1166,16 @@
       "max": 3.5
     },
     "e6-7": {
-      "pts": 5.0,
-      "max": 8.47
+      "pts": 15.5,
+      "max": 19.47
     },
     "e6-6": {
-      "pts": 3.85,
-      "max": 9.24
+      "pts": 8.6,
+      "max": 15.24
     },
     "e6-8": {
-      "pts": 0.0,
-      "max": 2.31
+      "pts": 1.75,
+      "max": 5.31
     }
   }
 }
