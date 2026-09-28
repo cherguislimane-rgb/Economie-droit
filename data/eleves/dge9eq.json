@@ -875,7 +875,7 @@
         }
       ],
       "rang": 4,
-      "effectif": 26,
+      "effectif": 27,
       "moyenne_classe": 12.1
     }
   ],
@@ -883,8 +883,7 @@
     "general": {
       "rang": 5,
       "effectif": 31,
-      "moyenne": 12.41,
-      "rang_precedent": 11
+      "moyenne": 12.41
     },
     "types": {
       "dossier": {

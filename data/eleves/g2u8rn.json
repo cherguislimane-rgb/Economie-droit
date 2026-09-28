@@ -872,7 +872,7 @@
         }
       ],
       "rang": 2,
-      "effectif": 26,
+      "effectif": 27,
       "moyenne_classe": 12.1,
       "trophees": [
         "podium"
@@ -883,8 +883,7 @@
     "general": {
       "rang": 11,
       "effectif": 31,
-      "moyenne": 11.95,
-      "rang_precedent": 15
+      "moyenne": 11.95
     },
     "types": {
       "dossier": {

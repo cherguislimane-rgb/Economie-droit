@@ -871,8 +871,8 @@
           "reponse_attendue": "Grille officielle du bac (construction 2 pts / arguments et concepts 3 pts), deux arguments exigés dans un dossier, une seule position. Position « relancer » : l'activité est à l'arrêt (PIB −0,2 % puis 0,0 %, pouvoir d'achat −0,6 %, doc 1), une relance budgétaire soutient la demande par l'effet multiplicateur (ressource 3, situation B) ; la BCE freine déjà en relevant ses taux (docs 3-4), le budget est le seul levier national qui reste ; le chèque énergie et les aides ciblées ont protégé ménages et entreprises (doc 2, situation A) ; l'Europe sait suspendre ses règles ou relancer en commun quand le choc est grave (ressource 5, 2020). Position « freiner » : la France est sous procédure pour déficit excessif, déficit 5,1 % et dette 115,6 % du PIB, dépenses plafonnées à +1,2 % par an (doc 5) ; relancer creuserait le déficit alors que les taux montent (docs 3-4) et que le budget 2027 doit trouver 54 Md€ (doc 2) ; le choc vient du pétrole (offre) : soutenir la demande nourrirait l'inflation que la BCE combat (ressource 3) ; mieux vaut des aides ciblées financées « à l'euro près » et une politique structurelle (électrification, doc 2). Position nuancée (« relancer de façon ciblée sans creuser le déficit ») acceptée si elle est tenue comme une seule position. Accepter tous les arguments pertinents."
         }
       ],
-      "rang": 19,
-      "effectif": 26,
+      "rang": 20,
+      "effectif": 27,
       "moyenne_classe": 12.1
     }
   ],
@@ -880,8 +880,7 @@
     "general": {
       "rang": 27,
       "effectif": 31,
-      "moyenne": 8.04,
-      "rang_precedent": 28
+      "moyenne": 8.04
     },
     "types": {
       "dossier": {
