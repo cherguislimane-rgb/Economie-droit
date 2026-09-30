@@ -157,6 +157,18 @@
       }
     },
     {
+      "id": "1s-e1c2-dossier",
+      "classe": "1STMG",
+      "matiere": "eco",
+      "theme": "e1",
+      "chapitre": "e1c2",
+      "type": "dossier",
+      "coef": 1,
+      "titre": "Dossier — Choisir, c'est renoncer",
+      "date": "2026-10-01",
+      "note_max": 20
+    },
+    {
       "id": "ts-e6c2-dossier",
       "classe": "TSTMG",
       "matiere": "eco",
@@ -242,6 +254,14 @@
         "fiche": "https://cherguislimane-rgb.github.io/Economie-droit/fiches/e1c1.html?v=1",
         "fiche_visible": true,
         "brique": "La richesse d'aujourd'hui est faite de biens et de services que personne, même le roi, ne pouvait acheter hier : l'économie étudie comment on en est arrivé là."
+      },
+      {
+        "id": "e1c2",
+        "theme": "e1",
+        "titre": "Choisir, c'est renoncer",
+        "fiche": null,
+        "fiche_visible": false,
+        "brique": "Les ressources sont rares : chaque choix a un coût d'opportunité, et bien choisir est déjà s'enrichir."
       }
     ],
     "TSTMG": [
